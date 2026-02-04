@@ -128,3 +128,6 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Rabbit model updates
 - [ ] Golden dandelion
 - [ ] Craftable name tag
+
+
+<big><big><big>Total completed: 6/97</big></big></big>
