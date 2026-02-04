@@ -1,6 +1,8 @@
 package com.drd.backported;
 
+import net.minecraft.world.item.Items;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -33,6 +35,12 @@ public class Backported {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+        }
+
+        @SubscribeEvent
+        public static void removeSpawnEggColors(RegisterColorHandlersEvent.Item event) {
+            event.register((stack, layer) -> 0xFFFFFF, Items.ALLAY_SPAWN_EGG);
+            event.register((stack, layer) -> 0xFFFFFF, Items.CREEPER_SPAWN_EGG);
         }
     }
 }

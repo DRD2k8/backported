@@ -41,10 +41,10 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] New Game Music: Featherfall, Watcher, Puzzlebox, komorebi, pokopoko (Plays in dripstone caves, groves, jagged peaks, and snowy slopes), yakusoku, Deeper (Plays in dripstone caves and the deep dark), Eld Unknown (Plays in dripstone caves, groves, jagged peaks, and snowy slopes), and Endless (Plays in dripstone caves, groves, jagged peaks, and snowy slopes)
 
 ## Bundles of Bravery (1.21.2 & 1.21.3)
-- [ ] Banner pattern texture updates
+- [X] Banner pattern texture updates
 - [ ] Field masoned and bordure intended banner patterns
 - [ ] Colored bundles
-- [ ] Redstone torch texture and model changes
+- [X] Redstone torch texture and model changes
 - [ ] Smithing templates are named after their template type
 
 ## The Garden Awakens (1.21.4)
@@ -66,7 +66,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Chicken Variants
 - [ ] Fallen trees
 - [ ] Lodestone recipe change
-- [ ] Spawn egg texture updates
+- [X] Spawn egg texture updates
 
 ## Chase the Skies (1.21.6 - 1.21.8)
 - [ ] Dried Ghast
@@ -81,7 +81,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Craftable Saddle
 - [ ] Shears remove saddles
 - [ ] Carrots can tame, heal, and grow Horses, Donkeys, and Mules
-- [ ] Ghast texture update
+- [X] Ghast texture update
 
 ## The Copper Age (1.21.9 & 1.21.10)
 - [ ] Copper Bars
@@ -98,7 +98,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Copper Tools
 - [ ] Copper Golem
 - [ ] End Flash
-- [ ] Dye texture updates
+- [X] Dye texture updates
 - [ ] Iron Golems plant poppies on Copper Golems
 
 ## Mounts of Mayhem (1.21.11)
@@ -112,7 +112,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Lunge Enchantment
 - [ ] Breath of the Nautilus
 - [ ] Leather horse armor fix
-- [ ] Zombie Horse texture update
+- [X] Zombie Horse texture update
 - [ ] Horses, Donkeys, Mules, Zombie Horses, and Camels no longer sink when ridden by players
 - [ ] Piglins, Husks, Zombies, and Zombified Piglins can now spawn holding spears and use its charge attack
 - [ ] Zombie Horses spawn naturally in plains and savanna biomes at night
