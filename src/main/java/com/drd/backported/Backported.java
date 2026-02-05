@@ -25,6 +25,7 @@ public class Backported {
     public Backported(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
         ModSounds.register(modEventBus);
 
@@ -162,6 +163,7 @@ public class Backported {
 
             if (tab == CreativeModeTabs.INGREDIENTS) {
                 entries.addAfter(Items.BLAZE_ROD,
+                        ModBlocks.HEAVY_CORE.get(),
                         ModItems.BREEZE_ROD.get()
                 );
             }

@@ -1,4 +1,49 @@
 {
+  "block.heavy_core.break": {
+    "sounds": [
+      "backported:block/heavy_core/break1",
+      "backported:block/heavy_core/break2",
+      "backported:block/heavy_core/break3",
+      "backported:block/heavy_core/break4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.heavy_core.fall": {
+    "sounds": [
+      "backported:block/heavy_core/step1",
+      "backported:block/heavy_core/step2",
+      "backported:block/heavy_core/step3",
+      "backported:block/heavy_core/step4"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.heavy_core.hit": {
+    "sounds": [
+      "backported:block/heavy_core/step1",
+      "backported:block/heavy_core/step2",
+      "backported:block/heavy_core/step3",
+      "backported:block/heavy_core/step4"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.heavy_core.place": {
+    "sounds": [
+      "backported:block/heavy_core/break1",
+      "backported:block/heavy_core/break2",
+      "backported:block/heavy_core/break3",
+      "backported:block/heavy_core/break4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.heavy_core.step": {
+    "sounds": [
+      "backported:block/heavy_core/step1",
+      "backported:block/heavy_core/step2",
+      "backported:block/heavy_core/step3",
+      "backported:block/heavy_core/step4"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
   "item.mace.smash_air": {
     "sounds": [
       "backported:item/mace/smash_air1",

@@ -2,6 +2,10 @@ package com.drd.backported.datagen;
 
 import com.drd.backported.Backported;
 import com.drd.backported.datagen.client.ModItemModelProvider;
+import com.drd.backported.datagen.server.ModLootTableProvider;
+import com.drd.backported.datagen.server.ModRecipeProvider;
+import com.drd.backported.datagen.server.tags.ModBlockTagProvider;
+import com.drd.backported.datagen.server.tags.ModItemTagProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -21,6 +25,11 @@ public class DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
+        generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput));
+        generator.addProvider(event.includeServer(), ModLootTableProvider.create(packOutput));
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
+        ModBlockTagProvider blockTagProvider = generator.addProvider(event.includeServer(),
+                new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper));
+        generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput, lookupProvider, blockTagProvider.contentsGetter(), existingFileHelper));
     }
 }

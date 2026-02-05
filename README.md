@@ -17,7 +17,7 @@ If all of these are complete, I will publish the first version of the mod.
 
 ## Tricky Trials (1.21 & 1.21.1)
 - [ ] Crafter
-- [ ] Heavy Core
+- [X] Heavy Core
 - [ ] Trial Spawners
 - [ ] Vaults
 - [ ] Copper Block Family

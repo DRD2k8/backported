@@ -1,6 +1,7 @@
 {
   "advancements.backported.adventure.overoverkill.description": "Deal 50 hearts of damage in a single hit using the Mace",
   "advancements.backported.adventure.overoverkill.title": "Over-Overkill",
+  "block.backported.heavy_core": "Heavy Core",
   "death.attack.backported.mace_smash": "%1$s was smashed by %2$s",
   "death.attack.backported.mace_smash.item": "%1$s was smashed by %2$s with %3$s",
   "item.backported.breeze_rod": "Breeze Rod",
