@@ -130,4 +130,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Craftable name tag
 
 
-### Total completed: 8/97
+### Total completed: 9/97
