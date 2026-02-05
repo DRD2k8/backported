@@ -1,9 +1,15 @@
 package com.drd.backported;
 
+import com.drd.backported.init.*;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,6 +24,9 @@ public class Backported {
 
     public Backported(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -116,6 +125,46 @@ public class Backported {
             event.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_SPAWN_EGG);
             event.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_VILLAGER_SPAWN_EGG);
             event.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIFIED_PIGLIN_SPAWN_EGG);
+        }
+    }
+
+    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+    public static class CreativeTabPlacements {
+        interface Entries {
+            void addBefore(ItemLike reference, ItemLike... values);
+            void addAfter(ItemLike reference, ItemLike... values);
+        }
+
+        @SubscribeEvent
+        public static void buildCreativeModeTabs(BuildCreativeModeTabContentsEvent event) {
+            var tab = event.getTabKey();
+            var entries = new Entries() {
+                @Override
+                public void addBefore(ItemLike reference, ItemLike... values) {
+                    for (ItemLike value : values) {
+                        event.getEntries().putBefore(new ItemStack(reference), new ItemStack(value), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                    }
+                }
+
+                @Override
+                public void addAfter(ItemLike reference, ItemLike... values) {
+                    for (ItemLike value : values) {
+                        event.getEntries().putAfter(new ItemStack(reference), new ItemStack(value), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                    }
+                }
+            };
+
+            if (tab == CreativeModeTabs.COMBAT) {
+                entries.addAfter(Items.TRIDENT,
+                        ModItems.MACE.get()
+                );
+            }
+
+            if (tab == CreativeModeTabs.INGREDIENTS) {
+                entries.addAfter(Items.BLAZE_ROD,
+                        ModItems.BREEZE_ROD.get()
+                );
+            }
         }
     }
 }

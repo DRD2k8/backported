@@ -23,7 +23,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Copper Block Family
 - [ ] Tuff Block Family
 - [ ] Wind Charge
-- [ ] Mace
+- [X] Mace
 - [ ] Ominous Bottle
 - [ ] Trial Explorer Map
 - [ ] Trial Keys
