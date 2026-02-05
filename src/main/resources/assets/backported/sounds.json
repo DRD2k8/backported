@@ -103,5 +103,57 @@
       "backported:item/armor/equip_copper6"
     ],
     "subtitle": "subtitles.backported.item.armor.equip_copper"
+  },
+  "item.spear.attack": {
+    "sounds": [
+      "backported:item/spear/attack1",
+      "backported:item/spear/attack2",
+      "backported:item/spear/attack3"
+    ],
+    "subtitle": "subtitles.backported.item.spear.attack"
+  },
+  "item.spear.hit": {
+    "sounds": [
+      "backported:item/spear/hit1",
+      "backported:item/spear/hit2",
+      "backported:item/spear/hit3"
+    ],
+    "subtitle": "subtitles.backported.item.spear.hit"
+  },
+  "item.spear.lunge": {
+    "sounds": [
+      "backported:item/spear/lunge1",
+      "backported:item/spear/lunge2",
+      "backported:item/spear/lunge3"
+    ],
+    "subtitle": "subtitles.backported.item.spear.lunge"
+  },
+  "item.spear.use": {
+    "sounds": [
+      "backported:item/spear/use"
+    ],
+    "subtitle": "subtitles.backported.item.spear.use"
+  },
+  "item.spear_wood.attack": {
+    "sounds": [
+      "backported:item/spear/wood/attack1",
+      "backported:item/spear/wood/attack2",
+      "backported:item/spear/wood/attack3"
+    ],
+    "subtitle": "subtitles.backported.item.spear_wood.attack"
+  },
+  "item.spear_wood.hit": {
+    "sounds": [
+      "backported:item/spear/wood/hit1",
+      "backported:item/spear/wood/hit2",
+      "backported:item/spear/wood/hit3"
+    ],
+    "subtitle": "subtitles.backported.item.spear_wood.hit"
+  },
+  "item.spear_wood.use": {
+    "sounds": [
+      "backported:item/spear/wood/use"
+    ],
+    "subtitle": "subtitles.backported.item.spear_wood.use"
   }
 }

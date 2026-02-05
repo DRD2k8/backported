@@ -1,0 +1,6 @@
+{
+  "parent": "backported:item/spear_in_hand",
+  "textures": {
+    "layer0": "backported:item/netherite_spear_in_hand"
+  }
+}

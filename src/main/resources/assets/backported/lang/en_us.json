@@ -2,8 +2,8 @@
   "advancements.backported.adventure.overoverkill.description": "Deal 50 hearts of damage in a single hit using the Mace",
   "advancements.backported.adventure.overoverkill.title": "Over-Overkill",
   "block.backported.heavy_core": "Heavy Core",
-  "death.attack.backported.mace_smash": "%1$s was smashed by %2$s",
-  "death.attack.backported.mace_smash.item": "%1$s was smashed by %2$s with %3$s",
+  "death.backported.attack.mace_smash": "%1$s was smashed by %2$s",
+  "death.backported.attack.mace_smash.item": "%1$s was smashed by %2$s with %3$s",
   "entity.backported.wind_charge": "Wind Charge",
   "item.backported.breeze_rod": "Breeze Rod",
   "item.backported.mace": "Mace",
@@ -12,6 +12,7 @@
   "subtitles.backported.item.mace.smash_ground": "Mace smashes",
   "subtitles.backported.entity.wind_charge.throw": "Wind Charge flies",
   "subtitles.backported.entity.wind_charge.wind_burst": "Wind Charge bursts",
+
   "item.backported.copper_nugget": "Copper Nugget",
   "item.backported.copper_sword": "Copper Sword",
   "item.backported.copper_shovel": "Copper Shovel",
@@ -22,5 +23,22 @@
   "item.backported.copper_chestplate": "Copper Chestplate",
   "item.backported.copper_leggings": "Copper Leggings",
   "item.backported.copper_boots": "Copper Boots",
-  "subtitles.backported.item.armor.equip_copper": "Copper armor clonks"
+  "subtitles.backported.item.armor.equip_copper": "Copper armor clonks",
+
+  "death.backported.attack.spear": "%1$s was speared by %2$s",
+  "death.backported.attack.spear.item": "%1$s was speared by %2$s using %3$s",
+  "item.backported.copper_spear": "Copper Spear",
+  "item.backported.diamond_spear": "Diamond Spear",
+  "item.backported.golden_spear": "Golden Spear",
+  "item.backported.iron_spear": "Iron Spear",
+  "item.backported.netherite_spear": "Netherite Spear",
+  "item.backported.stone_spear": "Stone Spear",
+  "item.backported.wooden_spear": "Wooden Spear",
+  "subtitles.backported.item.spear_wood.attack": "Spear jabs",
+  "subtitles.backported.item.spear_wood.hit": "Spear hits",
+  "subtitles.backported.item.spear_wood.use": "Charges with Spear",
+  "subtitles.backported.item.spear.attack": "Spear jabs",
+  "subtitles.backported.item.spear.hit": "Spear hits",
+  "subtitles.backported.item.spear.lunge": "Spear lunges",
+  "subtitles.backported.item.spear.use": "Charges with Spear"
 }
