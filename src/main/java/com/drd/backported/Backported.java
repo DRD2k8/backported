@@ -167,9 +167,27 @@ public class Backported {
                 }
             };
 
+            if (tab == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+                entries.addAfter(Items.STONE_HOE,
+                        ModItems.COPPER_HOE.get(),
+                        ModItems.COPPER_AXE.get(),
+                        ModItems.COPPER_PICKAXE.get(),
+                        ModItems.COPPER_SHOVEL.get()
+                );
+            }
+
             if (tab == CreativeModeTabs.COMBAT) {
+                entries.addAfter(Items.STONE_SWORD,
+                        ModItems.COPPER_SWORD.get()
+                );
                 entries.addAfter(Items.TRIDENT,
                         ModItems.MACE.get()
+                );
+                entries.addAfter(Items.LEATHER_BOOTS,
+                        ModItems.COPPER_BOOTS.get(),
+                        ModItems.COPPER_LEGGINGS.get(),
+                        ModItems.COPPER_CHESTPLATE.get(),
+                        ModItems.COPPER_HELMET.get()
                 );
                 entries.addAfter(Items.EGG,
                         ModItems.WIND_CHARGE.get()
@@ -177,6 +195,9 @@ public class Backported {
             }
 
             if (tab == CreativeModeTabs.INGREDIENTS) {
+                entries.addBefore(Items.IRON_NUGGET,
+                        ModItems.COPPER_NUGGET.get()
+                );
                 entries.addAfter(Items.BLAZE_ROD,
                         ModBlocks.HEAVY_CORE.get(),
                         ModItems.BREEZE_ROD.get()

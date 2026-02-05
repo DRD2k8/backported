@@ -17,13 +17,32 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        // Tricky Trials
         simpleItem(ModItems.BREEZE_ROD);
         simpleItem(ModItems.WIND_CHARGE);
+
+        // The Copper Age
+        simpleItem(ModItems.COPPER_NUGGET);
+        handheldItem(ModItems.COPPER_SWORD);
+        handheldItem(ModItems.COPPER_SHOVEL);
+        handheldItem(ModItems.COPPER_PICKAXE);
+        handheldItem(ModItems.COPPER_AXE);
+        handheldItem(ModItems.COPPER_HOE);
+        simpleItem(ModItems.COPPER_HELMET);
+        simpleItem(ModItems.COPPER_CHESTPLATE);
+        simpleItem(ModItems.COPPER_LEGGINGS);
+        simpleItem(ModItems.COPPER_BOOTS);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.withDefaultNamespace("item/handheld")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

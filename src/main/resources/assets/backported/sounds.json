@@ -92,5 +92,16 @@
       "backported:item/mace/smash_ground_heavy"
     ],
     "subtitle": "subtitles.backported.item.mace.smash_ground"
+  },
+  "item.armor.equip_copper": {
+    "sounds": [
+      "backported:item/armor/equip_copper1",
+      "backported:item/armor/equip_copper2",
+      "backported:item/armor/equip_copper3",
+      "backported:item/armor/equip_copper4",
+      "backported:item/armor/equip_copper5",
+      "backported:item/armor/equip_copper6"
+    ],
+    "subtitle": "subtitles.backported.item.armor.equip_copper"
   }
 }

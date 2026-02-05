@@ -92,10 +92,10 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Copper Torch
 - [ ] Oxidized Lightning Rods
 - [ ] Shelves
-- [ ] Copper Armor
+- [X] Copper Armor
 - [ ] Copper Horse Armor
-- [ ] Copper Nugget
-- [ ] Copper Tools
+- [X] Copper Nugget
+- [X] Copper Tools
 - [ ] Copper Golem
 - [ ] End Flash
 - [X] Dye texture updates
@@ -130,4 +130,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Craftable name tag
 
 
-### Total completed: 9/97
+### Total completed: 12/97

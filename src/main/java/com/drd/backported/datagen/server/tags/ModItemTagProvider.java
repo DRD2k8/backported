@@ -1,10 +1,14 @@
 package com.drd.backported.datagen.server.tags;
 
 import com.drd.backported.Backported;
+import com.drd.backported.init.ModItems;
+import com.drd.backported.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
@@ -17,5 +21,28 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        this.tag(ModTags.Items.METAL_NUGGETS)
+                .addTag(Tags.Items.NUGGETS);
+
+        this.tag(Tags.Items.NUGGETS)
+                .addTag(ModTags.Items.COPPER_NUGGETS);
+
+        this.tag(ModTags.Items.COPPER_NUGGETS)
+                .add(ModItems.COPPER_NUGGET.get());
+
+        this.tag(ItemTags.SWORDS)
+                .add(ModItems.COPPER_SWORD.get());
+
+        this.tag(ItemTags.SHOVELS)
+                .add(ModItems.COPPER_SHOVEL.get());
+
+        this.tag(ItemTags.PICKAXES)
+                .add(ModItems.COPPER_PICKAXE.get());
+
+        this.tag(ItemTags.AXES)
+                .add(ModItems.COPPER_AXE.get());
+
+        this.tag(ItemTags.HOES)
+                .add(ModItems.COPPER_HOE.get());
     }
 }

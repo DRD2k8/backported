@@ -11,5 +11,16 @@
   "subtitles.backported.item.mace.smash_air": "Mace smashes",
   "subtitles.backported.item.mace.smash_ground": "Mace smashes",
   "subtitles.backported.entity.wind_charge.throw": "Wind Charge flies",
-  "subtitles.backported.entity.wind_charge.wind_burst": "Wind Charge bursts"
+  "subtitles.backported.entity.wind_charge.wind_burst": "Wind Charge bursts",
+  "item.backported.copper_nugget": "Copper Nugget",
+  "item.backported.copper_sword": "Copper Sword",
+  "item.backported.copper_shovel": "Copper Shovel",
+  "item.backported.copper_pickaxe": "Copper Pickaxe",
+  "item.backported.copper_axe": "Copper Axe",
+  "item.backported.copper_hoe": "Copper Hoe",
+  "item.backported.copper_helmet": "Copper Helmet",
+  "item.backported.copper_chestplate": "Copper Chestplate",
+  "item.backported.copper_leggings": "Copper Leggings",
+  "item.backported.copper_boots": "Copper Boots",
+  "subtitles.backported.item.armor.equip_copper": "Copper armor clonks"
 }
