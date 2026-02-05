@@ -22,7 +22,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Vaults
 - [ ] Copper Block Family
 - [ ] Tuff Block Family
-- [ ] Wind Charge
+- [X] Wind Charge
 - [X] Mace
 - [ ] Ominous Bottle
 - [ ] Trial Explorer Map
@@ -130,4 +130,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Craftable name tag
 
 
-### Total completed: 7/97
+### Total completed: 8/97

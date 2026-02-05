@@ -18,6 +18,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.BREEZE_ROD);
+        simpleItem(ModItems.WIND_CHARGE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

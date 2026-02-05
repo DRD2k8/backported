@@ -1,12 +1,17 @@
 package com.drd.backported;
 
+import com.drd.backported.client.init.ModModelLayers;
+import com.drd.backported.client.model.WindChargeModel;
+import com.drd.backported.client.renderer.WindChargeRenderer;
 import com.drd.backported.init.*;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -26,6 +31,7 @@ public class Backported {
         IEventBus modEventBus = context.getModEventBus();
 
         ModBlocks.register(modEventBus);
+        ModEntities.register(modEventBus);
         ModItems.register(modEventBus);
         ModSounds.register(modEventBus);
 
@@ -45,6 +51,12 @@ public class Backported {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
+            event.registerLayerDefinition(ModModelLayers.WIND_CHARGE, WindChargeModel::createBodyLayer);
         }
 
         @SubscribeEvent
@@ -158,6 +170,9 @@ public class Backported {
             if (tab == CreativeModeTabs.COMBAT) {
                 entries.addAfter(Items.TRIDENT,
                         ModItems.MACE.get()
+                );
+                entries.addAfter(Items.EGG,
+                        ModItems.WIND_CHARGE.get()
                 );
             }
 

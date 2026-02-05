@@ -4,8 +4,12 @@
   "block.backported.heavy_core": "Heavy Core",
   "death.attack.backported.mace_smash": "%1$s was smashed by %2$s",
   "death.attack.backported.mace_smash.item": "%1$s was smashed by %2$s with %3$s",
+  "entity.backported.wind_charge": "Wind Charge",
   "item.backported.breeze_rod": "Breeze Rod",
   "item.backported.mace": "Mace",
+  "item.backported.wind_charge": "Wind Charge",
   "subtitles.backported.item.mace.smash_air": "Mace smashes",
-  "subtitles.backported.item.mace.smash_ground": "Mace smashes"
+  "subtitles.backported.item.mace.smash_ground": "Mace smashes",
+  "subtitles.backported.entity.wind_charge.throw": "Wind Charge flies",
+  "subtitles.backported.entity.wind_charge.wind_burst": "Wind Charge bursts"
 }

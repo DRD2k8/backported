@@ -44,6 +44,32 @@
     ],
     "subtitle": "subtitles.block.generic.footsteps"
   },
+  "entity.wind_charge.throw": {
+    "sounds": [
+      "random/bow"
+    ],
+    "subtitle": "subtitles.backported.entity.wind_charge.throw"
+  },
+  "entity.wind_charge.wind_burst": {
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "backported:entity/wind_charge/wind_burst1",
+        "pitch": 1.25
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "backported:entity/wind_charge/wind_burst2",
+        "pitch": 1.25
+      },
+      {
+        "attenuation_distance": 8,
+        "name": "backported:entity/wind_charge/wind_burst3",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitles.backported.entity.wind_charge.wind_burst"
+  },
   "item.mace.smash_air": {
     "sounds": [
       "backported:item/mace/smash_air1",

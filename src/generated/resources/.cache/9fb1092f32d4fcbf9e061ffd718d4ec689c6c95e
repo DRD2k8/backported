@@ -1,3 +1,5 @@
-// 1.20.1	2026-02-04T19:10:52.6185433	Recipes
+// 1.20.1	2026-02-04T19:59:17.2995847	Recipes
 45891efc16e1c6e4507f349debc48248a11dcd85 data/backported/advancements/recipes/combat/mace.json
+eef70b8bf02358ac49099427ed1af6029427cb35 data/backported/advancements/recipes/misc/wind_charge.json
 9cd7f3aaa425e11e863305ce475b42b885e8bb25 data/backported/recipes/mace.json
+3c659c2b508819624d4e3c501d907eeaee6839c6 data/backported/recipes/wind_charge.json

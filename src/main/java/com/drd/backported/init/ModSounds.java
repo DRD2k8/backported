@@ -17,6 +17,8 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> HEAVY_CORE_FALL = registerSoundEvents("block.heavy_core.fall");
     public static final RegistryObject<SoundEvent> HEAVY_CORE_PLACE = registerSoundEvents("block.heavy_core.place");
     public static final RegistryObject<SoundEvent> HEAVY_CORE_HIT = registerSoundEvents("block.heavy_core.hit");
+    public static final RegistryObject<SoundEvent> WIND_CHARGE_THROW = registerSoundEvents("entity.wind_charge.throw");
+    public static final RegistryObject<SoundEvent> WIND_CHARGE_BURST = registerSoundEvents("entity.wind_charge.wind_burst");
     public static final RegistryObject<SoundEvent> MACE_SMASH_AIR = registerSoundEvents("item.mace.smash_air");
     public static final RegistryObject<SoundEvent> MACE_SMASH_GROUND = registerSoundEvents("item.mace.smash_ground");
     public static final RegistryObject<SoundEvent> MACE_SMASH_GROUND_HEAVY = registerSoundEvents("item.mace.smash_ground_heavy");
