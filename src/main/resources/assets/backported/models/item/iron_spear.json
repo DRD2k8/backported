@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "backported:item/iron_spear"
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "backported:item/iron_spear_in_hand"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "backported:item/iron_spear_inventory"
+    },
+    "ground": {
+      "parent": "backported:item/iron_spear_inventory"
+    },
+    "fixed": {
+      "parent": "backported:item/iron_spear_inventory"
+    }
   }
 }

@@ -1,6 +1,18 @@
 {
   "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "backported:item/netherite_spear"
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "backported:item/netherite_spear_in_hand"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "backported:item/netherite_spear_inventory"
+    },
+    "ground": {
+      "parent": "backported:item/netherite_spear_inventory"
+    },
+    "fixed": {
+      "parent": "backported:item/netherite_spear_inventory"
+    }
   }
 }
