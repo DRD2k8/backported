@@ -186,6 +186,12 @@ tasks.named('jar', Jar).configure {
     finalizedBy 'reobfJar'
 }
 
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs += [
+            "-AoutRefMap=backported.refmap.json"
+    ]
+}
+
 // However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing:
 // tasks.named('publish').configure {
 //     dependsOn 'reobfJar'

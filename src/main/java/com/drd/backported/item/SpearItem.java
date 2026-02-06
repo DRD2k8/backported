@@ -17,12 +17,7 @@ import net.minecraft.world.phys.Vec3;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 
-import java.util.UUID;
-
 public class SpearItem extends TieredItem {
-    private static final UUID ATTACK_DAMAGE_ID = UUID.fromString("aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee");
-    private static final UUID ATTACK_SPEED_ID  = UUID.fromString("ffffffff-1111-2222-3333-444444444444");
-
     private static final float STAGE1_TIME = 0.5f;
     private static final float STAGE2_TIME = 1.0f;
 
@@ -38,21 +33,21 @@ public class SpearItem extends TieredItem {
 
         this.isWooden = tier == Tiers.WOOD;
 
-        float baseDamage = tier.getAttackDamageBonus() + 1f;
+        float baseDamage = tier.getAttackDamageBonus();
 
-        double vanillaAttackSpeed = attackSpeed;
+        double vanillaAttackSpeed = attackSpeed - 4.0;
 
         ImmutableMultimap.Builder<Attribute, AttributeModifier> builder =
                 ImmutableMultimap.builder();
 
         builder.put(
                 Attributes.ATTACK_DAMAGE,
-                new AttributeModifier(ATTACK_DAMAGE_ID, "Spear damage", baseDamage, AttributeModifier.Operation.ADDITION)
+                new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Spear damage", baseDamage, AttributeModifier.Operation.ADDITION)
         );
 
         builder.put(
                 Attributes.ATTACK_SPEED,
-                new AttributeModifier(ATTACK_SPEED_ID, "Spear speed", vanillaAttackSpeed, AttributeModifier.Operation.ADDITION)
+                new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Spear speed", vanillaAttackSpeed, AttributeModifier.Operation.ADDITION)
         );
 
         this.attributes = builder.build();
@@ -123,6 +118,8 @@ public class SpearItem extends TieredItem {
         }
 
         player.resetAttackStrengthTicker();
+
+        player.getPersistentData().putInt("spear_throw_ticks", 6);
     }
 
     private void stab(Level level, Player player, float damage, float reach) {
