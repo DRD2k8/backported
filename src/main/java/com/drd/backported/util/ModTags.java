@@ -26,6 +26,7 @@ public class ModTags {
     public static class Items {
         public static final TagKey<Item> METAL_NUGGETS = tag("metal_nuggets");
         public static final TagKey<Item> COPPER_NUGGETS = tagForge("nuggets/copper");
+        public static final TagKey<Item> SPEARS = tag("spears");
 
         private static TagKey<Item> tagMod(String modId, String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(modId, name));

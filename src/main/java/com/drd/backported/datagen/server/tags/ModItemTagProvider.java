@@ -44,5 +44,14 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         this.tag(ItemTags.HOES)
                 .add(ModItems.COPPER_HOE.get());
+
+        this.tag(ModTags.Items.SPEARS)
+                .add(ModItems.DIAMOND_SPEAR.get())
+                .add(ModItems.STONE_SPEAR.get())
+                .add(ModItems.GOLDEN_SPEAR.get())
+                .add(ModItems.NETHERITE_SPEAR.get())
+                .add(ModItems.WOODEN_SPEAR.get())
+                .add(ModItems.IRON_SPEAR.get())
+                .add(ModItems.NETHERITE_SPEAR.get());
     }
 }

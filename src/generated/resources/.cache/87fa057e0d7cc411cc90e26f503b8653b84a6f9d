@@ -1,5 +1,6 @@
-// 1.20.1	2026-02-04T21:56:46.1028908	Tags for minecraft:item mod id backported
+// 1.20.1	2026-02-05T15:18:43.2977675	Tags for minecraft:item mod id backported
 2ef93cf86851f1118500eafca30bc7ba2d040cef data/backported/tags/items/metal_nuggets.json
+dfbe0f5d73eff2dcd3143b656e8056cea2ab3639 data/backported/tags/items/spears.json
 1582db8194dc603f2270dfbc309a4b7c38febe41 data/forge/tags/items/nuggets.json
 e75ff357b32a28367c7aa47cfa8dc738f1c393f0 data/forge/tags/items/nuggets/copper.json
 d4691cd07dbc5f5dd1f71bd8265a8c8ff1a78172 data/minecraft/tags/items/axes.json
