@@ -27,6 +27,7 @@
 
   "death.backported.attack.spear": "%1$s was speared by %2$s",
   "death.backported.attack.spear.item": "%1$s was speared by %2$s using %3$s",
+  "enchantment.backported.lunge": "Lunge",
   "item.backported.copper_spear": "Copper Spear",
   "item.backported.diamond_spear": "Diamond Spear",
   "item.backported.golden_spear": "Golden Spear",

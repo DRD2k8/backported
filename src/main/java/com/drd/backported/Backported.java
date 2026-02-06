@@ -4,6 +4,9 @@ import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.model.WindChargeModel;
 import com.drd.backported.client.renderer.WindChargeRenderer;
 import com.drd.backported.init.*;
+import com.drd.backported.item.client.SpearSync;
+import com.drd.backported.packets.PacketHandler;
+import com.drd.backported.packets.PlayerStabPacket;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.ItemLike;
@@ -28,6 +31,7 @@ public class Backported {
         IEventBus modEventBus = context.getModEventBus();
 
         ModBlocks.register(modEventBus);
+        ModEnchantments.register(modEventBus);
         ModEntities.register(modEventBus);
         ModItems.register(modEventBus);
         ModSounds.register(modEventBus);
@@ -49,6 +53,12 @@ public class Backported {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
+            if (SpearSync.syncSpears == null) {
+                SpearSync.syncSpears = (i) -> {
+                    PacketHandler.sendToServer(new PlayerStabPacket(i));
+                    return true;
+                };
+            }
         }
 
         @SubscribeEvent

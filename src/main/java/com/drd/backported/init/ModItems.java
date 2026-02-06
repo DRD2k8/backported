@@ -2,6 +2,7 @@ package com.drd.backported.init;
 
 import com.drd.backported.Backported;
 import com.drd.backported.item.*;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,13 +30,13 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_BOOTS = armorItem("copper", ArmorItem.Type.BOOTS, ModArmorMaterials.COPPER);
 
     // Mounts of Mayhem
-    public static final RegistryObject<Item> WOODEN_SPEAR = spear("wooden", Tiers.WOOD, 1.54);
-    public static final RegistryObject<Item> STONE_SPEAR = spear("stone", Tiers.STONE, 1.33);
-    public static final RegistryObject<Item> COPPER_SPEAR = spear("copper", ModToolTiers.COPPER, 1.18);
-    public static final RegistryObject<Item> IRON_SPEAR = spear("iron", Tiers.IRON, 1.05);
-    public static final RegistryObject<Item> GOLDEN_SPEAR = spear("golden", Tiers.GOLD, 1.05);
-    public static final RegistryObject<Item> DIAMOND_SPEAR = spear("diamond", Tiers.DIAMOND, 0.95);
-    public static final RegistryObject<Item> NETHERITE_SPEAR = spear("netherite", Tiers.NETHERITE, 0.87);
+    public static final RegistryObject<Item> WOODEN_SPEAR = spear("wooden", Tiers.WOOD, 1.54, 0.65f, 0.7f, 0.75f, 5f, 14f, 6f, 15f, ModSounds.SPEAR_WOOD_HIT, ModSounds.SPEAR_WOOD_ATTACK, ModSounds.SPEAR_WOOD_USE);
+    public static final RegistryObject<Item> STONE_SPEAR = spear("stone", Tiers.STONE, 1.33, 0.75f, 0.82f, 0.7f, 4.5f, 10f, 5.5f, 13.75f);
+    public static final RegistryObject<Item> COPPER_SPEAR = spear("copper", ModToolTiers.COPPER, 1.18, 0.85f, 0.82f, 0.65f, 4f, 9f, 5f, 12.5f);
+    public static final RegistryObject<Item> IRON_SPEAR = spear("iron", Tiers.IRON, 1.05, 0.95f, 0.95f, 0.6f, 2.5f, 8f, 4.5f, 11.25f);
+    public static final RegistryObject<Item> GOLDEN_SPEAR = spear("golden", Tiers.GOLD, 1.05, 0.95f, 0.7f, 0.7f, 3.5f, 10f, 5.5f, 13.75f);
+    public static final RegistryObject<Item> DIAMOND_SPEAR = spear("diamond", Tiers.DIAMOND, 0.95, 1.05f, 1.075f, 0.5f, 3f, 7.5f, 4f, 10f);
+    public static final RegistryObject<Item> NETHERITE_SPEAR = spear("netherite", Tiers.NETHERITE, 0.87, 1.15f, 1.2f, 0.4f, 2.5f, 7.0f, 3.5f, 8.75f);
 
     private static RegistryObject<Item> basicItem(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties()));
@@ -61,8 +62,12 @@ public class ModItems {
         return ITEMS.register(material + "_hoe", () -> new HoeItem(tier, attackDamage - 2, attackSpeed - 4f, new Item.Properties()));
     }
 
-    private static RegistryObject<Item> spear(String material, Tier tier, double attackSpeed) {
-        return ITEMS.register(material + "_spear", () -> new SpearItem(tier, new Item.Properties(), attackSpeed));
+    private static RegistryObject<Item> spear(String material, Tier tier, double attackSpeed, float swingAnimationSeconds, float chargeDamageMultiplier, float chargeDelaySeconds, float maxDurationForDismountSeconds, float minSpeedForDismount, float maxDurationForChargeKnockbackInSeconds, float maxDurationForChargeDamageInSeconds) {
+        return ITEMS.register(material + "_spear", () -> new SpearItem(tier, attackSpeed, (int) (swingAnimationSeconds * 20f), chargeDamageMultiplier, chargeDelaySeconds, maxDurationForDismountSeconds, minSpeedForDismount, maxDurationForChargeKnockbackInSeconds, 5.1f, maxDurationForChargeDamageInSeconds, 4.6f, ModSounds.SPEAR_HIT.get(), ModSounds.SPEAR_ATTACK.get(), ModSounds.SPEAR_USE.get(), new Item.Properties()));
+    }
+
+    private static RegistryObject<Item> spear(String material, Tier tier, double attackSpeed, float swingAnimationSeconds, float chargeDamageMultiplier, float chargeDelaySeconds, float maxDurationForDismountSeconds, float minSpeedForDismount, float maxDurationForChargeKnockbackInSeconds, float maxDurationForChargeDamageInSeconds, RegistryObject<SoundEvent> hitSound, RegistryObject<SoundEvent> attackSound, RegistryObject<SoundEvent> useSound) {
+        return ITEMS.register(material + "_spear", () -> new SpearItem(tier, attackSpeed, (int) (swingAnimationSeconds * 20f), chargeDamageMultiplier, chargeDelaySeconds, maxDurationForDismountSeconds, minSpeedForDismount, maxDurationForChargeKnockbackInSeconds, 5.1f, maxDurationForChargeDamageInSeconds, 4.6f, hitSound.get(), attackSound.get(), useSound.get(), new Item.Properties()));
     }
 
     private static RegistryObject<Item> armorItem(String material, ArmorItem.Type type, ArmorMaterial armorMaterial) {
