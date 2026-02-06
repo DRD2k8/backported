@@ -3,23 +3,23 @@
   "id": "backported",
   "version": "${version}",
   "name": "Backported",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A mod that backports everything from other versions to the most popular modding versions.",
   "authors": [
-    "Me!"
+    "Dandi2k8"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "CC0-1.0",
-  "icon": "assets/backported/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.drd.backported.fabric.ExampleModFabric"
+      "com.drd.backported.fabric.BackportedFabric"
     ],
     "client": [
-      "com.drd.backported.fabric.client.ExampleModFabricClient"
+      "com.drd.backported.fabric.client.BackportedFabricClient"
     ]
   },
   "mixins": [

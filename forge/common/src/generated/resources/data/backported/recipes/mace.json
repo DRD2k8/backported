@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "backported:heavy_core"
+    },
+    "I": {
+      "item": "backported:breeze_rod"
+    }
+  },
+  "pattern": [
+    "#",
+    "I"
+  ],
+  "result": {
+    "item": "backported:mace"
+  },
+  "show_notification": true
+}

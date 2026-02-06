@@ -2,9 +2,31 @@ plugins {
     id 'com.gradleup.shadow'
 }
 
+sourceSets {
+    main {
+        resources {
+            srcDir "../common/src/main/resources"
+            srcDir "../common/src/generated/resources"
+        }
+    }
+}
+
+tasks.named("processResources", ProcessResources).configure {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
 loom {
     forge {
         mixinConfig "backported.mixins.json"
+    }
+    runs {
+        data {
+            data()
+            ideConfigGenerated(true)
+            programArgs "--existing", project(":common").file("src/main/resources").absolutePath
+            programArgs "--all", "--mod", "backported"
+            programArgs "--output", project(":common").file("src/generated/resources").absolutePath
+        }
     }
 }
 

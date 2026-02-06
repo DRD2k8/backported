@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "backported:item/iron_spear"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "backported:in_gui": 0
+      },
+      "model": "backported:item/iron_spear_in_hand"
+    }
+  ]
+}

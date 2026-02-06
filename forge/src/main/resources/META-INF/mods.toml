@@ -1,17 +1,17 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "All Rights Reserved"
 
 [[mods]]
 modId = "backported"
 version = "${version}"
 displayName = "Backported"
-authors = "Me!"
+authors = "Dandi2k8"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+A mod that backports everything from other versions to the most popular modding versions.
 '''
-#logoFile = ""
+logoFile = "icon.png"
 
 [[dependencies.backported]]
 modId = "forge"
