@@ -29,13 +29,13 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_BOOTS = armorItem("copper", ArmorItem.Type.BOOTS, ModArmorMaterials.COPPER);
 
     // Mounts of Mayhem
-    public static final RegistryObject<Item> WOODEN_SPEAR = spear("wooden", Tiers.WOOD);
-    public static final RegistryObject<Item> STONE_SPEAR = spear("stone", Tiers.STONE);
-    public static final RegistryObject<Item> COPPER_SPEAR = spear("copper", ModToolTiers.COPPER);
-    public static final RegistryObject<Item> IRON_SPEAR = spear("iron", Tiers.IRON);
-    public static final RegistryObject<Item> GOLDEN_SPEAR = spear("golden", Tiers.GOLD);
-    public static final RegistryObject<Item> DIAMOND_SPEAR = spear("diamond", Tiers.DIAMOND);
-    public static final RegistryObject<Item> NETHERITE_SPEAR = spear("netherite", Tiers.NETHERITE);
+    public static final RegistryObject<Item> WOODEN_SPEAR = spear("wooden", Tiers.WOOD, 1.54);
+    public static final RegistryObject<Item> STONE_SPEAR = spear("stone", Tiers.STONE, 1.33);
+    public static final RegistryObject<Item> COPPER_SPEAR = spear("copper", ModToolTiers.COPPER, 1.18);
+    public static final RegistryObject<Item> IRON_SPEAR = spear("iron", Tiers.IRON, 1.05);
+    public static final RegistryObject<Item> GOLDEN_SPEAR = spear("golden", Tiers.GOLD, 1.05);
+    public static final RegistryObject<Item> DIAMOND_SPEAR = spear("diamond", Tiers.DIAMOND, 0.95);
+    public static final RegistryObject<Item> NETHERITE_SPEAR = spear("netherite", Tiers.NETHERITE, 0.87);
 
     private static RegistryObject<Item> basicItem(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties()));
@@ -61,8 +61,8 @@ public class ModItems {
         return ITEMS.register(material + "_hoe", () -> new HoeItem(tier, attackDamage - 2, attackSpeed - 4f, new Item.Properties()));
     }
 
-    private static RegistryObject<Item> spear(String material, Tier tier) {
-        return ITEMS.register(material + "_spear", () -> new SpearItem(tier, new Item.Properties()));
+    private static RegistryObject<Item> spear(String material, Tier tier, double attackSpeed) {
+        return ITEMS.register(material + "_spear", () -> new SpearItem(tier, new Item.Properties(), attackSpeed));
     }
 
     private static RegistryObject<Item> armorItem(String material, ArmorItem.Type type, ArmorMaterial armorMaterial) {
