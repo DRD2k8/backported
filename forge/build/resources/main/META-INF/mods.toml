@@ -12,6 +12,9 @@ description = '''
 A mod that backports everything from other versions to the most popular modding versions.
 '''
 logoFile = "icon.png"
+mixinConfigs = [
+    "backported.mixins.json"
+]
 
 [[dependencies.backported]]
 modId = "forge"

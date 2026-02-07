@@ -1,0 +1,54 @@
+{
+  "mappings": {
+    "com/drd/backported/mixin/DamageEnchantmentMixin": {
+      "canEnchant": "Lnet/minecraft/class_1882;method_8192(Lnet/minecraft/class_1799;)Z"
+    },
+    "com/drd/backported/mixin/EnchantmentMixin": {
+      "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
+    },
+    "com/drd/backported/mixin/EntityMixin": {
+      "move": "Lnet/minecraft/class_1297;method_5784(Lnet/minecraft/class_1313;Lnet/minecraft/class_243;)V"
+    },
+    "com/drd/backported/mixin/HumanoidModelMixin": {
+      "Lnet/minecraft/util/Mth;sin(F)F": "Lnet/minecraft/class_3532;method_15374(F)F",
+      "poseLeftArm": "Lnet/minecraft/class_572;method_30155(Lnet/minecraft/class_1309;)V",
+      "poseRightArm": "Lnet/minecraft/class_572;method_30154(Lnet/minecraft/class_1309;)V",
+      "setupAttackAnimation": "Lnet/minecraft/class_572;method_29353(Lnet/minecraft/class_1309;F)V"
+    },
+    "com/drd/backported/mixin/ItemInHandLayerMixin": {
+      "renderArmWithItem(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/class_989;method_4192(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_811;Lnet/minecraft/class_1306;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "com/drd/backported/mixin/LocalPlayerMixin": {
+      "Lnet/minecraft/client/player/LocalPlayer;isUsingItem()Z": "Lnet/minecraft/class_746;method_6115()Z",
+      "aiStep": "Lnet/minecraft/class_746;method_6007()V",
+      "canStartSprinting": "Lnet/minecraft/class_746;method_48300()Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/drd/backported/mixin/DamageEnchantmentMixin": {
+        "canEnchant": "Lnet/minecraft/class_1882;method_8192(Lnet/minecraft/class_1799;)Z"
+      },
+      "com/drd/backported/mixin/EnchantmentMixin": {
+        "canEnchant": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z"
+      },
+      "com/drd/backported/mixin/EntityMixin": {
+        "move": "Lnet/minecraft/class_1297;method_5784(Lnet/minecraft/class_1313;Lnet/minecraft/class_243;)V"
+      },
+      "com/drd/backported/mixin/HumanoidModelMixin": {
+        "Lnet/minecraft/util/Mth;sin(F)F": "Lnet/minecraft/class_3532;method_15374(F)F",
+        "poseLeftArm": "Lnet/minecraft/class_572;method_30155(Lnet/minecraft/class_1309;)V",
+        "poseRightArm": "Lnet/minecraft/class_572;method_30154(Lnet/minecraft/class_1309;)V",
+        "setupAttackAnimation": "Lnet/minecraft/class_572;method_29353(Lnet/minecraft/class_1309;F)V"
+      },
+      "com/drd/backported/mixin/ItemInHandLayerMixin": {
+        "renderArmWithItem(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/class_989;method_4192(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_811;Lnet/minecraft/class_1306;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "com/drd/backported/mixin/LocalPlayerMixin": {
+        "Lnet/minecraft/client/player/LocalPlayer;isUsingItem()Z": "Lnet/minecraft/class_746;method_6115()Z",
+        "aiStep": "Lnet/minecraft/class_746;method_6007()V",
+        "canStartSprinting": "Lnet/minecraft/class_746;method_48300()Z"
+      }
+    }
+  }
+}

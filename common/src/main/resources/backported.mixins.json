@@ -5,7 +5,7 @@
   "refmap": "backported.refmap.json",
   "minVersion": "0.8",
   "client": [
-    "ClientPlayerEntityMixin",
+    "LocalPlayerMixin",
     "HumanoidModelMixin",
     "ItemInHandLayerMixin"
   ],

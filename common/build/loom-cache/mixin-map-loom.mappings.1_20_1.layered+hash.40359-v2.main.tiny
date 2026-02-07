@@ -1,0 +1,14 @@
+v1	named	intermediary
+FIELD	com/drd/backported/mixin/EnchantmentMixin	Lnet/minecraft/world/item/enchantment/EnchantmentCategory;	category	field_9083
+FIELD	com/drd/backported/mixin/EntityMixin	D	xo	field_6014
+FIELD	com/drd/backported/mixin/EntityMixin	D	yo	field_6036
+FIELD	com/drd/backported/mixin/EntityMixin	D	zo	field_5969
+FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/geom/ModelPart;	f_102811_	f_102811_
+FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/geom/ModelPart;	f_102810_	f_102810_
+FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/geom/ModelPart;	f_102812_	f_102812_
+FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/geom/ModelPart;	f_102808_	f_102808_
+FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/HumanoidModel$ArmPose;	f_102816_	f_102816_
+FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/HumanoidModel$ArmPose;	f_102815_	f_102815_
+FIELD	com/drd/backported/mixin/LocalPlayerMixin	Lnet/minecraft/client/player/Input;	input	field_3913
+FIELD	com/drd/backported/mixin/LocalPlayerMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_3937
+METHOD	com/drd/backported/mixin/HumanoidModelMixin	(Lnet/minecraft/world/entity/HumanoidArm;)Lnet/minecraft/client/model/geom/ModelPart;	m_102851_	m_102851_

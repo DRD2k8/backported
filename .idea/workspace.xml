@@ -4,25 +4,101 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Fixing Fabric">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/client/BackportedClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/enchantment/LungeEnchantment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModEnchantments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/SpearItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/spear/MovementFixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/spear/SpearUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/ClientPlayerEntityMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/DamageEnchantmentMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/EnchantmentMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/EntityMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/HumanoidModelMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/ItemInHandLayerMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/architectury.common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-06-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-06-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/packets/PacketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/packets/PlayerStabPacket.java" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the spears (Part 2) (Still need to add more mixins)">
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/curse/maven/backported-spears-1385191/7540679/backported-spears-1385191-7540679.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/curse/maven/backported-spears-1385191/7540679/backported-spears-1385191-7540679.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/io/github/llamalad7/mixinextras-fabric/0.3.5/mixinextras-fabric-0.3.5-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/io/github/llamalad7/mixinextras-fabric/0.3.5/mixinextras-fabric-0.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/io/github/llamalad7/mixinextras-fabric/0.3.5/mixinextras-fabric-0.3.5.pom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common/backported.common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common/backported.common.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common/backported.common.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/fabric/backported.fabric.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/fabric/backported.fabric.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/forge/backported.forge.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/forge/backported.forge.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/.gradle/architectury-cache/projectID" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/backported-common-common-refmap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/client/BackportedClient$holdUpAnimation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/client/BackportedClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/enchantment/LungeEnchantment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModEnchantments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/SpearItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/spear/MovementFixer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/spear/SpearUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/DamageEnchantmentMixin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/EnchantmentMixin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/EntityMixin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/HumanoidModelMixin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/ItemInHandLayerMixin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/LocalPlayerMixin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/loom-cache/mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/resources/main/architectury.common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/Backported.class.uniqueId1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/MaceItem.class.uniqueId4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModArmorMaterials.class.uniqueId11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModBlocks.class.uniqueId7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModEntities.class.uniqueId6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModModelLayers.class.uniqueId10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModSounds.class.uniqueId2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModTags$Blocks.class.uniqueId8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModTags$Items.class.uniqueId5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModTags.class.uniqueId9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/WindChargeRenderer.class.uniqueId3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build/tmp/transformProductionForge/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/combat/copper_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/combat/diamond_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/combat/golden_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/combat/iron_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/combat/stone_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/combat/wooden_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/copper_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/diamond_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/golden_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/iron_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/stone_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/wooden_spear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/tags/items/spears.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/combat/netherite_spear_smithing.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/netherite_spear_smithing.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/piglin_loved.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.curse.maven-backported-spears-1385191-7540679.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.io.github.llamalad7-mixinextras-fabric-0.3.5-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.io.github.llamalad7-mixinextras-fabric-0.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements$Entries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/packets/PacketHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/packets/PlayerStabPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/devlibs/backported-forge-1.0.0-dev.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/devlibs/backported-forge-1.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/libs/backported-forge-1.0.0-dev-shadow.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/libs/backported-forge-1.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/libs/backported-forge-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge.curse.maven-backported-spears-1385191-7540681.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/resources/main/architectury.common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/resources/main/backported.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/tmp/remapJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/tmp/remapSourcesJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/tmp/shadowJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/build/tmp/sourcesJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-3.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
@@ -32,45 +108,46 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/Backported.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/Backported.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModItems.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/libs/backported-common-1.0.0-transformProductionForge.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/backported-common-1.0.0-transformProductionForge.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/resources/main/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/backported.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModArmorMaterials.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/Backported.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/Backported.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/ClientPlayerEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/LocalPlayerMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/resources/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/backported.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/.gradle/loom-cache/remapClasspath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/loom-cache/remapClasspath.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/BackportedFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/BackportedFabric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/client/BackportedForgeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/client/BackportedForgeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/BackportedForge.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/BackportedForge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/META-INF/mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-06-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-06-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-06-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-06-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-06-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-06-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-7.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/client/BackportedForgeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/client/BackportedForgeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/BackportedForge.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/BackportedForge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,21 +239,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Minecraft Client (:fabric).executor": "Run",
-    "Application.Minecraft Data (:forge).executor": "Run",
-    "Gradle.Build forge-1.20.1.executor": "Run",
-    "Gradle.forge-1.20.1 [createMcpToSrg].executor": "Run",
-    "Gradle.forge-1.20.1:forge [build].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "external.system.has.shared.sources": "true",
-    "git-widget-placeholder": "2001",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/minecraft_mod_repository_contributions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Minecraft Client (:fabric).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minecraft Data (:forge).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build forge-1.20.1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.forge-1.20.1 [createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.forge-1.20.1:forge [build].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;external.system.has.shared.sources&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;2001&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/minecraft_mod_repository_contributions&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Minecraft Data (:forge)">
     <configuration name="forge-1.20.1:forge [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -236,12 +313,22 @@
       <option name="project" value="LOCAL" />
       <updated>1770437953916</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding the spears (Part 1) (Still need to fix errors)">
+      <option name="closed" value="true" />
+      <created>1770445928917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770445928917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fixing Fabric" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing Fabric" />
+    <MESSAGE value="Adding the spears (Part 1) (Still need to fix errors)" />
+    <MESSAGE value="Adding the spears (Part 2) (Still need to add more mixins)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the spears (Part 2) (Still need to add more mixins)" />
   </component>
 </project>
