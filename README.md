@@ -77,8 +77,8 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Lava Chicken Music Disc
 - [ ] Dennis Painting
 - [ ] New Game Music: Lilypad (Plays in frozen peaks and groves), Below and Above (Plays in cherry groves), O's Piano (Plays in lush caves), Broken Clocks (Plays in forests), Fireflies (Plays in deserts)
-- [ ] Craftable Lead
-- [ ] Craftable Saddle
+- [X] Craftable Lead
+- [X] Craftable Saddle
 - [ ] Shears remove saddles
 - [ ] Carrots can tame, heal, and grow Horses, Donkeys, and Mules
 - [X] Ghast texture update
@@ -127,7 +127,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Baby animal models: Armadillo, Axolotl, Bee, Camel, Cat, Chicken, Cow, Dolphin, Donkey, Fox, Glow Squid, Goat, Horse, Llama, Mooshroom, Mule, Ocelot, Pig, Polar Bear, Sheep, Skeleton Horse, Squid, Trader Llama, Turtle, Wolf, and Zombie Horse
 - [ ] Rabbit model updates
 - [ ] Golden dandelion
-- [ ] Craftable name tag
+- [X] Craftable name tag
 
 
-### Total completed: 12/97
+### Total completed: 16/97

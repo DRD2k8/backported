@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-07T10:08:23.4239846	Recipes
+// 1.20.1	2026-02-07T15:13:35.7286411	Recipes
 9decaac0a3525392faea9ee57d263d15321f4342 data/backported/advancements/recipes/combat/copper_boots.json
 acd1105b0f0f4555cf028cc7b14e9cb55589c645 data/backported/advancements/recipes/combat/copper_chestplate.json
 2fe6a419dcc2a8b98e3c23139e4aa0465fc17d8d data/backported/advancements/recipes/combat/copper_helmet.json
@@ -36,6 +36,12 @@ d888e14ae5a4d25b13401f561f8c8cd5f18e2601 data/backported/recipes/stone_spear.jso
 3c659c2b508819624d4e3c501d907eeaee6839c6 data/backported/recipes/wind_charge.json
 9a3bf7da21a4a6082b5ebd6c76b48e8b0584e5fe data/backported/recipes/wooden_spear.json
 2b5ee6c2e338f2e12bd6c64382f7a414b58bc5eb data/minecraft/advancements/recipes/combat/netherite_spear_smithing.json
+010e3b5568ff9024ed976d877ac56110c6cfc2a7 data/minecraft/advancements/recipes/combat/saddle.json
 682f74178258dfa4e2fb9a027389dcf39d6d9f53 data/minecraft/advancements/recipes/misc/copper_ingot_from_nuggets.json
+9438f54746621e146913588ac4c14b0eb4b87306 data/minecraft/advancements/recipes/tools/lead.json
+d5c91eb05637e4a46b3a96d44fa5b9ad292672bc data/minecraft/advancements/recipes/tools/name_tag.json
 410a19118590435d58d49a26a6e6fb10970cc7d8 data/minecraft/recipes/copper_ingot_from_nuggets.json
+4f946c8f3cb24fc33d74a713c705a22bca935b38 data/minecraft/recipes/lead.json
+124c6a2d47b35bcea90b8aec06c601f91b48b4a7 data/minecraft/recipes/name_tag.json
 88e09778f560db0e63f171a68a1a3a090cd99835 data/minecraft/recipes/netherite_spear_smithing.json
+f85703543e9cc5fe4aabc243ee333e9a0dcfec0f data/minecraft/recipes/saddle.json

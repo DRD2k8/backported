@@ -8,7 +8,6 @@ import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.function.Consumer;
@@ -31,6 +30,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(consumer);
 
         unpack(ModItems.BREEZE_ROD.get(), ModItems.WIND_CHARGE.get(), 4, consumer);
+
+        // Chase the Skies
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Items.LEAD, 2)
+                .pattern("~~ ")
+                .pattern("~~ ")
+                .pattern("  ~")
+                .define('~', Items.STRING)
+                .unlockedBy("has_string", has(Items.STRING))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, Items.SADDLE)
+                .pattern(" X ")
+                .pattern("X#X")
+                .define('#', Items.IRON_INGOT)
+                .define('X', Items.LEATHER)
+                .unlockedBy("has_leather", has(Items.LEATHER))
+                .save(consumer);
 
         // The Copper Age
         resourceUnpack(Items.COPPER_INGOT, ModItems.COPPER_NUGGET.get(), consumer);
@@ -67,6 +82,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         spear(Items.GOLD_INGOT, ModItems.GOLDEN_SPEAR.get(), consumer);
         spear(Items.DIAMOND, ModItems.DIAMOND_SPEAR.get(), consumer);
         netheriteSmithing(consumer, ModItems.DIAMOND_SPEAR.get(), RecipeCategory.COMBAT, ModItems.NETHERITE_SPEAR.get());
+
+        // First Drop 2026
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Items.NAME_TAG)
+                .pattern(" X")
+                .pattern("# ")
+                .define('#', Items.PAPER)
+                .define('X', ModTags.Items.METAL_NUGGETS)
+                .unlockedBy("has_paper", has(Items.PAPER))
+                .unlockedBy("has_metal_nugget", has(ModTags.Items.METAL_NUGGETS))
+                .save(consumer);
     }
 
     protected static void packing2x2(ItemLike unpackedItem, ItemLike packedItem, String group, Consumer<FinishedRecipe> consumer) {
