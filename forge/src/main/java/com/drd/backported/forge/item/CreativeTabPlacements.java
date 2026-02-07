@@ -51,15 +51,15 @@ public class CreativeTabPlacements {
             entries.addAfter(Items.STONE_SWORD,
                     ModItems.COPPER_SWORD.get()
             );
-//            entries.addBefore(Items.WOODEN_AXE,
-//                    ModItems.WOODEN_SPEAR.get(),
-//                    ModItems.STONE_SPEAR.get(),
-//                    ModItems.COPPER_SPEAR.get(),
-//                    ModItems.IRON_SPEAR.get(),
-//                    ModItems.GOLDEN_SPEAR.get(),
-//                    ModItems.DIAMOND_SPEAR.get(),
-//                    ModItems.NETHERITE_SPEAR.get()
-//            );
+            entries.addBefore(Items.WOODEN_AXE,
+                    ModItems.WOODEN_SPEAR.get(),
+                    ModItems.STONE_SPEAR.get(),
+                    ModItems.COPPER_SPEAR.get(),
+                    ModItems.IRON_SPEAR.get(),
+                    ModItems.GOLDEN_SPEAR.get(),
+                    ModItems.DIAMOND_SPEAR.get(),
+                    ModItems.NETHERITE_SPEAR.get()
+            );
             entries.addAfter(Items.STONE_AXE,
                     ModItems.COPPER_AXE.get()
             );

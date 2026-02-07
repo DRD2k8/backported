@@ -56,16 +56,16 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .addOptionalTag(Tags.Items.RODS_WOODEN)
                 .addOptionalTag(ModTags.Items.FABRIC_WOODEN_RODS);
 
-//        this.tag(ModTags.Items.SPEARS)
-//                .add(ModItems.DIAMOND_SPEAR.get())
-//                .add(ModItems.STONE_SPEAR.get())
-//                .add(ModItems.GOLDEN_SPEAR.get())
-//                .add(ModItems.NETHERITE_SPEAR.get())
-//                .add(ModItems.WOODEN_SPEAR.get())
-//                .add(ModItems.IRON_SPEAR.get())
-//                .add(ModItems.NETHERITE_SPEAR.get());
-//
-//        this.tag(ItemTags.PIGLIN_LOVED)
-//                .add(ModItems.GOLDEN_SPEAR.get());
+        this.tag(ModTags.Items.SPEARS)
+                .add(ModItems.DIAMOND_SPEAR.get())
+                .add(ModItems.STONE_SPEAR.get())
+                .add(ModItems.GOLDEN_SPEAR.get())
+                .add(ModItems.NETHERITE_SPEAR.get())
+                .add(ModItems.WOODEN_SPEAR.get())
+                .add(ModItems.IRON_SPEAR.get())
+                .add(ModItems.NETHERITE_SPEAR.get());
+
+        this.tag(ItemTags.PIGLIN_LOVED)
+                .add(ModItems.GOLDEN_SPEAR.get());
     }
 }

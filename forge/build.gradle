@@ -15,6 +15,10 @@ tasks.named("processResources", ProcessResources).configure {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 
+tasks.withType(Jar).configureEach {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
 loom {
     forge {
         mixinConfig "backported.mixins.json"
@@ -60,6 +64,12 @@ dependencies {
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
+
+    implementation(annotationProcessor("io.github.llamalad7:mixinextras-common:0.3.5"))
+    compileOnly("io.github.llamalad7:mixinextras-forge:0.3.5")
+    annotationProcessor("io.github.llamalad7:mixinextras-common:0.3.5")
+
+//    modCompileOnly "curse.maven:backported-spears-1385191:7540681"
 }
 
 processResources {

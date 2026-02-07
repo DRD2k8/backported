@@ -5,6 +5,7 @@ import com.drd.backported.init.ModItems;
 import com.drd.backported.util.ModTags;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.Tags;
@@ -45,27 +46,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         boots(Items.COPPER_INGOT, ModItems.COPPER_BOOTS.get(), consumer);
 
         // Mounts of Mayhem
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.WOODEN_SPEAR.get())
-//                .pattern("  X")
-//                .pattern(" # ")
-//                .pattern("#  ")
-//                .define('#', ModTags.Items.STICKS)
-//                .define('X', ItemTags.PLANKS)
-//                .unlockedBy("has_stick", has(ModTags.Items.STICKS))
-//                .save(consumer);
-//        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.STONE_SPEAR.get())
-//                .pattern("  X")
-//                .pattern(" # ")
-//                .pattern("#  ")
-//                .define('#', ModTags.Items.STICKS)
-//                .define('X', ItemTags.STONE_TOOL_MATERIALS)
-//                .unlockedBy("has_cobblestone", has(ItemTags.STONE_TOOL_MATERIALS))
-//                .save(consumer);
-//        spear(Items.COPPER_INGOT, ModItems.COPPER_SPEAR.get(), consumer);
-//        spear(Items.IRON_INGOT, ModItems.IRON_SPEAR.get(), consumer);
-//        spear(Items.GOLD_INGOT, ModItems.GOLDEN_SPEAR.get(), consumer);
-//        spear(Items.DIAMOND, ModItems.DIAMOND_SPEAR.get(), consumer);
-//        netheriteSmithing(consumer, ModItems.DIAMOND_SPEAR.get(), RecipeCategory.COMBAT, ModItems.NETHERITE_SPEAR.get());
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.WOODEN_SPEAR.get())
+                .pattern("  X")
+                .pattern(" # ")
+                .pattern("#  ")
+                .define('#', ModTags.Items.STICKS)
+                .define('X', ItemTags.PLANKS)
+                .unlockedBy("has_stick", has(ModTags.Items.STICKS))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.STONE_SPEAR.get())
+                .pattern("  X")
+                .pattern(" # ")
+                .pattern("#  ")
+                .define('#', ModTags.Items.STICKS)
+                .define('X', ItemTags.STONE_TOOL_MATERIALS)
+                .unlockedBy("has_cobblestone", has(ItemTags.STONE_TOOL_MATERIALS))
+                .save(consumer);
+        spear(Items.COPPER_INGOT, ModItems.COPPER_SPEAR.get(), consumer);
+        spear(Items.IRON_INGOT, ModItems.IRON_SPEAR.get(), consumer);
+        spear(Items.GOLD_INGOT, ModItems.GOLDEN_SPEAR.get(), consumer);
+        spear(Items.DIAMOND, ModItems.DIAMOND_SPEAR.get(), consumer);
+        netheriteSmithing(consumer, ModItems.DIAMOND_SPEAR.get(), RecipeCategory.COMBAT, ModItems.NETHERITE_SPEAR.get());
     }
 
     protected static void packing2x2(ItemLike unpackedItem, ItemLike packedItem, String group, Consumer<FinishedRecipe> consumer) {

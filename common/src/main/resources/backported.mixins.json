@@ -2,10 +2,17 @@
   "required": true,
   "package": "com.drd.backported.mixin",
   "compatibilityLevel": "JAVA_17",
+  "refmap": "backported.refmap.json",
   "minVersion": "0.8",
   "client": [
+    "ClientPlayerEntityMixin",
+    "HumanoidModelMixin",
+    "ItemInHandLayerMixin"
   ],
   "mixins": [
+    "DamageEnchantmentMixin",
+    "EnchantmentMixin",
+    "EntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

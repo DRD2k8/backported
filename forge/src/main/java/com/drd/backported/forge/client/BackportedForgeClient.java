@@ -1,9 +1,12 @@
 package com.drd.backported.forge.client;
 
 import com.drd.backported.Backported;
+import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.model.WindChargeModel;
 import com.drd.backported.client.renderer.WindChargeRenderer;
+import com.drd.backported.forge.packets.PacketHandler;
+import com.drd.backported.forge.packets.PlayerStabPacket;
 import com.drd.backported.init.ModEntities;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.Items;
@@ -19,6 +22,12 @@ public class BackportedForgeClient {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         EntityRenderers.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
+        if (BackportedClient.syncSpears == null) {
+            BackportedClient.syncSpears = (i) -> {
+                PacketHandler.sendToServer(new PlayerStabPacket(i));
+                return true;
+            };
+        }
     }
 
     @SubscribeEvent
