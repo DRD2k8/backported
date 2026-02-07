@@ -1,5 +1,6 @@
 package com.drd.backported.forge;
 
+import com.drd.backported.forge.packets.PacketHandler;
 import com.drd.backported.util.ModSoundTypes;
 import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.fml.common.Mod;
@@ -19,6 +20,9 @@ public final class BackportedForge {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        event.enqueueWork(ModSoundTypes::init);
+        event.enqueueWork(() -> {
+            ModSoundTypes.init();
+            PacketHandler.init();
+        });
     }
 }

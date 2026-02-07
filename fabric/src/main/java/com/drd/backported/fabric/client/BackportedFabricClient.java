@@ -1,8 +1,11 @@
 package com.drd.backported.fabric.client;
 
+import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.model.WindChargeModel;
 import com.drd.backported.client.renderer.WindChargeRenderer;
+import com.drd.backported.fabric.packets.PacketHandler;
+import com.drd.backported.fabric.packets.PlayerStabPacket;
 import com.drd.backported.init.ModEntities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
@@ -95,5 +98,11 @@ public class BackportedFabricClient implements ClientModInitializer {
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_VILLAGER_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIFIED_PIGLIN_SPAWN_EGG);
+
+        // Mounts of Mayhem
+        BackportedClient.syncSpears = (i) -> {
+            PacketHandler.send(new PlayerStabPacket(i));
+            return true;
+        };
     }
 }

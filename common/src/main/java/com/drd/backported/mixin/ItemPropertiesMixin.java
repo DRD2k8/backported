@@ -13,12 +13,12 @@ public abstract class ItemPropertiesMixin {
     }
 
     @Shadow
-    private static ClampedItemPropertyFunction m_174581_(ResourceLocation id, ClampedItemPropertyFunction provider) {
+    private static ClampedItemPropertyFunction registerGeneric(ResourceLocation id, ClampedItemPropertyFunction clampedItemPropertyFunction) {
         return null;
     }
 
     static {
-        m_174581_(ResourceLocation.tryBuild(Backported.MOD_ID, "in_gui"), (stack, world, entity, seed) -> {
+        registerGeneric(ResourceLocation.tryBuild(Backported.MOD_ID, "in_gui"), (stack, world, entity, seed) -> {
             return stack.getEntityRepresentation() != null && stack.getFrame() == null ? 0.0F : 1.0F;
         });
     }

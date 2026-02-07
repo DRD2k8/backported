@@ -62,11 +62,11 @@ public class ModItems {
     }
 
     private static RegistrySupplier<Item> spear(String material, Tier tier, double attackSpeed, float swingAnimationSeconds, float chargeDamageMultiplier, float chargeDelaySeconds, float maxDurationForDismountSeconds, float minSpeedForDismount, float maxDurationForChargeKnockbackInSeconds, float maxDurationForChargeDamageInSeconds) {
-        return ITEMS.register(material + "_spear", () -> new SpearItem(tier, attackSpeed, (int) (swingAnimationSeconds * 20f), chargeDamageMultiplier, chargeDelaySeconds, maxDurationForDismountSeconds, minSpeedForDismount, maxDurationForChargeKnockbackInSeconds, 5.1f, maxDurationForChargeDamageInSeconds, 4.6f, ModSounds.SPEAR_HIT.get(), ModSounds.SPEAR_ATTACK.get(), ModSounds.SPEAR_USE.get(), new Item.Properties()));
+        return ITEMS.register(material + "_spear", () -> new SpearItem(tier, attackSpeed, (int) (swingAnimationSeconds * 20f), chargeDamageMultiplier, chargeDelaySeconds, maxDurationForDismountSeconds, minSpeedForDismount, maxDurationForChargeKnockbackInSeconds, 5.1f, maxDurationForChargeDamageInSeconds, 4.6f, ModSounds.SPEAR_HIT, ModSounds.SPEAR_ATTACK, ModSounds.SPEAR_USE, new Item.Properties()));
     }
 
     private static RegistrySupplier<Item> spear(String material, Tier tier, double attackSpeed, float swingAnimationSeconds, float chargeDamageMultiplier, float chargeDelaySeconds, float maxDurationForDismountSeconds, float minSpeedForDismount, float maxDurationForChargeKnockbackInSeconds, float maxDurationForChargeDamageInSeconds, RegistrySupplier<SoundEvent> hitSound, RegistrySupplier<SoundEvent> attackSound, RegistrySupplier<SoundEvent> useSound) {
-        return ITEMS.register(material + "_spear", () -> new SpearItem(tier, attackSpeed, (int) (swingAnimationSeconds * 20f), chargeDamageMultiplier, chargeDelaySeconds, maxDurationForDismountSeconds, minSpeedForDismount, maxDurationForChargeKnockbackInSeconds, 5.1f, maxDurationForChargeDamageInSeconds, 4.6f, hitSound.get(), attackSound.get(), useSound.get(), new Item.Properties()));
+        return ITEMS.register(material + "_spear", () -> new SpearItem(tier, attackSpeed, (int) (swingAnimationSeconds * 20f), chargeDamageMultiplier, chargeDelaySeconds, maxDurationForDismountSeconds, minSpeedForDismount, maxDurationForChargeKnockbackInSeconds, 5.1f, maxDurationForChargeDamageInSeconds, 4.6f, hitSound, attackSound, useSound, new Item.Properties()));
     }
 
     private static RegistrySupplier<Item> armorItem(String material, ArmorItem.Type type, ArmorMaterial armorMaterial) {

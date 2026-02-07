@@ -7,6 +7,7 @@ import com.drd.backported.item.spear.SpearUser;
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
 import com.mojang.datafixers.util.Either;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
@@ -43,9 +44,9 @@ public class SpearItem extends TieredItem {
     public final float minSpeedForChargeKnockback;
     public final float maxDurationForChargeDamageInSeconds;
     public final float minRelativeSpeedForChargeDamage;
-    public final SoundEvent hitSound;
-    public final SoundEvent attackSound;
-    public final SoundEvent useSound;
+    public final RegistrySupplier<SoundEvent> hitSound;
+    public final RegistrySupplier<SoundEvent> attackSound;
+    public final RegistrySupplier<SoundEvent> useSound;
     private final Multimap<Attribute, AttributeModifier> attributeModifiers;
 
     private static Item.Properties handleSpearSettings(Tier material, Item.Properties settings) {
@@ -56,7 +57,7 @@ public class SpearItem extends TieredItem {
         return settings;
     }
 
-    public SpearItem(Tier material, double attackSpeed, int swingAnimationTicks, float chargeDamageMultiplier, float chargeDelaySeconds, float maxDurationForDismountSeconds, float minSpeedForDismount, float maxDurationForChargeKnockbackInSeconds, float minSpeedForChargeKnockback, float maxDurationForChargeDamageInSeconds, float minRelativeSpeedForChargeDamage, SoundEvent hitSound, SoundEvent attackSound, SoundEvent useSound, Item.Properties settings) {
+    public SpearItem(Tier material, double attackSpeed, int swingAnimationTicks, float chargeDamageMultiplier, float chargeDelaySeconds, float maxDurationForDismountSeconds, float minSpeedForDismount, float maxDurationForChargeKnockbackInSeconds, float minSpeedForChargeKnockback, float maxDurationForChargeDamageInSeconds, float minRelativeSpeedForChargeDamage, RegistrySupplier<SoundEvent> hitSound, RegistrySupplier<SoundEvent> attackSound, RegistrySupplier<SoundEvent> useSound, Item.Properties settings) {
         super(material, handleSpearSettings(material, settings));
         double vanillaAttackSpeed = attackSpeed - 4.0;
         this.swingAnimationTicks = swingAnimationTicks;
@@ -106,7 +107,7 @@ public class SpearItem extends TieredItem {
         user.startUsingItem(hand);
         Level var5 = user.level();
         if (var5 instanceof ServerLevel server) {
-            server.playSound((Player)null, user.getX(), user.getY(), user.getZ(), this.useSound, user.getSoundSource(), 1.0F, 1.0F);
+            server.playSound((Player)null, user.getX(), user.getY(), user.getZ(), this.useSound.get(), user.getSoundSource(), 1.0F, 1.0F);
         }
 
         return InteractionResultHolder.consume(user.getItemInHand(hand));
@@ -117,16 +118,12 @@ public class SpearItem extends TieredItem {
             entity = entity.getRootVehicle();
         }
 
-        Vec3 var10000;
-        if (entity instanceof Player player) {
-            if (player instanceof MovementFixer m) {
-                var10000 = m.getMovement();
-                return var10000.scale(20.0);
-            }
+        if (entity instanceof Player player && player instanceof MovementFixer m) {
+            return m.safeMovement().scale(20.0);
         }
 
-        var10000 = entity.position().subtract(entity.xo, entity.yo, entity.zo);
-        return var10000.scale(20.0);
+        Vec3 movement = entity.position().subtract(entity.xo, entity.yo, entity.zo);
+        return movement.scale(20.0);
     }
 
     public void onUseTick(Level world, LivingEntity user, ItemStack stack, int remainingUseTicks) {
@@ -160,7 +157,7 @@ public class SpearItem extends TieredItem {
                                     Level var27 = user.level();
                                     if (var27 instanceof ServerLevel) {
                                         ServerLevel server = (ServerLevel)var27;
-                                        server.playSound((Player)null, user.getX(), user.getY(), user.getZ(), this.hitSound, user.getSoundSource(), 1.0F, 1.0F);
+                                        server.playSound((Player)null, user.getX(), user.getY(), user.getZ(), this.hitSound.get(), user.getSoundSource(), 1.0F, 1.0F);
                                     }
 
                                     user.getCommandSenderWorld().broadcastEntityEvent(user, (byte)2);
@@ -288,10 +285,10 @@ public class SpearItem extends TieredItem {
         Level var15 = attacker.level();
         if (var15 instanceof ServerLevel server) {
             if (bl) {
-                server.playSound((Player)null, attacker.getX(), attacker.getY(), attacker.getZ(), this.hitSound, attacker.getSoundSource(), 1.0F, 1.0F);
+                server.playSound((Player)null, attacker.getX(), attacker.getY(), attacker.getZ(), this.hitSound.get(), attacker.getSoundSource(), 1.0F, 1.0F);
             }
 
-            server.playSound((Player)null, attacker.getX(), attacker.getY(), attacker.getZ(), this.attackSound, attacker.getSoundSource(), 1.0F, 1.0F);
+            server.playSound((Player)null, attacker.getX(), attacker.getY(), attacker.getZ(), this.attackSound.get(), attacker.getSoundSource(), 1.0F, 1.0F);
         }
 
         attacker.swing(InteractionHand.MAIN_HAND, false);

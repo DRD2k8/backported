@@ -104,7 +104,7 @@ If all of these are complete, I will publish the first version of the mod.
 ## Mounts of Mayhem (1.21.11)
 - [ ] Nautilus Armor
 - [ ] Netherite Horse Armor
-- [ ] Spears
+- [X] Spears
 - [ ] Camel Husk
 - [ ] Nautilus
 - [ ] Parched

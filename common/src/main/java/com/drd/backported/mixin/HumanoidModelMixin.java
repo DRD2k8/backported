@@ -25,26 +25,26 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public abstract class HumanoidModelMixin<T extends LivingEntity> extends AgeableListModel<T> {
     @Shadow
     @Final
-    public ModelPart f_102811_;
+    public ModelPart rightArm;
     @Shadow
     @Final
-    public ModelPart f_102810_;
+    public ModelPart leftArm;
     @Shadow
     @Final
-    public ModelPart f_102812_;
+    public ModelPart body;
     @Shadow
     @Final
-    public ModelPart f_102808_;
+    public ModelPart head;
     @Shadow
-    public HumanoidModel.ArmPose f_102816_;
+    public HumanoidModel.ArmPose rightArmPose;
     @Shadow
-    public HumanoidModel.ArmPose f_102815_;
+    public HumanoidModel.ArmPose leftArmPose;
 
     public HumanoidModelMixin() {
     }
 
     @Shadow
-    protected abstract ModelPart m_102851_(HumanoidArm var1);
+    protected abstract ModelPart getArm(HumanoidArm var1);
 
     @Inject(
             method = {"poseRightArm"},
@@ -52,7 +52,7 @@ public abstract class HumanoidModelMixin<T extends LivingEntity> extends Ageable
             cancellable = true
     )
     private void rightArmSpear(T entity, CallbackInfo ci) {
-        if ((!this.f_102816_.isTwoHanded() || this.attackTime > 0.0F) && this.handleSpearAnimationPerArm(entity, HumanoidArm.RIGHT) && !entity.isUsingItem() && this.attackTime > 0.0F) {
+        if ((!this.rightArmPose.isTwoHanded() || this.attackTime > 0.0F) && this.handleSpearAnimationPerArm(entity, HumanoidArm.RIGHT) && !entity.isUsingItem() && this.attackTime > 0.0F) {
             ci.cancel();
         }
 
@@ -64,7 +64,7 @@ public abstract class HumanoidModelMixin<T extends LivingEntity> extends Ageable
             cancellable = true
     )
     private void leftArmSpear(T entity, CallbackInfo ci) {
-        if ((!this.f_102815_.isTwoHanded() || this.attackTime > 0.0F) && this.handleSpearAnimationPerArm(entity, HumanoidArm.LEFT) && !entity.isUsingItem() && this.attackTime > 0.0F) {
+        if ((!this.leftArmPose.isTwoHanded() || this.attackTime > 0.0F) && this.handleSpearAnimationPerArm(entity, HumanoidArm.LEFT) && !entity.isUsingItem() && this.attackTime > 0.0F) {
             ci.cancel();
         }
 
@@ -74,9 +74,9 @@ public abstract class HumanoidModelMixin<T extends LivingEntity> extends Ageable
     private boolean handleSpearAnimationPerArm(T entity, HumanoidArm arm) {
         ItemStack itemStack = entity.getMainArm() == arm ? entity.getMainHandItem() : entity.getOffhandItem();
         if (itemStack.getItem() instanceof SpearItem || itemStack.is(ModTags.Items.SPEARS) && this.attackTime <= 0.0F) {
-            ModelPart usedArm = this.m_102851_(arm);
-            usedArm.yRot = -0.1F * this.f_102808_.yRot;
-            usedArm.xRot = -1.5707964F + this.f_102808_.xRot + 0.8F;
+            ModelPart usedArm = this.getArm(arm);
+            usedArm.yRot = -0.1F * this.head.yRot;
+            usedArm.xRot = -1.5707964F + this.head.xRot + 0.8F;
             if (entity.isFallFlying() || entity.getSwimAmount(1.0F) > 0.0F) {
                 usedArm.xRot -= 0.9599311F;
             }
@@ -112,12 +112,12 @@ public abstract class HumanoidModelMixin<T extends LivingEntity> extends Ageable
         if (entity.getMainHandItem().getItem() instanceof SpearItem) {
             float f = entity.isUsingItem() ? 1.0F : this.attackTime;
             HumanoidArm arm = entity.getMainArm();
-            ModelPart var10000 = this.f_102811_;
-            var10000.yRot -= this.f_102810_.yRot;
-            var10000 = this.f_102812_;
-            var10000.yRot -= this.f_102810_.yRot;
-            var10000 = this.f_102812_;
-            var10000.xRot -= this.f_102810_.yRot;
+            ModelPart var10000 = this.rightArm;
+            var10000.yRot -= this.leftArm.yRot;
+            var10000 = this.body;
+            var10000.yRot -= this.leftArm.yRot;
+            var10000 = this.body;
+            var10000.xRot -= this.leftArm.yRot;
             float g = -(Mth.cos(3.1415927F * Mth.clamp(Mth.inverseLerp(f, 0.0F, 0.05F), 0.0F, 1.0F)) - 1.0F) / 2.0F;
             float h = Mth.clamp(Mth.inverseLerp(f, 0.05F, 0.2F), 0.0F, 1.0F);
             h *= h;
@@ -128,13 +128,12 @@ public abstract class HumanoidModelMixin<T extends LivingEntity> extends Ageable
                 i = i == 1.0F ? 1.0F : (float)((2.0 - Math.pow(2.0, -20.0 * (double)i + 10.0)) / 2.0);
             }
 
-            var10000 = this.m_102851_(arm);
+            var10000 = this.getArm(arm);
             var10000.xRot += (90.0F * g - 120.0F * h + 30.0F * i) * 0.017453292F;
-            var10000 = this.m_102851_(arm);
-            var10000.yRot += this.f_102808_.yRot * (h - i);
+            var10000 = this.getArm(arm);
+            var10000.yRot += this.head.yRot * (h - i);
             ci.cancel();
         }
-
     }
 
     @Inject(
@@ -160,9 +159,9 @@ public abstract class HumanoidModelMixin<T extends LivingEntity> extends Ageable
                     }
                 }
 
-                ModelPart usedArm = this.m_102851_(entity.getUsedItemHand() == InteractionHand.MAIN_HAND ? entity.getMainArm() : entity.getMainArm().getOpposite());
-                usedArm.yRot = (float)Mth.clamp((double)this.f_102808_.yRot, -1.3089969389957472, 1.3089969389957472) * f;
-                usedArm.xRot += this.f_102808_.xRot * 0.5F * f - (float)(0.017453292519943295 * (!entity.isFallFlying() && !(entity.getSwimAmount(1.0F) > 0.0F) ? 30.0 : 55.0)) * f;
+                ModelPart usedArm = this.getArm(entity.getUsedItemHand() == InteractionHand.MAIN_HAND ? entity.getMainArm() : entity.getMainArm().getOpposite());
+                usedArm.yRot = (float)Mth.clamp((double)this.head.yRot, -1.3089969389957472, 1.3089969389957472) * f;
+                usedArm.xRot += this.head.xRot * 0.5F * f - (float)(0.017453292519943295 * (!entity.isFallFlying() && !(entity.getSwimAmount(1.0F) > 0.0F) ? 30.0 : 55.0)) * f;
                 ci.cancel();
             }
         }

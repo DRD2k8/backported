@@ -1,5 +1,6 @@
 package com.drd.backported.forge.packets;
 
+import com.drd.backported.Backported;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.network.NetworkDirection;
 import net.minecraftforge.network.NetworkRegistry;
@@ -7,19 +8,21 @@ import net.minecraftforge.network.PacketDistributor;
 import net.minecraftforge.network.simple.SimpleChannel;
 
 public class PacketHandler {
-    private static final SimpleChannel INSTANCE = NetworkRegistry.ChannelBuilder.named(ResourceLocation.tryBuild("spears", "send_stab_attack_to_server")).clientAcceptedVersions((s) -> {
-        return true;
-    }).serverAcceptedVersions((s) -> {
-        return true;
-    }).networkProtocolVersion(() -> {
-        return "1";
-    }).simpleChannel();
+    public static SimpleChannel INSTANCE;
 
-    public PacketHandler() {
-    }
+    public static void init() {
+        INSTANCE = NetworkRegistry.ChannelBuilder
+                .named(ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "send_stab_attack_to_server"))
+                .networkProtocolVersion(() -> "1")
+                .clientAcceptedVersions(s -> true)
+                .serverAcceptedVersions(s -> true)
+                .simpleChannel();
 
-    public static void register() {
-        INSTANCE.messageBuilder(PlayerStabPacket.class, NetworkDirection.PLAY_TO_SERVER.ordinal()).encoder(PlayerStabPacket::encode).decoder(PlayerStabPacket::new).consumerMainThread(PlayerStabPacket::handle).add();
+        INSTANCE.messageBuilder(PlayerStabPacket.class, 0, NetworkDirection.PLAY_TO_SERVER)
+                .encoder(PlayerStabPacket::encode)
+                .decoder(PlayerStabPacket::new)
+                .consumerMainThread(PlayerStabPacket::handle)
+                .add();
     }
 
     public static void sendToServer(Object msg) {

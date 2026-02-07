@@ -19,7 +19,6 @@ public abstract class EntityMixin implements MovementFixer {
     @Shadow public double yo;
     @Shadow public double zo;
 
-    // Store the position before movement
     private Vec3 backported$oldPos;
 
     @Inject(

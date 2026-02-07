@@ -4,8 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the spears (Part 5) (Fixing some errors)">
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-5.log.gz" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the spears (Part 6) (Fixing some errors, again)">
+      <change afterPath="$PROJECT_DIR$/fabric/run/crash-reports/crash-2026-02-07_12.21.45-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/crash-reports/crash-2026-02-07_12.24.43-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/crash-reports/crash-2026-02-07_12.31.28-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/crash-reports/crash-2026-02-07_12.51.58-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/crash-reports/crash-2026-02-07_12.53.23-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-06-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/debug-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/packets/PacketHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/packets/PlayerStabPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_11.53.02-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_12.03.45-server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_12.05.52-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_12.10.38-server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/DIM-1/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/DIM1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/DIM1/data/raids_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/data/random_sequences.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/entities/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/entities/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/entities/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/entities/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/poi/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/poi/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/poi/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/serverconfig/forge-server.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/No more crashing/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
@@ -15,14 +65,73 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/SpearItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/SpearItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/spear/MovementFixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/spear/MovementFixer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/HumanoidModelMixin.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/HumanoidModelMixin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/loom-cache/mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/loom-cache/mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build/resources/main/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/backported.mixins.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/LivingEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/LivingEntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/SpearItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/SpearItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/spear/MovementFixer.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/spear/MovementFixer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/DamageEnchantmentMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/DamageEnchantmentMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/EntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/EntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/HumanoidModelMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/HumanoidModelMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/ItemPropertiesMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/ItemPropertiesMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/MinecraftMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/MinecraftMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/BackportedFabric.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/BackportedFabric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/client/BackportedFabricClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/client/BackportedFabricClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/backported.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/advancements/3f18158e-f2c1-3129-a134-25632e6b98da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/random_sequences.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/playerdata/3f18158e-f2c1-3129-a134-25632e6b98da.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/playerdata/3f18158e-f2c1-3129-a134-25632e6b98da.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/stats/3f18158e-f2c1-3129-a134-25632e6b98da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/client/BackportedFabricClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/client/BackportedFabricClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/BackportedForge.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/BackportedForge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/packets/PacketHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/packets/PacketHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
@@ -30,6 +139,49 @@
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-2.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-2.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-2.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-2.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-2.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-2.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-3.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-2.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-2.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-2.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-3.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-3.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-3.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/serverconfig/forge-server.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/BackportedForge.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/BackportedForge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/packets/PacketHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/packets/PacketHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +289,7 @@
     "last_opened_file_path": "D:/minecraft_mod_repository_contributions"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Minecraft Client (:forge)">
+  <component name="RunManager" selected="Application.Minecraft Client (:fabric)">
     <configuration name="forge-1.20.1:forge [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -236,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770493084560</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding the spears (Part 6) (Fixing some errors, again)">
+      <option name="closed" value="true" />
+      <created>1770493576204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770493576204</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,6 +407,7 @@
     <MESSAGE value="Adding the spears (Part 3) (Forgot one class)" />
     <MESSAGE value="Adding the spears (Part 4) (All mixins registered)" />
     <MESSAGE value="Adding the spears (Part 5) (Fixing some errors)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the spears (Part 5) (Fixing some errors)" />
+    <MESSAGE value="Adding the spears (Part 6) (Fixing some errors, again)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the spears (Part 6) (Fixing some errors, again)" />
   </component>
 </project>
