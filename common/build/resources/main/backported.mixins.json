@@ -5,14 +5,21 @@
   "refmap": "backported.refmap.json",
   "minVersion": "0.8",
   "client": [
-    "LocalPlayerMixin",
+    "HeldItemRendererMixin",
     "HumanoidModelMixin",
-    "ItemInHandLayerMixin"
+    "ItemInHandLayerMixin",
+    "ItemInHandRendererInvoker",
+    "ItemPropertiesMixin",
+    "ItemRendererMixin",
+    "LocalPlayerMixin",
+    "MinecraftMixin"
   ],
   "mixins": [
     "DamageEnchantmentMixin",
     "EnchantmentMixin",
-    "EntityMixin"
+    "EntityMixin",
+    "LivingEntityMixin",
+    "ServerPlayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

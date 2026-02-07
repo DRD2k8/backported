@@ -30,6 +30,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -48,13 +49,17 @@ public abstract class LivingEntityMixin implements SpearUser {
     public LivingEntityMixin() {
     }
 
-    public abstract ItemStack m_21205_();
+    @Shadow
+    public abstract ItemStack getMainHandItem();
 
-    public abstract ItemStack m_21211_();
+    @Shadow
+    public abstract ItemStack getOffhandItem();
 
-    public abstract boolean m_21023_(MobEffect var1);
+    @Shadow
+    public abstract boolean hasEffect(MobEffect var1);
 
-    public abstract @Nullable MobEffectInstance m_21124_(MobEffect var1);
+    @Shadow
+    public abstract @Nullable MobEffectInstance getEffect(MobEffect var1);
 
     @Inject(
             method = {"getCurrentSwingDuration"},
@@ -62,14 +67,14 @@ public abstract class LivingEntityMixin implements SpearUser {
             cancellable = true
     )
     private void overrideSwingDurationForSpear(CallbackInfoReturnable<Integer> cir) {
-        Item var3 = this.m_21205_().getItem();
+        Item var3 = this.getMainHandItem().getItem();
         if (var3 instanceof SpearItem s) {
             LivingEntity me = (LivingEntity)(Object)this;
             int swing = s.swingTicks();
             if (MobEffectUtil.hasDigSpeed(me)) {
                 cir.setReturnValue(swing - (1 + MobEffectUtil.getDigSpeedAmplification(me)));
             } else {
-                cir.setReturnValue(this.m_21023_(MobEffects.DIG_SLOWDOWN) ? swing + (1 + ((MobEffectInstance) Objects.requireNonNull(this.m_21124_(MobEffects.DIG_SLOWDOWN))).getAmplifier()) * 2 : swing);
+                cir.setReturnValue(this.hasEffect(MobEffects.DIG_SLOWDOWN) ? swing + (1 + ((MobEffectInstance) Objects.requireNonNull(this.getEffect(MobEffects.DIG_SLOWDOWN))).getAmplifier()) * 2 : swing);
             }
         }
     }
@@ -82,7 +87,7 @@ public abstract class LivingEntityMixin implements SpearUser {
             )}
     )
     private void recordPiercingCooldowns(InteractionHand hand, CallbackInfo ci) {
-        if (this.m_21211_() != null && this.m_21211_().getItem() instanceof SpearItem) {
+        if (this.getOffhandItem() != null && this.getOffhandItem().getItem() instanceof SpearItem) {
             this.spears$piercingCooldowns = new Object2LongOpenHashMap();
         }
 

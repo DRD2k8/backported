@@ -4,58 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the spears (Part 3) (Forgot one class)">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/HeldItemRendererMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/ItemInHandRendererInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/ItemPropertiesMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/ItemRendererMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/LivingEntityMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/MinecraftMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/ServerPlayerMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/options.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-2.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-2.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-2.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-2.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-3.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-2.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-2.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-3.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-3.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-3.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/serverconfig/forge-server.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/usernamecache.json" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the spears (Part 5) (Fixing some errors)">
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
@@ -63,18 +13,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/backported.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/loom-cache/mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/loom-cache/mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/backported.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/LivingEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/LivingEntityMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
@@ -273,7 +220,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770487979780</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding the spears (Part 4) (All mixins registered)">
+      <option name="closed" value="true" />
+      <created>1770492927320</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770492927320</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding the spears (Part 5) (Fixing some errors)">
+      <option name="closed" value="true" />
+      <created>1770493084560</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770493084560</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -282,6 +245,8 @@
     <MESSAGE value="Adding the spears (Part 1) (Still need to fix errors)" />
     <MESSAGE value="Adding the spears (Part 2) (Still need to add more mixins)" />
     <MESSAGE value="Adding the spears (Part 3) (Forgot one class)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the spears (Part 3) (Forgot one class)" />
+    <MESSAGE value="Adding the spears (Part 4) (All mixins registered)" />
+    <MESSAGE value="Adding the spears (Part 5) (Fixing some errors)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the spears (Part 5) (Fixing some errors)" />
   </component>
 </project>
