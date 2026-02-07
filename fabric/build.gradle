@@ -44,8 +44,6 @@ dependencies {
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
-
-//    modCompileOnly "curse.maven:backported-spears-1385191:7540679"
 }
 
 processResources {
