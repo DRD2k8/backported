@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "#forge:nuggets",
+      "required": false
+    },
+    {
+      "id": "#c:nuggets",
+      "required": false
+    }
+  ]
+}

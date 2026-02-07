@@ -7,6 +7,15 @@ architectury {
     fabric()
 }
 
+sourceSets {
+    main {
+        resources {
+            srcDir "../common/src/generated/resources"
+            srcDir "../common/src/main/resources"
+        }
+    }
+}
+
 configurations {
     common {
         canBeResolved = true

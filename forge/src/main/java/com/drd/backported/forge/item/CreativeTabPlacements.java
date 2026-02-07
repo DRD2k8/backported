@@ -60,6 +60,9 @@ public class CreativeTabPlacements {
 //                    ModItems.DIAMOND_SPEAR.get(),
 //                    ModItems.NETHERITE_SPEAR.get()
 //            );
+            entries.addAfter(Items.STONE_AXE,
+                    ModItems.COPPER_AXE.get()
+            );
             entries.addAfter(Items.TRIDENT,
                     ModItems.MACE.get()
             );

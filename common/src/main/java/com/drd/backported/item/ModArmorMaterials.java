@@ -1,5 +1,6 @@
 package com.drd.backported.item;
 
+import com.drd.backported.Backported;
 import com.drd.backported.init.ModSounds;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.Util;
@@ -76,7 +77,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public String getName() {
-        return this.name;
+        return Backported.MOD_ID + ":" + this.name;
     }
 
     @Override

@@ -1,6 +1,7 @@
 package com.drd.backported;
 
 import com.drd.backported.init.*;
+import com.drd.backported.util.ModSoundTypes;
 
 public final class Backported {
     public static final String MOD_ID = "backported";
@@ -10,5 +11,7 @@ public final class Backported {
         ModEntities.register();
         ModItems.register();
         ModSounds.register();
+
+        ModSoundTypes.init();
     }
 }

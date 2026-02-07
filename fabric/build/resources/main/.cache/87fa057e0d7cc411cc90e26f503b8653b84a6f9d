@@ -1,0 +1,12 @@
+// 1.20.1	2026-02-06T14:39:57.0787141	Tags for minecraft:item mod id backported
+d39f50119614b15b2429cf4bc50a4b7225a8a98c data/backported/tags/items/metal_nuggets.json
+a23fe9a0f53784be9de7707332d7bc08791f662f data/backported/tags/items/sticks.json
+e75ff357b32a28367c7aa47cfa8dc738f1c393f0 data/c/tags/items/copper_nuggets.json
+4ce865bbd1e7488552ea964265de31722c836989 data/c/tags/items/nuggets.json
+1582db8194dc603f2270dfbc309a4b7c38febe41 data/forge/tags/items/nuggets.json
+e75ff357b32a28367c7aa47cfa8dc738f1c393f0 data/forge/tags/items/nuggets/copper.json
+d4691cd07dbc5f5dd1f71bd8265a8c8ff1a78172 data/minecraft/tags/items/axes.json
+3a552dcdbb25e12478abb14097282aec24f4c75c data/minecraft/tags/items/hoes.json
+807f6e496ec0d50c47ca255c5a689d07784ddd15 data/minecraft/tags/items/pickaxes.json
+c25c1967207bf060b049c0b9de3f5f3a7da9f426 data/minecraft/tags/items/shovels.json
+9951fa925377fe0e8b8d519593b342fa170affaa data/minecraft/tags/items/swords.json
