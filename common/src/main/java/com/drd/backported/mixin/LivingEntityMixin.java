@@ -30,7 +30,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -49,16 +48,12 @@ public abstract class LivingEntityMixin implements SpearUser {
     public LivingEntityMixin() {
     }
 
-    @Shadow
     public abstract ItemStack m_21205_();
 
-    @Shadow
     public abstract ItemStack m_21211_();
 
-    @Shadow
     public abstract boolean m_21023_(MobEffect var1);
 
-    @Shadow
     public abstract @Nullable MobEffectInstance m_21124_(MobEffect var1);
 
     @Inject(
@@ -138,11 +133,11 @@ public abstract class LivingEntityMixin implements SpearUser {
                     l = (LivingEntity)e;
                 } while(l.hurtTime != 0);
 
-                long l = this.spears$piercingCooldowns.getLong(e);
-                if (l > 1L) {
-                    this.spears$piercingCooldowns.replace(e, l - 1L);
+                long L = this.spears$piercingCooldowns.getLong(e);
+                if (L > 1L) {
+                    this.spears$piercingCooldowns.replace(e, L - 1L);
                 } else {
-                    this.spears$piercingCooldowns.remove(e, l);
+                    this.spears$piercingCooldowns.remove(e, L);
                 }
             }
         }

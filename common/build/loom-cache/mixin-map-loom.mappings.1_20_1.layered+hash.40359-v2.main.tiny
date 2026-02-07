@@ -9,6 +9,13 @@ FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/ge
 FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/geom/ModelPart;	f_102808_	f_102808_
 FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/HumanoidModel$ArmPose;	f_102816_	f_102816_
 FIELD	com/drd/backported/mixin/HumanoidModelMixin	Lnet/minecraft/client/model/HumanoidModel$ArmPose;	f_102815_	f_102815_
+FIELD	com/drd/backported/mixin/ItemRendererMixin	Lnet/minecraft/client/renderer/ItemModelShaper;	itemModelShaper	field_4732
 FIELD	com/drd/backported/mixin/LocalPlayerMixin	Lnet/minecraft/client/player/Input;	input	field_3913
 FIELD	com/drd/backported/mixin/LocalPlayerMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_3937
+FIELD	com/drd/backported/mixin/MinecraftMixin	Lnet/minecraft/client/player/LocalPlayer;	localPlayer	localPlayer
 METHOD	com/drd/backported/mixin/HumanoidModelMixin	(Lnet/minecraft/world/entity/HumanoidArm;)Lnet/minecraft/client/model/geom/ModelPart;	m_102851_	m_102851_
+METHOD	com/drd/backported/mixin/ItemPropertiesMixin	(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/client/renderer/item/ClampedItemPropertyFunction;)Lnet/minecraft/client/renderer/item/ClampedItemPropertyFunction;	m_174581_	m_174581_
+METHOD	com/drd/backported/mixin/LivingEntityMixin	()Lnet/minecraft/world/item/ItemStack;	m_21205_	m_21205_
+METHOD	com/drd/backported/mixin/LivingEntityMixin	()Lnet/minecraft/world/item/ItemStack;	m_21211_	m_21211_
+METHOD	com/drd/backported/mixin/LivingEntityMixin	(Lnet/minecraft/world/effect/MobEffect;)Z	m_21023_	m_21023_
+METHOD	com/drd/backported/mixin/LivingEntityMixin	(Lnet/minecraft/world/effect/MobEffect;)Lnet/minecraft/world/effect/MobEffectInstance;	m_21124_	m_21124_
