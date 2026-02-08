@@ -56,6 +56,12 @@ public class CreativeTabPlacements {
             );
         }
 
+        if (tab == CreativeModeTabs.NATURAL_BLOCKS) {
+            entries.addAfter(Items.CHERRY_LOG,
+                    ModBlocks.PALE_OAK_LOG.get()
+            );
+        }
+
         if (tab == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             entries.addAfter(Items.STONE_HOE,
                     ModItems.COPPER_HOE.get(),

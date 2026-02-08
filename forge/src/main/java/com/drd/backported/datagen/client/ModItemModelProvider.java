@@ -30,6 +30,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         fenceItem(ModBlocks.PALE_OAK_FENCE, ModBlocks.PALE_OAK_PLANKS);
         evenSimplerBlockItem(ModBlocks.PALE_OAK_FENCE_GATE);
         evenSimplerBlockItem(ModBlocks.PALE_OAK_PRESSURE_PLATE);
+        simpleBlockItem(ModBlocks.PALE_OAK_DOOR);
+        withExistingParent("pale_oak_trapdoor", ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "block/pale_oak_trapdoor_bottom"));
         buttonItem(ModBlocks.PALE_OAK_BUTTON, ModBlocks.PALE_OAK_PLANKS);
 
         // The Copper Age
@@ -45,13 +47,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.COPPER_BOOTS);
     }
 
-    private ItemModelBuilder saplingItem(RegistrySupplier<Block> item) {
+    private ItemModelBuilder simpleItem(RegistrySupplier<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
-                ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"block/" + item.getId().getPath()));
+                ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath()));
     }
 
-    private ItemModelBuilder simpleItem(RegistrySupplier<Item> item) {
+    private ItemModelBuilder simpleBlockItem(RegistrySupplier<Block> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath()));

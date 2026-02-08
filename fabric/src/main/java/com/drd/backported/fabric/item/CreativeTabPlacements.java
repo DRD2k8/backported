@@ -29,6 +29,9 @@ public class CreativeTabPlacements {
     }
 
     private static void addItemsToNaturalBlocksTab(FabricItemGroupEntries entries) {
+        entries.addAfter(Items.CHERRY_LOG,
+                ModBlocks.PALE_OAK_LOG.get()
+        );
     }
 
     private static void addItemsToFunctionalBlocksTab(FabricItemGroupEntries entries) {
