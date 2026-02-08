@@ -4,10 +4,345 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the spears (Part 7) (FINALLY!)">
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Craftable items">
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/8a0bd0a761c87bca0056a45eb547d6c633960e46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_door.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_fence.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_fence_gate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_pressure_plate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_trapdoor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/stripped_pale_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/stripped_pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_button_pressed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_door_bottom_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_door_bottom_left_open.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_door_bottom_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_door_bottom_right_open.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_door_top_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_door_top_left_open.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_door_top_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_door_top_right_open.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_fence_gate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_fence_gate_open.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_fence_gate_wall.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_fence_gate_wall_open.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_fence_post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_fence_side.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_log_horizontal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_pressure_plate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_pressure_plate_down.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_slab_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_stairs_inner.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_stairs_outer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_trapdoor_bottom.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_trapdoor_open.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_trapdoor_top.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/pale_oak_wood_horizontal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/stripped_pale_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/stripped_pale_oak_log_horizontal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/stripped_pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/stripped_pale_oak_wood_horizontal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/pale_oak_button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/pale_oak_fence.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/pale_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/pale_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/stripped_pale_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/stripped_pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/pale_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/pale_oak_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/pale_oak_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/stripped_pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/pale_oak_fence.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/pale_oak_button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/pale_oak_door.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/pale_oak_fence_gate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/pale_oak_pressure_plate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/pale_oak_trapdoor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_door.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_fence.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_fence_gate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_pressure_plate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_trapdoor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/stripped_pale_oak_log.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/stripped_pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_button.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_door.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_fence.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_fence_gate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_pressure_plate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_trapdoor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/stripped_pale_oak_wood.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/tags/blocks/pale_oak_logs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/tags/items/pale_oak_logs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/fence_gates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/logs_that_burn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/wooden_buttons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/wooden_doors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/wooden_fences.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/wooden_pressure_plates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/wooden_slabs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/wooden_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/wooden_trapdoors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/fence_gates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/logs_that_burn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/planks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/wooden_buttons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/wooden_doors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/wooden_fences.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/wooden_pressure_plates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/wooden_slabs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/wooden_stairs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/wooden_trapdoors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModStrippables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/StrippableAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_door_bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_door_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_leaves.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_leaves.png.mcmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_log_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_planks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_sapling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/pale_oak_trapdoor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/stripped_pale_oak_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/stripped_pale_oak_log_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/boat/pale_oak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/chest_boat/pale_oak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/signs/hanging/pale_oak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/signs/pale_oak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/gui/hanging_signs/pale_oak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/pale_oak_boat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/pale_oak_chest_boat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/pale_oak_door.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/pale_oak_hanging_sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/pale_oak_sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/advancements/4d37c633-0973-3240-a4d3-ce7d81f39110.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/playerdata/4d37c633-0973-3240-a4d3-ce7d81f39110.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/playerdata/4d37c633-0973-3240-a4d3-ce7d81f39110.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-2.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-2.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/stats/4d37c633-0973-3240-a4d3-ce7d81f39110.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/mixin/AxeItemAccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/resources/backported.fabric.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.01.19-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.01.58-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.05.28-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.18.44-fml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.25.58-fml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.30.46-fml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/capabilities.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-2.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-2.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-2.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/serverconfig/forge-server.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModBlockStateProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/resources/META-INF/accesstransformer.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModBlocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/BackportedFabric.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/BackportedFabric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/advancements/e5bad5ae-87fa-3676-b10f-8a571200822c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/playerdata/e5bad5ae-87fa-3676-b10f-8a571200822c.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/playerdata/e5bad5ae-87fa-3676-b10f-8a571200822c.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/No more crashing I mean it/stats/e5bad5ae-87fa-3676-b10f-8a571200822c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/BackportedFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/BackportedFabric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/.gradle/loom-cache/forge_minecraft_classpath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/loom-cache/forge_minecraft_classpath.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/DataGenerators.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/DataGenerators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/client/ModItemModelProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/client/ModItemModelProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModLootTableProvider$Blocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModLootTableProvider$Blocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModBlockTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModBlockTagProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/BackportedForge.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/BackportedForge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-07-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/DIM-1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/DIM1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/data/random_sequences.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/poi/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/poi/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/poi/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/serverconfig/forge-server.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/No more crashing/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/DataGenerators.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/DataGenerators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModLootTableProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModLootTableProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModBlockTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/BackportedForge.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/BackportedForge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +450,12 @@
     "last_opened_file_path": "D:/minecraft_mod_repository_contributions"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.drd.backported.forge" />
+      <recent name="com.drd.backported.util" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Minecraft Data (:forge)">
     <configuration name="forge-1.20.1:forge [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -230,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770499660407</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Craftable items">
+      <option name="closed" value="true" />
+      <created>1770506076085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1770506076085</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +592,7 @@
     <MESSAGE value="Adding the spears (Part 5) (Fixing some errors)" />
     <MESSAGE value="Adding the spears (Part 6) (Fixing some errors, again)" />
     <MESSAGE value="Adding the spears (Part 7) (FINALLY!)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the spears (Part 7) (FINALLY!)" />
+    <MESSAGE value="Craftable items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Craftable items" />
   </component>
 </project>

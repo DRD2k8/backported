@@ -6,6 +6,8 @@ import com.drd.backported.util.ModTags;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -30,6 +32,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(consumer);
 
         unpack(ModItems.BREEZE_ROD.get(), ModItems.WIND_CHARGE.get(), 4, consumer);
+
+        // The Garden Awakens
+        bark(ModBlocks.PALE_OAK_LOG.get(), ModBlocks.PALE_OAK_WOOD.get(), consumer);
+        bark(ModBlocks.STRIPPED_PALE_OAK_LOG.get(), ModBlocks.STRIPPED_PALE_OAK_WOOD.get(), consumer);
+        planks(ModTags.Items.PALE_OAK_LOGS, ModBlocks.PALE_OAK_PLANKS.get(), consumer);
+        woodenStairs(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_STAIRS.get(), consumer);
+        woodenSlab(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_SLAB.get(), consumer);
+        woodenFence(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_FENCE.get(), consumer);
+        woodenFenceGate(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_FENCE_GATE.get(), consumer);
+        woodenDoor(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_DOOR.get(), consumer);
+        woodenTrapdoor(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_TRAPDOOR.get(), consumer);
+        woodenPressurePlate(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_PRESSURE_PLATE.get(), consumer);
+        woodenButton(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_BUTTON.get(), consumer);
 
         // Chase the Skies
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Items.LEAD, 2)
@@ -135,6 +150,212 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     protected static void resourceUnpack(ItemLike packedItem, ItemLike unpackedItem, Consumer<FinishedRecipe> consumer) {
         unpack(packedItem, unpackedItem, 9, consumer);
+    }
+
+    protected static void bark(ItemLike log, ItemLike bark, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, bark, 3)
+                .pattern("##")
+                .pattern("##")
+                .define('#', log)
+                .group("bark")
+                .unlockedBy("has_log", has(log))
+                .save(consumer);
+    }
+
+    protected static void planks(TagKey<Item> log, ItemLike planks, Consumer<FinishedRecipe> consumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, planks, 4)
+                .requires(log)
+                .group("planks")
+                .unlockedBy("has_log", has(log))
+                .save(consumer);
+    }
+
+    protected static void stairs(ItemLike base, ItemLike stairs, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, stairs, 4)
+                .pattern("#  ")
+                .pattern("## ")
+                .pattern("###")
+                .define('#', base)
+                .unlockedBy(getHasName(base), has(base))
+                .save(consumer);
+    }
+
+    protected static void woodenStairs(ItemLike planks, ItemLike stairs, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, stairs, 4)
+                .pattern("#  ")
+                .pattern("## ")
+                .pattern("###")
+                .define('#', planks)
+                .group("wooden_stairs")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void slab(ItemLike base, ItemLike slab, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, slab, 6)
+                .pattern("###")
+                .define('#', base)
+                .unlockedBy(getHasName(base), has(base))
+                .save(consumer);
+    }
+
+    protected static void woodenSlab(ItemLike planks, ItemLike slab, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, slab, 6)
+                .pattern("#  ")
+                .pattern("## ")
+                .pattern("###")
+                .define('#', planks)
+                .group("wooden_slab")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void woodenFence(ItemLike planks, ItemLike fence, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, fence, 3)
+                .pattern("W#W")
+                .pattern("W#W")
+                .define('#', ModTags.Items.STICKS)
+                .define('W', planks)
+                .group("wooden_fence")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void woodenFenceGate(ItemLike planks, ItemLike fenceGate, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, fenceGate)
+                .pattern("#W#")
+                .pattern("#W#")
+                .define('#', ModTags.Items.STICKS)
+                .define('W', planks)
+                .group("wooden_fence_gate")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void door(ItemLike base, ItemLike door, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, door, 3)
+                .pattern("##")
+                .pattern("##")
+                .pattern("##")
+                .define('#', base)
+                .unlockedBy(getHasName(base), has(base))
+                .save(consumer);
+    }
+
+    protected static void woodenDoor(ItemLike planks, ItemLike door, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, door, 3)
+                .pattern("##")
+                .pattern("##")
+                .pattern("##")
+                .define('#', planks)
+                .group("wooden_door")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void trapdoor(ItemLike base, ItemLike trapdoor, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, trapdoor, 2)
+                .pattern("###")
+                .pattern("###")
+                .define('#', base)
+                .unlockedBy(getHasName(base), has(base))
+                .save(consumer);
+    }
+
+    protected static void woodenTrapdoor(ItemLike planks, ItemLike trapdoor, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, trapdoor, 2)
+                .pattern("###")
+                .pattern("###")
+                .define('#', planks)
+                .group("wooden_trapdoor")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void pressurePlate(ItemLike base, ItemLike pressurePlate, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, pressurePlate)
+                .pattern("##")
+                .define('#', base)
+                .unlockedBy(getHasName(base), has(base))
+                .save(consumer);
+    }
+
+    protected static void woodenPressurePlate(ItemLike planks, ItemLike pressurePlate, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, pressurePlate)
+                .pattern("##")
+                .define('#', planks)
+                .group("wooden_pressure_plate")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void button(ItemLike base, ItemLike button, Consumer<FinishedRecipe> consumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.REDSTONE, button)
+                .requires(base)
+                .unlockedBy(getHasName(base), has(base))
+                .save(consumer);
+    }
+
+    protected static void woodenButton(ItemLike planks, ItemLike button, Consumer<FinishedRecipe> consumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.REDSTONE, button)
+                .requires(planks)
+                .group("wooden_button")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void shelf(ItemLike strippedLog, ItemLike shelf, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, shelf, 6)
+                .pattern("###")
+                .pattern("   ")
+                .pattern("###")
+                .define('#', strippedLog)
+                .group("shelf")
+                .unlockedBy("has_stripped_log", has(strippedLog))
+                .save(consumer);
+    }
+
+    protected static void sign(ItemLike planks, ItemLike sign, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, sign, 3)
+                .pattern("###")
+                .pattern("###")
+                .pattern(" X ")
+                .define('#', planks)
+                .define('X', ModTags.Items.STICKS)
+                .group("wooden_sign")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void hangingSign(ItemLike strippedLog, ItemLike hangingSign, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, hangingSign, 6)
+                .pattern("X X")
+                .pattern("###")
+                .pattern("###")
+                .define('#', strippedLog)
+                .define('X', Items.CHAIN)
+                .group("hanging_sign")
+                .unlockedBy("has_stripped_log", has(strippedLog))
+                .save(consumer);
+    }
+
+    protected static void boat(ItemLike planks, ItemLike boat, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, boat)
+                .pattern("# #")
+                .pattern("###")
+                .define('#', planks)
+                .group("boat")
+                .unlockedBy("has_planks", has(planks))
+                .save(consumer);
+    }
+
+    protected static void chestBoat(ItemLike boat, ItemLike chestBoat, Consumer<FinishedRecipe> consumer) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.TRANSPORTATION, chestBoat)
+                .requires(Items.CHEST)
+                .requires(boat)
+                .group("chest_boat")
+                .unlockedBy("has_boat", has(boat))
+                .save(consumer);
     }
 
     protected static void sword(ItemLike material, ItemLike sword, Consumer<FinishedRecipe> consumer) {

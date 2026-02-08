@@ -2,6 +2,7 @@ package com.drd.backported.forge;
 
 import com.drd.backported.forge.packets.PacketHandler;
 import com.drd.backported.util.ModSoundTypes;
+import com.drd.backported.util.ModStrippables;
 import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -23,6 +24,7 @@ public final class BackportedForge {
         event.enqueueWork(() -> {
             ModSoundTypes.init();
             PacketHandler.init();
+            ModStrippables.register();
         });
     }
 }

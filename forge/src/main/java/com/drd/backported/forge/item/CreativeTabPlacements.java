@@ -38,6 +38,24 @@ public class CreativeTabPlacements {
             }
         };
 
+        if (tab == CreativeModeTabs.BUILDING_BLOCKS) {
+            entries.addAfter(Items.CHERRY_BUTTON,
+                    ModBlocks.PALE_OAK_BUTTON.get(),
+                    ModBlocks.PALE_OAK_PRESSURE_PLATE.get(),
+                    ModBlocks.PALE_OAK_TRAPDOOR.get(),
+                    ModBlocks.PALE_OAK_DOOR.get(),
+                    ModBlocks.PALE_OAK_FENCE_GATE.get(),
+                    ModBlocks.PALE_OAK_FENCE.get(),
+                    ModBlocks.PALE_OAK_SLAB.get(),
+                    ModBlocks.PALE_OAK_STAIRS.get(),
+                    ModBlocks.PALE_OAK_PLANKS.get(),
+                    ModBlocks.STRIPPED_PALE_OAK_WOOD.get(),
+                    ModBlocks.STRIPPED_PALE_OAK_LOG.get(),
+                    ModBlocks.PALE_OAK_WOOD.get(),
+                    ModBlocks.PALE_OAK_LOG.get()
+            );
+        }
+
         if (tab == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             entries.addAfter(Items.STONE_HOE,
                     ModItems.COPPER_HOE.get(),

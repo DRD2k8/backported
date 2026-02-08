@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-06T14:39:57.0787141	Item Models: backported
+// 1.20.1	2026-02-07T18:00:22.8984874	Item Models: backported
 b06ec9fddebeb6ab9df2421c03efbcc7f555d615 assets/backported/models/item/breeze_rod.json
 932e4b8b041ca8643ba3731d66569cb4a8f5a91c assets/backported/models/item/copper_axe.json
 07dd4dd9b436183f7dc5199a11ac8c2ae831e4f2 assets/backported/models/item/copper_boots.json
@@ -10,4 +10,6 @@ c64501866c08bdb214695271068c14d2b01f653a assets/backported/models/item/copper_he
 48aaae5efe4b30ce1ebff2f3329f35299993bb0d assets/backported/models/item/copper_pickaxe.json
 dcdb4601c4a3143c4dc7f251993ff361158528cd assets/backported/models/item/copper_shovel.json
 50b842fe0b0517e3bf4e8dfda7dc10775d7742ed assets/backported/models/item/copper_sword.json
+676170056da8b439ad8209336f98b3f3610d0539 assets/backported/models/item/pale_oak_button.json
+03ab0e64d3c6a57c1772cda16f897ea9d1f77c11 assets/backported/models/item/pale_oak_fence.json
 c4581fd2a54a59fc82662c964b88b9cc2092e417 assets/backported/models/item/wind_charge.json

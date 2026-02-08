@@ -1,2 +1,15 @@
-// 1.20.1	2026-02-06T14:39:57.0787141	Loot Tables
+// 1.20.1	2026-02-07T18:00:22.8974873	Loot Tables
 5fb450653c073f7606c32ae307d3b04a190539ff data/backported/loot_tables/blocks/heavy_core.json
+c9c12cccfe8208e0fa3efca77d43f877d7b29fb7 data/backported/loot_tables/blocks/pale_oak_button.json
+ad9de720435738d2b99502c05ed2b9a47d70dccf data/backported/loot_tables/blocks/pale_oak_door.json
+67c3c1a7e6c764af493954ab21b7981f9c9b96b2 data/backported/loot_tables/blocks/pale_oak_fence.json
+6f58632130c2bd194b666ceef240999fa33ff7ff data/backported/loot_tables/blocks/pale_oak_fence_gate.json
+e6811d0376a14f6bf13988bb8ba23a008e0d9423 data/backported/loot_tables/blocks/pale_oak_log.json
+d240e9a454a0d219f028d5ea5110e8c322135982 data/backported/loot_tables/blocks/pale_oak_planks.json
+7abaa12b7c8260eff4953cd4bc9483b09291ce42 data/backported/loot_tables/blocks/pale_oak_pressure_plate.json
+6f9a0c247d7e52e1cc310bd764b5afc9a67de5f8 data/backported/loot_tables/blocks/pale_oak_slab.json
+a712797da49965d4aa3c5b0c27c5315323cf5f17 data/backported/loot_tables/blocks/pale_oak_stairs.json
+4609221c5f67fb592cac38c350e3218b3d6a7263 data/backported/loot_tables/blocks/pale_oak_trapdoor.json
+413b56b27a46d6e3763eac889840c7a9bd8bf0bc data/backported/loot_tables/blocks/pale_oak_wood.json
+ef7ed9f9b85eef2fdd46937793de400a0fc6459f data/backported/loot_tables/blocks/stripped_pale_oak_log.json
+4c9b1f3487b9c93703da65e52d26eea02b63c6de data/backported/loot_tables/blocks/stripped_pale_oak_wood.json

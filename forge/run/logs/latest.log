@@ -1,45 +1,47 @@
-[15:13:24] [main/INFO] (Launcher) ModLauncher running: args [-mixin.config, backported.mixins.json, --launchTarget, forgedatauserdev, --assetIndex, 1.20.1-5, --assetsDir, C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\fabric-loom\assets, --gameDir, ., --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --existing, D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\main\resources, --all, --mod, backported, --output, D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\generated\resources, --mixin.config, backported.mixins.json]
-[15:13:24] [main/INFO] (Launcher) ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
-[15:13:24] [main/INFO] (ImmediateWindowHandler) ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[15:13:24] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/dandi/scoop/apps/gradle/current/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.12/cf1f787f58d3b08b0cb53ecbba7928c09a1893c8/mixin-patched-0.8.5.12.jar%23127!/ Service=ModLauncher Env=CLIENT
-[15:13:24] [main/WARN] (ModFileParser) Mod file C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[15:13:24] [main/WARN] (ModFileParser) Mod file C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[15:13:24] [main/WARN] (ModFileParser) Mod file C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
-[15:13:24] [main/WARN] (ModFileParser) Mod file C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
-[15:13:24] [main/INFO] (ModDiscoverer) Found mod file javafmllanguage-1.20.1-47.4.10.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f92ef40
-[15:13:24] [main/INFO] (ModDiscoverer) Found mod file lowcodelanguage-1.20.1-47.4.10.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f92ef40
-[15:13:24] [main/INFO] (ModDiscoverer) Found mod file mclanguage-1.20.1-47.4.10.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f92ef40
-[15:13:24] [main/INFO] (ModDiscoverer) Found mod file fmlcore-1.20.1-47.4.10.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f92ef40
-[15:13:24] [main/INFO] (ModDiscoverer) Found mod file forge-1.20.1-47.4.10-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f92ef40
-[15:13:24] [main/INFO] (ModDiscoverer) Found mod file main of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f92ef40
-[15:13:24] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f92ef40
-[15:13:25] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-9.2.14.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@20e43235
-[15:13:25] [main/INFO] (ModDiscoverer) Found mod file 10626614224406259119.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@20e43235
-[15:13:25] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-9.2.14.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@20e43235
-[15:13:25] [main/INFO] (ModDiscoverer) Found mod file 10626614224406259119.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@20e43235
-[15:13:25] [main/INFO] (JarInJarDependencyLocator) No dependencies to load found. Skipping!
-[15:13:26] [main/INFO] (mixin) Compatibility level set to JAVA_17
-[15:13:26] [main/INFO] (LaunchServiceHandler) Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\fabric-loom\assets, --assetIndex, 1.20.1-5, --existing, D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\main\resources, --all, --mod, backported, --output, D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\generated\resources]
-[15:13:26] [main/WARN] (mixin) Reference map 'backported.refmap.json' for backported.mixins.json could not be read. If this is a development environment you can ignore this message
-[15:13:26] [main/INFO] (unprotect) Found 7423 Minecraft classes
-[15:13:26] [main/INFO] (mixin) Remapping refMap architectury-forge-refmap.json using RemapperChain (Architectury Patched)
-[15:13:26] [main/INFO] (mixin) Remapping refMap architectury-common-refmap.json using RemapperChain (Architectury Patched)
-[07Feb2026 15:13:27.906] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [backported]
-[07Feb2026 15:13:34.426] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
-[07Feb2026 15:13:34.426] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
-[07Feb2026 15:13:34.889] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
-[07Feb2026 15:13:34.890] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[07Feb2026 15:13:35.166] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/dandi/scoop/apps/gradle/current/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.20.1-47.4.10-minecraft-merged/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10/forge-1.20.1-47.4.10-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10.jar%23199!/assets/.mcassetsroot' uses unexpected schema
-[07Feb2026 15:13:35.166] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/dandi/scoop/apps/gradle/current/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/forge-1.20.1-47.4.10-minecraft-merged/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10/forge-1.20.1-47.4.10-minecraft-merged-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10.jar%23199!/data/.mcassetsroot' uses unexpected schema
-[07Feb2026 15:13:35.365] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[07Feb2026 15:13:35.665] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 300 ms
-[07Feb2026 15:13:35.666] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[07Feb2026 15:13:35.690] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 24 ms
-[07Feb2026 15:13:35.690] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: backported
-[07Feb2026 15:13:35.712] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: backported finished after 21 ms
-[07Feb2026 15:13:35.712] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id backported
-[07Feb2026 15:13:35.722] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id backported finished after 9 ms
-[07Feb2026 15:13:35.722] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id backported
-[07Feb2026 15:13:35.727] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id backported finished after 4 ms
-[07Feb2026 15:13:35.727] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 362 ms
-[07Feb2026 15:13:35.737] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 73, old count: 67, new count: 74, removed stale: 0, written: 6
+[19:26:06] [main/INFO] (Launcher) ModLauncher running: args [-mixin.config, backported.mixins.json, --launchTarget, forgedatauserdev, --assetIndex, 1.20.1-5, --assetsDir, C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\fabric-loom\assets, --gameDir, ., --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --existing, D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\main\resources, --all, --mod, backported, --output, D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\generated\resources, --mixin.config, backported.mixins.json]
+[19:26:06] [main/INFO] (Launcher) ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.12 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[19:26:06] [main/INFO] (ImmediateWindowHandler) ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[19:26:06] [main/INFO] (mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/dandi/scoop/apps/gradle/current/.gradle/caches/modules-2/files-2.1/dev.architectury/mixin-patched/0.8.5.12/cf1f787f58d3b08b0cb53ecbba7928c09a1893c8/mixin-patched-0.8.5.12.jar%23127!/ Service=ModLauncher Env=CLIENT
+[19:26:06] [main/WARN] (ModFileParser) Mod file C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[19:26:06] [main/WARN] (ModFileParser) Mod file C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[19:26:06] [main/WARN] (ModFileParser) Mod file C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[19:26:06] [main/WARN] (ModFileParser) Mod file C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file javafmllanguage-1.20.1-47.4.10.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@327fd5c9
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file lowcodelanguage-1.20.1-47.4.10.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@327fd5c9
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file mclanguage-1.20.1-47.4.10.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@327fd5c9
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file fmlcore-1.20.1-47.4.10.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@327fd5c9
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file forge-1.20.1-47.4.10-minecraft-merged-2d6088e313-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@327fd5c9
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file main of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@327fd5c9
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file  of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@327fd5c9
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-9.2.14.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@58cd7486
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file 8289207410319626803.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@58cd7486
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file architectury-forge-9.2.14.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@58cd7486
+[19:26:06] [main/INFO] (ModDiscoverer) Found mod file 8289207410319626803.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.ClasspathLocator@58cd7486
+[19:26:06] [main/INFO] (JarInJarDependencyLocator) No dependencies to load found. Skipping!
+[19:26:08] [main/INFO] (mixin) Compatibility level set to JAVA_17
+[19:26:08] [main/INFO] (LaunchServiceHandler) Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\fabric-loom\assets, --assetIndex, 1.20.1-5, --existing, D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\main\resources, --all, --mod, backported, --output, D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\generated\resources]
+[19:26:08] [main/WARN] (mixin) Reference map 'backported.refmap.json' for backported.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:26:08] [main/INFO] (unprotect) Found 7423 Minecraft classes
+[19:26:08] [main/INFO] (mixin) Remapping refMap architectury-forge-refmap.json using RemapperChain (Architectury Patched)
+[19:26:08] [main/INFO] (mixin) Remapping refMap architectury-common-refmap.json using RemapperChain (Architectury Patched)
+[07Feb2026 19:26:09.235] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [backported]
+[07Feb2026 19:26:13.742] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[07Feb2026 19:26:13.746] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[07Feb2026 19:26:14.312] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[07Feb2026 19:26:14.313] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[07Feb2026 19:26:14.632] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/minecraft_mod_repository_branches/backported_real_version/forge-1.20.1/.gradle/loom-cache/minecraftMaven/net/minecraft/forge-1.20.1-47.4.10-minecraft-merged-2d6088e313/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10/forge-1.20.1-47.4.10-minecraft-merged-2d6088e313-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10.jar%23199!/assets/.mcassetsroot' uses unexpected schema
+[07Feb2026 19:26:14.632] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/minecraft_mod_repository_branches/backported_real_version/forge-1.20.1/.gradle/loom-cache/minecraftMaven/net/minecraft/forge-1.20.1-47.4.10-minecraft-merged-2d6088e313/1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10/forge-1.20.1-47.4.10-minecraft-merged-2d6088e313-1.20.1-loom.mappings.1_20_1.layered+hash.40359-v2-forge-1.20.1-47.4.10.jar%23199!/data/.mcassetsroot' uses unexpected schema
+[07Feb2026 19:26:14.807] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[07Feb2026 19:26:14.901] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 93 ms
+[07Feb2026 19:26:14.901] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[07Feb2026 19:26:14.958] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 56 ms
+[07Feb2026 19:26:14.958] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: backported
+[07Feb2026 19:26:15.174] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: backported finished after 215 ms
+[07Feb2026 19:26:15.174] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: backported
+[07Feb2026 19:26:15.193] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: backported finished after 19 ms
+[07Feb2026 19:26:15.193] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id backported
+[07Feb2026 19:26:15.216] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id backported finished after 22 ms
+[07Feb2026 19:26:15.217] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id backported
+[07Feb2026 19:26:15.222] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id backported finished after 5 ms
+[07Feb2026 19:26:15.222] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 414 ms
+[07Feb2026 19:26:15.234] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 189, old count: 185, new count: 190, removed stale: 0, written: 4

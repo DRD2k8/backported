@@ -27,7 +27,25 @@ public class ModLootTableProvider {
 
         @Override
         protected void generate() {
+            // Tricky Trials
             this.dropSelf(ModBlocks.HEAVY_CORE.get());
+
+            // The Garden Awakens
+            this.dropSelf(ModBlocks.PALE_OAK_LOG.get());
+            this.dropSelf(ModBlocks.PALE_OAK_WOOD.get());
+            this.dropSelf(ModBlocks.STRIPPED_PALE_OAK_LOG.get());
+            this.dropSelf(ModBlocks.STRIPPED_PALE_OAK_WOOD.get());
+            this.dropSelf(ModBlocks.PALE_OAK_PLANKS.get());
+            this.dropSelf(ModBlocks.PALE_OAK_STAIRS.get());
+            this.add(ModBlocks.PALE_OAK_SLAB.get(),
+                    block -> createSlabItemTable(ModBlocks.PALE_OAK_SLAB.get()));
+            this.dropSelf(ModBlocks.PALE_OAK_FENCE.get());
+            this.dropSelf(ModBlocks.PALE_OAK_FENCE_GATE.get());
+            this.add(ModBlocks.PALE_OAK_DOOR.get(),
+                    block -> createDoorTable(ModBlocks.PALE_OAK_DOOR.get()));
+            this.dropSelf(ModBlocks.PALE_OAK_TRAPDOOR.get());
+            this.dropSelf(ModBlocks.PALE_OAK_PRESSURE_PLATE.get());
+            this.dropSelf(ModBlocks.PALE_OAK_BUTTON.get());
         }
 
         @Override

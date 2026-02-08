@@ -1,6 +1,7 @@
 package com.drd.backported.datagen.server.tags;
 
 import com.drd.backported.Backported;
+import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModItems;
 import com.drd.backported.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -21,6 +22,42 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .addTag(ModTags.Items.PALE_OAK_LOGS);
+
+        this.tag(ModTags.Items.PALE_OAK_LOGS)
+                .add(ModBlocks.PALE_OAK_LOG.get().asItem())
+                .add(ModBlocks.PALE_OAK_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_PALE_OAK_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_PALE_OAK_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.PALE_OAK_PLANKS.get().asItem());
+
+        this.tag(ItemTags.WOODEN_STAIRS)
+                .add(ModBlocks.PALE_OAK_STAIRS.get().asItem());
+
+        this.tag(ItemTags.WOODEN_SLABS)
+                .add(ModBlocks.PALE_OAK_SLAB.get().asItem());
+
+        this.tag(ItemTags.WOODEN_FENCES)
+                .add(ModBlocks.PALE_OAK_FENCE.get().asItem());
+
+        this.tag(ItemTags.FENCE_GATES)
+                .add(ModBlocks.PALE_OAK_FENCE_GATE.get().asItem());
+
+        this.tag(ItemTags.WOODEN_DOORS)
+                .add(ModBlocks.PALE_OAK_DOOR.get().asItem());
+
+        this.tag(ItemTags.WOODEN_TRAPDOORS)
+                .add(ModBlocks.PALE_OAK_TRAPDOOR.get().asItem());
+
+        this.tag(ItemTags.WOODEN_PRESSURE_PLATES)
+                .add(ModBlocks.PALE_OAK_PRESSURE_PLATE.get().asItem());
+
+        this.tag(ItemTags.WOODEN_BUTTONS)
+                .add(ModBlocks.PALE_OAK_BUTTON.get().asItem());
+
         this.tag(ModTags.Items.METAL_NUGGETS)
                 .addOptionalTag(Tags.Items.NUGGETS)
                 .addOptionalTag(ModTags.Items.FABRIC_NUGGETS);

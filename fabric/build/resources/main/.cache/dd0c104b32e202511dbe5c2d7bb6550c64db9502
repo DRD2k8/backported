@@ -1,2 +1,13 @@
-// 1.20.1	2026-02-06T14:39:57.0787141	Tags for minecraft:block mod id backported
+// 1.20.1	2026-02-07T18:00:22.8964874	Tags for minecraft:block mod id backported
+3e5ecb31784f337360af16782c45509a4de295bb data/backported/tags/blocks/pale_oak_logs.json
+53b0cf35e687efa9198e6f67856cad6998b42dc1 data/minecraft/tags/blocks/fence_gates.json
+92d7f6a84c3f289dd7abef71f90a58fc47df58df data/minecraft/tags/blocks/logs_that_burn.json
 10960e9c02143851b533c51515a85ac8f455b1dd data/minecraft/tags/blocks/mineable/pickaxe.json
+de99f2626bfa0e9843451dc86a4abd08d4b66d3a data/minecraft/tags/blocks/planks.json
+af7468709acc78749bcdee47e1601d051a1ca692 data/minecraft/tags/blocks/wooden_buttons.json
+14fb0e902892db0b094c28823318a921463985e9 data/minecraft/tags/blocks/wooden_doors.json
+f74f5c3c3e84d5da83fb8ef8b03cb90f5d5bd0c0 data/minecraft/tags/blocks/wooden_fences.json
+f6838eb4048d6b03e53ea077388184e851e01636 data/minecraft/tags/blocks/wooden_pressure_plates.json
+50dd5ff825dd3c131589cd69c03421e774f4d3c6 data/minecraft/tags/blocks/wooden_slabs.json
+f88927629d5a6660bf8d4a0c52d526b7d5cd9efc data/minecraft/tags/blocks/wooden_stairs.json
+bdcd886c85cf344788df89d51109c63e3c82485f data/minecraft/tags/blocks/wooden_trapdoors.json

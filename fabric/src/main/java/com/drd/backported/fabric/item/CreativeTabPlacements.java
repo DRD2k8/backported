@@ -9,6 +9,20 @@ import net.minecraft.world.item.Items;
 
 public class CreativeTabPlacements {
     private static void addItemsToBuildingBlocksTab(FabricItemGroupEntries entries) {
+        entries.addAfter(Items.CHERRY_BUTTON,
+                ModBlocks.PALE_OAK_LOG.get(),
+                ModBlocks.PALE_OAK_WOOD.get(),
+                ModBlocks.STRIPPED_PALE_OAK_LOG.get(),
+                ModBlocks.STRIPPED_PALE_OAK_WOOD.get(),
+                ModBlocks.PALE_OAK_PLANKS.get(),
+                ModBlocks.PALE_OAK_STAIRS.get(),
+                ModBlocks.PALE_OAK_SLAB.get(),
+                ModBlocks.PALE_OAK_FENCE.get(),
+                ModBlocks.PALE_OAK_FENCE_GATE.get(),
+                ModBlocks.PALE_OAK_DOOR.get(),
+                ModBlocks.PALE_OAK_TRAPDOOR.get(),
+                ModBlocks.PALE_OAK_PRESSURE_PLATE.get(),
+                ModBlocks.PALE_OAK_BUTTON.get());
     }
 
     private static void addItemsToColoredBlocksTab(FabricItemGroupEntries entries) {

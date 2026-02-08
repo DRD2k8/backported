@@ -1,6 +1,7 @@
 package com.drd.backported.datagen;
 
 import com.drd.backported.Backported;
+import com.drd.backported.datagen.client.ModBlockStateProvider;
 import com.drd.backported.datagen.client.ModItemModelProvider;
 import com.drd.backported.datagen.server.ModLootTableProvider;
 import com.drd.backported.datagen.server.ModRecipeProvider;
@@ -27,6 +28,7 @@ public class DataGenerators {
 
         generator.addProvider(event.includeServer(), new ModRecipeProvider(packOutput));
         generator.addProvider(event.includeServer(), ModLootTableProvider.create(packOutput));
+        generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
         ModBlockTagProvider blockTagProvider = generator.addProvider(event.includeServer(),
                 new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper));

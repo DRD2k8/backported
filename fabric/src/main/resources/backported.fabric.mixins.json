@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.drd.backported.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "backported.refmap.json",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "AxeItemAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

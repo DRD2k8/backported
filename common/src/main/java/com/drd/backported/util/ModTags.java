@@ -9,6 +9,8 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
+        public static final TagKey<Block> PALE_OAK_LOGS = tag("pale_oak_logs");
+
         private static TagKey<Block> tagMod(String modId, String name) {
             return TagKey.create(Registries.BLOCK, new ResourceLocation(modId, name));
         }
@@ -27,6 +29,7 @@ public class ModTags {
     }
 
     public static class Items {
+        public static final TagKey<Item> PALE_OAK_LOGS = tag("pale_oak_logs");
         public static final TagKey<Item> METAL_NUGGETS = tag("metal_nuggets");
         public static final TagKey<Item> FORGE_COPPER_NUGGETS = tagForge("nuggets/copper");
         public static final TagKey<Item> FABRIC_COPPER_NUGGETS = tagFabric("copper_nuggets");
