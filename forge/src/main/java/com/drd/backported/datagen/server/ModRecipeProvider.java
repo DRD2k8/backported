@@ -45,6 +45,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         woodenTrapdoor(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_TRAPDOOR.get(), consumer);
         woodenPressurePlate(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_PRESSURE_PLATE.get(), consumer);
         woodenButton(ModBlocks.PALE_OAK_PLANKS.get(), ModBlocks.PALE_OAK_BUTTON.get(), consumer);
+        sign(ModBlocks.PALE_OAK_PLANKS.get(), ModItems.PALE_OAK_SIGN.get(), consumer);
+        hangingSign(ModBlocks.STRIPPED_PALE_OAK_LOG.get(), ModItems.PALE_OAK_HANGING_SIGN.get(), consumer);
 
         // Chase the Skies
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Items.LEAD, 2)

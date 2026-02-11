@@ -1,6 +1,7 @@
 package com.drd.backported.datagen.server;
 
 import com.drd.backported.init.ModBlocks;
+import com.drd.backported.init.ModItems;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.BlockLootSubProvider;
@@ -46,6 +47,10 @@ public class ModLootTableProvider {
             this.dropSelf(ModBlocks.PALE_OAK_TRAPDOOR.get());
             this.dropSelf(ModBlocks.PALE_OAK_PRESSURE_PLATE.get());
             this.dropSelf(ModBlocks.PALE_OAK_BUTTON.get());
+            this.add(ModBlocks.PALE_OAK_SIGN.get(),
+                    block -> createSingleItemTable(ModItems.PALE_OAK_SIGN.get()));
+            this.add(ModBlocks.PALE_OAK_HANGING_SIGN.get(),
+                    block -> createSingleItemTable(ModItems.PALE_OAK_HANGING_SIGN.get()));
         }
 
         @Override

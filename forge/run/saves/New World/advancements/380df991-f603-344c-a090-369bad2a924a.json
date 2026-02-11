@@ -1,120 +1,86 @@
 {
-  "minecraft:recipes/transportation/mangrove_boat": {
+  "minecraft:recipes/building_blocks/dye_red_bed": {
     "criteria": {
-      "in_water": "2026-02-07 22:07:40 -0800"
+      "has_needed_dye": "2026-02-11 10:49:51 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/tools/name_tag": {
+  "minecraft:husbandry/make_a_sign_glow": {
     "criteria": {
-      "has_metal_nugget": "2026-02-07 22:10:16 -0800"
+      "make_a_sign_glow": "2026-02-11 10:49:54 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+  "minecraft:recipes/building_blocks/dye_red_wool": {
     "criteria": {
-      "has_gold_nugget": "2026-02-07 22:10:16 -0800"
+      "has_needed_dye": "2026-02-11 10:49:51 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2026-02-11 10:49:51 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2026-02-11 10:49:51 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2026-02-11 10:49:51 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2026-02-11 10:49:51 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2026-02-11 10:49:48 -0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-02-07 22:02:47 -0800"
+      "unlock_right_away": "2026-02-11 10:49:11 -0800"
     },
     "done": true
   },
-  "minecraft:end/elytra": {
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
     "criteria": {
-      "elytra": "2026-02-07 22:09:47 -0800"
+      "has_red_dye": "2026-02-11 10:49:51 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
     "criteria": {
-      "has_gold_nugget": "2026-02-07 22:10:16 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2026-02-07 22:07:40 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2026-02-07 22:07:40 -0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2026-02-07 22:07:31 -0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:ghast": "2026-02-07 22:07:31 -0800",
-      "minecraft:piglin_brute": "2026-02-07 22:09:15 -0800",
-      "minecraft:zombified_piglin": "2026-02-07 22:10:14 -0800"
-    },
-    "done": false
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:ghast": "2026-02-07 22:07:31 -0800"
+      "has_red_dye": "2026-02-11 10:49:51 -0800"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:birch_forest": "2026-02-07 22:06:32 -0800",
-      "minecraft:dark_forest": "2026-02-07 22:06:40 -0800",
-      "minecraft:river": "2026-02-07 22:07:31 -0800",
-      "minecraft:forest": "2026-02-07 22:02:48 -0800"
+      "minecraft:taiga": "2026-02-11 10:49:12 -0800",
+      "minecraft:old_growth_spruce_taiga": "2026-02-11 10:49:29 -0800"
     },
     "done": false
   },
-  "minecraft:recipes/transportation/bamboo_raft": {
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
     "criteria": {
-      "in_water": "2026-02-07 22:07:40 -0800"
+      "has_needed_dye": "2026-02-11 10:49:51 -0800"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/spruce_boat": {
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
-      "in_water": "2026-02-07 22:07:40 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2026-02-07 22:07:40 -0800"
-    },
-    "done": true
-  },
-  "minecraft:nether/uneasy_alliance": {
-    "criteria": {
-      "killed_ghast": "2026-02-07 22:07:31 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2026-02-07 22:07:40 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2026-02-07 22:07:40 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2026-02-07 22:07:40 -0800"
+      "has_rose_red": "2026-02-11 10:49:51 -0800"
     },
     "done": true
   },

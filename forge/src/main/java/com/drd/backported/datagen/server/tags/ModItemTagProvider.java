@@ -58,6 +58,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
         this.tag(ItemTags.WOODEN_BUTTONS)
                 .add(ModBlocks.PALE_OAK_BUTTON.get().asItem());
 
+        this.tag(ItemTags.SIGNS)
+                .add(ModItems.PALE_OAK_SIGN.get());
+
+        this.tag(ItemTags.HANGING_SIGNS)
+                .add(ModItems.PALE_OAK_HANGING_SIGN.get());
+
         this.tag(ModTags.Items.METAL_NUGGETS)
                 .addOptionalTag(Tags.Items.NUGGETS)
                 .addOptionalTag(ModTags.Items.FABRIC_NUGGETS);

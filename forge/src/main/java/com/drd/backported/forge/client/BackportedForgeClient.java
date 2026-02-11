@@ -7,7 +7,10 @@ import com.drd.backported.client.model.WindChargeModel;
 import com.drd.backported.client.renderer.WindChargeRenderer;
 import com.drd.backported.forge.packets.PacketHandler;
 import com.drd.backported.forge.packets.PlayerStabPacket;
+import com.drd.backported.init.ModBlockEntities;
 import com.drd.backported.init.ModEntities;
+import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
+import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.api.distmarker.Dist;
@@ -21,6 +24,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class BackportedForgeClient {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
+        event.enqueueWork(BackportedClient::init);
         EntityRenderers.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
         if (BackportedClient.syncSpears == null) {
             BackportedClient.syncSpears = (i) -> {
@@ -33,6 +37,12 @@ public class BackportedForgeClient {
     @SubscribeEvent
     public static void registerLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(ModModelLayers.WIND_CHARGE, WindChargeModel::createBodyLayer);
+    }
+
+    @SubscribeEvent
+    public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+        event.registerBlockEntityRenderer(ModBlockEntities.SIGN.get(), SignRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.HANGING_SIGN.get(), HangingSignRenderer::new);
     }
 
     @SubscribeEvent

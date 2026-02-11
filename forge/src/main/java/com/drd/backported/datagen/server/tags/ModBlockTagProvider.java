@@ -55,6 +55,18 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         this.tag(BlockTags.WOODEN_BUTTONS)
                 .add(ModBlocks.PALE_OAK_BUTTON.get());
 
+        this.tag(BlockTags.STANDING_SIGNS)
+                .add(ModBlocks.PALE_OAK_SIGN.get());
+
+        this.tag(BlockTags.WALL_SIGNS)
+                .add(ModBlocks.PALE_OAK_WALL_SIGN.get());
+
+        this.tag(BlockTags.CEILING_HANGING_SIGNS)
+                .add(ModBlocks.PALE_OAK_HANGING_SIGN.get());
+
+        this.tag(BlockTags.WALL_HANGING_SIGNS)
+                .add(ModBlocks.PALE_OAK_WALL_HANGING_SIGN.get());
+
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.HEAVY_CORE.get());
     }

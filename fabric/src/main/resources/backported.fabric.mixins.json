@@ -5,6 +5,7 @@
   "refmap": "backported.refmap.json",
   "minVersion": "0.8",
   "client": [
+    "HangingSignEditScreenMixin"
   ],
   "mixins": [
     "AxeItemAccessor"

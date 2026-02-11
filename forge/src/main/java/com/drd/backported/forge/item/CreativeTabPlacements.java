@@ -62,6 +62,13 @@ public class CreativeTabPlacements {
             );
         }
 
+        if (tab == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            entries.addAfter(Items.CHERRY_HANGING_SIGN,
+                    ModItems.PALE_OAK_HANGING_SIGN.get(),
+                    ModItems.PALE_OAK_SIGN.get()
+            );
+        }
+
         if (tab == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             entries.addAfter(Items.STONE_HOE,
                     ModItems.COPPER_HOE.get(),

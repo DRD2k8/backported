@@ -19,7 +19,8 @@
     "EnchantmentMixin",
     "EntityMixin",
     "LivingEntityMixin",
-    "ServerPlayerMixin"
+    "ServerPlayerMixin",
+    "WoodTypeInvoker"
   ],
   "injectors": {
     "defaultRequire": 1

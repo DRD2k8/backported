@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-07T18:00:22.9024885	Recipes
+// 1.20.1	2026-02-11T10:47:53.8800954	Recipes
 0392f25aaa3f8b348539d7974a196dc9392615ff data/backported/advancements/recipes/building_blocks/pale_oak_planks.json
 30dc2ca6f5549c60adf16749347bc80f188ac599 data/backported/advancements/recipes/building_blocks/pale_oak_slab.json
 4245df71523f24805ac373b714198006f06876cc data/backported/advancements/recipes/building_blocks/pale_oak_stairs.json
@@ -18,6 +18,8 @@ da73412b4ea5688c7634ffd8627ec0894737fde2 data/backported/advancements/recipes/co
 aba7d3252080c5a7d913503d2bfe5ca0803cc795 data/backported/advancements/recipes/combat/wooden_spear.json
 911850a85b28d9f5513912850abab8496a0d64c6 data/backported/advancements/recipes/misc/copper_nugget.json
 7820617e56b84cf9eedb1d2e737575a669d1e0fb data/backported/advancements/recipes/misc/pale_oak_fence.json
+b8e6a485825250153305d451a443055010ed674f data/backported/advancements/recipes/misc/pale_oak_hanging_sign.json
+1e6c2b93d7f8ac69b7435c60dd93e9245be325e0 data/backported/advancements/recipes/misc/pale_oak_sign.json
 eef70b8bf02358ac49099427ed1af6029427cb35 data/backported/advancements/recipes/misc/wind_charge.json
 17c3c9c4b5972abdf61064eec97ebcb9b53ffadd data/backported/advancements/recipes/redstone/pale_oak_button.json
 9b69f8b3f0a4195080cc118794b273e534687583 data/backported/advancements/recipes/redstone/pale_oak_door.json
@@ -47,8 +49,10 @@ beac17ae831f8105f75c51581f79015674b1b7ab data/backported/recipes/copper_sword.js
 2f7b7972c2dbf49946f2ec86b0737f5e99091d55 data/backported/recipes/pale_oak_door.json
 0d855e4d54488709fe6e92c7680696fec1635222 data/backported/recipes/pale_oak_fence.json
 e295874005fcd8f4faafb42945eb9a75d22602a2 data/backported/recipes/pale_oak_fence_gate.json
+3ed7a489da75109fa8b32ec28ee725c9107395f9 data/backported/recipes/pale_oak_hanging_sign.json
 582954372697e5bb97e73ca0f9633d1bb2ab8656 data/backported/recipes/pale_oak_planks.json
 bb24b41b564006194f0fcaf8b86693e09bb3200b data/backported/recipes/pale_oak_pressure_plate.json
+7c91c035ae351a0481db7d969c858c75bab099d4 data/backported/recipes/pale_oak_sign.json
 32ffd394f13eb21ec73e38d664de6021dc8dba47 data/backported/recipes/pale_oak_slab.json
 51ecfcf192c873cc53463ee79551ffa74fe92668 data/backported/recipes/pale_oak_stairs.json
 2fa22aaffd1b23b58cefff0a5314645aab7ac84a data/backported/recipes/pale_oak_trapdoor.json

@@ -1,6 +1,8 @@
 package com.drd.backported.datagen.client;
 
 import com.drd.backported.Backported;
+import com.drd.backported.block.CustomStandingSignBlock;
+import com.drd.backported.block.CustomWallSignBlock;
 import com.drd.backported.init.ModBlocks;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -35,6 +37,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.PALE_OAK_TRAPDOOR.get()), modLoc("block/pale_oak_trapdoor"), true, "cutout");
         pressurePlateBlock(((PressurePlateBlock) ModBlocks.PALE_OAK_PRESSURE_PLATE.get()), blockTexture(ModBlocks.PALE_OAK_PLANKS.get()));
         buttonBlock(((ButtonBlock) ModBlocks.PALE_OAK_BUTTON.get()), blockTexture(ModBlocks.PALE_OAK_PLANKS.get()));
+        signBlock(((CustomStandingSignBlock) ModBlocks.PALE_OAK_SIGN.get()), ((CustomWallSignBlock) ModBlocks.PALE_OAK_WALL_SIGN.get()), blockTexture(ModBlocks.PALE_OAK_PLANKS.get()));
+        hangingSignBlock(ModBlocks.PALE_OAK_HANGING_SIGN.get(), ModBlocks.PALE_OAK_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.STRIPPED_PALE_OAK_LOG.get()));
     }
 
     private void saplingBlock(RegistrySupplier<Block> block) {

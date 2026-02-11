@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-07T18:00:22.8984874	Item Models: backported
+// 1.20.1	2026-02-11T10:47:53.8785951	Item Models: backported
 b06ec9fddebeb6ab9df2421c03efbcc7f555d615 assets/backported/models/item/breeze_rod.json
 932e4b8b041ca8643ba3731d66569cb4a8f5a91c assets/backported/models/item/copper_axe.json
 07dd4dd9b436183f7dc5199a11ac8c2ae831e4f2 assets/backported/models/item/copper_boots.json
@@ -11,5 +11,13 @@ c64501866c08bdb214695271068c14d2b01f653a assets/backported/models/item/copper_he
 dcdb4601c4a3143c4dc7f251993ff361158528cd assets/backported/models/item/copper_shovel.json
 50b842fe0b0517e3bf4e8dfda7dc10775d7742ed assets/backported/models/item/copper_sword.json
 676170056da8b439ad8209336f98b3f3610d0539 assets/backported/models/item/pale_oak_button.json
+e87545bf7d13aac576ec76b9e7d9d2ee512d3e4f assets/backported/models/item/pale_oak_door.json
 03ab0e64d3c6a57c1772cda16f897ea9d1f77c11 assets/backported/models/item/pale_oak_fence.json
+1a1b1135a47e5f61aa4260eac7d1b5296b3a3133 assets/backported/models/item/pale_oak_fence_gate.json
+57bccd0a278b1e21f92bd9eb388119579f31152a assets/backported/models/item/pale_oak_hanging_sign.json
+fb72c1e1999e7bad34796e0f257aade4671a4651 assets/backported/models/item/pale_oak_pressure_plate.json
+fdd5e6642a6748fdc77bec3b69ba094c85cebc3f assets/backported/models/item/pale_oak_sign.json
+dfb4e421d8c364ed2a8e7ec34e899e090df88ca3 assets/backported/models/item/pale_oak_slab.json
+f82d4e1be88f62346fbf185ee4cba02b825e8cc0 assets/backported/models/item/pale_oak_stairs.json
+22a1d6e1115f1348da2353518b094bfc963ff307 assets/backported/models/item/pale_oak_trapdoor.json
 c4581fd2a54a59fc82662c964b88b9cc2092e417 assets/backported/models/item/wind_charge.json

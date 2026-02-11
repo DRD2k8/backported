@@ -1,12 +1,32 @@
 package com.drd.backported.client;
 
+import com.drd.backported.Backported;
 import com.drd.backported.item.SpearItem;
+import com.drd.backported.util.ModWoodTypes;
+import net.minecraft.client.renderer.Sheets;
+import net.minecraft.client.resources.model.Material;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
+import net.minecraft.world.level.block.state.properties.WoodType;
 
 import java.lang.reflect.Method;
 import java.util.function.Function;
 
 public class BackportedClient {
+    public static void init() {
+        registerSheets();
+    }
+
+    private static void registerSheets() {
+        addWoodType(ModWoodTypes.PALE_OAK);
+    }
+
+    private static void addWoodType(WoodType woodType) {
+        ResourceLocation location = new ResourceLocation(woodType.name());
+        Sheets.SIGN_MATERIALS.put(woodType, new Material(Sheets.SIGN_SHEET, new ResourceLocation(Backported.MOD_ID, "entity/signs/" + location.getPath())));
+        Sheets.HANGING_SIGN_MATERIALS.put(woodType, new Material(Sheets.SIGN_SHEET, new ResourceLocation(Backported.MOD_ID, "entity/signs/hanging/" + location.getPath())));
+    }
+
     public static Method getUpswingTicks = null;
     public static Function<Integer, Boolean> syncSpears = null;
 

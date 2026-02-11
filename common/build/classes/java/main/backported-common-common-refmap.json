@@ -49,6 +49,9 @@
     "com/drd/backported/mixin/MinecraftMixin": {
       "Lnet/minecraft/client/player/LocalPlayer;getItemInHand(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_746;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
       "startAttack": "Lnet/minecraft/class_310;method_1536()Z"
+    },
+    "com/drd/backported/mixin/WoodTypeInvoker": {
+      "register": "method_24027(Lnet/minecraft/class_4719;)Lnet/minecraft/class_4719;"
     }
   },
   "data": {
@@ -102,6 +105,9 @@
       "com/drd/backported/mixin/MinecraftMixin": {
         "Lnet/minecraft/client/player/LocalPlayer;getItemInHand(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;": "Lnet/minecraft/class_746;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799;",
         "startAttack": "Lnet/minecraft/class_310;method_1536()Z"
+      },
+      "com/drd/backported/mixin/WoodTypeInvoker": {
+        "register": "method_24027(Lnet/minecraft/class_4719;)Lnet/minecraft/class_4719;"
       }
     }
   }

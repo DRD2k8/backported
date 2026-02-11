@@ -7,6 +7,7 @@ public final class Backported {
 
     public static void init() {
         ModBlocks.register();
+        ModBlockEntities.register();
         ModEnchantments.register();
         ModEntities.register();
         ModItems.register();

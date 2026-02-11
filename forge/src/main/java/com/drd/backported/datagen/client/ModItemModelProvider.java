@@ -33,6 +33,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.PALE_OAK_DOOR);
         withExistingParent("pale_oak_trapdoor", ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "block/pale_oak_trapdoor_bottom"));
         buttonItem(ModBlocks.PALE_OAK_BUTTON, ModBlocks.PALE_OAK_PLANKS);
+        simpleItem(ModItems.PALE_OAK_SIGN);
+        simpleItem(ModItems.PALE_OAK_HANGING_SIGN);
 
         // The Copper Age
         simpleItem(ModItems.COPPER_NUGGET);

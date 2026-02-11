@@ -16,6 +16,12 @@ public class ModItems {
     public static final RegistrySupplier<Item> MACE = ITEMS.register("mace", () -> new MaceItem(new Item.Properties().rarity(Rarity.EPIC).durability(500)));
     public static final RegistrySupplier<Item> WIND_CHARGE = ITEMS.register("wind_charge", () -> new WindChargeItem(new Item.Properties()));
 
+    // The Garden Awakens
+    public static final RegistrySupplier<Item> PALE_OAK_SIGN = ITEMS.register("pale_oak_sign",
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.PALE_OAK_SIGN.get(), ModBlocks.PALE_OAK_WALL_SIGN.get()));
+    public static final RegistrySupplier<Item> PALE_OAK_HANGING_SIGN = ITEMS.register("pale_oak_hanging_sign",
+            () -> new HangingSignItem(ModBlocks.PALE_OAK_HANGING_SIGN.get(), ModBlocks.PALE_OAK_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+
     // The Copper Age
     public static final RegistrySupplier<Item> COPPER_NUGGET = basicItem("copper_nugget");
     public static final RegistrySupplier<Item> COPPER_SWORD = sword("copper", ModToolTiers.COPPER, 5, 1.6f);

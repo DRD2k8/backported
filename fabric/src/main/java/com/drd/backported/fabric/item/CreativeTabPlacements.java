@@ -35,6 +35,10 @@ public class CreativeTabPlacements {
     }
 
     private static void addItemsToFunctionalBlocksTab(FabricItemGroupEntries entries) {
+        entries.addAfter(Items.CHERRY_HANGING_SIGN,
+                ModItems.PALE_OAK_SIGN.get(),
+                ModItems.PALE_OAK_HANGING_SIGN.get()
+        );
     }
 
     private static void addItemsToRedstoneBlocksTab(FabricItemGroupEntries entries) {

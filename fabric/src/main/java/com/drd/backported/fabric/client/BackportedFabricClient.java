@@ -6,16 +6,24 @@ import com.drd.backported.client.model.WindChargeModel;
 import com.drd.backported.client.renderer.WindChargeRenderer;
 import com.drd.backported.fabric.packets.PacketHandler;
 import com.drd.backported.fabric.packets.PlayerStabPacket;
+import com.drd.backported.init.ModBlockEntities;
 import com.drd.backported.init.ModEntities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
+import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
+import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.world.item.Items;
 
 public class BackportedFabricClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+        BackportedClient.init();
+        BlockEntityRenderers.register(ModBlockEntities.SIGN.get(), SignRenderer::new);
+        BlockEntityRenderers.register(ModBlockEntities.HANGING_SIGN.get(), HangingSignRenderer::new);
+
         // Tricky Trials
         EntityRendererRegistry.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.WIND_CHARGE, WindChargeModel::createBodyLayer);

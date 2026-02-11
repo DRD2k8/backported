@@ -1,8 +1,9 @@
 package com.drd.backported.init;
 
 import com.drd.backported.Backported;
-import com.drd.backported.block.HeavyCoreBlock;
+import com.drd.backported.block.*;
 import com.drd.backported.util.ModSoundTypes;
+import com.drd.backported.util.ModWoodTypes;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.Direction;
@@ -40,6 +41,10 @@ public class ModBlocks {
     public static final RegistrySupplier<Block> PALE_OAK_TRAPDOOR = registerWoodenTrapdoor("pale_oak", PALE_OAK_PLANKS, BlockSetType.OAK);
     public static final RegistrySupplier<Block> PALE_OAK_PRESSURE_PLATE = registerWoodenPressurePlate("pale_oak", PALE_OAK_PLANKS, BlockSetType.OAK);
     public static final RegistrySupplier<Block> PALE_OAK_BUTTON = registerWoodenButton("pale_oak", PALE_OAK_PLANKS, BlockSetType.OAK);
+    public static final RegistrySupplier<Block> PALE_OAK_SIGN = registerStandingSign("pale_oak", PALE_OAK_PLANKS, ModWoodTypes.PALE_OAK);
+    public static final RegistrySupplier<Block> PALE_OAK_WALL_SIGN = registerWallSign("pale_oak", PALE_OAK_PLANKS, ModWoodTypes.PALE_OAK, PALE_OAK_SIGN);
+    public static final RegistrySupplier<Block> PALE_OAK_HANGING_SIGN = registerCeilingHangingSign("pale_oak", PALE_OAK_PLANKS, ModWoodTypes.PALE_OAK);
+    public static final RegistrySupplier<Block> PALE_OAK_WALL_HANGING_SIGN = registerWallHangingSign("pale_oak", PALE_OAK_PLANKS, ModWoodTypes.PALE_OAK, PALE_OAK_HANGING_SIGN);
 
     private static <T extends Block> RegistrySupplier<T> registerBlock(String name, Supplier<T> block) {
         RegistrySupplier<T> toReturn = BLOCKS.register(name, block);
@@ -109,6 +114,22 @@ public class ModBlocks {
 
     private static RegistrySupplier<Block> registerWoodenButton(String wood, RegistrySupplier<Block> planks, BlockSetType type) {
         return registerBlock(wood + "_button", () -> new ButtonBlock(BlockBehaviour.Properties.copy(planks.get()).noCollission().strength(0.5f).pushReaction(PushReaction.DESTROY), type, 30, true));
+    }
+
+    private static RegistrySupplier<Block> registerStandingSign(String wood, RegistrySupplier<Block> planks, WoodType type) {
+        return BLOCKS.register(wood + "_sign", () -> new CustomStandingSignBlock(BlockBehaviour.Properties.copy(planks.get()).noCollission().strength(1f), type));
+    }
+
+    private static RegistrySupplier<Block> registerWallSign(String wood, RegistrySupplier<Block> planks, WoodType type, RegistrySupplier<Block> sign) {
+        return BLOCKS.register(wood + "_wall_sign", () -> new CustomWallSignBlock(BlockBehaviour.Properties.copy(planks.get()).noCollission().strength(1f).dropsLike(sign.get()), type));
+    }
+
+    private static RegistrySupplier<Block> registerCeilingHangingSign(String wood, RegistrySupplier<Block> planks, WoodType type) {
+        return BLOCKS.register(wood + "_hanging_sign", () -> new CustomCeilingHangingSignBlock(BlockBehaviour.Properties.copy(planks.get()).noCollission().strength(1f), type));
+    }
+
+    private static RegistrySupplier<Block> registerWallHangingSign(String wood, RegistrySupplier<Block> planks, WoodType type, RegistrySupplier<Block> sign) {
+        return BLOCKS.register(wood + "_wall_hanging_sign", () -> new CustomWallHangingSignBlock(BlockBehaviour.Properties.copy(planks.get()).noCollission().strength(1f).dropsLike(sign.get()), type));
     }
 
     public static void register() {
