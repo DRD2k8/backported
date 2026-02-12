@@ -65,7 +65,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Cow Variants
 - [ ] Chicken Variants
 - [ ] Fallen trees
-- [ ] Lodestone recipe change
+- [X] Lodestone recipe change
 - [X] Spawn egg texture updates
 
 ## Chase the Skies (1.21.6 - 1.21.8)
@@ -130,4 +130,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Craftable name tag
 
 
-### Total completed: 22/97
+### Total completed: 23/97
