@@ -6,6 +6,7 @@ import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundSource;
 
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Backported.MOD_ID, Registries.SOUND_EVENT);
@@ -21,6 +22,13 @@ public class ModSounds {
     public static final RegistrySupplier<SoundEvent> MACE_SMASH_AIR = registerSoundEvents("item.mace.smash_air");
     public static final RegistrySupplier<SoundEvent> MACE_SMASH_GROUND = registerSoundEvents("item.mace.smash_ground");
     public static final RegistrySupplier<SoundEvent> MACE_SMASH_GROUND_HEAVY = registerSoundEvents("item.mace.smash_ground_heavy");
+    public static final RegistrySupplier<SoundEvent> MUSIC_DISC_CREATOR = registerMusicDisc("creator");
+    public static final RegistrySupplier<SoundEvent> MUSIC_DISC_CREATOR_MUSIC_BOX = registerMusicDisc("creator_music_box");
+    public static final RegistrySupplier<SoundEvent> MUSIC_DISC_PRECIPICE = registerMusicDisc("precipice");
+
+    // Chase the Skies
+    public static final RegistrySupplier<SoundEvent> MUSIC_DISC_LAVA_CHICKEN = registerMusicDisc("lava_chicken");
+    public static final RegistrySupplier<SoundEvent> MUSIC_DISC_TEARS = registerMusicDisc("tears");
 
     // The Copper Age
     public static final RegistrySupplier<SoundEvent> ARMOR_EQUIP_COPPER = registerSoundEvents("item.armor.equip_copper");
@@ -36,6 +44,12 @@ public class ModSounds {
 
     private static RegistrySupplier<SoundEvent> registerSoundEvents(String name) {
         return SOUNDS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(Backported.MOD_ID, name)));
+    }
+
+    private static RegistrySupplier<SoundEvent> registerMusicDisc(String name) {
+        return SOUNDS.register("music_disc." + name, () ->
+                SoundEvent.createFixedRangeEvent(new ResourceLocation(Backported.MOD_ID, "music_disc." + name), 16f)
+        );
     }
 
     public static void register() {

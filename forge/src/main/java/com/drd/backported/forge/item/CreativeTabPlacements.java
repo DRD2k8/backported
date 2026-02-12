@@ -80,6 +80,17 @@ public class CreativeTabPlacements {
                     ModItems.PALE_OAK_CHEST_BOAT.get(),
                     ModItems.PALE_OAK_BOAT.get()
             );
+            entries.addAfter(Items.MUSIC_DISC_11,
+                    ModItems.MUSIC_DISC_CREATOR_MUSIC_BOX.get()
+            );
+            entries.addAfter(Items.MUSIC_DISC_WAIT,
+                    ModItems.MUSIC_DISC_PRECIPICE.get(),
+                    ModItems.MUSIC_DISC_CREATOR.get()
+            );
+            entries.addAfter(Items.MUSIC_DISC_RELIC,
+                    ModItems.MUSIC_DISC_LAVA_CHICKEN.get(),
+                    ModItems.MUSIC_DISC_TEARS.get()
+            );
         }
 
         if (tab == CreativeModeTabs.COMBAT) {

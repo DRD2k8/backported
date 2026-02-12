@@ -93,6 +93,48 @@
     ],
     "subtitle": "subtitles.backported.item.mace.smash_ground"
   },
+  "music_disc.creator": {
+    "sounds": [
+      {
+        "name": "backported:records/creator",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.creator_music_box": {
+    "sounds": [
+      {
+        "name": "backported:records/creator_music_box",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.precipice": {
+    "sounds": [
+      {
+        "name": "backported:records/precipice",
+        "stream": true
+      }
+    ]
+  },
+
+  "music_disc.tears": {
+    "sounds": [
+      {
+        "name": "backported:records/tears",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.lava_chicken": {
+    "sounds": [
+      {
+        "name": "backported:records/lava_chicken",
+        "stream": true
+      }
+    ]
+  },
+
   "item.armor.equip_copper": {
     "sounds": [
       "backported:item/armor/equip_copper1",
@@ -104,6 +146,7 @@
     ],
     "subtitle": "subtitles.backported.item.armor.equip_copper"
   },
+
   "item.spear.attack": {
     "sounds": [
       "backported:item/spear/attack1",

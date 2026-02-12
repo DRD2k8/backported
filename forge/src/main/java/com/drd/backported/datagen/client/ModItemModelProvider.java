@@ -22,6 +22,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         // Tricky Trials
         simpleItem(ModItems.BREEZE_ROD);
+        musicDiscItem(ModItems.MUSIC_DISC_CREATOR);
+        musicDiscItem(ModItems.MUSIC_DISC_CREATOR_MUSIC_BOX);
+        musicDiscItem(ModItems.MUSIC_DISC_PRECIPICE);
         simpleItem(ModItems.WIND_CHARGE);
 
         // The Garden Awakens
@@ -37,6 +40,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PALE_OAK_HANGING_SIGN);
         simpleItem(ModItems.PALE_OAK_BOAT);
         simpleItem(ModItems.PALE_OAK_CHEST_BOAT);
+
+        // Chase the Skies
+        musicDiscItem(ModItems.MUSIC_DISC_LAVA_CHICKEN);
+        musicDiscItem(ModItems.MUSIC_DISC_TEARS);
 
         // The Copper Age
         simpleItem(ModItems.COPPER_NUGGET);
@@ -91,6 +98,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder handheldItem(RegistrySupplier<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder musicDiscItem(RegistrySupplier<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.withDefaultNamespace("item/template_music_disc")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath()));
     }
 }

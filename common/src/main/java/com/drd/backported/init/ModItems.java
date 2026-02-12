@@ -15,6 +15,9 @@ public class ModItems {
     // Tricky Trials
     public static final RegistrySupplier<Item> BREEZE_ROD = basicItem("breeze_rod");
     public static final RegistrySupplier<Item> MACE = ITEMS.register("mace", () -> new MaceItem(new Item.Properties().rarity(Rarity.EPIC).durability(500)));
+    public static final RegistrySupplier<Item> MUSIC_DISC_CREATOR = musicDisc("creator", ModSounds.MUSIC_DISC_CREATOR, Rarity.RARE, 3520, 12);
+    public static final RegistrySupplier<Item> MUSIC_DISC_CREATOR_MUSIC_BOX = musicDisc("creator_music_box", ModSounds.MUSIC_DISC_CREATOR_MUSIC_BOX, Rarity.UNCOMMON, 1460, 11);
+    public static final RegistrySupplier<Item> MUSIC_DISC_PRECIPICE = musicDisc("precipice", ModSounds.MUSIC_DISC_PRECIPICE, Rarity.UNCOMMON, 5980, 13);
     public static final RegistrySupplier<Item> WIND_CHARGE = ITEMS.register("wind_charge", () -> new WindChargeItem(new Item.Properties()));
 
     // The Garden Awakens
@@ -26,6 +29,10 @@ public class ModItems {
             () -> new CustomBoatItem(false, CustomBoat.Type.PALE_OAK, new Item.Properties()));
     public static final RegistrySupplier<Item> PALE_OAK_CHEST_BOAT = ITEMS.register("pale_oak_chest_boat",
             () -> new CustomBoatItem(true, CustomBoat.Type.PALE_OAK, new Item.Properties()));
+
+    // Chase the Skies
+    public static final RegistrySupplier<Item> MUSIC_DISC_TEARS = musicDisc("tears", ModSounds.MUSIC_DISC_TEARS, Rarity.UNCOMMON, 3500, 10);
+    public static final RegistrySupplier<Item> MUSIC_DISC_LAVA_CHICKEN = musicDisc("lava_chicken", ModSounds.MUSIC_DISC_LAVA_CHICKEN, Rarity.RARE, 2700, 9);
 
     // The Copper Age
     public static final RegistrySupplier<Item> COPPER_NUGGET = basicItem("copper_nugget");
@@ -50,6 +57,11 @@ public class ModItems {
 
     private static RegistrySupplier<Item> basicItem(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties()));
+    }
+
+    private static RegistrySupplier<Item> musicDisc(String name, RegistrySupplier<SoundEvent> sound, Rarity rarity, int length, int redstoneSignal) {
+        return ITEMS.register("music_disc_" + name,
+                () -> new RecordItem(redstoneSignal, sound.get(), new Item.Properties().rarity(rarity), length));
     }
 
     private static RegistrySupplier<Item> sword(String material, Tier tier, int attackDamage, float attackSpeed) {

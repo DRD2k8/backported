@@ -70,6 +70,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
         this.tag(ItemTags.CHEST_BOATS)
                 .add(ModItems.PALE_OAK_CHEST_BOAT.get());
 
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.MUSIC_DISC_CREATOR.get())
+                .add(ModItems.MUSIC_DISC_CREATOR_MUSIC_BOX.get())
+                .add(ModItems.MUSIC_DISC_PRECIPICE.get())
+                .add(ModItems.MUSIC_DISC_TEARS.get())
+                .add(ModItems.MUSIC_DISC_LAVA_CHICKEN.get());
+
         this.tag(ModTags.Items.METAL_NUGGETS)
                 .addOptionalTag(Tags.Items.NUGGETS)
                 .addOptionalTag(ModTags.Items.FABRIC_NUGGETS);

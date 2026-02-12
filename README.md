@@ -30,7 +30,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Flow and Guster Banner Patterns
 - [ ] Flow, Guster, and Scrape Pottery Sherds
 - [ ] Bolt and Flow Armor Trims
-- [ ] Precipice, Creator, and Creator (Music Box) Music Discs
+- [X] Precipice, Creator, and Creator (Music Box) Music Discs
 - [X] 20 new paintings
 - [ ] Bogged
 - [ ] Breeze
@@ -73,8 +73,8 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Happy Ghast
 - [ ] Happy Ghast Harnesses
 - [ ] Ghastling
-- [ ] Tears Music Disc
-- [ ] Lava Chicken Music Disc
+- [X] Tears Music Disc
+- [X] Lava Chicken Music Disc
 - [X] Dennis Painting
 - [ ] New Game Music: Lilypad (Plays in frozen peaks and groves), Below and Above (Plays in cherry groves), O's Piano (Plays in lush caves), Broken Clocks (Plays in forests), Fireflies (Plays in deserts)
 - [X] Craftable Lead
@@ -130,4 +130,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Craftable name tag
 
 
-### Total completed: 19/97
+### Total completed: 22/97
