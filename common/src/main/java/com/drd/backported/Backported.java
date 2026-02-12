@@ -11,6 +11,7 @@ public final class Backported {
         ModEnchantments.register();
         ModEntities.register();
         ModItems.register();
+        ModPaintings.register();
         ModSounds.register();
     }
 }

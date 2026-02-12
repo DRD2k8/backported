@@ -7,6 +7,7 @@ import com.drd.backported.datagen.server.ModLootTableProvider;
 import com.drd.backported.datagen.server.ModRecipeProvider;
 import com.drd.backported.datagen.server.tags.ModBlockTagProvider;
 import com.drd.backported.datagen.server.tags.ModItemTagProvider;
+import com.drd.backported.datagen.server.tags.ModPaintingTagProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -33,5 +34,6 @@ public class DataGenerators {
         ModBlockTagProvider blockTagProvider = generator.addProvider(event.includeServer(),
                 new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput, lookupProvider, blockTagProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new ModPaintingTagProvider(packOutput, lookupProvider, existingFileHelper));
     }
 }

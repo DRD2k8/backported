@@ -4,24 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Pale Oak wood set (Part 2) (Fixing the door models)">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/client/renderer/CustomBoatRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/entity/CustomBoat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/entity/CustomChestBoat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/CustomBoatItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/platform/CommonPlatformUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/platform/fabric/CommonPlatformUtilsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/platform/forge/CommonPlatformUtilsImpl.java" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Pale Oak wood set (Part 4) (Boats)">
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/b7293c3f4cb47315c7a69946d910c4461fbfff18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/painting_variant/placeable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModPaintings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/backyard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/baroque.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/bouquet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/cavebird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/changing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/cotan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/dennis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/endboss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/fern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/finding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/humble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/lowmist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/meditative.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/orb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/owlemons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/passage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/pond.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/prairie_ride.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/sunflowers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/tides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/painting/unpacked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-11-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModPaintingTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModEntities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/Backported.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/Backported.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/Backported.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/Backported.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/client/BackportedFabricClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/client/BackportedFabricClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/client/BackportedForgeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/client/BackportedForgeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/DataGenerators.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/DataGenerators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/DataGenerators.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/DataGenerators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770506076085</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Pale Oak wood set (Part 4) (Boats)">
+      <option name="closed" value="true" />
+      <created>1770857146616</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770857146616</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,6 +323,7 @@
     <MESSAGE value="Adding the spears (Part 6) (Fixing some errors, again)" />
     <MESSAGE value="Adding the spears (Part 7) (FINALLY!)" />
     <MESSAGE value="Craftable items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Craftable items" />
+    <MESSAGE value="Pale Oak wood set (Part 4) (Boats)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pale Oak wood set (Part 4) (Boats)" />
   </component>
 </project>
