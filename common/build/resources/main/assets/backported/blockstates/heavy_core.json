@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": {
-      "model": "backported:block/heavy_core"
-    }
-  }
-}

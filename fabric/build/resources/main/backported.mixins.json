@@ -12,14 +12,17 @@
     "ItemPropertiesMixin",
     "ItemRendererMixin",
     "LocalPlayerMixin",
-    "MinecraftMixin"
+    "MinecraftMixin",
+    "WolfRendererMixin"
   ],
   "mixins": [
     "DamageEnchantmentMixin",
     "EnchantmentMixin",
     "EntityMixin",
     "LivingEntityMixin",
+    "MobMixin",
     "ServerPlayerMixin",
+    "WolfMixin",
     "WoodTypeInvoker"
   ],
   "injectors": {

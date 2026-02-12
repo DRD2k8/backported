@@ -1,6 +1,0 @@
-{
-  "parent": "backported:item/spear_in_hand",
-  "textures": {
-    "layer0": "backported:item/wooden_spear_in_hand"
-  }
-}

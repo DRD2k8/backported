@@ -4,7 +4,683 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the paintings" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Lodestone recipe change">
+      <change afterPath="$PROJECT_DIR$/.architectury-transformer/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/entity/variant/WolfVariant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/MobMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/WolfMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/WolfRendererMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/chicken/chicken_cold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/chicken/chicken_warm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/pig/pig_cold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/pig/pig_warm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_ashen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_ashen_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_ashen_tame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_black_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_black_tame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_chestnut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_chestnut_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_chestnut_tame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_rusty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_rusty_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_rusty_tame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_snowy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_snowy_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_snowy_tame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_spotted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_spotted_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_spotted_tame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_striped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_striped_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_striped_tame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_woods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_woods_angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_woods_tame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_ashen_wolf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_black_wolf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_chestnut_wolf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_pale_wolf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_rusty_wolf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_snowy_wolf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_spotted_wolf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_striped_wolf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_woods_wolf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/world/MobSpawning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-12_13.33.54-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-12_13.56.57-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-12_14.01.11-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-4.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-5.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.0.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.1.mca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/session.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/world/MobSpawning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/backported.forge.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/forge/backported.forge.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/forge/backported.forge.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/forge/backported.forge.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/common/.gradle/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/backported-common-common-refmap.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/Backported.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/block/HeavyCoreBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/client/BackportedClient$holdUpAnimation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/client/BackportedClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/client/init/ModModelLayers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/client/model/WindChargeModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/client/renderer/WindChargeRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/enchantment/LungeEnchantment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/entity/WindCharge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModBlocks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModEnchantments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModEntities.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/init/ModSounds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/MaceItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/ModArmorMaterials.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/ModToolTiers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/SpearItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/WindChargeItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/spear/MovementFixer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/item/spear/SpearUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/DamageEnchantmentMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/EnchantmentMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/EntityMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/HumanoidModelMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/com/drd/backported/mixin/ItemInHandLayerMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/devlibs/backported-common-1.0.0-dev.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/backported-common-1.0.0-transformProductionFabric.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/libs/backported-common-1.0.0-transformProductionForge.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/loom-cache/mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.dev.architectury-architectury-9.2.14-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.dev.architectury-architectury-9.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/architectury.common.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/blockstates/heavy_core.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/block/heavy_core.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/armadillo_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/bogged_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/breeze_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/camel_husk_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/copper_golem_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/copper_spear.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/copper_spear_in_hand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/creaking_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/diamond_spear.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/diamond_spear_in_hand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/golden_spear.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/golden_spear_in_hand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/handheld_mace.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/happy_ghast_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/heavy_core.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/iron_spear.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/iron_spear_in_hand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/mace.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/nautilus_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/netherite_spear.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/netherite_spear_in_hand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/parched_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/spear_in_hand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/stone_spear.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/stone_spear_in_hand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/wooden_spear.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/wooden_spear_in_hand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/models/item/zombie_nautilus_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/block/heavy_core/break1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/block/heavy_core/break2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/block/heavy_core/break3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/block/heavy_core/break4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/block/heavy_core/step1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/block/heavy_core/step2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/block/heavy_core/step3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/block/heavy_core/step4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/entity/wind_charge/wind_burst1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/entity/wind_charge/wind_burst2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/entity/wind_charge/wind_burst3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/armor/equip_copper1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/armor/equip_copper2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/armor/equip_copper3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/armor/equip_copper4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/armor/equip_copper5.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/armor/equip_copper6.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/mace/smash_air1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/mace/smash_air2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/mace/smash_air3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/mace/smash_ground1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/mace/smash_ground2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/mace/smash_ground3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/mace/smash_ground4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/mace/smash_ground_heavy.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/attack1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/attack2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/attack3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/hit1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/hit2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/hit3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/lunge1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/lunge2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/lunge3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/use.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/wood/attack1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/wood/attack2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/wood/attack3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/wood/hit1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/wood/hit2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/wood/hit3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/sounds/item/spear/wood/use.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/block/heavy_core.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/entity/projectiles/wind_charge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/armadillo_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/bogged_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/bordure_indented_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/breeze_rod.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/breeze_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/camel_husk_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_boots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_chestplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_golem_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_helmet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_hoe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_leggings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_nugget.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_pickaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_shovel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_spear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_spear_in_hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/copper_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/creaking_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/diamond_spear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/diamond_spear_in_hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/field_masoned_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/flow_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/golden_spear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/golden_spear_in_hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/guster_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/happy_ghast_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/iron_spear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/iron_spear_in_hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/mace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/nautilus_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/netherite_spear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/netherite_spear_in_hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/parched_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/stone_spear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/stone_spear_in_hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/wind_charge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/wooden_spear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/wooden_spear_in_hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/item/zombie_nautilus_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/models/armor/copper_layer_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/backported/textures/models/armor/copper_layer_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/lang/en_us.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/block/redstone_torch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/block/redstone_torch_off.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/block/template_redstone_torch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/block/template_redstone_torch_wall.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/allay_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/axolotl_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/bat_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/bee_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/blaze_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/camel_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/cat_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/cave_spider_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/chicken_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/cod_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/cow_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/creeper_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/dolphin_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/donkey_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/drowned_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/elder_guardian_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/ender_dragon_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/enderman_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/endermite_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/evoker_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/fox_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/frog_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/ghast_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/glow_squid_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/goat_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/guardian_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/hoglin_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/horse_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/husk_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/iron_golem_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/llama_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/magma_cube_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/mooshroom_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/mule_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/ocelot_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/panda_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/parrot_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/phantom_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/pig_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/piglin_brute_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/piglin_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/pillager_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/polar_bear_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/pufferfish_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/rabbit_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/ravager_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/salmon_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/sheep_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/shulker_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/silverfish_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/skeleton_horse_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/skeleton_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/slime_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/sniffer_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/snow_golem_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/spider_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/squid_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/stray_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/strider_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/tadpole_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/trader_llama_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/tropical_fish_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/turtle_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/vex_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/villager_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/vindicator_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/wandering_trader_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/warden_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/witch_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/wither_skeleton_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/wither_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/wolf_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/zoglin_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/zombie_horse_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/zombie_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/zombie_villager_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/models/item/zombified_piglin_spawn_egg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/block/redstone_torch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/block/redstone_torch_off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/entity/ghast/ghast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/entity/ghast/ghast_shooting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/entity/horse/horse_zombie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/allay_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/axolotl_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/bat_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/bee_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/black_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/blaze_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/blue_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/brown_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/camel_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/cat_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/cave_spider_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/chicken_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/cod_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/cow_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/creeper_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/creeper_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/cyan_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/dolphin_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/donkey_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/drowned_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/elder_guardian_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/ender_dragon_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/enderman_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/endermite_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/evoker_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/flower_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/fox_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/frog_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/ghast_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/globe_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/glow_squid_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/goat_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/gray_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/green_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/guardian_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/hoglin_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/horse_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/husk_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/iron_golem_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/light_blue_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/light_gray_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/lime_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/llama_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/magenta_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/magma_cube_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/mojang_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/mooshroom_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/mule_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/ocelot_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/orange_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/panda_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/parrot_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/phantom_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/pig_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/piglin_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/piglin_brute_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/piglin_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/pillager_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/pink_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/polar_bear_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/pufferfish_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/purple_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/rabbit_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/ravager_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/red_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/salmon_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/sheep_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/shulker_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/silverfish_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/skeleton_horse_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/skeleton_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/skull_banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/slime_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/sniffer_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/snow_golem_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/spider_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/squid_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/stray_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/strider_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/tadpole_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/trader_llama_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/tropical_fish_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/turtle_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/vex_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/villager_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/vindicator_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/wandering_trader_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/warden_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/white_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/witch_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/wither_skeleton_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/wither_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/wolf_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/yellow_dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/zoglin_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/zombie_horse_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/zombie_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/zombie_villager_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/assets/minecraft/textures/item/zombified_piglin_spawn_egg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/backported.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/resources/main/pack.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/Backported.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/MaceItem.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModArmorMaterials.class.uniqueId11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModBlocks.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModEntities.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModItems.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModModelLayers.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModSounds.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModTags$Blocks.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModTags$Items.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/ModTags.class.uniqueId9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/compileTransaction/stash-dir/WindChargeRenderer.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/tmp/transformProductionForge/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/backported.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/BackportedFabric.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/BackportedFabric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.curse.maven-backported-spears-1385191-7540679.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.dev.architectury-architectury-fabric-9.2.14-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.dev.architectury-architectury-fabric-9.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.io.github.llamalad7-mixinextras-fabric-0.3.5-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.io.github.llamalad7-mixinextras-fabric-0.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-api-0.92.7+1.20.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-api-0.92.7+1.20.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-api-base-0.4.32+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-api-base-0.4.32+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-api-lookup-api-v1-1.6.37+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-api-lookup-api-v1-1.6.37+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-biome-api-v1-13.0.15+93aa238b77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-biome-api-v1-13.0.15+93aa238b77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-block-api-v1-1.0.12+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-block-api-v1-1.0.12+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-block-view-api-v2-1.0.3+924f046a77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-block-view-api-v2-1.0.3+924f046a77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-blockrenderlayer-v1-1.1.42+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-blockrenderlayer-v1-1.1.42+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-client-tags-api-v1-1.1.3+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-client-tags-api-v1-1.1.3+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-command-api-v1-1.2.35+f71b366f77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-command-api-v1-1.2.35+f71b366f77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-command-api-v2-2.2.14+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-command-api-v2-2.2.14+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-commands-v0-0.2.52+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-commands-v0-0.2.52+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-containers-v0-0.1.67+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-containers-v0-0.1.67+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-content-registries-v0-4.0.13+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-content-registries-v0-4.0.13+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-convention-tags-v1-1.5.6+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-convention-tags-v1-1.5.6+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-crash-report-info-v1-0.2.20+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-crash-report-info-v1-0.2.20+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-data-attachment-api-v1-1.0.2+de0fd6d177-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-data-attachment-api-v1-1.0.2+de0fd6d177.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-data-generation-api-v1-12.3.7+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-data-generation-api-v1-12.3.7+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-dimensions-v1-2.1.55+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-dimensions-v1-2.1.55+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-entity-events-v1-1.6.1+1c78457f77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-entity-events-v1-1.6.1+1c78457f77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-events-interaction-v0-0.6.5+13a40c6677-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-events-interaction-v0-0.6.5+13a40c6677.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-events-lifecycle-v0-0.2.64+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-events-lifecycle-v0-0.2.64+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-game-rule-api-v1-1.0.41+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-game-rule-api-v1-1.0.41+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-gametest-api-v1-1.2.15+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-gametest-api-v1-1.2.15+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-item-api-v1-2.1.29+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-item-api-v1-2.1.29+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-item-group-api-v1-4.0.14+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-item-group-api-v1-4.0.14+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-key-binding-api-v1-1.0.38+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-key-binding-api-v1-1.0.38+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-keybindings-v0-0.2.36+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-keybindings-v0-0.2.36+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-2.2.23+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-lifecycle-events-v1-2.2.23+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-loot-api-v2-1.2.3+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-loot-api-v2-1.2.3+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-loot-tables-v1-1.1.47+9e7660c677-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-loot-tables-v1-1.1.47+9e7660c677.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-message-api-v1-5.1.10+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-message-api-v1-5.1.10+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-mining-level-api-v1-2.1.52+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-mining-level-api-v1-2.1.52+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-model-loading-api-v1-1.0.4+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-model-loading-api-v1-1.0.4+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-models-v0-0.4.3+9386d8a777-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-models-v0-0.4.3+9386d8a777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-networking-api-v1-1.3.14+a158aa0477-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-networking-api-v1-1.3.14+a158aa0477.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-networking-v0-0.3.54+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-networking-v0-0.3.54+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-object-builder-api-v1-11.1.5+e35120df77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-object-builder-api-v1-11.1.5+e35120df77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-particles-v1-1.1.3+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-particles-v1-1.1.3+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-recipe-api-v1-1.0.24+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-recipe-api-v1-1.0.24+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-registry-sync-v0-2.3.6+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-registry-sync-v0-2.3.6+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-renderer-api-v1-3.2.2+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-renderer-api-v1-3.2.2+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-renderer-indigo-1.5.3+85287f9f77-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-renderer-indigo-1.5.3+85287f9f77.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-renderer-registries-v1-3.2.47+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-renderer-registries-v1-3.2.47+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0.3.39+92a0d36777-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-rendering-data-attachment-v1-0.3.39+92a0d36777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-3.0.29+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-rendering-fluids-v1-3.0.29+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-rendering-v0-1.1.50+df3654b377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-rendering-v0-1.1.50+df3654b377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-rendering-v1-3.0.9+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-rendering-v1-3.0.9+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-resource-conditions-api-v1-2.3.9+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-resource-conditions-api-v1-2.3.9+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-0.11.12+fb82e9d777-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-resource-loader-v0-0.11.12+fb82e9d777.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-screen-api-v1-2.0.9+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-screen-api-v1-2.0.9+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-1.3.33+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-screen-handler-api-v1-1.3.33+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-sound-api-v1-1.0.14+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-sound-api-v1-1.0.14+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-transfer-api-v1-3.3.6+8dd72ea377-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-transfer-api-v1-3.3.6+8dd72ea377.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-transitive-access-wideners-v1-4.3.2+1802ada577-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2.net.fabricmc.fabric-api-fabric-transitive-access-wideners-v1-4.3.2+1802ada577.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/sounds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/backported.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/data/fabricDefaultResourcePacks.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/data/fabricDefaultResourcePacks.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-06-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-06-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-06-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-06-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-07-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-08-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-08-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-11-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-11-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/2026-02-11-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-11-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/data/random_sequences.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/playerdata/4a5060c2-513d-3571-8c5d-062b588e69ca.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/poi/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/BackportedFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/BackportedFabric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/devlibs/backported-forge-1.0.0-dev.jar" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/devlibs/backported-forge-1.0.0-dev.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/devlibs/backported-forge-1.0.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/devlibs/backported-forge-1.0.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/libs/backported-forge-1.0.0-dev-shadow.jar" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/libs/backported-forge-1.0.0-dev-shadow.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/libs/backported-forge-1.0.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/libs/backported-forge-1.0.0-sources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/libs/backported-forge-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/libs/backported-forge-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/loom-cache/argFiles/runClient" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/loom-cache/argFiles/runData" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge.curse.maven-backported-spears-1385191-7540681.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge.dev.architectury-architectury-forge-9.2.14-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/loom-cache/remapped_working/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge.dev.architectury-architectury-forge-9.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/backported.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_11.53.02-client.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_12.03.45-server.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_12.05.52-client.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_12.10.38-server.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.01.19-client.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.01.58-client.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.05.28-client.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.18.44-fml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.25.58-fml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-07_18.30.46-fml.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-06-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-07-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-09-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-11-1.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-11-2.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-11-3.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-11-4.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-11-5.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-11-6.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-11-7.log.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +736,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -95,35 +772,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Minecraft Client (:fabric).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Minecraft Client (:forge).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Minecraft Data (:forge).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build forge-1.20.1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.forge-1.20.1 [createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.forge-1.20.1:forge [build].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;external.system.has.shared.sources&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;2001&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/minecraft_mod_repository_contributions&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Minecraft Client (:fabric).executor": "Run",
+    "Application.Minecraft Client (:forge).executor": "Run",
+    "Application.Minecraft Data (:forge).executor": "Run",
+    "Gradle.Build forge-1.20.1.executor": "Run",
+    "Gradle.forge-1.20.1 [createMcpToSrg].executor": "Run",
+    "Gradle.forge-1.20.1:forge [build].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "external.system.has.shared.sources": "true",
+    "git-widget-placeholder": "2001",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/minecraft_mod_repository_contributions",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.drd.backported.entity.variant" />
+      <recent name="com.drd.backported.client" />
       <recent name="com.drd.backported.platform.fabric" />
       <recent name="com.drd.backported.platform.forge" />
       <recent name="com.drd.backported.forge" />
-      <recent name="com.drd.backported.util" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.drd.backported.block" />
       <recent name="com.drd.backported.block.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:forge)">
+  <component name="RunManager" selected="Application.Minecraft Client (:fabric)">
     <configuration name="forge-1.20.1:forge [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -262,7 +941,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770862746156</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lodestone recipe change">
+      <option name="closed" value="true" />
+      <created>1770924676299</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770924676299</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -278,6 +965,7 @@
     <MESSAGE value="Craftable items" />
     <MESSAGE value="Pale Oak wood set (Part 4) (Boats)" />
     <MESSAGE value="Adding the paintings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the paintings" />
+    <MESSAGE value="Lodestone recipe change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lodestone recipe change" />
   </component>
 </project>

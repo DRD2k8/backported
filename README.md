@@ -13,7 +13,7 @@ If all of these are complete, I will publish the first version of the mod.
 ## Armored Paws (1.20.5 & 1.20.6)
 - [ ] Wolf Armor
 - [ ] Armadillo
-- [ ] Wolf Variants
+- [X] Wolf Variants
 
 ## Tricky Trials (1.21 & 1.21.1)
 - [ ] Crafter
@@ -64,6 +64,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Pig Variants
 - [ ] Cow Variants
 - [ ] Chicken Variants
+- [ ] Sheared sheep texture fix
 - [ ] Fallen trees
 - [X] Lodestone recipe change
 - [X] Spawn egg texture updates
@@ -130,4 +131,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Craftable name tag
 
 
-### Total completed: 23/97
+### Total completed: 24/98

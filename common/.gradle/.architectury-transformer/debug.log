@@ -1,21 +1,20 @@
 [Architectury Transformer DEBUG] 
 [Architectury Transformer DEBUG] ============================
-[Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionForge.jar
+[Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionFabric.jar
 [Architectury Transformer DEBUG] ============================
 [Architectury Transformer DEBUG] 
-[Architectury Transformer DEBUG] Transforming 7 transformer(s) from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionForge.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@70093c5c
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@7ca65ea9
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionFabric.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@4e6f802
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@4200e63a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@42b2dfbb
 [Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@22f9a4f9
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@b230377
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@35d68ac5
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@46493fd6
-[Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionForge.jar with 7 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@267524da
+[Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionFabric.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Reading mixin mappings file: D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\loom-cache\mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny
+[Architectury Transformer DEBUG] Reading mixin mappings file: D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\fabric\build\loom-cache\mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny
 [Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$3504/0x000002102d22b178@bd15067
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$3505/0x000002102d22b398@10b3ef45
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.shadowed.impl.dev.architectury.tinyremapper.TinyUtils$$Lambda$3376/0x000001ca2600e858@3bd75c71
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.shadowed.impl.dev.architectury.tinyremapper.TinyUtils$$Lambda$3376/0x000001ca2600e858@5816a309
 [Architectury Transformer DEBUG] Provided 57 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.18.4\dc4682125d5db647d6ce80a98b98945835adcd4b\fabric-loader-0.18.4.jar
@@ -74,64 +73,95 @@
 [Architectury Transformer DEBUG]  - C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\c7350a71920f3ae9142945e25fed4846cce53374\netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
 [Architectury Transformer DEBUG]  - D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2\dev\architectury\architectury\9.2.14\architectury-9.2.14.jar
-[Architectury Transformer] Read classpath in 1.572 s
+[Architectury Transformer] Read classpath in 1.709 s
 [Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/Backported with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Blocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Items with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/StrippableAccess with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Items with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModSoundTypes with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/ModWoodTypes with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/ModStrippables with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/platform/CommonPlatformUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/LivingEntityMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WoodTypeInvoker with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemInHandRendererInvoker with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ServerPlayerMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemRendererMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/DamageEnchantmentMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WolfRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/HumanoidModelMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/item/SpearItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/LocalPlayerMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/EnchantmentMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemPropertiesMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/HeldItemRendererMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/EntityMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/MinecraftMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemInHandLayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/ModArmorMaterials with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/SpearItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/WindChargeItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/item/ModToolTiers with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/CustomBoatItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/MaceItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/ModToolTiers with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/MovementFixer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/SpearUser with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModSounds with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEntities with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModSounds with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEnchantments with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlockEntities with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModPaintings with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/WindCharge with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat$Type with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomChestBoat with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/WolfVariant with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/VariantHolder with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/VariantBiomeMap with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/enchantment/LungeEnchantment with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/BackportedClient$holdUpAnimation with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/BackportedClient with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/WindChargeRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/CustomBoatRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/model/WindChargeModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/init/ModModelLayers with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomCeilingHangingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomStandingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallSignBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/HeavyCoreBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallHangingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomHangingSignBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomSignBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/IHangingSign with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /backported.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /backported-common-common-refmap.json is a mixin config.
-[Architectury Transformer DEBUG] Checking whether /backported.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Checking whether /backported-common-common-refmap.json is a mixin config.
-[Architectury Transformer DEBUG] Found mixin config(s): backported.mixins.json
-[Architectury Transformer DEBUG] Injecting MixinConfigs into /META-INF/MANIFEST.MF
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-common-common-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionForge.jar
-[Architectury Transformer] Transformed jar with 7 transformer(s) in 3.236 s
+[Architectury Transformer DEBUG] Closed File Systems for D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionFabric.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 3.222 s
 [Architectury Transformer DEBUG] 
 [Architectury Transformer DEBUG] ============================
 [Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionForge.jar
 [Architectury Transformer DEBUG] ============================
 [Architectury Transformer DEBUG] 
 [Architectury Transformer DEBUG] Transforming 7 transformer(s) from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionForge.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@52745f30
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@4f56d2ce
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@134d4ec5
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@3c9fb351
 [Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@cc3510
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@64a525f8
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@32a70cf1
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@7b308d69
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@3ee8011e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@254ac90
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@5e38587f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@40a4a44e
 [Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionForge.jar with 7 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Reading mixin mappings file: D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\loom-cache\mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny
-[Architectury Transformer DEBUG] Remapping with 2 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$3505/0x000002102d22b398@10b3ef45
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$3504/0x000002102d22b178@1ab553aa
+[Architectury Transformer DEBUG] Reading mixin mappings file: D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\fabric\build\loom-cache\mixin-map-loom.mappings.1_20_1.layered+hash.40359-v2.main.tiny
+[Architectury Transformer DEBUG] Remapping with 3 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$3514/0x000001ca260ed8d8@7b4cc72
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$3514/0x000001ca260ed8d8@5025fe03
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$3515/0x000001ca260edaf8@45b904cf
 [Architectury Transformer DEBUG] Provided 57 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\net.fabricmc\fabric-loader\0.18.4\dc4682125d5db647d6ce80a98b98945835adcd4b\fabric-loader-0.18.4.jar
@@ -190,37 +220,92 @@
 [Architectury Transformer DEBUG]  - C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\c7350a71920f3ae9142945e25fed4846cce53374\netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
 [Architectury Transformer DEBUG]  - C:\Users\dandi\scoop\apps\gradle\current\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-epoll\4.1.82.Final\476409d6255001ca53a55f65b01c13822f8dc93a\netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
 [Architectury Transformer DEBUG]  - D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2\dev\architectury\architectury\9.2.14\architectury-9.2.14.jar
-[Architectury Transformer] Read classpath in 1.166 s
+[Architectury Transformer] Read classpath in 1.104 s
+[Architectury Transformer DEBUG] Remap mixin method com/drd/backported/mixin/HumanoidModelMixin#getArm(Lnet/minecraft/world/entity/HumanoidArm;)Lnet/minecraft/client/model/geom/ModelPart; -> m_102851_
+[Architectury Transformer DEBUG] Remap mixin method com/drd/backported/mixin/ItemPropertiesMixin#registerGeneric(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/client/renderer/item/ClampedItemPropertyFunction;)Lnet/minecraft/client/renderer/item/ClampedItemPropertyFunction; -> m_174581_
+[Architectury Transformer DEBUG] Remap mixin method com/drd/backported/mixin/LivingEntityMixin#getMainHandItem()Lnet/minecraft/world/item/ItemStack; -> m_21205_
+[Architectury Transformer DEBUG] Remap mixin method com/drd/backported/mixin/LivingEntityMixin#getOffhandItem()Lnet/minecraft/world/item/ItemStack; -> m_21206_
+[Architectury Transformer DEBUG] Remap mixin method com/drd/backported/mixin/LivingEntityMixin#hasEffect(Lnet/minecraft/world/effect/MobEffect;)Z -> m_21023_
+[Architectury Transformer DEBUG] Remap mixin method com/drd/backported/mixin/LivingEntityMixin#getEffect(Lnet/minecraft/world/effect/MobEffect;)Lnet/minecraft/world/effect/MobEffectInstance; -> m_21124_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/EnchantmentMixin#category:Lnet/minecraft/world/item/enchantment/EnchantmentCategory; -> f_44672_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/EntityMixin#xo:D -> f_19854_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/EntityMixin#yo:D -> f_19855_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/EntityMixin#zo:D -> f_19856_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/HumanoidModelMixin#rightArm:Lnet/minecraft/client/model/geom/ModelPart; -> f_102811_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/HumanoidModelMixin#leftArm:Lnet/minecraft/client/model/geom/ModelPart; -> f_102812_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/HumanoidModelMixin#body:Lnet/minecraft/client/model/geom/ModelPart; -> f_102810_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/HumanoidModelMixin#head:Lnet/minecraft/client/model/geom/ModelPart; -> f_102808_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/HumanoidModelMixin#rightArmPose:Lnet/minecraft/client/model/HumanoidModel$ArmPose; -> f_102816_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/HumanoidModelMixin#leftArmPose:Lnet/minecraft/client/model/HumanoidModel$ArmPose; -> f_102815_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/ItemRendererMixin#itemModelShaper:Lnet/minecraft/client/renderer/ItemModelShaper; -> f_115095_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/LocalPlayerMixin#input:Lnet/minecraft/client/player/Input; -> f_108618_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/mixin/LocalPlayerMixin#minecraft:Lnet/minecraft/client/Minecraft; -> f_108619_
+[Architectury Transformer DEBUG] Remap mixin field com/drd/backported/fabric/mixin/HangingSignEditScreenMixin#texture:Lnet/minecraft/resources/ResourceLocation; -> f_243720_
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/Backported with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Blocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/StrippableAccess with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Items with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModSoundTypes with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/ModWoodTypes with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/ModStrippables with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/platform/CommonPlatformUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WoodTypeInvoker with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemInHandRendererInvoker with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ServerPlayerMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/DamageEnchantmentMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemRendererMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WolfRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/HumanoidModelMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/item/SpearItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/LivingEntityMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemInHandLayerMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/LocalPlayerMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/EnchantmentMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/HeldItemRendererMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/EntityMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/MinecraftMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemPropertiesMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/ModArmorMaterials with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/CustomBoatItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/WindChargeItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/MaceItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/SpearItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/ModToolTiers with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/MovementFixer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/SpearUser with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModSounds with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEntities with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModSounds with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEnchantments with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModItems with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModPaintings with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlockEntities with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/WindCharge with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat$Type with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomChestBoat with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/WolfVariant with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/VariantHolder with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/VariantBiomeMap with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/enchantment/LungeEnchantment with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/BackportedClient$holdUpAnimation with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/BackportedClient with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/WindChargeRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/CustomBoatRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/model/WindChargeModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/init/ModModelLayers with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomCeilingHangingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomStandingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallSignBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/HeavyCoreBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallHangingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomHangingSignBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomSignBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/IHangingSign with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /backported.mixins.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /backported-common-common-refmap.json is a mixin config.
@@ -230,5 +315,65 @@
 [Architectury Transformer DEBUG] Found mixin config(s): backported.mixins.json
 [Architectury Transformer DEBUG] Injecting MixinConfigs into /META-INF/MANIFEST.MF
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-common-common-refmap.json
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1882;method_8192(Lnet/minecraft/class_1799;)Z -> Lnet/minecraft/world/item/enchantment/DamageEnchantment;m_6081_(Lnet/minecraft/world/item/ItemStack;)Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z -> Lnet/minecraft/world/item/enchantment/Enchantment;m_6081_(Lnet/minecraft/world/item/ItemStack;)Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1297;method_5784(Lnet/minecraft/class_1313;Lnet/minecraft/class_243;)V -> Lnet/minecraft/world/entity/Entity;m_6478_(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_4587;method_46416(FFF)V -> Lcom/mojang/blaze3d/vertex/PoseStack;m_252880_(FFF)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_759;method_3217(Lnet/minecraft/class_4587;Lnet/minecraft/class_1306;F)V -> Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109335_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_759;method_3224(Lnet/minecraft/class_4587;Lnet/minecraft/class_1306;F)V -> Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109382_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1799;method_7976()Lnet/minecraft/class_1839; -> Lnet/minecraft/world/item/ItemStack;m_41780_()Lnet/minecraft/world/item/UseAnim;
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V -> Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109371_(Lnet/minecraft/client/player/AbstractClientPlayer;FFLnet/minecraft/world/InteractionHand;FLnet/minecraft/world/item/ItemStack;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_3532;method_15374(F)F -> Lnet/minecraft/util/Mth;m_14031_(F)F
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_572;method_30155(Lnet/minecraft/class_1309;)V -> Lnet/minecraft/client/model/HumanoidModel;m_102878_(Lnet/minecraft/world/entity/LivingEntity;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_572;method_30154(Lnet/minecraft/class_1309;)V -> Lnet/minecraft/client/model/HumanoidModel;m_102875_(Lnet/minecraft/world/entity/LivingEntity;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_572;method_29353(Lnet/minecraft/class_1309;F)V -> Lnet/minecraft/client/model/HumanoidModel;m_7884_(Lnet/minecraft/world/entity/LivingEntity;F)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_989;method_4192(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_811;Lnet/minecraft/class_1306;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V -> Lnet/minecraft/client/renderer/entity/layers/ItemInHandLayer;m_117184_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V
+[Architectury Transformer DEBUG] Remapped refmap value method_3217(Lnet/minecraft/class_4587;Lnet/minecraft/class_1306;F)V -> m_109335_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V
+[Architectury Transformer DEBUG] Remapped refmap value method_3224(Lnet/minecraft/class_4587;Lnet/minecraft/class_1306;F)V -> m_109382_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V -> Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115143_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;IILnet/minecraft/client/resources/model/BakedModel;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_32876(Lnet/minecraft/class_5712;)V -> Lnet/minecraft/world/entity/LivingEntity;m_146850_(Lnet/minecraft/world/level/gameevent/GameEvent;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_6085(IZ)V -> Lnet/minecraft/world/entity/LivingEntity;m_21155_(IZ)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_6028()I -> Lnet/minecraft/world/entity/LivingEntity;m_21304_()I
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_5711(B)V -> Lnet/minecraft/world/entity/LivingEntity;m_7822_(B)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_6019(Lnet/minecraft/class_1268;)V -> Lnet/minecraft/world/entity/LivingEntity;m_6672_(Lnet/minecraft/world/InteractionHand;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_6021()V -> Lnet/minecraft/world/entity/LivingEntity;m_5810_()V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_5773()V -> Lnet/minecraft/world/entity/LivingEntity;m_8119_()V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_746;method_6115()Z -> Lnet/minecraft/client/player/LocalPlayer;m_6117_()Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_746;method_6007()V -> Lnet/minecraft/client/player/LocalPlayer;m_8107_()V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_746;method_48300()Z -> Lnet/minecraft/client/player/LocalPlayer;m_264082_()Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_746;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799; -> Lnet/minecraft/client/player/LocalPlayer;m_21120_(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_310;method_1536()Z -> Lnet/minecraft/client/Minecraft;m_202354_()Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_969;method_4165(Lnet/minecraft/class_1493;)Lnet/minecraft/class_2960; -> Lnet/minecraft/client/renderer/entity/WolfRenderer;m_5478_(Lnet/minecraft/world/entity/animal/Wolf;)Lnet/minecraft/resources/ResourceLocation;
+[Architectury Transformer DEBUG] Remapped refmap value method_24027(Lnet/minecraft/class_4719;)Lnet/minecraft/class_4719; -> m_61844_(Lnet/minecraft/world/level/block/state/properties/WoodType;)Lnet/minecraft/world/level/block/state/properties/WoodType;
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1882;method_8192(Lnet/minecraft/class_1799;)Z -> Lnet/minecraft/world/item/enchantment/DamageEnchantment;m_6081_(Lnet/minecraft/world/item/ItemStack;)Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z -> Lnet/minecraft/world/item/enchantment/Enchantment;m_6081_(Lnet/minecraft/world/item/ItemStack;)Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1297;method_5784(Lnet/minecraft/class_1313;Lnet/minecraft/class_243;)V -> Lnet/minecraft/world/entity/Entity;m_6478_(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_4587;method_46416(FFF)V -> Lcom/mojang/blaze3d/vertex/PoseStack;m_252880_(FFF)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_759;method_3217(Lnet/minecraft/class_4587;Lnet/minecraft/class_1306;F)V -> Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109335_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_759;method_3224(Lnet/minecraft/class_4587;Lnet/minecraft/class_1306;F)V -> Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109382_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1799;method_7976()Lnet/minecraft/class_1839; -> Lnet/minecraft/world/item/ItemStack;m_41780_()Lnet/minecraft/world/item/UseAnim;
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_759;method_3228(Lnet/minecraft/class_742;FFLnet/minecraft/class_1268;FLnet/minecraft/class_1799;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V -> Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109371_(Lnet/minecraft/client/player/AbstractClientPlayer;FFLnet/minecraft/world/InteractionHand;FLnet/minecraft/world/item/ItemStack;FLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_3532;method_15374(F)F -> Lnet/minecraft/util/Mth;m_14031_(F)F
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_572;method_30155(Lnet/minecraft/class_1309;)V -> Lnet/minecraft/client/model/HumanoidModel;m_102878_(Lnet/minecraft/world/entity/LivingEntity;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_572;method_30154(Lnet/minecraft/class_1309;)V -> Lnet/minecraft/client/model/HumanoidModel;m_102875_(Lnet/minecraft/world/entity/LivingEntity;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_572;method_29353(Lnet/minecraft/class_1309;F)V -> Lnet/minecraft/client/model/HumanoidModel;m_7884_(Lnet/minecraft/world/entity/LivingEntity;F)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_989;method_4192(Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;Lnet/minecraft/class_811;Lnet/minecraft/class_1306;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V -> Lnet/minecraft/client/renderer/entity/layers/ItemInHandLayer;m_117184_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V
+[Architectury Transformer DEBUG] Remapped refmap value method_3217(Lnet/minecraft/class_4587;Lnet/minecraft/class_1306;F)V -> m_109335_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V
+[Architectury Transformer DEBUG] Remapped refmap value method_3224(Lnet/minecraft/class_4587;Lnet/minecraft/class_1306;F)V -> m_109382_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/entity/HumanoidArm;F)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V -> Lnet/minecraft/client/renderer/entity/ItemRenderer;m_115143_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;IILnet/minecraft/client/resources/model/BakedModel;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_32876(Lnet/minecraft/class_5712;)V -> Lnet/minecraft/world/entity/LivingEntity;m_146850_(Lnet/minecraft/world/level/gameevent/GameEvent;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_6085(IZ)V -> Lnet/minecraft/world/entity/LivingEntity;m_21155_(IZ)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_6028()I -> Lnet/minecraft/world/entity/LivingEntity;m_21304_()I
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_5711(B)V -> Lnet/minecraft/world/entity/LivingEntity;m_7822_(B)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_6019(Lnet/minecraft/class_1268;)V -> Lnet/minecraft/world/entity/LivingEntity;m_6672_(Lnet/minecraft/world/InteractionHand;)V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_6021()V -> Lnet/minecraft/world/entity/LivingEntity;m_5810_()V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_1309;method_5773()V -> Lnet/minecraft/world/entity/LivingEntity;m_8119_()V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_746;method_6115()Z -> Lnet/minecraft/client/player/LocalPlayer;m_6117_()Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_746;method_6007()V -> Lnet/minecraft/client/player/LocalPlayer;m_8107_()V
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_746;method_48300()Z -> Lnet/minecraft/client/player/LocalPlayer;m_264082_()Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_746;method_5998(Lnet/minecraft/class_1268;)Lnet/minecraft/class_1799; -> Lnet/minecraft/client/player/LocalPlayer;m_21120_(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_310;method_1536()Z -> Lnet/minecraft/client/Minecraft;m_202354_()Z
+[Architectury Transformer DEBUG] Remapped refmap value Lnet/minecraft/class_969;method_4165(Lnet/minecraft/class_1493;)Lnet/minecraft/class_2960; -> Lnet/minecraft/client/renderer/entity/WolfRenderer;m_5478_(Lnet/minecraft/world/entity/animal/Wolf;)Lnet/minecraft/resources/ResourceLocation;
+[Architectury Transformer DEBUG] Remapped refmap value method_24027(Lnet/minecraft/class_4719;)Lnet/minecraft/class_4719; -> m_61844_(Lnet/minecraft/world/level/block/state/properties/WoodType;)Lnet/minecraft/world/level/block/state/properties/WoodType;
 [Architectury Transformer DEBUG] Closed File Systems for D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\libs\backported-common-1.0.0-transformProductionForge.jar
-[Architectury Transformer] Transformed jar with 7 transformer(s) in 2.467 s
+[Architectury Transformer] Transformed jar with 7 transformer(s) in 2.152 s
