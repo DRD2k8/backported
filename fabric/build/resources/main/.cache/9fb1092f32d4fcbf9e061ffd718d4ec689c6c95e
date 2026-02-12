@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-11T10:47:53.8800954	Recipes
+// 1.20.1	2026-02-11T16:40:54.3291374	Recipes
 0392f25aaa3f8b348539d7974a196dc9392615ff data/backported/advancements/recipes/building_blocks/pale_oak_planks.json
 30dc2ca6f5549c60adf16749347bc80f188ac599 data/backported/advancements/recipes/building_blocks/pale_oak_slab.json
 4245df71523f24805ac373b714198006f06876cc data/backported/advancements/recipes/building_blocks/pale_oak_stairs.json
@@ -30,6 +30,8 @@ e5cfec3ff3a82a6ee8c125c323ea7378dc8676c3 data/backported/advancements/recipes/to
 f6918a85052ae622d6a9048700e26a48c6a2a615 data/backported/advancements/recipes/tools/copper_hoe.json
 bdcad9fadb570f6371d5866541c27f6dee5f4067 data/backported/advancements/recipes/tools/copper_pickaxe.json
 a3e3cd5bbbccc0723047e03b93a2823af293a242 data/backported/advancements/recipes/tools/copper_shovel.json
+da82ee755e0360d29698493a8d9ce5754599610d data/backported/advancements/recipes/transportation/pale_oak_boat.json
+fd890cc65e66ad6b1b34ef49b3e6a8a39d03e4a1 data/backported/advancements/recipes/transportation/pale_oak_chest_boat.json
 896da6e9709200096ae96415e48ad83d3e0b9a72 data/backported/recipes/copper_axe.json
 c8a1837cfa8dd6961151eba63b419fb1faebc81a data/backported/recipes/copper_boots.json
 850314765cf3b7be39aeaa59ce278407db4c97ae data/backported/recipes/copper_chestplate.json
@@ -45,7 +47,9 @@ beac17ae831f8105f75c51581f79015674b1b7ab data/backported/recipes/copper_sword.js
 18037d5903fe61edd01dc99e3c0f53778c6f5738 data/backported/recipes/golden_spear.json
 4ae718135bb4b6ade688db14ce4dbf0a44e91664 data/backported/recipes/iron_spear.json
 9cd7f3aaa425e11e863305ce475b42b885e8bb25 data/backported/recipes/mace.json
+2667c1b5b4a4994f99fb2e2607673cb2216f1fc8 data/backported/recipes/pale_oak_boat.json
 96fafd70a0f039eec5fd3643b0f8ac4cadc170cb data/backported/recipes/pale_oak_button.json
+087afa3537694dd34bc0bfb73d67e56a74699e01 data/backported/recipes/pale_oak_chest_boat.json
 2f7b7972c2dbf49946f2ec86b0737f5e99091d55 data/backported/recipes/pale_oak_door.json
 0d855e4d54488709fe6e92c7680696fec1635222 data/backported/recipes/pale_oak_fence.json
 e295874005fcd8f4faafb42945eb9a75d22602a2 data/backported/recipes/pale_oak_fence_gate.json

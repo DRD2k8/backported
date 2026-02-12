@@ -50,6 +50,10 @@ public class CreativeTabPlacements {
                 ModItems.COPPER_PICKAXE.get(),
                 ModItems.COPPER_AXE.get(),
                 ModItems.COPPER_HOE.get());
+        entries.addAfter(Items.CHERRY_CHEST_BOAT,
+                ModItems.PALE_OAK_BOAT.get(),
+                ModItems.PALE_OAK_CHEST_BOAT.get()
+        );
     }
 
     private static void addItemsToCombatTab(FabricItemGroupEntries entries) {

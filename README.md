@@ -49,7 +49,7 @@ If all of these are complete, I will publish the first version of the mod.
 
 ## The Garden Awakens (1.21.4)
 - [ ] Pale Garden biome
-- [ ] Pale Oak wood set
+- [X] Pale Oak wood set
 - [ ] Resin material family
 - [ ] Creaking
 - [ ] Wither roses wither bees when fed

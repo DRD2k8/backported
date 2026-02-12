@@ -1,6 +1,7 @@
 package com.drd.backported.init;
 
 import com.drd.backported.Backported;
+import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.item.*;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
@@ -21,6 +22,10 @@ public class ModItems {
             () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.PALE_OAK_SIGN.get(), ModBlocks.PALE_OAK_WALL_SIGN.get()));
     public static final RegistrySupplier<Item> PALE_OAK_HANGING_SIGN = ITEMS.register("pale_oak_hanging_sign",
             () -> new HangingSignItem(ModBlocks.PALE_OAK_HANGING_SIGN.get(), ModBlocks.PALE_OAK_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+    public static final RegistrySupplier<Item> PALE_OAK_BOAT = ITEMS.register("pale_oak_boat",
+            () -> new CustomBoatItem(false, CustomBoat.Type.PALE_OAK, new Item.Properties()));
+    public static final RegistrySupplier<Item> PALE_OAK_CHEST_BOAT = ITEMS.register("pale_oak_chest_boat",
+            () -> new CustomBoatItem(true, CustomBoat.Type.PALE_OAK, new Item.Properties()));
 
     // The Copper Age
     public static final RegistrySupplier<Item> COPPER_NUGGET = basicItem("copper_nugget");

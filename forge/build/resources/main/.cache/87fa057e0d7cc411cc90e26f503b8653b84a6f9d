@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-11T10:47:53.8740944	Tags for minecraft:item mod id backported
+// 1.20.1	2026-02-11T16:40:54.3261368	Tags for minecraft:item mod id backported
 d39f50119614b15b2429cf4bc50a4b7225a8a98c data/backported/tags/items/metal_nuggets.json
 3e5ecb31784f337360af16782c45509a4de295bb data/backported/tags/items/pale_oak_logs.json
 dfbe0f5d73eff2dcd3143b656e8056cea2ab3639 data/backported/tags/items/spears.json
@@ -8,6 +8,8 @@ e75ff357b32a28367c7aa47cfa8dc738f1c393f0 data/c/tags/items/copper_nuggets.json
 1582db8194dc603f2270dfbc309a4b7c38febe41 data/forge/tags/items/nuggets.json
 e75ff357b32a28367c7aa47cfa8dc738f1c393f0 data/forge/tags/items/nuggets/copper.json
 d4691cd07dbc5f5dd1f71bd8265a8c8ff1a78172 data/minecraft/tags/items/axes.json
+495f6bdfc5fcda37161f3b2a128fabf68aed93f7 data/minecraft/tags/items/boats.json
+9fa64e43084fe1383d2399926d8a37861ac4a13d data/minecraft/tags/items/chest_boats.json
 53b0cf35e687efa9198e6f67856cad6998b42dc1 data/minecraft/tags/items/fence_gates.json
 7bb52181ddee3d557863e9b64c1fe473ae7212d1 data/minecraft/tags/items/hanging_signs.json
 3a552dcdbb25e12478abb14097282aec24f4c75c data/minecraft/tags/items/hoes.json

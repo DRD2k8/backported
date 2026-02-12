@@ -35,6 +35,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         buttonItem(ModBlocks.PALE_OAK_BUTTON, ModBlocks.PALE_OAK_PLANKS);
         simpleItem(ModItems.PALE_OAK_SIGN);
         simpleItem(ModItems.PALE_OAK_HANGING_SIGN);
+        simpleItem(ModItems.PALE_OAK_BOAT);
+        simpleItem(ModItems.PALE_OAK_CHEST_BOAT);
 
         // The Copper Age
         simpleItem(ModItems.COPPER_NUGGET);

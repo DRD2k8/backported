@@ -64,6 +64,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
         this.tag(ItemTags.HANGING_SIGNS)
                 .add(ModItems.PALE_OAK_HANGING_SIGN.get());
 
+        this.tag(ItemTags.BOATS)
+                .add(ModItems.PALE_OAK_BOAT.get());
+
+        this.tag(ItemTags.CHEST_BOATS)
+                .add(ModItems.PALE_OAK_CHEST_BOAT.get());
+
         this.tag(ModTags.Items.METAL_NUGGETS)
                 .addOptionalTag(Tags.Items.NUGGETS)
                 .addOptionalTag(ModTags.Items.FABRIC_NUGGETS);

@@ -4,14 +4,20 @@ import com.drd.backported.Backported;
 import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.model.WindChargeModel;
+import com.drd.backported.client.renderer.CustomBoatRenderer;
 import com.drd.backported.client.renderer.WindChargeRenderer;
+import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.forge.packets.PacketHandler;
 import com.drd.backported.forge.packets.PlayerStabPacket;
 import com.drd.backported.init.ModBlockEntities;
 import com.drd.backported.init.ModEntities;
+import net.minecraft.client.model.BoatModel;
+import net.minecraft.client.model.ChestBoatModel;
+import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
@@ -25,6 +31,8 @@ public class BackportedForgeClient {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(BackportedClient::init);
+        EntityRenderers.register(ModEntities.BOAT.get(), context -> new CustomBoatRenderer<>(context, false));
+        EntityRenderers.register(ModEntities.CHEST_BOAT.get(), context -> new CustomBoatRenderer<>(context, true));
         EntityRenderers.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
         if (BackportedClient.syncSpears == null) {
             BackportedClient.syncSpears = (i) -> {
@@ -36,6 +44,10 @@ public class BackportedForgeClient {
 
     @SubscribeEvent
     public static void registerLayer(EntityRenderersEvent.RegisterLayerDefinitions event) {
+        for (CustomBoat.Type type : CustomBoat.Type.values()) {
+            event.registerLayerDefinition(new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, type.getModelLocation()), "main"), BoatModel::createBodyModel);
+            event.registerLayerDefinition(new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, type.getChestModelLocation()), "main"), ChestBoatModel::createBodyModel);
+        }
         event.registerLayerDefinition(ModModelLayers.WIND_CHARGE, WindChargeModel::createBodyLayer);
     }
 

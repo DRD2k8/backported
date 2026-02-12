@@ -76,6 +76,10 @@ public class CreativeTabPlacements {
                     ModItems.COPPER_PICKAXE.get(),
                     ModItems.COPPER_SHOVEL.get()
             );
+            entries.addAfter(Items.CHERRY_CHEST_BOAT,
+                    ModItems.PALE_OAK_CHEST_BOAT.get(),
+                    ModItems.PALE_OAK_BOAT.get()
+            );
         }
 
         if (tab == CreativeModeTabs.COMBAT) {

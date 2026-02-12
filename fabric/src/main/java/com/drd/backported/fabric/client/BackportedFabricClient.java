@@ -1,9 +1,12 @@
 package com.drd.backported.fabric.client;
 
+import com.drd.backported.Backported;
 import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.model.WindChargeModel;
+import com.drd.backported.client.renderer.CustomBoatRenderer;
 import com.drd.backported.client.renderer.WindChargeRenderer;
+import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.fabric.packets.PacketHandler;
 import com.drd.backported.fabric.packets.PlayerStabPacket;
 import com.drd.backported.init.ModBlockEntities;
@@ -12,9 +15,13 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.minecraft.client.model.BoatModel;
+import net.minecraft.client.model.ChestBoatModel;
+import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 
 public class BackportedFabricClient implements ClientModInitializer {
@@ -23,6 +30,12 @@ public class BackportedFabricClient implements ClientModInitializer {
         BackportedClient.init();
         BlockEntityRenderers.register(ModBlockEntities.SIGN.get(), SignRenderer::new);
         BlockEntityRenderers.register(ModBlockEntities.HANGING_SIGN.get(), HangingSignRenderer::new);
+        EntityRendererRegistry.register(ModEntities.BOAT.get(), context -> new CustomBoatRenderer<>(context, false));
+        EntityRendererRegistry.register(ModEntities.CHEST_BOAT.get(), context -> new CustomBoatRenderer<>(context, true));
+        for (CustomBoat.Type type : CustomBoat.Type.values()) {
+            EntityModelLayerRegistry.registerModelLayer(new ModelLayerLocation(new ResourceLocation(Backported.MOD_ID, type.getModelLocation()), "main"), BoatModel::createBodyModel);
+            EntityModelLayerRegistry.registerModelLayer(new ModelLayerLocation(new ResourceLocation(Backported.MOD_ID, type.getChestModelLocation()), "main"), ChestBoatModel::createBodyModel);
+        }
 
         // Tricky Trials
         EntityRendererRegistry.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
