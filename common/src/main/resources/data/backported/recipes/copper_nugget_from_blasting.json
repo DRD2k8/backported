@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "backported:copper_pickaxe"
+    },
+    {
+      "item": "backported:copper_shovel"
+    },
+    {
+      "item": "backported:copper_axe"
+    },
+    {
+      "item": "backported:copper_hoe"
+    },
+    {
+      "item": "backported:copper_sword"
+    },
+    {
+      "item": "backported:copper_spear"
+    },
+    {
+      "item": "backported:copper_helmet"
+    },
+    {
+      "item": "backported:copper_chestplate"
+    },
+    {
+      "item": "backported:copper_leggings"
+    },
+    {
+      "item": "backported:copper_boots"
+    },
+    {
+      "item": "backported:copper_horse_armor"
+    }
+  ],
+  "result": "backported:copper_nugget"
+}

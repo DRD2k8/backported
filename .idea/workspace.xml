@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the horse armor">
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/util/ModLootModifiers.java" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the horse armor loot modifiers">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModFuels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/recipes/copper_nugget_from_blasting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/recipes/copper_nugget_from_smelting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/recipes/gold_nugget_from_blasting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/recipes/gold_nugget_from_smelting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/recipes/iron_nugget_from_blasting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/recipes/iron_nugget_from_smelting.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,17 +119,17 @@
     "external.system.has.shared.sources": "true",
     "git-widget-placeholder": "2001",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/minecraft_mod_repository_branches/backported_real_version/forge-1.20.1/forge/src/main/resources/data/backported/loot_modifiers/chests/village/weaponsmith",
+    "last_opened_file_path": "D:/minecraft_mod_repository_branches/backported_real_version/forge-1.20.1/common/src/main/resources/data/backported/recipes",
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\main\resources\data\backported\recipes" />
       <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\village\weaponsmith" />
       <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\stronghold_corridor" />
       <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\nether_bridge" />
       <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\jungle_temple" />
-      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\end_city_treasure" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\end_city\add_item" />
@@ -323,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770952927787</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adding the horse armor loot modifiers">
+      <option name="closed" value="true" />
+      <created>1770953891163</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770953891163</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -344,6 +358,7 @@
     <MESSAGE value="Ghast drops Tears Music Disc" />
     <MESSAGE value="Chicken Jockey drops Lava Chicken music disc" />
     <MESSAGE value="Adding the horse armor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the horse armor" />
+    <MESSAGE value="Adding the horse armor loot modifiers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the horse armor loot modifiers" />
   </component>
 </project>
