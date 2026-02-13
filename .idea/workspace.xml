@@ -4,123 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Wolf variants">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/entity/handler/GhastDropHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/entity/variant/ChickenVariant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/entity/variant/CowVariant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/entity/variant/PigVariant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/cow/cow_cold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/cow/cow_temperate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/cow/cow_warm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_cold_chicken.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_cold_cow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_cold_pig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_temperate_chicken.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_temperate_cow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_temperate_pig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_warm_chicken.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_warm_cow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/tags/worldgen/biome/spawns_warm_pig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/crash-reports/crash-2026-02-12_14.59.11-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/crash-reports/crash-2026-02-12_15.00.33-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/crash-reports/crash-2026-02-12_15.10.36-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-12-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-12-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-12-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-12-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/advancements/28401ba7-dc22-34de-936c-d10dd3435a89.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/random_sequences.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-2.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-2.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-2.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-3.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-3.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/playerdata/28401ba7-dc22-34de-936c-d10dd3435a89.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/playerdata/28401ba7-dc22-34de-936c-d10dd3435a89.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/poi/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/poi/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/poi/r.-2.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/poi/r.-2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-2.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-2.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-2.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-3.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-3.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/stats/28401ba7-dc22-34de-936c-d10dd3435a89.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/util/SpecialMobDrops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/event/ModEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/BackportedFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/BackportedFabric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Ghast drops Tears Music Disc">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/entity/handler/ChickenJockeyDropHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,10 +61,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -248,7 +133,7 @@
       <recent name="com.drd.backported.block.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:fabric)">
+  <component name="RunManager" selected="Application.Minecraft Client (:forge)">
     <configuration name="forge-1.20.1:forge [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -403,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770938297220</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ghast drops Tears Music Disc">
+      <option name="closed" value="true" />
+      <created>1770943531225</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770943531225</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -421,6 +314,7 @@
     <MESSAGE value="Adding the paintings" />
     <MESSAGE value="Lodestone recipe change" />
     <MESSAGE value="Wolf variants" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wolf variants" />
+    <MESSAGE value="Ghast drops Tears Music Disc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ghast drops Tears Music Disc" />
   </component>
 </project>

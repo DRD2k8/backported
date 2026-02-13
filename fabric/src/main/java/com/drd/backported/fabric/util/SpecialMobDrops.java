@@ -1,5 +1,6 @@
 package com.drd.backported.fabric.util;
 
+import com.drd.backported.entity.handler.ChickenJockeyDropHandler;
 import com.drd.backported.entity.handler.GhastDropHandler;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 
@@ -8,6 +9,9 @@ public class SpecialMobDrops {
         ServerLivingEntityEvents.ALLOW_DEATH.register((entity, damageSource, amount) -> {
             GhastDropHandler.handleGhastKilledByReflectedFireball(entity, damageSource);
             return true;
+        });
+        ServerLivingEntityEvents.AFTER_DEATH.register((entity, source) -> {
+            ChickenJockeyDropHandler.handleBabyChickenJockeyDrop(entity, source);
         });
     }
 }
