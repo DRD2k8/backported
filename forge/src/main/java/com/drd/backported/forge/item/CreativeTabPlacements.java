@@ -69,6 +69,12 @@ public class CreativeTabPlacements {
             );
         }
 
+        if (tab == CreativeModeTabs.REDSTONE_BLOCKS) {
+            entries.addAfter(Items.JUKEBOX,
+                    Items.DECORATED_POT
+            );
+        }
+
         if (tab == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             entries.addAfter(Items.STONE_HOE,
                     ModItems.COPPER_HOE.get(),

@@ -2,6 +2,7 @@ package com.drd.backported;
 
 import com.drd.backported.init.*;
 import com.drd.backported.util.ModFuels;
+import dev.architectury.event.events.common.LifecycleEvent;
 
 public final class Backported {
     public static final String MOD_ID = "backported";
@@ -15,6 +16,8 @@ public final class Backported {
         ModItems.register();
         ModPaintings.register();
 
-        ModFuels.registerFuels();
+        LifecycleEvent.SETUP.register(() -> {
+            ModFuels.registerFuels();
+        });
     }
 }

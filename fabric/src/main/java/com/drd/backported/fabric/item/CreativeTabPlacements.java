@@ -42,6 +42,9 @@ public class CreativeTabPlacements {
     }
 
     private static void addItemsToRedstoneBlocksTab(FabricItemGroupEntries entries) {
+        entries.addAfter(Items.JUKEBOX,
+                Items.DECORATED_POT
+        );
     }
 
     private static void addItemsToToolsTab(FabricItemGroupEntries entries) {

@@ -38,7 +38,6 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Breach, Density, and Wind Burst Enchantments
 - [ ] Infested, Oozing, Raid Omen, Trial Omen, Weaving, and Wind Charged effects
 - [ ] Bad Omen effect changes
-- [ ] New Game Music: Featherfall, Watcher, Puzzlebox, komorebi, pokopoko (Plays in dripstone caves, groves, jagged peaks, and snowy slopes), yakusoku, Deeper (Plays in dripstone caves and the deep dark), Eld Unknown (Plays in dripstone caves, groves, jagged peaks, and snowy slopes), and Endless (Plays in dripstone caves, groves, jagged peaks, and snowy slopes)
 
 ## Bundles of Bravery (1.21.2 & 1.21.3)
 - [X] Banner pattern texture updates
@@ -77,7 +76,6 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Tears Music Disc
 - [X] Lava Chicken Music Disc
 - [X] Dennis Painting
-- [ ] New Game Music: Lilypad (Plays in frozen peaks and groves), Below and Above (Plays in cherry groves), O's Piano (Plays in lush caves), Broken Clocks (Plays in forests), Fireflies (Plays in deserts)
 - [X] Craftable Lead
 - [X] Craftable Saddle
 - [ ] Shears remove saddles
@@ -131,4 +129,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Craftable name tag
 
 
-### Total completed: 27/98
+### Total completed: 27/96
