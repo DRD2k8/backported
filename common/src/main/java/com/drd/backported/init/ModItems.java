@@ -45,6 +45,7 @@ public class ModItems {
     public static final RegistrySupplier<Item> COPPER_CHESTPLATE = armorItem("copper", ArmorItem.Type.CHESTPLATE, ModArmorMaterials.COPPER);
     public static final RegistrySupplier<Item> COPPER_LEGGINGS = armorItem("copper", ArmorItem.Type.LEGGINGS, ModArmorMaterials.COPPER);
     public static final RegistrySupplier<Item> COPPER_BOOTS = armorItem("copper", ArmorItem.Type.BOOTS, ModArmorMaterials.COPPER);
+    public static final RegistrySupplier<Item> COPPER_HORSE_ARMOR = horseArmorItem("copper", 4);
 
     // Mounts of Mayhem
     public static final RegistrySupplier<Item> WOODEN_SPEAR = spear("wooden", Tiers.WOOD, 1.54, 0.65f, 0.7f, 0.75f, 5f, 14f, 6f, 15f, ModSounds.SPEAR_WOOD_HIT, ModSounds.SPEAR_WOOD_ATTACK, ModSounds.SPEAR_WOOD_USE);
@@ -54,6 +55,7 @@ public class ModItems {
     public static final RegistrySupplier<Item> GOLDEN_SPEAR = spear("golden", Tiers.GOLD, 1.05, 0.95f, 0.7f, 0.7f, 3.5f, 10f, 5.5f, 13.75f);
     public static final RegistrySupplier<Item> DIAMOND_SPEAR = spear("diamond", Tiers.DIAMOND, 0.95, 1.05f, 1.075f, 0.5f, 3f, 7.5f, 4f, 10f);
     public static final RegistrySupplier<Item> NETHERITE_SPEAR = spear("netherite", Tiers.NETHERITE, 0.87, 1.15f, 1.2f, 0.4f, 2.5f, 7.0f, 3.5f, 8.75f);
+    public static final RegistrySupplier<Item> NETHERITE_HORSE_ARMOR = horseArmorItem("netherite", 19);
 
     private static RegistrySupplier<Item> basicItem(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties()));
@@ -94,6 +96,10 @@ public class ModItems {
 
     private static RegistrySupplier<Item> armorItem(String material, ArmorItem.Type type, ArmorMaterial armorMaterial) {
         return ITEMS.register(material + "_" + type.getName(), () -> new ArmorItem(armorMaterial, type, new Item.Properties()));
+    }
+
+    private static RegistrySupplier<Item> horseArmorItem(String material, int armor) {
+        return ITEMS.register(material + "_horse_armor", () -> new HorseArmorItem(armor, material, new Item.Properties().stacksTo(1)));
     }
 
     public static void register() {

@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-11T16:40:54.3291374	Recipes
+// 1.20.1	2026-02-12T18:13:13.1793166	Recipes
 0392f25aaa3f8b348539d7974a196dc9392615ff data/backported/advancements/recipes/building_blocks/pale_oak_planks.json
 30dc2ca6f5549c60adf16749347bc80f188ac599 data/backported/advancements/recipes/building_blocks/pale_oak_slab.json
 4245df71523f24805ac373b714198006f06876cc data/backported/advancements/recipes/building_blocks/pale_oak_stairs.json
@@ -65,6 +65,7 @@ d888e14ae5a4d25b13401f561f8c8cd5f18e2601 data/backported/recipes/stone_spear.jso
 36b1c1e205d3525f8d435363f18fa3b08c5b520e data/backported/recipes/stripped_pale_oak_wood.json
 3c659c2b508819624d4e3c501d907eeaee6839c6 data/backported/recipes/wind_charge.json
 9a3bf7da21a4a6082b5ebd6c76b48e8b0584e5fe data/backported/recipes/wooden_spear.json
+ff6184d59e7e572f916f3715f416ff123bc1a2bf data/minecraft/advancements/recipes/combat/netherite_horse_armor_smithing.json
 2b5ee6c2e338f2e12bd6c64382f7a414b58bc5eb data/minecraft/advancements/recipes/combat/netherite_spear_smithing.json
 010e3b5568ff9024ed976d877ac56110c6cfc2a7 data/minecraft/advancements/recipes/combat/saddle.json
 682f74178258dfa4e2fb9a027389dcf39d6d9f53 data/minecraft/advancements/recipes/misc/copper_ingot_from_nuggets.json
@@ -73,5 +74,6 @@ d5c91eb05637e4a46b3a96d44fa5b9ad292672bc data/minecraft/advancements/recipes/too
 410a19118590435d58d49a26a6e6fb10970cc7d8 data/minecraft/recipes/copper_ingot_from_nuggets.json
 4f946c8f3cb24fc33d74a713c705a22bca935b38 data/minecraft/recipes/lead.json
 124c6a2d47b35bcea90b8aec06c601f91b48b4a7 data/minecraft/recipes/name_tag.json
+ff09cf0f10c6de1f17f9a912898049d6667663c7 data/minecraft/recipes/netherite_horse_armor_smithing.json
 88e09778f560db0e63f171a68a1a3a090cd99835 data/minecraft/recipes/netherite_spear_smithing.json
 f85703543e9cc5fe4aabc243ee333e9a0dcfec0f data/minecraft/recipes/saddle.json

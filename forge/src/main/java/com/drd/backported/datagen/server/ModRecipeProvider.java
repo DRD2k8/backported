@@ -101,6 +101,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         spear(Items.GOLD_INGOT, ModItems.GOLDEN_SPEAR.get(), consumer);
         spear(Items.DIAMOND, ModItems.DIAMOND_SPEAR.get(), consumer);
         netheriteSmithing(consumer, ModItems.DIAMOND_SPEAR.get(), RecipeCategory.COMBAT, ModItems.NETHERITE_SPEAR.get());
+        netheriteSmithing(consumer, Items.DIAMOND_HORSE_ARMOR, RecipeCategory.COMBAT, ModItems.NETHERITE_HORSE_ARMOR.get());
 
         // First Drop 2026
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Items.NAME_TAG)

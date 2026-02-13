@@ -94,7 +94,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Oxidized Lightning Rods
 - [ ] Shelves
 - [X] Copper Armor
-- [ ] Copper Horse Armor
+- [X] Copper Horse Armor
 - [X] Copper Nugget
 - [X] Copper Tools
 - [ ] Copper Golem
@@ -104,13 +104,13 @@ If all of these are complete, I will publish the first version of the mod.
 
 ## Mounts of Mayhem (1.21.11)
 - [ ] Nautilus Armor
-- [ ] Netherite Horse Armor
+- [X] Netherite Horse Armor
 - [X] Spears
 - [ ] Camel Husk
 - [ ] Nautilus
 - [ ] Parched
 - [ ] Zombie Nautilus
-- [ ] Lunge Enchantment
+- [X] Lunge Enchantment
 - [ ] Breath of the Nautilus
 - [ ] Leather horse armor fix
 - [X] Zombie Horse texture update
@@ -131,4 +131,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Craftable name tag
 
 
-### Total completed: 24/98
+### Total completed: 27/98

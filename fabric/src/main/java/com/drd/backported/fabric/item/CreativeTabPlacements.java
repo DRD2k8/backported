@@ -87,6 +87,12 @@ public class CreativeTabPlacements {
                 ModItems.COPPER_CHESTPLATE.get(),
                 ModItems.COPPER_LEGGINGS.get(),
                 ModItems.COPPER_BOOTS.get());
+        entries.addAfter(Items.LEATHER_HORSE_ARMOR,
+                ModItems.COPPER_HORSE_ARMOR.get()
+        );
+        entries.addAfter(Items.DIAMOND_HORSE_ARMOR,
+                ModItems.NETHERITE_HORSE_ARMOR.get()
+        );
         entries.addAfter(Items.EGG,
                 ModItems.WIND_CHARGE.get());
     }

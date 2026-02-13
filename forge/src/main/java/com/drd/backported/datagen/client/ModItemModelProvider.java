@@ -56,6 +56,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.COPPER_CHESTPLATE);
         simpleItem(ModItems.COPPER_LEGGINGS);
         simpleItem(ModItems.COPPER_BOOTS);
+        simpleItem(ModItems.COPPER_HORSE_ARMOR);
+
+        // Mounts of Mayhem
+        simpleItem(ModItems.NETHERITE_HORSE_ARMOR);
     }
 
     private ItemModelBuilder simpleItem(RegistrySupplier<Item> item) {

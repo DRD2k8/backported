@@ -4,8 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Ghast drops Tears Music Disc">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/entity/handler/ChickenJockeyDropHandler.java" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Chicken Jockey drops Lava Chicken music disc">
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/copper_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/netherite_horse_armor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/combat/netherite_horse_armor_smithing.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/netherite_horse_armor_smithing.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/copper_horse_armor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/netherite_horse_armor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/minecraft/textures/entity/horse/armor/horse_armor_copper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/minecraft/textures/entity/horse/armor/horse_armor_netherite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/init/ModLootModifiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/loot/AddItemModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/loot/WeightedEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/loot/WeightedLootModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/resources/data/backported/loot_modifiers/chests/desert_pyramid/weighted_loot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/resources/data/backported/loot_modifiers/chests/end_city_treasure/weighted_loot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/resources/data/backported/loot_modifiers/chests/jungle_temple/weighted_loot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/resources/data/backported/loot_modifiers/chests/nether_bridge/weighted_loot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/resources/data/backported/loot_modifiers/chests/simple_dungeon/weighted_loot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forge/src/main/resources/data/backported/loot_modifiers/chests/stronghold_corridor/weighted_loot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/client/ModItemModelProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/client/ModItemModelProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/BackportedForge.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/BackportedForge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +117,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,13 +168,23 @@
     "external.system.has.shared.sources": "true",
     "git-widget-placeholder": "2001",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/minecraft_mod_repository_branches/backported_real_version/forge-1.20.1/common/src/main/resources/data/backported/tags/worldgen/biome",
+    "last_opened_file_path": "D:/minecraft_mod_repository_branches/backported_real_version/forge-1.20.1/forge/src/main/resources/data/backported/loot_modifiers/chests/stronghold_corridor",
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\main\resources\data\backported\tags\worldgen\biome" />
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\stronghold_corridor" />
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\nether_bridge" />
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\jungle_temple" />
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\end_city_treasure" />
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\jungle_temple\add_item" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\end_city\add_item" />
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\simple_dungeon" />
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests\desert_pyramid" />
+      <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\src\main\resources\data\backported\loot_modifiers\chests" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.drd.backported.entity.variant" />
@@ -296,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770943531225</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Chicken Jockey drops Lava Chicken music disc">
+      <option name="closed" value="true" />
+      <created>1770944313575</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1770944313575</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -315,6 +389,7 @@
     <MESSAGE value="Lodestone recipe change" />
     <MESSAGE value="Wolf variants" />
     <MESSAGE value="Ghast drops Tears Music Disc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ghast drops Tears Music Disc" />
+    <MESSAGE value="Chicken Jockey drops Lava Chicken music disc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chicken Jockey drops Lava Chicken music disc" />
   </component>
 </project>

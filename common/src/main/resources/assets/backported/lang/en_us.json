@@ -98,6 +98,7 @@
   "item.backported.copper_chestplate": "Copper Chestplate",
   "item.backported.copper_leggings": "Copper Leggings",
   "item.backported.copper_boots": "Copper Boots",
+  "item.backported.copper_horse_armor": "Copper Horse Armor",
   "subtitles.backported.item.armor.equip_copper": "Copper armor clonks",
 
   "death.backported.attack.spear": "%1$s was speared by %2$s",
@@ -110,6 +111,7 @@
   "item.backported.netherite_spear": "Netherite Spear",
   "item.backported.stone_spear": "Stone Spear",
   "item.backported.wooden_spear": "Wooden Spear",
+  "item.backported.netherite_horse_armor": "Netherite Horse Armor",
   "subtitles.backported.item.spear_wood.attack": "Spear jabs",
   "subtitles.backported.item.spear_wood.hit": "Spear hits",
   "subtitles.backported.item.spear_wood.use": "Charges with Spear",

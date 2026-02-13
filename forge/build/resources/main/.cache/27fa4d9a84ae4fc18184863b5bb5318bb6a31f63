@@ -1,10 +1,11 @@
-// 1.20.1	2026-02-11T19:16:53.8966885	Item Models: backported
+// 1.20.1	2026-02-12T18:13:13.1758162	Item Models: backported
 b06ec9fddebeb6ab9df2421c03efbcc7f555d615 assets/backported/models/item/breeze_rod.json
 932e4b8b041ca8643ba3731d66569cb4a8f5a91c assets/backported/models/item/copper_axe.json
 07dd4dd9b436183f7dc5199a11ac8c2ae831e4f2 assets/backported/models/item/copper_boots.json
 94c61b393150711e32a0a01050e5453cfbc31c19 assets/backported/models/item/copper_chestplate.json
 c64501866c08bdb214695271068c14d2b01f653a assets/backported/models/item/copper_helmet.json
 74732d091ef13daef63c873d201e4a1eea66354c assets/backported/models/item/copper_hoe.json
+76c00850aa51640d114ab3640c26f36986d124c2 assets/backported/models/item/copper_horse_armor.json
 2366feb5cc1f78e0d3e14ff6997339b5a44cfbc8 assets/backported/models/item/copper_leggings.json
 1e738133bd179d7aa0c3de50f08637b0e6504342 assets/backported/models/item/copper_nugget.json
 48aaae5efe4b30ce1ebff2f3329f35299993bb0d assets/backported/models/item/copper_pickaxe.json
@@ -15,6 +16,7 @@ dcdb4601c4a3143c4dc7f251993ff361158528cd assets/backported/models/item/copper_sh
 97fe9d608a28d68f9fc4cdfc77922a0f4bcbed4c assets/backported/models/item/music_disc_lava_chicken.json
 b337b2f0204c22e018851685a831c76cd598f732 assets/backported/models/item/music_disc_precipice.json
 4002b5bebf6d6d92f5d76e71bcd6061661c7321d assets/backported/models/item/music_disc_tears.json
+15f0127ee69c7f144b3426a1fdfdad4bb6fed578 assets/backported/models/item/netherite_horse_armor.json
 bda36c3c4d91d79b403a6e70cf20677eee7ba47b assets/backported/models/item/pale_oak_boat.json
 676170056da8b439ad8209336f98b3f3610d0539 assets/backported/models/item/pale_oak_button.json
 a75372b52edbadb2ccfaba916a1fdef4f8132950 assets/backported/models/item/pale_oak_chest_boat.json

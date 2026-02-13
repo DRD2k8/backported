@@ -1,5 +1,6 @@
 package com.drd.backported.forge;
 
+import com.drd.backported.forge.init.ModLootModifiers;
 import com.drd.backported.forge.packets.PacketHandler;
 import com.drd.backported.util.ModSoundTypes;
 import com.drd.backported.util.ModStrippables;
@@ -18,6 +19,8 @@ public final class BackportedForge {
         Backported.init();
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::commonSetup);
+
+        ModLootModifiers.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
