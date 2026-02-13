@@ -57,6 +57,7 @@ public class ModTags {
     }
 
     public static class Biomes {
+        // Wolves
         public static final TagKey<Biome> SPAWNS_WOODS_WOLF = tag("spawns_woods_wolf");
         public static final TagKey<Biome> SPAWNS_ASHEN_WOLF = tag("spawns_ashen_wolf");
         public static final TagKey<Biome> SPAWNS_BLACK_WOLF = tag("spawns_black_wolf");
@@ -66,6 +67,21 @@ public class ModTags {
         public static final TagKey<Biome> SPAWNS_STRIPED_WOLF = tag("spawns_striped_wolf");
         public static final TagKey<Biome> SPAWNS_SNOWY_WOLF = tag("spawns_snowy_wolf");
         public static final TagKey<Biome> SPAWNS_PALE_WOLF = tag("spawns_pale_wolf");
+
+        // Chickens
+        public static final TagKey<Biome> SPAWNS_COLD_CHICKEN = tag("spawns_cold_chicken");
+        public static final TagKey<Biome> SPAWNS_WARM_CHICKEN = tag("spawns_warm_chicken");
+        public static final TagKey<Biome> SPAWNS_TEMPERATE_CHICKEN = tag("spawns_temperate_chicken");
+
+        // Cows
+        public static final TagKey<Biome> SPAWNS_COLD_COW = tag("spawns_cold_cow");
+        public static final TagKey<Biome> SPAWNS_WARM_COW = tag("spawns_warm_cow");
+        public static final TagKey<Biome> SPAWNS_TEMPERATE_COW = tag("spawns_temperate_cow");
+
+        // Pigs
+        public static final TagKey<Biome> SPAWNS_COLD_PIG = tag("spawns_cold_pig");
+        public static final TagKey<Biome> SPAWNS_WARM_PIG = tag("spawns_warm_pig");
+        public static final TagKey<Biome> SPAWNS_TEMPERATE_PIG = tag("spawns_temperate_pig");
 
         private static TagKey<Biome> tagMod(String modId, String name) {
             return TagKey.create(Registries.BIOME, new ResourceLocation(modId, name));

@@ -1,6 +1,7 @@
 package com.drd.backported.fabric;
 
 import com.drd.backported.fabric.item.CreativeTabPlacements;
+import com.drd.backported.fabric.util.SpecialMobDrops;
 import com.drd.backported.fabric.world.MobSpawning;
 import com.drd.backported.util.ModSoundTypes;
 import com.drd.backported.util.ModStrippables;
@@ -12,6 +13,7 @@ public final class BackportedFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         Backported.init();
+        SpecialMobDrops.init();
         CreativeTabPlacements.registerTabPlacements();
         ModStrippables.register();
 
