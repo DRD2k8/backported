@@ -38,6 +38,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Breach, Density, and Wind Burst Enchantments
 - [ ] Infested, Oozing, Raid Omen, Trial Omen, Weaving, and Wind Charged effects
 - [ ] Bad Omen effect changes
+- [X] New Game Music: Featherfall, Watcher, Puzzlebox, komorebi, pokopoko, yakusoku, Deeper, Eld Unknown, and Endless
 
 ## Bundles of Bravery (1.21.2 & 1.21.3)
 - [X] Banner pattern texture updates
@@ -74,6 +75,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Happy Ghast Harnesses
 - [ ] Ghastling
 - [X] Tears Music Disc
+- [X] New Game Music: Lilypad, Below and Above, O's Piano, Broken Clocks, and Fireflies
 - [X] Lava Chicken Music Disc
 - [X] Dennis Painting
 - [X] Craftable Lead
@@ -129,4 +131,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Craftable name tag
 
 
-### Total completed: 27/96
+### Total completed: 29/104
