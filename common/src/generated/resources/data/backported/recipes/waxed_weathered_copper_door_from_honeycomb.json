@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "waxed_weathered_copper_door",
+  "ingredients": [
+    {
+      "item": "backported:weathered_copper_door"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "backported:waxed_weathered_copper_door"
+  }
+}

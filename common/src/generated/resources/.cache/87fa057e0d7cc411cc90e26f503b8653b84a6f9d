@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-11T20:05:22.2374757	Tags for minecraft:item mod id backported
+// 1.20.1	2026-02-13T18:18:12.5764705	Tags for minecraft:item mod id backported
 d39f50119614b15b2429cf4bc50a4b7225a8a98c data/backported/tags/items/metal_nuggets.json
 3e5ecb31784f337360af16782c45509a4de295bb data/backported/tags/items/pale_oak_logs.json
 dfbe0f5d73eff2dcd3143b656e8056cea2ab3639 data/backported/tags/items/spears.json
@@ -10,6 +10,7 @@ e75ff357b32a28367c7aa47cfa8dc738f1c393f0 data/forge/tags/items/nuggets/copper.js
 d4691cd07dbc5f5dd1f71bd8265a8c8ff1a78172 data/minecraft/tags/items/axes.json
 495f6bdfc5fcda37161f3b2a128fabf68aed93f7 data/minecraft/tags/items/boats.json
 9fa64e43084fe1383d2399926d8a37861ac4a13d data/minecraft/tags/items/chest_boats.json
+1b84aa79c4955a362c276d1e035e40f0ad14fffe data/minecraft/tags/items/doors.json
 53b0cf35e687efa9198e6f67856cad6998b42dc1 data/minecraft/tags/items/fence_gates.json
 7bb52181ddee3d557863e9b64c1fe473ae7212d1 data/minecraft/tags/items/hanging_signs.json
 3a552dcdbb25e12478abb14097282aec24f4c75c data/minecraft/tags/items/hoes.json
@@ -20,7 +21,11 @@ d4691cd07dbc5f5dd1f71bd8265a8c8ff1a78172 data/minecraft/tags/items/axes.json
 de99f2626bfa0e9843451dc86a4abd08d4b66d3a data/minecraft/tags/items/planks.json
 c25c1967207bf060b049c0b9de3f5f3a7da9f426 data/minecraft/tags/items/shovels.json
 7407f7f6983e30d6e509fd8e76857bcd5fd15279 data/minecraft/tags/items/signs.json
+447002d5fee87e263e19586cd0127affbf79892b data/minecraft/tags/items/slabs.json
+83333b77390dbff9f7895ffa5d549c8109ba336d data/minecraft/tags/items/stairs.json
 9951fa925377fe0e8b8d519593b342fa170affaa data/minecraft/tags/items/swords.json
+43191b625f6fff731a71939b39bd45cca6012760 data/minecraft/tags/items/trapdoors.json
+72371a51aa06b1b05cf9d31742feb0f495c49cdb data/minecraft/tags/items/walls.json
 af7468709acc78749bcdee47e1601d051a1ca692 data/minecraft/tags/items/wooden_buttons.json
 14fb0e902892db0b094c28823318a921463985e9 data/minecraft/tags/items/wooden_doors.json
 f74f5c3c3e84d5da83fb8ef8b03cb90f5d5bd0c0 data/minecraft/tags/items/wooden_fences.json

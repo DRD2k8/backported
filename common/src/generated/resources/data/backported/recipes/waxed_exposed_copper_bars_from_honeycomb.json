@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "waxed_exposed_copper_bars",
+  "ingredients": [
+    {
+      "item": "backported:exposed_copper_bars"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "backported:waxed_exposed_copper_bars"
+  }
+}

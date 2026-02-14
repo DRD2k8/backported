@@ -20,6 +20,38 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        // Tricky Trials
+        blockWithItem(ModBlocks.CHISELED_COPPER);
+        blockWithItem(ModBlocks.EXPOSED_CHISELED_COPPER);
+        blockWithItem(ModBlocks.WEATHERED_CHISELED_COPPER);
+        blockWithItem(ModBlocks.OXIDIZED_CHISELED_COPPER);
+        simpleBlock(ModBlocks.WAXED_CHISELED_COPPER.get(), models().getExistingFile(modLoc("block/chiseled_copper")));
+        simpleBlock(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER.get(), models().getExistingFile(modLoc("block/exposed_chiseled_copper")));
+        simpleBlock(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER.get(), models().getExistingFile(modLoc("block/weathered_chiseled_copper")));
+        simpleBlock(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get(), models().getExistingFile(modLoc("block/oxidized_chiseled_copper")));
+        copperGrateBlock(ModBlocks.COPPER_GRATE);
+        copperGrateBlock(ModBlocks.EXPOSED_COPPER_GRATE);
+        copperGrateBlock(ModBlocks.WEATHERED_COPPER_GRATE);
+        copperGrateBlock(ModBlocks.OXIDIZED_COPPER_GRATE);
+        simpleBlock(ModBlocks.WAXED_COPPER_GRATE.get(), models().getExistingFile(modLoc("block/copper_grate")));
+        simpleBlock(ModBlocks.WAXED_EXPOSED_COPPER_GRATE.get(), models().getExistingFile(modLoc("block/exposed_copper_grate")));
+        simpleBlock(ModBlocks.WAXED_WEATHERED_COPPER_GRATE.get(), models().getExistingFile(modLoc("block/weathered_copper_grate")));
+        simpleBlock(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE.get(), models().getExistingFile(modLoc("block/oxidized_copper_grate")));
+        stairsBlock(((StairBlock) ModBlocks.TUFF_STAIRS.get()), mcLoc("block/tuff"));
+        slabBlock(((SlabBlock) ModBlocks.TUFF_SLAB.get()), mcLoc("block/tuff"), mcLoc("block/tuff"));
+        wallBlock(((WallBlock) ModBlocks.TUFF_WALL.get()), mcLoc("block/tuff"));
+        nonRotatingPillarBlock(ModBlocks.CHISELED_TUFF);
+        blockWithItem(ModBlocks.POLISHED_TUFF);
+        stairsBlock(((StairBlock) ModBlocks.POLISHED_TUFF_STAIRS.get()), blockTexture(ModBlocks.POLISHED_TUFF.get()));
+        slabBlock(((SlabBlock) ModBlocks.POLISHED_TUFF_SLAB.get()), blockTexture(ModBlocks.POLISHED_TUFF.get()), blockTexture(ModBlocks.POLISHED_TUFF.get()));
+        wallBlock(((WallBlock) ModBlocks.POLISHED_TUFF_WALL.get()), blockTexture(ModBlocks.POLISHED_TUFF.get()));
+        blockWithItem(ModBlocks.TUFF_BRICKS);
+        stairsBlock(((StairBlock) ModBlocks.TUFF_BRICK_STAIRS.get()), blockTexture(ModBlocks.TUFF_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.TUFF_BRICK_SLAB.get()), blockTexture(ModBlocks.TUFF_BRICKS.get()), blockTexture(ModBlocks.TUFF_BRICKS.get()));
+        wallBlock(((WallBlock) ModBlocks.TUFF_BRICK_WALL.get()), blockTexture(ModBlocks.TUFF_BRICKS.get()));
+        nonRotatingPillarBlock(ModBlocks.CHISELED_TUFF_BRICKS);
+
+        // The Garden Awakens
         logBlock(((RotatedPillarBlock) ModBlocks.PALE_OAK_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.PALE_OAK_WOOD.get()), blockTexture(ModBlocks.PALE_OAK_LOG.get()), blockTexture(ModBlocks.PALE_OAK_LOG.get()));
         logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_PALE_OAK_LOG.get()));
@@ -77,5 +109,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     private void blockWithItem(RegistrySupplier<Block> block) {
         simpleBlockWithItem(block.get(), cubeAll(block.get()));
+    }
+
+    private void copperGrateBlock(RegistrySupplier<Block> block) {
+        simpleBlockWithItem(block.get(), models().cubeAll(this.name(block.get()), this.blockTexture(block.get())).renderType("cutout"));
+    }
+
+    private void nonRotatingPillarBlock(RegistrySupplier<Block> block) {
+        simpleBlockWithItem(block.get(), models().cubeColumn(this.name(block.get()), blockTexture(block.get()), blockTextureTop(block.get())));
+    }
+
+    public ResourceLocation blockTextureTop(Block block) {
+        ResourceLocation name = this.key(block);
+        return ResourceLocation.fromNamespaceAndPath(name.getNamespace(), "block/" + name.getPath() + "_top");
     }
 }

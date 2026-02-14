@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "backported:tuff_bricks"
+  },
+  "result": "backported:tuff_brick_wall"
+}

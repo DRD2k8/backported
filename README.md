@@ -20,8 +20,8 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Heavy Core
 - [ ] Trial Spawners
 - [ ] Vaults
-- [ ] Copper Block Family
-- [ ] Tuff Block Family
+- [X] Copper Block Family
+- [X] Tuff Block Family
 - [X] Wind Charge
 - [X] Mace
 - [ ] Ominous Bottle
@@ -85,8 +85,8 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Ghast texture update
 
 ## The Copper Age (1.21.9 & 1.21.10)
-- [ ] Copper Bars
-- [ ] Copper Chain
+- [X] Copper Bars
+- [X] Copper Chain
 - [ ] Copper Chest
 - [ ] Copper Golem Statue
 - [ ] Copper Lantern
@@ -131,4 +131,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Craftable name tag
 
 
-### Total completed: 29/104
+### Total completed: 33/104

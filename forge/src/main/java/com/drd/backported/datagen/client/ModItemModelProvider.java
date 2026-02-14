@@ -22,9 +22,19 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         // Tricky Trials
         simpleItem(ModItems.BREEZE_ROD);
+        waxedItems("chiseled_copper");
+        waxedItems("copper_grate");
+        simpleBlockItem(ModBlocks.COPPER_DOOR);
+        simpleBlockItem(ModBlocks.EXPOSED_COPPER_DOOR);
+        simpleBlockItem(ModBlocks.WEATHERED_COPPER_DOOR);
+        simpleBlockItem(ModBlocks.OXIDIZED_COPPER_DOOR);
+        waxedItems("copper_door");
         musicDiscItem(ModItems.MUSIC_DISC_CREATOR);
         musicDiscItem(ModItems.MUSIC_DISC_CREATOR_MUSIC_BOX);
         musicDiscItem(ModItems.MUSIC_DISC_PRECIPICE);
+        vanillaLikeWallItem(ModBlocks.TUFF_WALL, "tuff");
+        wallItem(ModBlocks.POLISHED_TUFF_WALL, ModBlocks.POLISHED_TUFF);
+        wallItem(ModBlocks.TUFF_BRICK_WALL, ModBlocks.TUFF_BRICKS);
         simpleItem(ModItems.WIND_CHARGE);
 
         // The Garden Awakens
@@ -57,6 +67,16 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.COPPER_LEGGINGS);
         simpleItem(ModItems.COPPER_BOOTS);
         simpleItem(ModItems.COPPER_HORSE_ARMOR);
+        simplerBlockItem(ModBlocks.COPPER_BARS);
+        simplerBlockItem(ModBlocks.EXPOSED_COPPER_BARS);
+        simplerBlockItem(ModBlocks.WEATHERED_COPPER_BARS);
+        simplerBlockItem(ModBlocks.OXIDIZED_COPPER_BARS);
+        waxedItems("copper_bars");
+        simpleBlockItem(ModBlocks.COPPER_CHAIN);
+        simpleBlockItem(ModBlocks.EXPOSED_COPPER_CHAIN);
+        simpleBlockItem(ModBlocks.WEATHERED_COPPER_CHAIN);
+        simpleBlockItem(ModBlocks.OXIDIZED_COPPER_CHAIN);
+        waxedItems("copper_chain");
 
         // Mounts of Mayhem
         simpleItem(ModItems.NETHERITE_HORSE_ARMOR);
@@ -72,6 +92,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder simplerBlockItem(RegistrySupplier<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"block/" + item.getId().getPath()));
     }
 
     public void evenSimplerBlockItem(RegistrySupplier<Block> block) {
@@ -99,6 +125,11 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .texture("wall", ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "block/" + BuiltInRegistries.BLOCK.getKey(baseBlock.get()).getPath()));
     }
 
+    public void vanillaLikeWallItem(RegistrySupplier<Block> block, String baseBlock) {
+        this.withExistingParent(BuiltInRegistries.BLOCK.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
+                .texture("wall", ResourceLocation.withDefaultNamespace("block/" + baseBlock));
+    }
+
     private ItemModelBuilder handheldItem(RegistrySupplier<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/handheld")).texture("layer0",
@@ -109,5 +140,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.withDefaultNamespace("item/template_music_disc")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder waxedItems(String unwaxedItem) {
+        this.withExistingParent("waxed_" + unwaxedItem, ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "item/" + unwaxedItem));
+        this.withExistingParent("waxed_exposed_" + unwaxedItem, ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "item/exposed_" + unwaxedItem));
+        this.withExistingParent("waxed_weathered_" + unwaxedItem, ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "item/weathered_" + unwaxedItem));
+        return this.withExistingParent("waxed_oxidized_" + unwaxedItem, ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "item/oxidized_" + unwaxedItem));
     }
 }

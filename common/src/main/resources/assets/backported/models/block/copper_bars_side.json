@@ -1,0 +1,7 @@
+{
+  "parent": "backported:block/template_bars_side",
+  "textures": {
+    "bars": "backported:block/copper_bars",
+    "edge": "backported:block/copper_bars"
+  }
+}

@@ -11,11 +11,37 @@ public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Backported.MOD_ID, Registries.SOUND_EVENT);
 
     // Tricky Trials
+    public static final RegistrySupplier<SoundEvent> COPPER_BULB_BREAK = registerSoundEvents("block.copper_bulb.break");
+    public static final RegistrySupplier<SoundEvent> COPPER_BULB_STEP = registerSoundEvents("block.copper_bulb.step");
+    public static final RegistrySupplier<SoundEvent> COPPER_BULB_FALL = registerSoundEvents("block.copper_bulb.fall");
+    public static final RegistrySupplier<SoundEvent> COPPER_BULB_PLACE = registerSoundEvents("block.copper_bulb.place");
+    public static final RegistrySupplier<SoundEvent> COPPER_BULB_HIT = registerSoundEvents("block.copper_bulb.hit");
+    public static final RegistrySupplier<SoundEvent> COPPER_BULB_TURN_ON = registerSoundEvents("block.copper_bulb.turn_on");
+    public static final RegistrySupplier<SoundEvent> COPPER_BULB_TURN_OFF = registerSoundEvents("block.copper_bulb.turn_off");
+    public static final RegistrySupplier<SoundEvent> COPPER_DOOR_CLOSE = registerSoundEvents("block.copper_door.close");
+    public static final RegistrySupplier<SoundEvent> COPPER_DOOR_OPEN = registerSoundEvents("block.copper_door.open");
+    public static final RegistrySupplier<SoundEvent> COPPER_GRATE_BREAK = registerSoundEvents("block.copper_grate.break");
+    public static final RegistrySupplier<SoundEvent> COPPER_GRATE_STEP = registerSoundEvents("block.copper_grate.step");
+    public static final RegistrySupplier<SoundEvent> COPPER_GRATE_FALL = registerSoundEvents("block.copper_grate.fall");
+    public static final RegistrySupplier<SoundEvent> COPPER_GRATE_PLACE = registerSoundEvents("block.copper_grate.place");
+    public static final RegistrySupplier<SoundEvent> COPPER_GRATE_HIT = registerSoundEvents("block.copper_grate.hit");
+    public static final RegistrySupplier<SoundEvent> COPPER_TRAPDOOR_CLOSE = registerSoundEvents("block.copper_trapdoor.close");
+    public static final RegistrySupplier<SoundEvent> COPPER_TRAPDOOR_OPEN = registerSoundEvents("block.copper_trapdoor.open");
     public static final RegistrySupplier<SoundEvent> HEAVY_CORE_BREAK = registerSoundEvents("block.heavy_core.break");
     public static final RegistrySupplier<SoundEvent> HEAVY_CORE_STEP = registerSoundEvents("block.heavy_core.step");
     public static final RegistrySupplier<SoundEvent> HEAVY_CORE_FALL = registerSoundEvents("block.heavy_core.fall");
     public static final RegistrySupplier<SoundEvent> HEAVY_CORE_PLACE = registerSoundEvents("block.heavy_core.place");
     public static final RegistrySupplier<SoundEvent> HEAVY_CORE_HIT = registerSoundEvents("block.heavy_core.hit");
+    public static final RegistrySupplier<SoundEvent> POLISHED_TUFF_BREAK = registerSoundEvents("block.polished_tuff.break");
+    public static final RegistrySupplier<SoundEvent> POLISHED_TUFF_STEP = registerSoundEvents("block.polished_tuff.step");
+    public static final RegistrySupplier<SoundEvent> POLISHED_TUFF_FALL = registerSoundEvents("block.polished_tuff.fall");
+    public static final RegistrySupplier<SoundEvent> POLISHED_TUFF_PLACE = registerSoundEvents("block.polished_tuff.place");
+    public static final RegistrySupplier<SoundEvent> POLISHED_TUFF_HIT = registerSoundEvents("block.polished_tuff.hit");
+    public static final RegistrySupplier<SoundEvent> TUFF_BRICKS_BREAK = registerSoundEvents("block.tuff_bricks.break");
+    public static final RegistrySupplier<SoundEvent> TUFF_BRICKS_STEP = registerSoundEvents("block.tuff_bricks.step");
+    public static final RegistrySupplier<SoundEvent> TUFF_BRICKS_FALL = registerSoundEvents("block.tuff_bricks.fall");
+    public static final RegistrySupplier<SoundEvent> TUFF_BRICKS_PLACE = registerSoundEvents("block.tuff_bricks.place");
+    public static final RegistrySupplier<SoundEvent> TUFF_BRICKS_HIT = registerSoundEvents("block.tuff_bricks.hit");
     public static final RegistrySupplier<SoundEvent> WIND_CHARGE_THROW = registerSoundEvents("entity.wind_charge.throw");
     public static final RegistrySupplier<SoundEvent> WIND_CHARGE_BURST = registerSoundEvents("entity.wind_charge.wind_burst");
     public static final RegistrySupplier<SoundEvent> MACE_SMASH_AIR = registerSoundEvents("item.mace.smash_air");

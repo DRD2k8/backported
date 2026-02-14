@@ -29,6 +29,70 @@ public class ModLootTableProvider {
         @Override
         protected void generate() {
             // Tricky Trials
+            this.dropSelf(ModBlocks.CHISELED_COPPER.get());
+            this.dropSelf(ModBlocks.EXPOSED_CHISELED_COPPER.get());
+            this.dropSelf(ModBlocks.WEATHERED_CHISELED_COPPER.get());
+            this.dropSelf(ModBlocks.OXIDIZED_CHISELED_COPPER.get());
+            this.dropSelf(ModBlocks.WAXED_CHISELED_COPPER.get());
+            this.dropSelf(ModBlocks.WAXED_EXPOSED_CHISELED_COPPER.get());
+            this.dropSelf(ModBlocks.WAXED_WEATHERED_CHISELED_COPPER.get());
+            this.dropSelf(ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get());
+            this.dropSelf(ModBlocks.COPPER_GRATE.get());
+            this.dropSelf(ModBlocks.EXPOSED_COPPER_GRATE.get());
+            this.dropSelf(ModBlocks.WEATHERED_COPPER_GRATE.get());
+            this.dropSelf(ModBlocks.OXIDIZED_COPPER_GRATE.get());
+            this.dropSelf(ModBlocks.WAXED_COPPER_GRATE.get());
+            this.dropSelf(ModBlocks.WAXED_EXPOSED_COPPER_GRATE.get());
+            this.dropSelf(ModBlocks.WAXED_WEATHERED_COPPER_GRATE.get());
+            this.dropSelf(ModBlocks.WAXED_OXIDIZED_COPPER_GRATE.get());
+            this.add(ModBlocks.COPPER_DOOR.get(),
+                    block -> createDoorTable(ModBlocks.COPPER_DOOR.get()));
+            this.add(ModBlocks.EXPOSED_COPPER_DOOR.get(),
+                    block -> createDoorTable(ModBlocks.EXPOSED_COPPER_DOOR.get()));
+            this.add(ModBlocks.WEATHERED_COPPER_DOOR.get(),
+                    block -> createDoorTable(ModBlocks.WEATHERED_COPPER_DOOR.get()));
+            this.add(ModBlocks.OXIDIZED_COPPER_DOOR.get(),
+                    block -> createDoorTable(ModBlocks.OXIDIZED_COPPER_DOOR.get()));
+            this.add(ModBlocks.WAXED_COPPER_DOOR.get(),
+                    block -> createDoorTable(ModBlocks.WAXED_COPPER_DOOR.get()));
+            this.add(ModBlocks.WAXED_EXPOSED_COPPER_DOOR.get(),
+                    block -> createDoorTable(ModBlocks.WAXED_EXPOSED_COPPER_DOOR.get()));
+            this.add(ModBlocks.WAXED_WEATHERED_COPPER_DOOR.get(),
+                    block -> createDoorTable(ModBlocks.WAXED_WEATHERED_COPPER_DOOR.get()));
+            this.add(ModBlocks.WAXED_OXIDIZED_COPPER_DOOR.get(),
+                    block -> createDoorTable(ModBlocks.WAXED_OXIDIZED_COPPER_DOOR.get()));
+            this.dropSelf(ModBlocks.COPPER_TRAPDOOR.get());
+            this.dropSelf(ModBlocks.EXPOSED_COPPER_TRAPDOOR.get());
+            this.dropSelf(ModBlocks.WEATHERED_COPPER_TRAPDOOR.get());
+            this.dropSelf(ModBlocks.OXIDIZED_COPPER_TRAPDOOR.get());
+            this.dropSelf(ModBlocks.WAXED_COPPER_TRAPDOOR.get());
+            this.dropSelf(ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR.get());
+            this.dropSelf(ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR.get());
+            this.dropSelf(ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR.get());
+            this.dropSelf(ModBlocks.COPPER_BULB.get());
+            this.dropSelf(ModBlocks.EXPOSED_COPPER_BULB.get());
+            this.dropSelf(ModBlocks.WEATHERED_COPPER_BULB.get());
+            this.dropSelf(ModBlocks.OXIDIZED_COPPER_BULB.get());
+            this.dropSelf(ModBlocks.WAXED_COPPER_BULB.get());
+            this.dropSelf(ModBlocks.WAXED_EXPOSED_COPPER_BULB.get());
+            this.dropSelf(ModBlocks.WAXED_WEATHERED_COPPER_BULB.get());
+            this.dropSelf(ModBlocks.WAXED_OXIDIZED_COPPER_BULB.get());
+            this.dropSelf(ModBlocks.TUFF_STAIRS.get());
+            this.add(ModBlocks.TUFF_SLAB.get(),
+                    block -> createSlabItemTable(ModBlocks.TUFF_SLAB.get()));
+            this.dropSelf(ModBlocks.TUFF_WALL.get());
+            this.dropSelf(ModBlocks.CHISELED_TUFF.get());
+            this.dropSelf(ModBlocks.POLISHED_TUFF.get());
+            this.dropSelf(ModBlocks.POLISHED_TUFF_STAIRS.get());
+            this.add(ModBlocks.POLISHED_TUFF_SLAB.get(),
+                    block -> createSlabItemTable(ModBlocks.POLISHED_TUFF_SLAB.get()));
+            this.dropSelf(ModBlocks.POLISHED_TUFF_WALL.get());
+            this.dropSelf(ModBlocks.TUFF_BRICKS.get());
+            this.dropSelf(ModBlocks.TUFF_BRICK_STAIRS.get());
+            this.add(ModBlocks.TUFF_BRICK_SLAB.get(),
+                    block -> createSlabItemTable(ModBlocks.TUFF_BRICK_SLAB.get()));
+            this.dropSelf(ModBlocks.TUFF_BRICK_WALL.get());
+            this.dropSelf(ModBlocks.CHISELED_TUFF_BRICKS.get());
             this.dropSelf(ModBlocks.HEAVY_CORE.get());
 
             // The Garden Awakens
@@ -51,6 +115,24 @@ public class ModLootTableProvider {
                     block -> createSingleItemTable(ModItems.PALE_OAK_SIGN.get()));
             this.add(ModBlocks.PALE_OAK_HANGING_SIGN.get(),
                     block -> createSingleItemTable(ModItems.PALE_OAK_HANGING_SIGN.get()));
+
+            // The Copper Age
+            this.dropSelf(ModBlocks.COPPER_BARS.get());
+            this.dropSelf(ModBlocks.EXPOSED_COPPER_BARS.get());
+            this.dropSelf(ModBlocks.WEATHERED_COPPER_BARS.get());
+            this.dropSelf(ModBlocks.OXIDIZED_COPPER_BARS.get());
+            this.dropSelf(ModBlocks.WAXED_COPPER_BARS.get());
+            this.dropSelf(ModBlocks.WAXED_EXPOSED_COPPER_BARS.get());
+            this.dropSelf(ModBlocks.WAXED_WEATHERED_COPPER_BARS.get());
+            this.dropSelf(ModBlocks.WAXED_OXIDIZED_COPPER_BARS.get());
+            this.dropSelf(ModBlocks.COPPER_CHAIN.get());
+            this.dropSelf(ModBlocks.EXPOSED_COPPER_CHAIN.get());
+            this.dropSelf(ModBlocks.WEATHERED_COPPER_CHAIN.get());
+            this.dropSelf(ModBlocks.OXIDIZED_COPPER_CHAIN.get());
+            this.dropSelf(ModBlocks.WAXED_COPPER_CHAIN.get());
+            this.dropSelf(ModBlocks.WAXED_EXPOSED_COPPER_CHAIN.get());
+            this.dropSelf(ModBlocks.WAXED_WEATHERED_COPPER_CHAIN.get());
+            this.dropSelf(ModBlocks.WAXED_OXIDIZED_COPPER_CHAIN.get());
         }
 
         @Override

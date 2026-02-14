@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "waxed_exposed_copper_chain",
+  "ingredients": [
+    {
+      "item": "backported:exposed_copper_chain"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "backported:waxed_exposed_copper_chain"
+  }
+}

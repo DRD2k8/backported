@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "copper_grate",
+  "key": {
+    "#": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "pattern": [
+    " # ",
+    "# #",
+    " # "
+  ],
+  "result": {
+    "count": 4,
+    "item": "backported:copper_grate"
+  },
+  "show_notification": true
+}

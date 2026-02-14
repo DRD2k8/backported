@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "waxed_weathered_copper_chain",
+  "ingredients": [
+    {
+      "item": "backported:weathered_copper_chain"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "result": {
+    "item": "backported:waxed_weathered_copper_chain"
+  }
+}

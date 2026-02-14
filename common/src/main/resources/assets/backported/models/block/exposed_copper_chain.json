@@ -1,0 +1,6 @@
+{
+  "parent": "backported:block/template_chain",
+  "textures": {
+    "all": "backported:block/exposed_copper_chain"
+  }
+}

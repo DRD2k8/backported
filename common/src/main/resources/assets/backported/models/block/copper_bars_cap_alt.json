@@ -1,0 +1,6 @@
+{
+  "parent": "backported:block/template_bars_cap_alt",
+  "textures": {
+    "bars": "backported:block/copper_bars"
+  }
+}

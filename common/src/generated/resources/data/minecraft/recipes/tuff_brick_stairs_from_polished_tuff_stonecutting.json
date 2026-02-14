@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "backported:polished_tuff"
+  },
+  "result": "backported:tuff_brick_stairs"
+}

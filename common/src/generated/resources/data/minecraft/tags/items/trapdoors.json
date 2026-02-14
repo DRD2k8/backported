@@ -1,0 +1,12 @@
+{
+  "values": [
+    "backported:copper_trapdoor",
+    "backported:exposed_copper_trapdoor",
+    "backported:weathered_copper_trapdoor",
+    "backported:oxidized_copper_trapdoor",
+    "backported:waxed_copper_trapdoor",
+    "backported:waxed_exposed_copper_trapdoor",
+    "backported:waxed_weathered_copper_trapdoor",
+    "backported:waxed_oxidized_copper_trapdoor"
+  ]
+}

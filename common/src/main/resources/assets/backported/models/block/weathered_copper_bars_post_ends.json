@@ -1,0 +1,6 @@
+{
+  "parent": "backported:block/template_bars_post_ends",
+  "textures": {
+    "edge": "backported:block/weathered_copper_bars"
+  }
+}

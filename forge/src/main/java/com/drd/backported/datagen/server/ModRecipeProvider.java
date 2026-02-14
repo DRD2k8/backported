@@ -1,5 +1,6 @@
 package com.drd.backported.datagen.server;
 
+import com.drd.backported.Backported;
 import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModItems;
 import com.drd.backported.util.ModTags;
@@ -22,6 +23,119 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
         // Tricky Trials
+        chiseledBlock(Items.CUT_COPPER_SLAB, ModBlocks.CHISELED_COPPER.get(), consumer);
+        chiseledBlock(Items.EXPOSED_CUT_COPPER_SLAB, ModBlocks.EXPOSED_CHISELED_COPPER.get(), consumer);
+        chiseledBlock(Items.WEATHERED_CUT_COPPER_SLAB, ModBlocks.WEATHERED_CHISELED_COPPER.get(), consumer);
+        chiseledBlock(Items.OXIDIZED_CUT_COPPER_SLAB, ModBlocks.OXIDIZED_CHISELED_COPPER.get(), consumer);
+        chiseledBlock(Items.WAXED_CUT_COPPER_SLAB, ModBlocks.WAXED_CHISELED_COPPER.get(), consumer);
+        chiseledBlock(Items.WAXED_EXPOSED_CUT_COPPER_SLAB, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER.get(), consumer);
+        chiseledBlock(Items.WAXED_WEATHERED_CUT_COPPER_SLAB, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER.get(), consumer);
+        chiseledBlock(Items.WAXED_OXIDIZED_CUT_COPPER_SLAB, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get(), consumer);
+        grate(Items.COPPER_BLOCK, ModBlocks.COPPER_GRATE.get(), consumer);
+        grate(Items.EXPOSED_COPPER, ModBlocks.EXPOSED_COPPER_GRATE.get(), consumer);
+        grate(Items.WEATHERED_COPPER, ModBlocks.WEATHERED_COPPER_GRATE.get(), consumer);
+        grate(Items.OXIDIZED_COPPER, ModBlocks.OXIDIZED_COPPER_GRATE.get(), consumer);
+        grate(Items.WAXED_COPPER_BLOCK, ModBlocks.WAXED_COPPER_GRATE.get(), consumer);
+        grate(Items.WAXED_EXPOSED_COPPER, ModBlocks.WAXED_EXPOSED_COPPER_GRATE.get(), consumer);
+        grate(Items.WAXED_WEATHERED_COPPER, ModBlocks.WAXED_WEATHERED_COPPER_GRATE.get(), consumer);
+        grate(Items.WAXED_OXIDIZED_COPPER, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE.get(), consumer);
+        door(Items.COPPER_INGOT, ModBlocks.COPPER_DOOR.get(), consumer);
+        copperLikeTrapdoor(Items.COPPER_INGOT, ModBlocks.COPPER_TRAPDOOR.get(), consumer);
+        bulb(Items.COPPER_BLOCK, ModBlocks.COPPER_BULB.get(), consumer);
+        bulb(Items.EXPOSED_COPPER, ModBlocks.EXPOSED_COPPER_BULB.get(), consumer);
+        bulb(Items.WEATHERED_COPPER, ModBlocks.WEATHERED_COPPER_BULB.get(), consumer);
+        bulb(Items.OXIDIZED_COPPER, ModBlocks.OXIDIZED_COPPER_BULB.get(), consumer);
+        bulb(Items.WAXED_COPPER_BLOCK, ModBlocks.WAXED_COPPER_BULB.get(), consumer);
+        bulb(Items.WAXED_EXPOSED_COPPER, ModBlocks.WAXED_EXPOSED_COPPER_BULB.get(), consumer);
+        bulb(Items.WAXED_WEATHERED_COPPER, ModBlocks.WAXED_WEATHERED_COPPER_BULB.get(), consumer);
+        bulb(Items.WAXED_OXIDIZED_COPPER, ModBlocks.WAXED_OXIDIZED_COPPER_BULB.get(), consumer);
+
+        waxing(ModBlocks.CHISELED_COPPER.get(), ModBlocks.WAXED_CHISELED_COPPER.get(), RecipeCategory.BUILDING_BLOCKS, consumer);
+        waxing(ModBlocks.EXPOSED_CHISELED_COPPER.get(), ModBlocks.WAXED_EXPOSED_CHISELED_COPPER.get(), RecipeCategory.BUILDING_BLOCKS, consumer);
+        waxing(ModBlocks.WEATHERED_CHISELED_COPPER.get(), ModBlocks.WAXED_WEATHERED_CHISELED_COPPER.get(), RecipeCategory.BUILDING_BLOCKS, consumer);
+        waxing(ModBlocks.OXIDIZED_CHISELED_COPPER.get(), ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get(), RecipeCategory.BUILDING_BLOCKS, consumer);
+        waxing(ModBlocks.COPPER_GRATE.get(), ModBlocks.WAXED_COPPER_GRATE.get(), RecipeCategory.BUILDING_BLOCKS, consumer);
+        waxing(ModBlocks.EXPOSED_COPPER_GRATE.get(), ModBlocks.WAXED_EXPOSED_COPPER_GRATE.get(), RecipeCategory.BUILDING_BLOCKS, consumer);
+        waxing(ModBlocks.WEATHERED_COPPER_GRATE.get(), ModBlocks.WAXED_WEATHERED_COPPER_GRATE.get(), RecipeCategory.BUILDING_BLOCKS, consumer);
+        waxing(ModBlocks.OXIDIZED_COPPER_GRATE.get(), ModBlocks.WAXED_OXIDIZED_COPPER_GRATE.get(), RecipeCategory.BUILDING_BLOCKS, consumer);
+        waxing(ModBlocks.COPPER_DOOR.get(), ModBlocks.WAXED_COPPER_DOOR.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.EXPOSED_COPPER_DOOR.get(), ModBlocks.WAXED_EXPOSED_COPPER_DOOR.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.WEATHERED_COPPER_DOOR.get(), ModBlocks.WAXED_WEATHERED_COPPER_DOOR.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.OXIDIZED_COPPER_DOOR.get(), ModBlocks.WAXED_OXIDIZED_COPPER_DOOR.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.COPPER_TRAPDOOR.get(), ModBlocks.WAXED_COPPER_TRAPDOOR.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.EXPOSED_COPPER_TRAPDOOR.get(), ModBlocks.WAXED_EXPOSED_COPPER_TRAPDOOR.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.WEATHERED_COPPER_TRAPDOOR.get(), ModBlocks.WAXED_WEATHERED_COPPER_TRAPDOOR.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.OXIDIZED_COPPER_TRAPDOOR.get(), ModBlocks.WAXED_OXIDIZED_COPPER_TRAPDOOR.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.COPPER_BULB.get(), ModBlocks.WAXED_COPPER_BULB.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.EXPOSED_COPPER_BULB.get(), ModBlocks.WAXED_EXPOSED_COPPER_BULB.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.WEATHERED_COPPER_BULB.get(), ModBlocks.WAXED_WEATHERED_COPPER_BULB.get(), RecipeCategory.REDSTONE, consumer);
+        waxing(ModBlocks.OXIDIZED_COPPER_BULB.get(), ModBlocks.WAXED_OXIDIZED_COPPER_BULB.get(), RecipeCategory.REDSTONE, consumer);
+
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_COPPER.get(), Items.COPPER_BLOCK, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.EXPOSED_CHISELED_COPPER.get(), Items.EXPOSED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WEATHERED_CHISELED_COPPER.get(), Items.WEATHERED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OXIDIZED_CHISELED_COPPER.get(), Items.OXIDIZED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_CHISELED_COPPER.get(), Items.WAXED_COPPER_BLOCK, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER.get(), Items.WAXED_EXPOSED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER.get(), Items.WAXED_WEATHERED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get(), Items.WAXED_OXIDIZED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_COPPER.get(), Items.CUT_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.EXPOSED_CHISELED_COPPER.get(), Items.EXPOSED_CUT_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WEATHERED_CHISELED_COPPER.get(), Items.WEATHERED_CUT_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OXIDIZED_CHISELED_COPPER.get(), Items.OXIDIZED_CUT_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_CHISELED_COPPER.get(), Items.WAXED_CUT_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_EXPOSED_CHISELED_COPPER.get(), Items.WAXED_EXPOSED_CUT_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_WEATHERED_CHISELED_COPPER.get(), Items.WAXED_WEATHERED_CUT_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_OXIDIZED_CHISELED_COPPER.get(), Items.WAXED_OXIDIZED_CUT_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.COPPER_GRATE.get(), Items.COPPER_BLOCK, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.EXPOSED_COPPER_GRATE.get(), Items.EXPOSED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WEATHERED_COPPER_GRATE.get(), Items.WEATHERED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.OXIDIZED_COPPER_GRATE.get(), Items.OXIDIZED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_COPPER_GRATE.get(), Items.WAXED_COPPER_BLOCK, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_EXPOSED_COPPER_GRATE.get(), Items.WAXED_EXPOSED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_WEATHERED_COPPER_GRATE.get(), Items.WAXED_WEATHERED_COPPER, 4);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WAXED_OXIDIZED_COPPER_GRATE.get(), Items.WAXED_OXIDIZED_COPPER, 4);
+
+        stairs(Items.TUFF, ModBlocks.TUFF_STAIRS.get(), consumer);
+        slab(Items.TUFF, ModBlocks.TUFF_SLAB.get(), consumer);
+        wall(Items.TUFF, ModBlocks.TUFF_WALL.get(), consumer);
+        chiseledBlock(ModBlocks.TUFF_SLAB.get(), ModBlocks.CHISELED_TUFF.get(), consumer);
+        polishing(Items.TUFF, ModBlocks.POLISHED_TUFF.get(), consumer);
+        stairs(Items.TUFF, ModBlocks.POLISHED_TUFF_STAIRS.get(), consumer);
+        slab(Items.TUFF, ModBlocks.POLISHED_TUFF_SLAB.get(), consumer);
+        wall(Items.TUFF, ModBlocks.POLISHED_TUFF_WALL.get(), consumer);
+        polishing(ModBlocks.POLISHED_TUFF.get(), ModBlocks.TUFF_BRICKS.get(), consumer);
+        stairs(ModBlocks.TUFF_BRICKS.get(), ModBlocks.TUFF_BRICK_STAIRS.get(), consumer);
+        slab(ModBlocks.TUFF_BRICKS.get(), ModBlocks.TUFF_BRICK_SLAB.get(), consumer);
+        wall(ModBlocks.TUFF_BRICKS.get(), ModBlocks.TUFF_BRICK_WALL.get(), consumer);
+        chiseledBlock(ModBlocks.TUFF_BRICK_SLAB.get(), ModBlocks.CHISELED_TUFF_BRICKS.get(), consumer);
+
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_STAIRS.get(), Items.TUFF);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_SLAB.get(), Items.TUFF, 2);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_WALL.get(), Items.TUFF);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_TUFF.get(), Items.TUFF);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TUFF.get(), Items.TUFF);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TUFF_STAIRS.get(), ModBlocks.POLISHED_TUFF.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TUFF_SLAB.get(), ModBlocks.POLISHED_TUFF.get(), 2);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TUFF_WALL.get(), ModBlocks.POLISHED_TUFF.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TUFF_STAIRS.get(), Items.TUFF);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TUFF_SLAB.get(), Items.TUFF, 2);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TUFF_WALL.get(), Items.TUFF);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICKS.get(), ModBlocks.POLISHED_TUFF.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICKS.get(), Items.TUFF);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICK_STAIRS.get(), ModBlocks.TUFF_BRICKS.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICK_SLAB.get(), ModBlocks.TUFF_BRICKS.get(), 2);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICK_WALL.get(), ModBlocks.TUFF_BRICKS.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICK_STAIRS.get(), ModBlocks.POLISHED_TUFF.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICK_SLAB.get(), ModBlocks.POLISHED_TUFF.get(), 2);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICK_WALL.get(), ModBlocks.POLISHED_TUFF.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICK_STAIRS.get(), Items.TUFF);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICK_SLAB.get(), Items.TUFF, 2);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TUFF_BRICK_WALL.get(), Items.TUFF);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_TUFF_BRICKS.get(), ModBlocks.TUFF_BRICKS.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_TUFF_BRICKS.get(), ModBlocks.POLISHED_TUFF.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_TUFF_BRICKS.get(), Items.TUFF);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.MACE.get())
                 .pattern("#")
                 .pattern("I")
@@ -78,6 +192,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         chestplate(Items.COPPER_INGOT, ModItems.COPPER_CHESTPLATE.get(), consumer);
         leggings(Items.COPPER_INGOT, ModItems.COPPER_LEGGINGS.get(), consumer);
         boots(Items.COPPER_INGOT, ModItems.COPPER_BOOTS.get(), consumer);
+        bars(Items.COPPER_INGOT, ModBlocks.COPPER_BARS.get(), consumer);
+        chain(Items.COPPER_INGOT, ModItems.COPPER_NUGGET.get(), ModBlocks.COPPER_CHAIN.get(), consumer);
+
+        waxing(ModBlocks.COPPER_BARS.get(), ModBlocks.WAXED_COPPER_BARS.get(), RecipeCategory.MISC, consumer);
+        waxing(ModBlocks.EXPOSED_COPPER_BARS.get(), ModBlocks.WAXED_EXPOSED_COPPER_BARS.get(), RecipeCategory.MISC, consumer);
+        waxing(ModBlocks.WEATHERED_COPPER_BARS.get(), ModBlocks.WAXED_WEATHERED_COPPER_BARS.get(), RecipeCategory.MISC, consumer);
+        waxing(ModBlocks.OXIDIZED_COPPER_BARS.get(), ModBlocks.WAXED_OXIDIZED_COPPER_BARS.get(), RecipeCategory.MISC, consumer);
+        waxing(ModBlocks.COPPER_CHAIN.get(), ModBlocks.WAXED_COPPER_CHAIN.get(), RecipeCategory.MISC, consumer);
+        waxing(ModBlocks.EXPOSED_COPPER_CHAIN.get(), ModBlocks.WAXED_EXPOSED_COPPER_CHAIN.get(), RecipeCategory.MISC, consumer);
+        waxing(ModBlocks.WEATHERED_COPPER_CHAIN.get(), ModBlocks.WAXED_WEATHERED_COPPER_CHAIN.get(), RecipeCategory.MISC, consumer);
+        waxing(ModBlocks.OXIDIZED_COPPER_CHAIN.get(), ModBlocks.WAXED_OXIDIZED_COPPER_CHAIN.get(), RecipeCategory.MISC, consumer);
 
         // Mounts of Mayhem
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.WOODEN_SPEAR.get())
@@ -237,6 +362,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(consumer);
     }
 
+    protected static void wall(ItemLike base, ItemLike wall, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, wall, 6)
+                .pattern("###")
+                .pattern("###")
+                .define('#', base)
+                .unlockedBy(getHasName(base), has(base))
+                .save(consumer);
+    }
+
     protected static void door(ItemLike base, ItemLike door, Consumer<FinishedRecipe> consumer) {
         ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, door, 3)
                 .pattern("##")
@@ -360,6 +494,86 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(boat)
                 .group("chest_boat")
                 .unlockedBy("has_boat", has(boat))
+                .save(consumer);
+    }
+
+    protected static void waxing(ItemLike unwaxed, ItemLike waxed, RecipeCategory category, Consumer<FinishedRecipe> consumer) {
+        ShapelessRecipeBuilder.shapeless(category, waxed)
+                .requires(unwaxed)
+                .requires(Items.HONEYCOMB)
+                .group("waxed_" + getItemName(unwaxed))
+                .unlockedBy(getHasName(unwaxed), has(unwaxed))
+                .save(consumer, Backported.MOD_ID + ":" + getItemName(waxed) + "_from_honeycomb");
+    }
+
+    protected static void polishing(ItemLike unpolishedBlock, ItemLike polishedBlock, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, polishedBlock, 4)
+                .pattern("##")
+                .pattern("##")
+                .define('#', unpolishedBlock)
+                .unlockedBy(getHasName(unpolishedBlock), has(unpolishedBlock))
+                .save(consumer);
+    }
+
+    protected static void chiseledBlock(ItemLike slab, ItemLike chiseledBlock, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, chiseledBlock)
+                .pattern("#")
+                .pattern("#")
+                .define('#', slab)
+                .unlockedBy(getHasName(slab), has(slab))
+                .save(consumer);
+    }
+
+    protected static void grate(ItemLike block, ItemLike grate, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, grate, 4)
+                .pattern(" # ")
+                .pattern("# #")
+                .pattern(" # ")
+                .define('#', block)
+                .group(getItemName(grate))
+                .unlockedBy(getHasName(block), has(block))
+                .save(consumer);
+    }
+
+    protected static void copperLikeTrapdoor(ItemLike ingot, ItemLike trapdoor, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, trapdoor)
+                .pattern("##")
+                .pattern("##")
+                .define('#', ingot)
+                .unlockedBy(getHasName(ingot), has(ingot))
+                .save(consumer);
+    }
+
+    protected static void bulb(ItemLike block, ItemLike bulb, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, bulb, 4)
+                .pattern(" C ")
+                .pattern("CBC")
+                .pattern(" R ")
+                .define('B', Items.BLAZE_ROD)
+                .define('C', block)
+                .define('R', Items.REDSTONE)
+                .group(getItemName(bulb))
+                .unlockedBy(getHasName(block), has(block))
+                .save(consumer);
+    }
+
+    protected static void bars(ItemLike material, ItemLike bars, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, bars, 16)
+                .pattern("###")
+                .pattern("###")
+                .define('#', material)
+                .unlockedBy(getHasName(material), has(material))
+                .save(consumer);
+    }
+
+    protected static void chain(ItemLike ingot, ItemLike nugget, ItemLike chain, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, chain)
+                .pattern("N")
+                .pattern("I")
+                .pattern("N")
+                .define('I', ingot)
+                .define('N', nugget)
+                .unlockedBy(getHasName(ingot), has(ingot))
                 .save(consumer);
     }
 

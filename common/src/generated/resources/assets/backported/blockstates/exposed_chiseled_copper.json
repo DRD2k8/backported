@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "backported:block/exposed_chiseled_copper"
+    }
+  }
+}
