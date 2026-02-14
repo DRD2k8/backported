@@ -172,6 +172,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.IRON_SPEAR.get())
                 .add(ModItems.NETHERITE_SPEAR.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.COPPER_HELMET.get())
+                .add(ModItems.COPPER_CHESTPLATE.get())
+                .add(ModItems.COPPER_LEGGINGS.get())
+                .add(ModItems.COPPER_BOOTS.get());
+
         this.tag(ItemTags.PIGLIN_LOVED)
                 .add(ModItems.GOLDEN_SPEAR.get());
 

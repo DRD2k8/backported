@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-14T12:40:12.709068	Tags for minecraft:item mod id backported
+// 1.20.1	2026-02-14T14:53:23.4550458	Tags for minecraft:item mod id backported
 27f69a4699ecc88f74e39cf190d9ea40b58d17e3 data/backported/tags/items/bolt_armor_trim_smithing_template_ingredients.json
 d39f50119614b15b2429cf4bc50a4b7225a8a98c data/backported/tags/items/metal_nuggets.json
 3e5ecb31784f337360af16782c45509a4de295bb data/backported/tags/items/pale_oak_logs.json
@@ -27,6 +27,7 @@ c25c1967207bf060b049c0b9de3f5f3a7da9f426 data/minecraft/tags/items/shovels.json
 83333b77390dbff9f7895ffa5d549c8109ba336d data/minecraft/tags/items/stairs.json
 9951fa925377fe0e8b8d519593b342fa170affaa data/minecraft/tags/items/swords.json
 43191b625f6fff731a71939b39bd45cca6012760 data/minecraft/tags/items/trapdoors.json
+b7f766b733c3ce1642dfd3ad4bf846706bc04f4a data/minecraft/tags/items/trimmable_armor.json
 72371a51aa06b1b05cf9d31742feb0f495c49cdb data/minecraft/tags/items/walls.json
 af7468709acc78749bcdee47e1601d051a1ca692 data/minecraft/tags/items/wooden_buttons.json
 14fb0e902892db0b094c28823318a921463985e9 data/minecraft/tags/items/wooden_doors.json

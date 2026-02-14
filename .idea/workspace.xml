@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding Trimmed dependency (Forge)">
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding Trimmed dependency (Fabric)">
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
@@ -14,28 +14,24 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/TrimmedSmithingTemplateItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/TrimmedSmithingTemplateItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/.gradle/loom-cache/remapClasspath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/loom-cache/remapClasspath.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/client/BackportedFabricClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/client/BackportedFabricClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-14-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-14-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-14-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-14-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-14-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-14-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-14-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-14-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +170,7 @@
       <recent name="com.drd.backported.block.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:fabric)">
+  <component name="RunManager" selected="Application.Minecraft Client (:forge)">
     <configuration name="forge-1.20.1:forge [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -425,12 +421,19 @@
       <option name="project" value="LOCAL" />
       <updated>1771107158828</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Adding Trimmed dependency (Fabric)">
+      <option name="closed" value="true" />
+      <created>1771108556067</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1771108556067</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixing Fabric" />
     <MESSAGE value="Adding the spears (Part 1) (Still need to fix errors)" />
     <MESSAGE value="Adding the spears (Part 2) (Still need to add more mixins)" />
     <MESSAGE value="Adding the spears (Part 3) (Forgot one class)" />
@@ -455,6 +458,7 @@
     <MESSAGE value="Adding the bundle recipe" />
     <MESSAGE value="Adding the shelves" />
     <MESSAGE value="Adding Trimmed dependency (Forge)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Trimmed dependency (Forge)" />
+    <MESSAGE value="Adding Trimmed dependency (Fabric)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Trimmed dependency (Fabric)" />
   </component>
 </project>
