@@ -4,112 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the shelves">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/TrimmedSmithingTemplateItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/bolt_armor_trim_smithing_template.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/flow_armor_trim_smithing_template.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/trims/color_palettes/copper_darker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/trims/color_palettes/resin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/trims/models/armor/bolt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/trims/models/armor/bolt_leggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/trims/models/armor/flow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/trims/models/armor/flow_leggings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/trimmed/tags/unchecked/custom_armor_trim_pattern_textures.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/advancements/recipes/combat/bolt_armor_trim_smithing_template_smithing_trim.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/advancements/recipes/combat/flow_armor_trim_smithing_template_smithing_trim.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/recipes/bolt_armor_trim_smithing_template_smithing_trim.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/recipes/flow_armor_trim_smithing_template_smithing_trim.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/trim_pattern/bolt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/data/backported/trim_pattern/flow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-14_13.45.20-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-14-6.log.gz" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding Trimmed dependency (Forge)">
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileChanges/last-build.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/curse/maven/backported-spears-1385191/7540679/backported-spears-1385191-7540679.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/curse/maven/backported-spears-1385191/7540679/backported-spears-1385191-7540679.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury-fabric/9.2.14/architectury-fabric-9.2.14-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury-fabric/9.2.14/architectury-fabric-9.2.14-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury-fabric/9.2.14/architectury-fabric-9.2.14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury-fabric/9.2.14/architectury-fabric-9.2.14.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury-fabric/9.2.14/architectury-fabric-9.2.14.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury-fabric/9.2.14/architectury-fabric-9.2.14.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury/9.2.14/architectury-9.2.14-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury/9.2.14/architectury-9.2.14-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury/9.2.14/architectury-9.2.14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury/9.2.14/architectury-9.2.14.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury/9.2.14/architectury-9.2.14.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/dev/architectury/architectury/9.2.14/architectury-9.2.14.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/io/github/llamalad7/mixinextras-fabric/0.3.5/mixinextras-fabric-0.3.5-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/io/github/llamalad7/mixinextras-fabric/0.3.5/mixinextras-fabric-0.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/io/github/llamalad7/mixinextras-fabric/0.3.5/mixinextras-fabric-0.3.5.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-api/0.92.7+1.20.1/fabric-api-0.92.7+1.20.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-api/0.92.7+1.20.1/fabric-api-0.92.7+1.20.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.2.15+1802ada577/fabric-gametest-api-v1-1.2.15+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-gametest-api-v1/1.2.15+1802ada577/fabric-gametest-api-v1-1.2.15+1802ada577.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/2.3.6+1802ada577/fabric-registry-sync-v0-2.3.6+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-registry-sync-v0/2.3.6+1802ada577/fabric-registry-sync-v0-2.3.6+1802ada577.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-rendering-v1/3.0.9+1802ada577/fabric-rendering-v1-3.0.9+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-rendering-v1/3.0.9+1802ada577/fabric-rendering-v1-3.0.9+1802ada577.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/2.0.9+1802ada577/fabric-screen-api-v1-2.0.9+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-screen-api-v1/2.0.9+1802ada577/fabric-screen-api-v1-2.0.9+1802ada577.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge/dev/architectury/architectury-forge/9.2.14/architectury-forge-9.2.14-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge/dev/architectury/architectury-forge/9.2.14/architectury-forge-9.2.14-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge/dev/architectury/architectury-forge/9.2.14/architectury-forge-9.2.14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge/dev/architectury/architectury-forge/9.2.14/architectury-forge-9.2.14.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge/dev/architectury/architectury-forge/9.2.14/architectury-forge-9.2.14.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge/dev/architectury/architectury-forge/9.2.14/architectury-forge-9.2.14.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/backported.fabric.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/fabric/backported.fabric.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/fabric/backported.fabric.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/fabric/backported.fabric.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___fabric__fabric.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server___forge__forge.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/TrimmedSmithingTemplateItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/TrimmedSmithingTemplateItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/architectury/.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury-cache/projectID" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury-cache/projectID" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/.gradle/loom-cache/remapClasspath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/.gradle/loom-cache/remapClasspath.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/client/BackportedFabricClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/client/BackportedFabricClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/sounds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/fabric.mod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/.gradle/architectury/.transforms" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/architectury/.transforms" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/.gradle/loom-cache/remapClasspath.txt" beforeDir="false" afterPath="$PROJECT_DIR$/forge/.gradle/loom-cache/remapClasspath.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/client/ModItemModelProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/client/ModItemModelProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +174,7 @@
       <recent name="com.drd.backported.block.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minecraft Client (:forge)">
+  <component name="RunManager" selected="Application.Minecraft Client (:fabric)">
     <configuration name="forge-1.20.1:forge [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -491,7 +417,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771097162110</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Adding Trimmed dependency (Forge)">
+      <option name="closed" value="true" />
+      <created>1771107158828</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1771107158828</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -520,6 +454,7 @@
     <MESSAGE value="Adding render types" />
     <MESSAGE value="Adding the bundle recipe" />
     <MESSAGE value="Adding the shelves" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the shelves" />
+    <MESSAGE value="Adding Trimmed dependency (Forge)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Trimmed dependency (Forge)" />
   </component>
 </project>

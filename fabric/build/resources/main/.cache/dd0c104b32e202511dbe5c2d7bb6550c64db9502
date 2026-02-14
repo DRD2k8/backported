@@ -1,5 +1,6 @@
-// 1.20.1	2026-02-13T18:18:12.5784706	Tags for minecraft:block mod id backported
+// 1.20.1	2026-02-14T11:14:43.9677875	Tags for minecraft:block mod id backported
 3e5ecb31784f337360af16782c45509a4de295bb data/backported/tags/blocks/pale_oak_logs.json
+e912dc975f7a3d2c9be554354fe2f17dc674c6bc data/backported/tags/blocks/wooden_shelves.json
 7bb52181ddee3d557863e9b64c1fe473ae7212d1 data/minecraft/tags/blocks/ceiling_hanging_signs.json
 1b84aa79c4955a362c276d1e035e40f0ad14fffe data/minecraft/tags/blocks/doors.json
 53b0cf35e687efa9198e6f67856cad6998b42dc1 data/minecraft/tags/blocks/fence_gates.json
