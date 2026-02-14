@@ -21,6 +21,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         // Tricky Trials
+        simpleItem(ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE);
+        simpleItem(ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE);
         simpleItem(ModItems.BREEZE_ROD);
         waxedItems("chiseled_copper");
         waxedItems("copper_grate");

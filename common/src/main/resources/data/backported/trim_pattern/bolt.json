@@ -1,0 +1,7 @@
+{
+  "asset_id": "backported:bolt",
+  "description": {
+    "translate": "trim_pattern.backported.bolt"
+  },
+  "template_item": "backported:bolt_armor_trim_smithing_template"
+}

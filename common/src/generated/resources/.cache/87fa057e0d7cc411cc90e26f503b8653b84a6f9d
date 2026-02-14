@@ -1,4 +1,5 @@
-// 1.20.1	2026-02-14T11:14:43.9587858	Tags for minecraft:item mod id backported
+// 1.20.1	2026-02-14T12:40:12.709068	Tags for minecraft:item mod id backported
+27f69a4699ecc88f74e39cf190d9ea40b58d17e3 data/backported/tags/items/bolt_armor_trim_smithing_template_ingredients.json
 d39f50119614b15b2429cf4bc50a4b7225a8a98c data/backported/tags/items/metal_nuggets.json
 3e5ecb31784f337360af16782c45509a4de295bb data/backported/tags/items/pale_oak_logs.json
 dfbe0f5d73eff2dcd3143b656e8056cea2ab3639 data/backported/tags/items/spears.json

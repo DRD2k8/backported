@@ -29,7 +29,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Trial Keys
 - [ ] Flow and Guster Banner Patterns
 - [ ] Flow, Guster, and Scrape Pottery Sherds
-- [ ] Bolt and Flow Armor Trims
+- [X] Bolt and Flow Armor Trims
 - [X] Precipice, Creator, and Creator (Music Box) Music Discs
 - [X] 20 new paintings
 - [ ] Bogged
@@ -131,4 +131,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Craftable name tag
 
 
-### Total completed: 34/104
+### Total completed: 35/104

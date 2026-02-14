@@ -1,0 +1,7 @@
+{
+  "asset_id": "backported:flow",
+  "description": {
+    "translate": "trim_pattern.backported.flow"
+  },
+  "template_item": "backported:flow_armor_trim_smithing_template"
+}

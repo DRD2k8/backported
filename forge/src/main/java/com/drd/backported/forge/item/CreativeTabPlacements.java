@@ -261,6 +261,10 @@ public class CreativeTabPlacements {
                     ModBlocks.HEAVY_CORE.get(),
                     ModItems.BREEZE_ROD.get()
             );
+            entries.addAfter(Items.SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE,
+                    ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE.get(),
+                    ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE.get()
+            );
         }
     }
 }

@@ -40,6 +40,7 @@ public class ModTags {
         public static final TagKey<Item> STICKS = tag("sticks");
         public static final TagKey<Item> WOODEN_SHELVES = tag("wooden_shelves");
         public static final TagKey<Item> SPEARS = tag("spears");
+        public static final TagKey<Item> BOLT_ARMOR_TRIM_SMITHING_TEMPLATE_INGREDIENTS = tag("bolt_armor_trim_smithing_template_ingredients");
 
         private static TagKey<Item> tagMod(String modId, String name) {
             return TagKey.create(Registries.ITEM, new ResourceLocation(modId, name));

@@ -36,3 +36,10 @@ mandatory = true
 versionRange = "[9.2.14,)"
 ordering = "AFTER"
 side = "BOTH"
+
+[[dependencies.backported]]
+modId = "trimmed"
+mandatory = true
+versionRange = "[2.1.0,)"
+ordering = "AFTER"
+side = "BOTH"

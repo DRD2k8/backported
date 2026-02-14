@@ -23,6 +23,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
         // Tricky Trials
+        trimDuplication(Items.DIAMOND, ModTags.Items.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE_INGREDIENTS, ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE.get(), consumer);
+        trimDuplication(Items.DIAMOND, ModItems.BREEZE_ROD.get(), ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE.get(), consumer);
         chiseledBlock(Items.CUT_COPPER_SLAB, ModBlocks.CHISELED_COPPER.get(), consumer);
         chiseledBlock(Items.EXPOSED_CUT_COPPER_SLAB, ModBlocks.EXPOSED_CHISELED_COPPER.get(), consumer);
         chiseledBlock(Items.WEATHERED_CUT_COPPER_SLAB, ModBlocks.WEATHERED_CHISELED_COPPER.get(), consumer);
@@ -700,6 +702,54 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("X X")
                 .define('X', material)
                 .unlockedBy(getHasName(material), has(material))
+                .save(consumer);
+    }
+
+    protected static void trimDuplication(ItemLike ingredient1, ItemLike ingredient2, ItemLike trim, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, trim, 2)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .define('#', ingredient1)
+                .define('C', ingredient2)
+                .define('S', trim)
+                .unlockedBy(getHasName(trim), has(trim))
+                .save(consumer);
+    }
+
+    protected static void trimDuplication(TagKey<Item> ingredient1, ItemLike ingredient2, ItemLike trim, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, trim, 2)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .define('#', ingredient1)
+                .define('C', ingredient2)
+                .define('S', trim)
+                .unlockedBy(getHasName(trim), has(trim))
+                .save(consumer);
+    }
+
+    protected static void trimDuplication(ItemLike ingredient1, TagKey<Item> ingredient2, ItemLike trim, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, trim, 2)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .define('#', ingredient1)
+                .define('C', ingredient2)
+                .define('S', trim)
+                .unlockedBy(getHasName(trim), has(trim))
+                .save(consumer);
+    }
+
+    protected static void trimDuplication(TagKey<Item> ingredient1, TagKey<Item> ingredient2, ItemLike trim, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, trim, 2)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .define('#', ingredient1)
+                .define('C', ingredient2)
+                .define('S', trim)
+                .unlockedBy(getHasName(trim), has(trim))
                 .save(consumer);
     }
 }

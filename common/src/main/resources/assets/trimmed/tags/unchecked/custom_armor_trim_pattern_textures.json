@@ -1,0 +1,8 @@
+{
+  "values": [
+    "backported:trims/models/armor/bolt",
+    "backported:trims/models/armor/bolt_leggings",
+    "backported:trims/models/armor/flow",
+    "backported:trims/models/armor/flow_leggings"
+  ]
+}

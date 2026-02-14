@@ -13,6 +13,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Backported.MOD_ID, Registries.ITEM);
 
     // Tricky Trials
+    public static final RegistrySupplier<Item> BOLT_ARMOR_TRIM_SMITHING_TEMPLATE = trimPattern("bolt");
+    public static final RegistrySupplier<Item> FLOW_ARMOR_TRIM_SMITHING_TEMPLATE = trimPattern("flow");
     public static final RegistrySupplier<Item> BREEZE_ROD = basicItem("breeze_rod");
     public static final RegistrySupplier<Item> MACE = ITEMS.register("mace", () -> new MaceItem(new Item.Properties().rarity(Rarity.EPIC).durability(500)));
     public static final RegistrySupplier<Item> MUSIC_DISC_CREATOR = musicDisc("creator", ModSounds.MUSIC_DISC_CREATOR, Rarity.RARE, 3520, 12);
@@ -64,6 +66,10 @@ public class ModItems {
     private static RegistrySupplier<Item> musicDisc(String name, RegistrySupplier<SoundEvent> sound, Rarity rarity, int length, int redstoneSignal) {
         return ITEMS.register("music_disc_" + name,
                 () -> new RecordItem(redstoneSignal, sound.get(), new Item.Properties().rarity(rarity), length));
+    }
+
+    private static RegistrySupplier<Item> trimPattern(String name) {
+        return ITEMS.register(name + "_armor_trim_smithing_template", () -> new TrimmedSmithingTemplateItem(new Item.Properties(), name));
     }
 
     private static RegistrySupplier<Item> sword(String material, Tier tier, int attackDamage, float attackSpeed) {

@@ -74,7 +74,9 @@
   "death.backported.attack.mace_smash": "%1$s was smashed by %2$s",
   "death.backported.attack.mace_smash.item": "%1$s was smashed by %2$s with %3$s",
   "entity.backported.wind_charge": "Wind Charge",
+  "item.backported.bolt_armor_trim_smithing_template": "Smithing Template",
   "item.backported.breeze_rod": "Breeze Rod",
+  "item.backported.flow_armor_trim_smithing_template": "Smithing Template",
   "item.backported.mace": "Mace",
   "item.backported.music_disc_creator": "Music Disc",
   "item.backported.music_disc_creator.desc": "Lena Raine - Creator",
@@ -129,6 +131,8 @@
   "subtitles.backported.item.mace.smash_ground": "Mace smashes",
   "subtitles.backported.entity.wind_charge.throw": "Wind Charge flies",
   "subtitles.backported.entity.wind_charge.wind_burst": "Wind Charge bursts",
+  "trim_pattern.backported.bolt": "Bolt Armor Trim",
+  "trim_pattern.backported.flow": "Flow Armor Trim",
 
   "block.backported.pale_oak_log": "Pale Oak Log",
   "block.backported.pale_oak_wood": "Pale Oak Wood",
