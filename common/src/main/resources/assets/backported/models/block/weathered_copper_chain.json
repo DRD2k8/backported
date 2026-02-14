@@ -1,5 +1,6 @@
 {
   "parent": "backported:block/template_chain",
+  "render_type": "minecraft:cutout",
   "textures": {
     "all": "backported:block/weathered_copper_chain"
   }

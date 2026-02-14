@@ -1,5 +1,6 @@
 {
   "parent": "backported:block/template_bars_side_alt",
+  "render_type": "minecraft:cutout",
   "textures": {
     "bars": "backported:block/oxidized_copper_bars",
     "edge": "backported:block/oxidized_copper_bars"

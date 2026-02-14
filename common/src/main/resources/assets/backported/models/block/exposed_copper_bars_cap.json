@@ -1,5 +1,6 @@
 {
   "parent": "backported:block/template_bars_cap",
+  "render_type": "minecraft:cutout",
   "textures": {
     "bars": "backported:block/exposed_copper_bars"
   }

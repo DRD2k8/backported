@@ -4,761 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the OST">
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/chiseled_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/chiseled_tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/polished_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/polished_tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/polished_tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/polished_tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/tuff_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/tuff_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/tuff_brick_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/waxed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/waxed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/waxed_exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/waxed_exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/waxed_oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/waxed_oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/waxed_weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/waxed_weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/blockstates/weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/chiseled_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/chiseled_tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/polished_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/polished_tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/polished_tuff_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/polished_tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/polished_tuff_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/polished_tuff_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/polished_tuff_wall_post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/polished_tuff_wall_side.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/polished_tuff_wall_side_tall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_brick_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_brick_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_brick_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_brick_wall_post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_brick_wall_side.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_brick_wall_side_tall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_slab_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_stairs_inner.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_stairs_outer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_wall_post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_wall_side.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/tuff_wall_side_tall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/block/weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/chiseled_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/chiseled_tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/exposed_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/exposed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/exposed_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/oxidized_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/oxidized_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/oxidized_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/polished_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/polished_tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/tuff_brick_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_exposed_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_exposed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_exposed_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_oxidized_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_oxidized_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_oxidized_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_weathered_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_weathered_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_weathered_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/waxed_weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/weathered_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/weathered_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/weathered_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/assets/backported/models/item/weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/chiseled_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/chiseled_tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/polished_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/polished_tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/polished_tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/polished_tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/tuff_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/tuff_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/tuff_brick_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_chiseled_copper_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_copper_grate_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_exposed_chiseled_copper_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_exposed_copper_grate_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_oxidized_chiseled_copper_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_oxidized_copper_grate_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_weathered_chiseled_copper_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/waxed_weathered_copper_grate_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/building_blocks/weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/waxed_copper_bars_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/waxed_copper_chain_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/waxed_exposed_copper_bars_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/waxed_exposed_copper_chain_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/waxed_oxidized_copper_bars_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/waxed_oxidized_copper_chain_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/waxed_weathered_copper_bars_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/waxed_weathered_copper_chain_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_copper_bulb_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_copper_door_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_copper_trapdoor_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_exposed_copper_bulb_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_exposed_copper_door_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_exposed_copper_trapdoor_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_oxidized_copper_bulb_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_oxidized_copper_door_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_oxidized_copper_trapdoor_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_weathered_copper_bulb_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_weathered_copper_door_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/waxed_weathered_copper_trapdoor_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/redstone/weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/chiseled_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/chiseled_tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/exposed_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/exposed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/exposed_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/exposed_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/oxidized_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/oxidized_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/oxidized_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/oxidized_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/polished_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/polished_tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/polished_tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/polished_tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/tuff_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/tuff_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/tuff_brick_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_exposed_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_exposed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_exposed_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_exposed_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_oxidized_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_oxidized_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_oxidized_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_oxidized_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_weathered_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_weathered_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_weathered_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/waxed_weathered_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/weathered_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/weathered_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/weathered_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/weathered_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/chiseled_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/chiseled_tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/polished_tuff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/polished_tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/polished_tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/polished_tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/tuff_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/tuff_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/tuff_brick_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/tuff_bricks.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/tuff_wall.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_chiseled_copper_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_copper_bars_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_copper_bulb_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_copper_chain_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_copper_door_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_copper_grate_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_copper_trapdoor_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_chiseled_copper_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_copper_bars_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_copper_bulb_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_copper_chain_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_copper_door_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_copper_grate_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_exposed_copper_trapdoor_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_chiseled_copper_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_copper_bars_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_copper_bulb_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_copper_chain_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_copper_door_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_copper_grate_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_oxidized_copper_trapdoor_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_chiseled_copper_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_copper_bars_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_copper_bulb_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_copper_chain_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_copper_door_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_copper_grate_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/waxed_weathered_copper_trapdoor_from_honeycomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/weathered_chiseled_copper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/weathered_copper_grate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/chiseled_copper_from_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/chiseled_tuff_bricks_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/copper_grate_from_copper_block_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/exposed_chiseled_copper_from_exposed_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/exposed_chiseled_copper_from_exposed_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/exposed_copper_grate_from_exposed_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/oxidized_copper_grate_from_oxidized_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/polished_tuff_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/polished_tuff_slab_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/polished_tuff_stairs_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/polished_tuff_wall_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/polished_tuff_wall_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_brick_stairs_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_brick_wall_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_brick_wall_from_tuff_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_brick_wall_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_bricks_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_bricks_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_slab_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_stairs_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/tuff_wall_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_chiseled_copper_from_waxed_copper_block_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_chiseled_copper_from_waxed_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_copper_grate_from_waxed_copper_block_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_exposed_chiseled_copper_from_waxed_exposed_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_exposed_chiseled_copper_from_waxed_exposed_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_weathered_chiseled_copper_from_waxed_weathered_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_weathered_chiseled_copper_from_waxed_weathered_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/waxed_weathered_copper_grate_from_waxed_weathered_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/weathered_chiseled_copper_from_weathered_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/weathered_chiseled_copper_from_weathered_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/building_blocks/weathered_copper_grate_from_weathered_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/chiseled_copper_from_copper_block_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/chiseled_copper_from_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/chiseled_tuff_bricks_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/chiseled_tuff_bricks_from_tuff_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/chiseled_tuff_bricks_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/chiseled_tuff_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/copper_grate_from_copper_block_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/exposed_chiseled_copper_from_exposed_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/exposed_chiseled_copper_from_exposed_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/exposed_copper_grate_from_exposed_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/oxidized_chiseled_copper_from_oxidized_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/oxidized_chiseled_copper_from_oxidized_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/oxidized_copper_grate_from_oxidized_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/polished_tuff_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/polished_tuff_slab_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/polished_tuff_slab_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/polished_tuff_stairs_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/polished_tuff_stairs_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/polished_tuff_wall_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/polished_tuff_wall_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_brick_slab_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_brick_slab_from_tuff_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_brick_slab_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_brick_stairs_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_brick_stairs_from_tuff_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_brick_stairs_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_brick_wall_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_brick_wall_from_tuff_bricks_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_brick_wall_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_bricks_from_polished_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_bricks_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_slab_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_stairs_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/tuff_wall_from_tuff_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_chiseled_copper_from_waxed_copper_block_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_chiseled_copper_from_waxed_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_copper_grate_from_waxed_copper_block_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_exposed_chiseled_copper_from_waxed_exposed_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_exposed_chiseled_copper_from_waxed_exposed_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_exposed_copper_grate_from_waxed_exposed_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_oxidized_chiseled_copper_from_waxed_oxidized_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_oxidized_copper_grate_from_waxed_oxidized_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_weathered_chiseled_copper_from_waxed_weathered_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_weathered_chiseled_copper_from_waxed_weathered_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/waxed_weathered_copper_grate_from_waxed_weathered_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/weathered_chiseled_copper_from_weathered_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/weathered_chiseled_copper_from_weathered_cut_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/weathered_copper_grate_from_weathered_copper_stonecutting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/doors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/needs_stone_tool.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/slabs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/trapdoors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/walls.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/doors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/slabs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/trapdoors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/items/walls.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/CopperBulbBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/CustomWeatheringCopperFullBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/WaterloggedTransparentBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/WeatheringCopperBarsBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/WeatheringCopperBulbBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/WeatheringCopperChainBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/WeatheringCopperDoorBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/WeatheringCopperGrateBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/WeatheringCopperTrapdoorBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/base/WeatheringCopper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModBlockSetTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/exposed_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/exposed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/exposed_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/exposed_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/oxidized_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/oxidized_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/oxidized_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/oxidized_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_exposed_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_exposed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_exposed_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_exposed_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_oxidized_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_oxidized_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_oxidized_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_oxidized_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_weathered_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_weathered_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_weathered_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/waxed_weathered_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/weathered_copper_bars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/weathered_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/weathered_copper_door.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/weathered_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_cap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_cap_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_post_ends.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_side.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_side_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bulb_lit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bulb_lit_powered.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bulb_powered.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_left.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_left_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_right.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_right_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_left.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_left_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_right.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_right_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_trapdoor_bottom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_trapdoor_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_trapdoor_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_cap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_cap_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_post_ends.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_side.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_side_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bulb_lit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bulb_lit_powered.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bulb_powered.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_left.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_left_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_right.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_right_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_left.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_left_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_right.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_right_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_trapdoor_bottom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_trapdoor_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_trapdoor_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_cap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_cap_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_post_ends.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_side.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_side_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bulb_lit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bulb_lit_powered.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bulb_powered.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_left.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_left_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_right.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_right_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_left.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_left_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_right.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_right_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_trapdoor_bottom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_trapdoor_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_trapdoor_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_bars_cap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_bars_cap_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_bars_post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_bars_post_ends.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_bars_side.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_bars_side_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_cap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_cap_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_post_ends.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_side.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_side_alt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bulb_lit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bulb_lit_powered.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bulb_powered.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_chain.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_left.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_left_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_right.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_right_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_left.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_left_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_right.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_right_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_trapdoor_bottom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_trapdoor_open.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_trapdoor_top.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/exposed_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/oxidized_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/polished_tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/polished_tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/tuff_brick_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/tuff_brick_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/tuff_slab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/tuff_stairs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/waxed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/waxed_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/waxed_exposed_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/waxed_exposed_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/waxed_oxidized_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/waxed_oxidized_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/waxed_weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/waxed_weathered_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/weathered_copper_bulb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/weathered_copper_trapdoor.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/break1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/break2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/break3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/break4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/place1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/place2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/place3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/place4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/step1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/step2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/step3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/step4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/step5.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/step6.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_bulb/toggle.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_door/toggle1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_door/toggle2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_door/toggle3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/break1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/break2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/break3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/break4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/step1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/step2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/step3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/step4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/step5.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_grate/step6.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_trapdoor/toggle1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_trapdoor/toggle2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_trapdoor/toggle3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/copper_trapdoor/toggle4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/place1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/place2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/place3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/place4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/place5.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/step1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/step2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/step3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/step4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/step5.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/tuff_bricks/step6.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/chiseled_copper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/chiseled_tuff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/chiseled_tuff_bricks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/chiseled_tuff_bricks_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/chiseled_tuff_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_bars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_bulb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_bulb_lit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_bulb_lit_powered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_bulb_powered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_door_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_door_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_grate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_lantern.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_torch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/copper_trapdoor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_chiseled_copper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_bars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_bulb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_bulb_lit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_bulb_lit_powered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_bulb_powered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_door_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_door_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_grate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_lantern.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_copper_trapdoor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/exposed_lightning_rod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/lightning_rod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_chiseled_copper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_bars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_bulb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_bulb_lit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_bulb_lit_powered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_bulb_powered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_door_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_door_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_grate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_lantern.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_copper_trapdoor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oxidized_lightning_rod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/polished_tuff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/tuff_bricks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_chiseled_copper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_bars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_bulb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_bulb_lit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_bulb_lit_powered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_bulb_powered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_door_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_door_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_grate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_lantern.png.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_copper_trapdoor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/weathered_lightning_rod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/copper_chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/copper_door.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/copper_lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/exposed_copper_chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/exposed_copper_door.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/exposed_copper_lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/oxidized_copper_chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/oxidized_copper_door.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/oxidized_copper_lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/weathered_copper_chain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/weathered_copper_door.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/weathered_copper_lantern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/logs/2026-02-12-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/advancements/94baa29a-be0d-3218-988c-acd14f7df952.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/playerdata/94baa29a-be0d-3218-988c-acd14f7df952.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/playerdata/94baa29a-be0d-3218-988c-acd14f7df952.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/poi/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/poi/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/stats/94baa29a-be0d-3218-988c-acd14f7df952.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-13_18.45.39-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-13_18.55.22-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/crash-reports/crash-2026-02-13_19.06.12-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/data/random_sequences.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/poi/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/serverconfig/forge-server.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Copper and Tuff Block Families">
+      <change afterPath="$PROJECT_DIR$/forge/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
@@ -768,103 +15,80 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/8a0bd0a761c87bca0056a45eb547d6c633960e46" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/8a0bd0a761c87bca0056a45eb547d6c633960e46" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModSoundTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModSoundTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/minecraft/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/minecraft/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/BackportedFabric.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/BackportedFabric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/classes/java/main/com/drd/backported/fabric/item/CreativeTabPlacements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/assets/backported/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/advancements/a6b4dba8-2dc6-368b-b6ba-80409a4c8f62.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/data/random_sequences.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/playerdata/a6b4dba8-2dc6-368b-b6ba-80409a4c8f62.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/playerdata/a6b4dba8-2dc6-368b-b6ba-80409a4c8f62.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/poi/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/poi/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/poi/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/saves/New World (1)/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/saves/New World (1)/stats/a6b4dba8-2dc6-368b-b6ba-80409a4c8f62.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/client/ModItemModelProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/client/ModItemModelProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModLootTableProvider$Blocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModLootTableProvider$Blocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModBlockTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModBlockTagProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/27fa4d9a84ae4fc18184863b5bb5318bb6a31f63" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-12-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-12-7.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModBlockStateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModBlockStateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/client/ModItemModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModLootTableProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModLootTableProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModBlockTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_cap.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_cap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_cap_alt.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_cap_alt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_post.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_post.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_post_ends.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_post_ends.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_side.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_side.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_side_alt.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_bars_side_alt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_chain.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_chain.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_left.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_left.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_left_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_left_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_right.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_right.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_right_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_bottom_right_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_left.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_left.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_left_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_left_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_right.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_right.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_right_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_door_top_right_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_trapdoor_bottom.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_trapdoor_bottom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_trapdoor_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_trapdoor_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_trapdoor_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/copper_trapdoor_top.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_cap.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_cap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_cap_alt.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_cap_alt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_post.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_post.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_post_ends.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_post_ends.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_side.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_side.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_side_alt.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_bars_side_alt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_chain.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_chain.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_left.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_left.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_left_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_left_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_right.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_right.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_right_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_bottom_right_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_left.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_left.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_left_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_left_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_right.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_right.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_right_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_door_top_right_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_trapdoor_bottom.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_trapdoor_bottom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_trapdoor_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_trapdoor_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_trapdoor_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/exposed_copper_trapdoor_top.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_cap.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_cap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_cap_alt.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_cap_alt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_post.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_post.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_post_ends.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_post_ends.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_side.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_side.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_side_alt.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_bars_side_alt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_chain.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_chain.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_left.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_left.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_left_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_left_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_right.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_right.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_right_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_bottom_right_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_left.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_left.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_left_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_left_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_right.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_right.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_right_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_door_top_right_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_trapdoor_bottom.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_trapdoor_bottom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_trapdoor_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_trapdoor_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_trapdoor_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oxidized_copper_trapdoor_top.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_cap.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_cap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_cap_alt.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_cap_alt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_post.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_post.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_post_ends.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_post_ends.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_side.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_side.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_side_alt.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_bars_side_alt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_chain.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_chain.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_left.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_left.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_left_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_left_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_right.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_right.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_right_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_bottom_right_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_left.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_left.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_left_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_left_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_right.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_right.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_right_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_door_top_right_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_trapdoor_bottom.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_trapdoor_bottom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_trapdoor_open.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_trapdoor_open.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_trapdoor_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/weathered_copper_trapdoor_top.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1214,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771009538518</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Copper and Tuff Block Families">
+      <option name="closed" value="true" />
+      <created>1771039945751</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1771039945751</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -1239,6 +471,7 @@
     <MESSAGE value="Adding more recipes" />
     <MESSAGE value="Some more changes" />
     <MESSAGE value="Adding the OST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding the OST" />
+    <MESSAGE value="Copper and Tuff Block Families" />
+    <option name="LAST_COMMIT_MESSAGE" value="Copper and Tuff Block Families" />
   </component>
 </project>

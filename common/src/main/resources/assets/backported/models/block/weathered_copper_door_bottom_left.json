@@ -1,5 +1,6 @@
 {
   "parent": "minecraft:block/door_bottom_left",
+  "render_type": "minecraft:cutout",
   "textures": {
     "bottom": "backported:block/weathered_copper_door_bottom",
     "top": "backported:block/weathered_copper_door_top"
