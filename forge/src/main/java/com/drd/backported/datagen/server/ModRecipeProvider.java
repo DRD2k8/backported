@@ -147,6 +147,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         unpack(ModItems.BREEZE_ROD.get(), ModItems.WIND_CHARGE.get(), 4, consumer);
 
+        // Bundles of Bravery
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Items.BUNDLE)
+                .pattern("-")
+                .pattern("#")
+                .define('#', Items.LEATHER)
+                .define('-', Items.STRING)
+                .unlockedBy(getHasName(Items.STRING), has(Items.STRING))
+                .save(consumer);
+
         // The Garden Awakens
         bark(ModBlocks.PALE_OAK_LOG.get(), ModBlocks.PALE_OAK_WOOD.get(), consumer);
         bark(ModBlocks.STRIPPED_PALE_OAK_LOG.get(), ModBlocks.STRIPPED_PALE_OAK_WOOD.get(), consumer);

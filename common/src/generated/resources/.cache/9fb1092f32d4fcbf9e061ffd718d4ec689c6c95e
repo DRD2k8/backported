@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-13T18:18:12.5879725	Recipes
+// 1.20.1	2026-02-13T20:41:05.8569911	Recipes
 13cbf5694ced7a23037b7641358b7b8800e3aa09 data/backported/advancements/recipes/building_blocks/chiseled_copper.json
 4ab6b8a073920ec4ad0c4f584f62b63b775a567f data/backported/advancements/recipes/building_blocks/chiseled_tuff.json
 e7761aba61d87e2580fe965125226c632f7c2d2c data/backported/advancements/recipes/building_blocks/chiseled_tuff_bricks.json
@@ -256,8 +256,10 @@ ff6184d59e7e572f916f3715f416ff123bc1a2bf data/minecraft/advancements/recipes/com
 2b5ee6c2e338f2e12bd6c64382f7a414b58bc5eb data/minecraft/advancements/recipes/combat/netherite_spear_smithing.json
 010e3b5568ff9024ed976d877ac56110c6cfc2a7 data/minecraft/advancements/recipes/combat/saddle.json
 682f74178258dfa4e2fb9a027389dcf39d6d9f53 data/minecraft/advancements/recipes/misc/copper_ingot_from_nuggets.json
+ac32c68ba94b9bbaac501e54db4eab71747ba816 data/minecraft/advancements/recipes/tools/bundle.json
 9438f54746621e146913588ac4c14b0eb4b87306 data/minecraft/advancements/recipes/tools/lead.json
 d5c91eb05637e4a46b3a96d44fa5b9ad292672bc data/minecraft/advancements/recipes/tools/name_tag.json
+273beb8d376047c99c5d97552e18805049fc2a9a data/minecraft/recipes/bundle.json
 fb84bda83dc3aa3de965e8f4640484c052e86a9c data/minecraft/recipes/chiseled_copper_from_copper_block_stonecutting.json
 3b562ca7fa8cd428abb922215f5773a2222cddda data/minecraft/recipes/chiseled_copper_from_cut_copper_stonecutting.json
 b38578eb292cba8fb54d68ff87e0c41f7a0fdfa7 data/minecraft/recipes/chiseled_tuff_bricks_from_polished_tuff_stonecutting.json
