@@ -5,6 +5,7 @@ import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.model.WindChargeModel;
 import com.drd.backported.client.renderer.CustomBoatRenderer;
+import com.drd.backported.client.renderer.ShelfRenderer;
 import com.drd.backported.client.renderer.WindChargeRenderer;
 import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.fabric.packets.PacketHandler;
@@ -119,6 +120,9 @@ public class BackportedFabricClient implements ClientModInitializer {
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_VILLAGER_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIFIED_PIGLIN_SPAWN_EGG);
+
+        // The Copper Age
+        BlockEntityRenderers.register(ModBlockEntities.SHELF.get(), ShelfRenderer::new);
 
         // Mounts of Mayhem
         BackportedClient.syncSpears = (i) -> {

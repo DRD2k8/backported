@@ -213,6 +213,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         waxing(ModBlocks.WEATHERED_COPPER_CHAIN.get(), ModBlocks.WAXED_WEATHERED_COPPER_CHAIN.get(), RecipeCategory.MISC, consumer);
         waxing(ModBlocks.OXIDIZED_COPPER_CHAIN.get(), ModBlocks.WAXED_OXIDIZED_COPPER_CHAIN.get(), RecipeCategory.MISC, consumer);
 
+        shelf(Items.STRIPPED_OAK_LOG, ModBlocks.OAK_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_SPRUCE_LOG, ModBlocks.SPRUCE_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_BIRCH_LOG, ModBlocks.BIRCH_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_JUNGLE_LOG, ModBlocks.JUNGLE_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_ACACIA_LOG, ModBlocks.ACACIA_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_DARK_OAK_LOG, ModBlocks.DARK_OAK_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_MANGROVE_LOG, ModBlocks.MANGROVE_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_CHERRY_LOG, ModBlocks.CHERRY_SHELF.get(), consumer);
+        shelf(ModBlocks.STRIPPED_PALE_OAK_LOG.get(), ModBlocks.PALE_OAK_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_BAMBOO_BLOCK, ModBlocks.BAMBOO_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_CRIMSON_STEM, ModBlocks.CRIMSON_SHELF.get(), consumer);
+        shelf(Items.STRIPPED_WARPED_STEM, ModBlocks.WARPED_SHELF.get(), consumer);
+
         // Mounts of Mayhem
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.WOODEN_SPEAR.get())
                 .pattern("  X")

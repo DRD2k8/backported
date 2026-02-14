@@ -67,6 +67,20 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         this.tag(BlockTags.WALL_HANGING_SIGNS)
                 .add(ModBlocks.PALE_OAK_WALL_HANGING_SIGN.get());
 
+        this.tag(ModTags.Blocks.WOODEN_SHELVES)
+                .add(ModBlocks.OAK_SHELF.get())
+                .add(ModBlocks.SPRUCE_SHELF.get())
+                .add(ModBlocks.BIRCH_SHELF.get())
+                .add(ModBlocks.JUNGLE_SHELF.get())
+                .add(ModBlocks.ACACIA_SHELF.get())
+                .add(ModBlocks.DARK_OAK_SHELF.get())
+                .add(ModBlocks.MANGROVE_SHELF.get())
+                .add(ModBlocks.CHERRY_SHELF.get())
+                .add(ModBlocks.PALE_OAK_SHELF.get())
+                .add(ModBlocks.BAMBOO_SHELF.get())
+                .add(ModBlocks.CRIMSON_SHELF.get())
+                .add(ModBlocks.WARPED_SHELF.get());
+
         this.tag(BlockTags.STAIRS)
                 .add(ModBlocks.TUFF_STAIRS.get())
                 .add(ModBlocks.POLISHED_TUFF_STAIRS.get())

@@ -5,6 +5,7 @@ import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.model.WindChargeModel;
 import com.drd.backported.client.renderer.CustomBoatRenderer;
+import com.drd.backported.client.renderer.ShelfRenderer;
 import com.drd.backported.client.renderer.WindChargeRenderer;
 import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.forge.packets.PacketHandler;
@@ -55,6 +56,7 @@ public class BackportedForgeClient {
     public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
         event.registerBlockEntityRenderer(ModBlockEntities.SIGN.get(), SignRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.HANGING_SIGN.get(), HangingSignRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.SHELF.get(), ShelfRenderer::new);
     }
 
     @SubscribeEvent

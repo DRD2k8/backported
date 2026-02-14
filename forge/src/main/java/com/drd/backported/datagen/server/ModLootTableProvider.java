@@ -133,6 +133,18 @@ public class ModLootTableProvider {
             this.dropSelf(ModBlocks.WAXED_EXPOSED_COPPER_CHAIN.get());
             this.dropSelf(ModBlocks.WAXED_WEATHERED_COPPER_CHAIN.get());
             this.dropSelf(ModBlocks.WAXED_OXIDIZED_COPPER_CHAIN.get());
+            this.dropSelf(ModBlocks.OAK_SHELF.get());
+            this.dropSelf(ModBlocks.SPRUCE_SHELF.get());
+            this.dropSelf(ModBlocks.BIRCH_SHELF.get());
+            this.dropSelf(ModBlocks.JUNGLE_SHELF.get());
+            this.dropSelf(ModBlocks.ACACIA_SHELF.get());
+            this.dropSelf(ModBlocks.DARK_OAK_SHELF.get());
+            this.dropSelf(ModBlocks.MANGROVE_SHELF.get());
+            this.dropSelf(ModBlocks.CHERRY_SHELF.get());
+            this.dropSelf(ModBlocks.PALE_OAK_SHELF.get());
+            this.dropSelf(ModBlocks.BAMBOO_SHELF.get());
+            this.dropSelf(ModBlocks.CRIMSON_SHELF.get());
+            this.dropSelf(ModBlocks.WARPED_SHELF.get());
         }
 
         @Override

@@ -92,7 +92,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Copper Lantern
 - [ ] Copper Torch
 - [ ] Oxidized Lightning Rods
-- [ ] Shelves
+- [X] Shelves
 - [X] Copper Armor
 - [X] Copper Horse Armor
 - [X] Copper Nugget
@@ -131,4 +131,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [X] Craftable name tag
 
 
-### Total completed: 33/104
+### Total completed: 34/104

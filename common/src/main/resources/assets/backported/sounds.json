@@ -492,6 +492,57 @@
     ]
   },
 
+  "block.shelf.activate": {
+    "sounds": [
+      "backported:block/shelf/activate1",
+      "backported:block/shelf/activate2",
+      "backported:block/shelf/activate3"
+    ],
+    "subtitle": "subtitles.backported.block.shelf.activate"
+  },
+  "block.shelf.deactivate": {
+    "sounds": [
+      "backported:block/shelf/deactivate1",
+      "backported:block/shelf/deactivate2",
+      "backported:block/shelf/deactivate3"
+    ],
+    "subtitle": "subtitles.backported.block.shelf.deactivate"
+  },
+  "block.shelf.multi_swap": {
+    "sounds": [
+      "backported:block/shelf/multi_swap1",
+      "backported:block/shelf/multi_swap2",
+      "backported:block/shelf/multi_swap3"
+    ],
+    "subtitle": "subtitles.backported.block.shelf.multi_swap"
+  },
+  "block.shelf.place_item": {
+    "sounds": [
+      "backported:block/shelf/place_item1",
+      "backported:block/shelf/place_item2",
+      "backported:block/shelf/place_item3",
+      "backported:block/shelf/place_item4"
+    ],
+    "subtitle": "subtitles.backported.block.shelf.place_item"
+  },
+  "block.shelf.single_swap": {
+    "sounds": [
+      "backported:block/shelf/single_swap1",
+      "backported:block/shelf/single_swap2",
+      "backported:block/shelf/single_swap3",
+      "backported:block/shelf/single_swap4"
+    ],
+    "subtitle": "subtitles.backported.block.shelf.single_swap"
+  },
+  "block.shelf.take_item": {
+    "sounds": [
+      "backported:block/shelf/single_swap1",
+      "backported:block/shelf/single_swap2",
+      "backported:block/shelf/single_swap3",
+      "backported:block/shelf/single_swap4"
+    ],
+    "subtitle": "subtitles.backported.block.shelf.take_item"
+  },
   "item.armor.equip_copper": {
     "sounds": [
       "backported:item/armor/equip_copper1",

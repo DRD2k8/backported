@@ -4,9 +4,194 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding render types">
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/advancements/recipes/tools/bundle.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/minecraft/recipes/bundle.json" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Adding the bundle recipe">
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/acacia_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/bamboo_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/birch_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/cherry_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/crimson_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/dark_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/jungle_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/mangrove_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/pale_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/spruce_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/advancements/recipes/misc/warped_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/acacia_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/bamboo_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/birch_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/cherry_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/crimson_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/dark_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/jungle_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/mangrove_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/pale_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/spruce_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/loot_tables/blocks/warped_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/acacia_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/bamboo_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/birch_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/cherry_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/crimson_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/dark_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/jungle_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/mangrove_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/pale_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/spruce_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/recipes/warped_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/tags/blocks/wooden_shelves.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/generated/resources/data/backported/tags/items/wooden_shelves.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/ShelfBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/SideChainPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/base/ListBackedContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/base/SelectableSlotContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/base/SideChainPartBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/entity/ShelfBlockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/acacia_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/bamboo_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/birch_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/cherry_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/crimson_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/dark_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/jungle_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/mangrove_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/pale_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/spruce_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/blockstates/warped_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/acacia_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/acacia_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/acacia_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/acacia_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/acacia_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/acacia_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/acacia_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/bamboo_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/bamboo_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/bamboo_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/bamboo_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/bamboo_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/bamboo_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/bamboo_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/birch_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/birch_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/birch_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/birch_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/birch_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/birch_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/birch_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/cherry_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/cherry_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/cherry_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/cherry_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/cherry_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/cherry_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/cherry_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/crimson_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/crimson_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/crimson_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/crimson_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/crimson_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/crimson_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/crimson_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/dark_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/dark_oak_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/dark_oak_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/dark_oak_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/dark_oak_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/dark_oak_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/dark_oak_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/jungle_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/jungle_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/jungle_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/jungle_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/jungle_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/jungle_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/jungle_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/mangrove_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/mangrove_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/mangrove_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/mangrove_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/mangrove_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/mangrove_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/mangrove_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oak_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oak_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oak_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oak_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oak_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/oak_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/pale_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/pale_oak_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/pale_oak_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/pale_oak_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/pale_oak_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/pale_oak_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/pale_oak_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/spruce_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/spruce_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/spruce_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/spruce_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/spruce_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/spruce_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/spruce_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_shelf_body.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/template_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/warped_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/warped_shelf_center.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/warped_shelf_inventory.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/warped_shelf_left.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/warped_shelf_right.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/warped_shelf_unconnected.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/block/warped_shelf_unpowered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/acacia_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/bamboo_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/birch_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/cherry_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/crimson_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/dark_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/jungle_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/mangrove_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/pale_oak_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/spruce_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/models/item/warped_shelf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/activate1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/activate2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/activate3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/deactivate1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/deactivate2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/deactivate3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/multi_swap1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/multi_swap2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/multi_swap3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/place_item1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/place_item2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/place_item3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/place_item4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/single_swap1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/single_swap2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/single_swap3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/block/shelf/single_swap4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/acacia_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/bamboo_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/birch_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/cherry_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/crimson_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/dark_oak_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/jungle_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/mangrove_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/oak_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/spruce_shelf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/block/warped_shelf.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/checksums/sha1-checksums.bin" afterDir="false" />
@@ -16,10 +201,30 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/generated/resources/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/generated/resources/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModBlockEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModBlockEntities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/fabric/src/main/java/com/drd/backported/fabric/item/CreativeTabPlacements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModLootTableProvider$Blocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModLootTableProvider$Blocks.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/ModRecipeProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModBlockTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModBlockTagProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/datagen/server/tags/ModItemTagProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/classes/java/main/com/drd/backported/forge/item/CreativeTabPlacements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/87fa057e0d7cc411cc90e26f503b8653b84a6f9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/9fb1092f32d4fcbf9e061ffd718d4ec689c6c95e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/.cache/dd0c104b32e202511dbe5c2d7bb6550c64db9502" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/sounds.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/.architectury-transformer/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-13-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-1.log.gz" afterDir="false" />
@@ -28,7 +233,7 @@
       <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-13-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-13-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-13-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-13-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/2026-02-13-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/run/logs/2026-02-13-7.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-3.log.gz" afterDir="false" />
@@ -36,7 +241,11 @@
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/forge/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModLootTableProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModLootTableProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/ModRecipeProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModBlockTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/datagen/server/tags/ModItemTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" beforeDir="false" afterPath="$PROJECT_DIR$/forge/src/main/java/com/drd/backported/forge/item/CreativeTabPlacements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,9 +302,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -130,23 +339,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Minecraft Client (:fabric).executor": "Run",
-    "Application.Minecraft Client (:forge).executor": "Run",
-    "Application.Minecraft Data (:forge).executor": "Run",
-    "Gradle.Build forge-1.20.1.executor": "Run",
-    "Gradle.forge-1.20.1 [createMcpToSrg].executor": "Run",
-    "Gradle.forge-1.20.1:forge [build].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "external.system.has.shared.sources": "true",
-    "git-widget-placeholder": "2001",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/minecraft_mod_repository_branches/backported_real_version/forge-1.20.1/common/src/main/resources/assets/backported/models/block/newfolder",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Minecraft Client (:fabric).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minecraft Client (:forge).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minecraft Data (:forge).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build forge-1.20.1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.forge-1.20.1 [createMcpToSrg].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.forge-1.20.1:forge [build].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;external.system.has.shared.sources&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;2001&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/minecraft_mod_repository_branches/backported_real_version/forge-1.20.1/common/src/main/resources/assets/backported/models/block/newfolder&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\main\resources\assets\backported\models\block\newfolder" />
@@ -402,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771041256858</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Adding the bundle recipe">
+      <option name="closed" value="true" />
+      <created>1771044792853</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1771044792853</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -429,6 +646,7 @@
     <MESSAGE value="Adding the OST" />
     <MESSAGE value="Copper and Tuff Block Families" />
     <MESSAGE value="Adding render types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding render types" />
+    <MESSAGE value="Adding the bundle recipe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the bundle recipe" />
   </component>
 </project>

@@ -188,6 +188,18 @@ public class ModBlocks {
             () -> new ChainBlock(BlockBehaviour.Properties.copy(WEATHERED_COPPER_CHAIN.get())));
     public static final RegistrySupplier<Block> WAXED_OXIDIZED_COPPER_CHAIN = registerBlock("waxed_oxidized_copper_chain",
             () -> new ChainBlock(BlockBehaviour.Properties.copy(OXIDIZED_COPPER_CHAIN.get())));
+    public static final RegistrySupplier<Block> OAK_SHELF = registerShelf("oak", Blocks.OAK_PLANKS);
+    public static final RegistrySupplier<Block> SPRUCE_SHELF = registerShelf("spruce", Blocks.SPRUCE_PLANKS);
+    public static final RegistrySupplier<Block> BIRCH_SHELF = registerShelf("birch", Blocks.BIRCH_PLANKS);
+    public static final RegistrySupplier<Block> JUNGLE_SHELF = registerShelf("jungle", Blocks.JUNGLE_PLANKS);
+    public static final RegistrySupplier<Block> ACACIA_SHELF = registerShelf("acacia", Blocks.ACACIA_PLANKS);
+    public static final RegistrySupplier<Block> DARK_OAK_SHELF = registerShelf("dark_oak", Blocks.DARK_OAK_PLANKS);
+    public static final RegistrySupplier<Block> MANGROVE_SHELF = registerShelf("mangrove", Blocks.MANGROVE_PLANKS);
+    public static final RegistrySupplier<Block> CHERRY_SHELF = registerShelf("cherry", Blocks.CHERRY_PLANKS);
+    public static final RegistrySupplier<Block> PALE_OAK_SHELF = registerModdedShelf("pale_oak", PALE_OAK_PLANKS);
+    public static final RegistrySupplier<Block> BAMBOO_SHELF = registerShelf("bamboo", Blocks.BAMBOO_PLANKS);
+    public static final RegistrySupplier<Block> CRIMSON_SHELF = registerNonFlammableShelf("crimson", Blocks.CRIMSON_PLANKS);
+    public static final RegistrySupplier<Block> WARPED_SHELF = registerNonFlammableShelf("warped", Blocks.WARPED_PLANKS);
 
     private static <T extends Block> RegistrySupplier<T> registerBlock(String name, Supplier<T> block) {
         RegistrySupplier<T> toReturn = BLOCKS.register(name, block);
@@ -289,6 +301,18 @@ public class ModBlocks {
 
     private static RegistrySupplier<Block> registerWallHangingSign(String wood, RegistrySupplier<Block> planks, WoodType type, RegistrySupplier<Block> sign) {
         return BLOCKS.register(wood + "_wall_hanging_sign", () -> new CustomWallHangingSignBlock(BlockBehaviour.Properties.copy(planks.get()).noCollission().strength(1f).dropsLike(sign.get()), type));
+    }
+
+    private static RegistrySupplier<Block> registerShelf(String wood, Block planks) {
+        return registerBlock(wood + "_shelf", () -> new ShelfBlock(BlockBehaviour.Properties.of().mapColor(planks.defaultMapColor()).instrument(NoteBlockInstrument.BASS).sound(SoundType.CHISELED_BOOKSHELF).strength(2f, 3f).ignitedByLava()));
+    }
+
+    private static RegistrySupplier<Block> registerNonFlammableShelf(String wood, Block planks) {
+        return registerBlock(wood + "_shelf", () -> new ShelfBlock(BlockBehaviour.Properties.of().mapColor(planks.defaultMapColor()).instrument(NoteBlockInstrument.BASS).sound(SoundType.CHISELED_BOOKSHELF).strength(2f, 3f)));
+    }
+
+    private static RegistrySupplier<Block> registerModdedShelf(String wood, RegistrySupplier<Block> planks) {
+        return registerBlock(wood + "_shelf", () -> new ShelfBlock(BlockBehaviour.Properties.of().mapColor(planks.get().defaultMapColor()).instrument(NoteBlockInstrument.BASS).sound(SoundType.CHISELED_BOOKSHELF).strength(2f, 3f).ignitedByLava()));
     }
 
     private static Boolean never(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos, EntityType<?> entityType) {

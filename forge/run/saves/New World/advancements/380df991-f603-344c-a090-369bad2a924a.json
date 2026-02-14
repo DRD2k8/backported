@@ -1,31 +1,31 @@
 {
-  "backported:recipes/redstone/waxed_copper_bulb_from_honeycomb": {
+  "minecraft:recipes/misc/charcoal": {
     "criteria": {
-      "has_copper_bulb": "2026-02-13 19:53:17 -0800"
+      "has_log": "2026-02-14 11:24:23 -0800"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-02-13 19:52:55 -0800"
+      "unlock_right_away": "2026-02-14 11:24:07 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-02-14 11:24:23 -0800"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2026-02-13 19:52:57 -0800"
+      "minecraft:forest": "2026-02-14 11:24:09 -0800"
     },
     "done": false
   },
-  "backported:recipes/misc/waxed_copper_bars_from_honeycomb": {
+  "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
-      "has_copper_bars": "2026-02-13 19:53:30 -0800"
-    },
-    "done": true
-  },
-  "backported:recipes/misc/waxed_copper_chain_from_honeycomb": {
-    "criteria": {
-      "has_copper_chain": "2026-02-13 19:53:34 -0800"
+      "has_log": "2026-02-14 11:24:23 -0800"
     },
     "done": true
   },

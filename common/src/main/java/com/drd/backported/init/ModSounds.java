@@ -56,6 +56,12 @@ public class ModSounds {
     public static final RegistrySupplier<SoundEvent> MUSIC_DISC_TEARS = registerMusicDisc("tears");
 
     // The Copper Age
+    public static final RegistrySupplier<SoundEvent> SHELF_ACTIVATE = registerSoundEvents("block.shelf.activate");
+    public static final RegistrySupplier<SoundEvent> SHELF_DEACTIVATE = registerSoundEvents("block.shelf.deactivate");
+    public static final RegistrySupplier<SoundEvent> SHELF_MULTI_SWAP = registerSoundEvents("block.shelf.multi_swap");
+    public static final RegistrySupplier<SoundEvent> SHELF_PLACE_ITEM = registerSoundEvents("block.shelf.place_item");
+    public static final RegistrySupplier<SoundEvent> SHELF_SINGLE_SWAP = registerSoundEvents("block.shelf.single_swap");
+    public static final RegistrySupplier<SoundEvent> SHELF_TAKE_ITEM = registerSoundEvents("block.shelf.take_item");
     public static final RegistrySupplier<SoundEvent> ARMOR_EQUIP_COPPER = registerSoundEvents("item.armor.equip_copper");
 
     // Mounts of Mayhem

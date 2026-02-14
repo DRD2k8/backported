@@ -71,6 +71,20 @@ public class ModItemTagProvider extends ItemTagsProvider {
         this.tag(ItemTags.CHEST_BOATS)
                 .add(ModItems.PALE_OAK_CHEST_BOAT.get());
 
+        this.tag(ModTags.Items.WOODEN_SHELVES)
+                .add(ModBlocks.OAK_SHELF.get().asItem())
+                .add(ModBlocks.SPRUCE_SHELF.get().asItem())
+                .add(ModBlocks.BIRCH_SHELF.get().asItem())
+                .add(ModBlocks.JUNGLE_SHELF.get().asItem())
+                .add(ModBlocks.ACACIA_SHELF.get().asItem())
+                .add(ModBlocks.DARK_OAK_SHELF.get().asItem())
+                .add(ModBlocks.MANGROVE_SHELF.get().asItem())
+                .add(ModBlocks.CHERRY_SHELF.get().asItem())
+                .add(ModBlocks.PALE_OAK_SHELF.get().asItem())
+                .add(ModBlocks.BAMBOO_SHELF.get().asItem())
+                .add(ModBlocks.CRIMSON_SHELF.get().asItem())
+                .add(ModBlocks.WARPED_SHELF.get().asItem());
+
         this.tag(ItemTags.STAIRS)
                 .add(ModBlocks.TUFF_STAIRS.get().asItem())
                 .add(ModBlocks.POLISHED_TUFF_STAIRS.get().asItem())

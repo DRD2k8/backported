@@ -1,0 +1,16 @@
+{
+  "values": [
+    "backported:oak_shelf",
+    "backported:spruce_shelf",
+    "backported:birch_shelf",
+    "backported:jungle_shelf",
+    "backported:acacia_shelf",
+    "backported:dark_oak_shelf",
+    "backported:mangrove_shelf",
+    "backported:cherry_shelf",
+    "backported:pale_oak_shelf",
+    "backported:bamboo_shelf",
+    "backported:crimson_shelf",
+    "backported:warped_shelf"
+  ]
+}

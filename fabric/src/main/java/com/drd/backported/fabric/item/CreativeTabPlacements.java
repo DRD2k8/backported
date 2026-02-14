@@ -139,6 +139,20 @@ public class CreativeTabPlacements {
     }
 
     private static void addItemsToFunctionalBlocksTab(FabricItemGroupEntries entries) {
+        entries.addAfter(Items.CHISELED_BOOKSHELF,
+                ModBlocks.OAK_SHELF.get(),
+                ModBlocks.SPRUCE_SHELF.get(),
+                ModBlocks.BIRCH_SHELF.get(),
+                ModBlocks.JUNGLE_SHELF.get(),
+                ModBlocks.ACACIA_SHELF.get(),
+                ModBlocks.DARK_OAK_SHELF.get(),
+                ModBlocks.MANGROVE_SHELF.get(),
+                ModBlocks.CHERRY_SHELF.get(),
+                ModBlocks.PALE_OAK_SHELF.get(),
+                ModBlocks.BAMBOO_SHELF.get(),
+                ModBlocks.CRIMSON_SHELF.get(),
+                ModBlocks.WARPED_SHELF.get()
+        );
         entries.addAfter(Items.CHERRY_HANGING_SIGN,
                 ModItems.PALE_OAK_SIGN.get(),
                 ModItems.PALE_OAK_HANGING_SIGN.get()

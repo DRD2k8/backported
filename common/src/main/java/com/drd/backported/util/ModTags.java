@@ -11,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> PALE_OAK_LOGS = tag("pale_oak_logs");
+        public static final TagKey<Block> WOODEN_SHELVES = tag("wooden_shelves");
 
         private static TagKey<Block> tagMod(String modId, String name) {
             return TagKey.create(Registries.BLOCK, new ResourceLocation(modId, name));
@@ -37,6 +38,7 @@ public class ModTags {
         public static final TagKey<Item> FABRIC_NUGGETS = tagFabric("nuggets");
         public static final TagKey<Item> FABRIC_WOODEN_RODS = tagFabric("wooden_rods");
         public static final TagKey<Item> STICKS = tag("sticks");
+        public static final TagKey<Item> WOODEN_SHELVES = tag("wooden_shelves");
         public static final TagKey<Item> SPEARS = tag("spears");
 
         private static TagKey<Item> tagMod(String modId, String name) {

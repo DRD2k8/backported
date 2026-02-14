@@ -1,0 +1,7 @@
+{
+  "parent": "backported:block/template_shelf_right",
+  "textures": {
+    "all": "backported:block/pale_oak_shelf",
+    "particle": "backported:block/stripped_pale_oak_log"
+  }
+}
