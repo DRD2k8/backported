@@ -157,6 +157,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('-', Items.STRING)
                 .unlockedBy(getHasName(Items.STRING), has(Items.STRING))
                 .save(consumer);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIELD_MASONED_BANNER_PATTERN.get())
+                .requires(Items.PAPER)
+                .requires(Items.BRICKS)
+                .unlockedBy("has_bricks", has(Items.BRICKS))
+                .save(consumer);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BORDURE_INDENTED_BANNER_PATTERN.get())
+                .requires(Items.PAPER)
+                .requires(Items.VINE)
+                .unlockedBy("has_vines", has(Items.VINE))
+                .save(consumer);
 
         // The Garden Awakens
         bark(ModBlocks.PALE_OAK_LOG.get(), ModBlocks.PALE_OAK_WOOD.get(), consumer);

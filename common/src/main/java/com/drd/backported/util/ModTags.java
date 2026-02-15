@@ -7,6 +7,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.entity.BannerPattern;
 
 public class ModTags {
     public static class Blocks {
@@ -100,6 +101,20 @@ public class ModTags {
 
         private static TagKey<Biome> tagFabric(String name) {
             return tagMod("c", name);
+        }
+    }
+
+    public static class BannerPatterns {
+        // Tricky Trials
+        public static final TagKey<BannerPattern> FLOW_BANNER_PATTERN = tag("pattern_item/flow");
+        public static final TagKey<BannerPattern> GUSTER_BANNER_PATTERN = tag("pattern_item/guster");
+
+        // Bundles of Bravery
+        public static final TagKey<BannerPattern> FIELD_MASONED_BANNER_PATTERN = tag("pattern_item/field_masoned");
+        public static final TagKey<BannerPattern> BORDURE_INDENTED_BANNER_PATTERN = tag("pattern_item/bordure_indented");
+
+        private static TagKey<BannerPattern> tag(String name) {
+            return TagKey.create(Registries.BANNER_PATTERN, new ResourceLocation(Backported.MOD_ID, name));
         }
     }
 }

@@ -23,6 +23,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         // Tricky Trials
         simpleItem(ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE);
         simpleItem(ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE);
+        simpleItem(ModItems.FLOW_BANNER_PATTERN);
+        simpleItem(ModItems.GUSTER_BANNER_PATTERN);
         simpleItem(ModItems.BREEZE_ROD);
         waxedItems("chiseled_copper");
         waxedItems("copper_grate");
@@ -38,6 +40,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.POLISHED_TUFF_WALL, ModBlocks.POLISHED_TUFF);
         wallItem(ModBlocks.TUFF_BRICK_WALL, ModBlocks.TUFF_BRICKS);
         simpleItem(ModItems.WIND_CHARGE);
+
+        // Bundles of Bravery
+        simpleItem(ModItems.FIELD_MASONED_BANNER_PATTERN);
+        simpleItem(ModItems.BORDURE_INDENTED_BANNER_PATTERN);
 
         // The Garden Awakens
         evenSimplerBlockItem(ModBlocks.PALE_OAK_STAIRS);

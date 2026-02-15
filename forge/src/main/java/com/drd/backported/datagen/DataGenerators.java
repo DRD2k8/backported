@@ -5,6 +5,7 @@ import com.drd.backported.datagen.client.ModBlockStateProvider;
 import com.drd.backported.datagen.client.ModItemModelProvider;
 import com.drd.backported.datagen.server.ModLootTableProvider;
 import com.drd.backported.datagen.server.ModRecipeProvider;
+import com.drd.backported.datagen.server.tags.ModBannerPatternTagProvider;
 import com.drd.backported.datagen.server.tags.ModBlockTagProvider;
 import com.drd.backported.datagen.server.tags.ModItemTagProvider;
 import com.drd.backported.datagen.server.tags.ModPaintingTagProvider;
@@ -35,5 +36,6 @@ public class DataGenerators {
                 new ModBlockTagProvider(packOutput, lookupProvider, existingFileHelper));
         generator.addProvider(event.includeServer(), new ModItemTagProvider(packOutput, lookupProvider, blockTagProvider.contentsGetter(), existingFileHelper));
         generator.addProvider(event.includeServer(), new ModPaintingTagProvider(packOutput, lookupProvider, existingFileHelper));
+        generator.addProvider(event.includeServer(), new ModBannerPatternTagProvider(packOutput, lookupProvider, existingFileHelper));
     }
 }

@@ -9,6 +9,7 @@ public final class Backported {
 
     public static void init() {
         ModSounds.register();
+        ModBannerPatterns.register();
         ModBlocks.register();
         ModBlockEntities.register();
         ModEnchantments.register();

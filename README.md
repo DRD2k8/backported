@@ -27,7 +27,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Ominous Bottle
 - [ ] Trial Explorer Map
 - [ ] Trial Keys
-- [ ] Flow and Guster Banner Patterns
+- [X] Flow and Guster Banner Patterns
 - [ ] Flow, Guster, and Scrape Pottery Sherds
 - [X] Bolt and Flow Armor Trims
 - [X] Precipice, Creator, and Creator (Music Box) Music Discs
@@ -42,10 +42,9 @@ If all of these are complete, I will publish the first version of the mod.
 
 ## Bundles of Bravery (1.21.2 & 1.21.3)
 - [X] Banner pattern texture updates
-- [ ] Field masoned and bordure intended banner patterns
+- [X] Field masoned and bordure intended banner patterns
 - [ ] Colored bundles
 - [X] Redstone torch texture and model changes
-- [ ] Smithing templates are named after their template type
 
 ## The Garden Awakens (1.21.4)
 - [ ] Pale Garden biome
@@ -130,5 +129,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Golden dandelion
 - [X] Craftable name tag
 
-
-### Total completed: 36/104
+### Total completed: 38/103

@@ -244,6 +244,14 @@ public class CreativeTabPlacements {
                 ModBlocks.HEAVY_CORE.get());
         entries.addAfter(Items.NETHER_BRICK,
                 ModItems.RESIN_BRICK.get());
+        entries.addBefore(Items.FLOWER_BANNER_PATTERN,
+                ModItems.FIELD_MASONED_BANNER_PATTERN.get(),
+                ModItems.BORDURE_INDENTED_BANNER_PATTERN.get()
+        );
+        entries.addAfter(Items.PIGLIN_BANNER_PATTERN,
+                ModItems.FLOW_BANNER_PATTERN.get(),
+                ModItems.GUSTER_BANNER_PATTERN.get()
+        );
         entries.addAfter(Items.SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE,
                 ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE.get(),
                 ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE.get()

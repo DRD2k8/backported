@@ -1,0 +1,5 @@
+// 1.20.1	2026-02-14T20:32:24.0463855	Tags for minecraft:banner_pattern mod id backported
+c057859f3f85d34ff55914249fb5f85dbf0cbaa5 data/backported/tags/banner_pattern/pattern_item/bordure_indented.json
+78324d910f5cc8784b4ebcd3728d920fa0ab2e6d data/backported/tags/banner_pattern/pattern_item/field_masoned.json
+f489735ba024803d9413d8bf9a7b005f02b77199 data/backported/tags/banner_pattern/pattern_item/flow.json
+71fb40d193d7fc3bdf3393d37b833ccda6a6c45c data/backported/tags/banner_pattern/pattern_item/guster.json

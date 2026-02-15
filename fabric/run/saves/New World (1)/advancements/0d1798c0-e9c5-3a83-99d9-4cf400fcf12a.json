@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-02-14 18:50:25 -0800"
+    },
+    "done": true
+  },
+  "backported:recipes/redstone/waxed_copper_door_from_honeycomb": {
+    "criteria": {
+      "has_copper_door": "2026-02-14 18:51:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2026-02-14 18:50:26 -0800"
+    },
+    "done": false
+  },
+  "backported:recipes/misc/waxed_copper_bars_from_honeycomb": {
+    "criteria": {
+      "has_copper_bars": "2026-02-14 18:51:08 -0800"
+    },
+    "done": true
+  },
+  "backported:recipes/misc/waxed_copper_chain_from_honeycomb": {
+    "criteria": {
+      "has_copper_chain": "2026-02-14 18:51:14 -0800"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

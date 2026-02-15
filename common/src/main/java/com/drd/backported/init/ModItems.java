@@ -3,11 +3,14 @@ package com.drd.backported.init;
 import com.drd.backported.Backported;
 import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.item.*;
+import com.drd.backported.util.ModTags;
 import dev.architectury.registry.registries.DeferredRegister;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.entity.BannerPattern;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Backported.MOD_ID, Registries.ITEM);
@@ -15,12 +18,18 @@ public class ModItems {
     // Tricky Trials
     public static final RegistrySupplier<Item> BOLT_ARMOR_TRIM_SMITHING_TEMPLATE = trimPattern("bolt");
     public static final RegistrySupplier<Item> FLOW_ARMOR_TRIM_SMITHING_TEMPLATE = trimPattern("flow");
+    public static final RegistrySupplier<Item> FLOW_BANNER_PATTERN = bannerPattern("flow", ModTags.BannerPatterns.FLOW_BANNER_PATTERN);
+    public static final RegistrySupplier<Item> GUSTER_BANNER_PATTERN = bannerPattern("guster", ModTags.BannerPatterns.GUSTER_BANNER_PATTERN);
     public static final RegistrySupplier<Item> BREEZE_ROD = basicItem("breeze_rod");
     public static final RegistrySupplier<Item> MACE = ITEMS.register("mace", () -> new MaceItem(new Item.Properties().rarity(Rarity.EPIC).durability(500)));
     public static final RegistrySupplier<Item> MUSIC_DISC_CREATOR = musicDisc("creator", ModSounds.MUSIC_DISC_CREATOR, Rarity.RARE, 3520, 12);
     public static final RegistrySupplier<Item> MUSIC_DISC_CREATOR_MUSIC_BOX = musicDisc("creator_music_box", ModSounds.MUSIC_DISC_CREATOR_MUSIC_BOX, Rarity.UNCOMMON, 1460, 11);
     public static final RegistrySupplier<Item> MUSIC_DISC_PRECIPICE = musicDisc("precipice", ModSounds.MUSIC_DISC_PRECIPICE, Rarity.UNCOMMON, 5980, 13);
     public static final RegistrySupplier<Item> WIND_CHARGE = ITEMS.register("wind_charge", () -> new WindChargeItem(new Item.Properties()));
+
+    // Bundles of Bravery
+    public static final RegistrySupplier<Item> FIELD_MASONED_BANNER_PATTERN = bannerPattern("field_masoned", ModTags.BannerPatterns.FIELD_MASONED_BANNER_PATTERN);
+    public static final RegistrySupplier<Item> BORDURE_INDENTED_BANNER_PATTERN = bannerPattern("bordure_indented", ModTags.BannerPatterns.BORDURE_INDENTED_BANNER_PATTERN);
 
     // The Garden Awakens
     public static final RegistrySupplier<Item> PALE_OAK_SIGN = ITEMS.register("pale_oak_sign",
@@ -71,6 +80,10 @@ public class ModItems {
 
     private static RegistrySupplier<Item> trimPattern(String name) {
         return ITEMS.register(name + "_armor_trim_smithing_template", () -> new TrimmedSmithingTemplateItem(new Item.Properties(), name));
+    }
+
+    private static RegistrySupplier<Item> bannerPattern(String name, TagKey<BannerPattern> pattern) {
+        return ITEMS.register(name + "_banner_pattern", () -> new BannerPatternItem(pattern, new Item.Properties().stacksTo(1)));
     }
 
     private static RegistrySupplier<Item> sword(String material, Tier tier, int attackDamage, float attackSpeed) {
