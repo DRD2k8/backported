@@ -4,12 +4,17 @@ import com.drd.backported.block.ResinClumpBlock;
 import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModItems;
 import dev.architectury.registry.registries.RegistrySupplier;
+import net.minecraft.advancements.critereon.EnchantmentPredicate;
+import net.minecraft.advancements.critereon.ItemPredicate;
+import net.minecraft.advancements.critereon.MinMaxBounds;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.core.Direction;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.flag.FeatureFlags;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.MultifaceBlock;
 import net.minecraft.world.level.storage.loot.LootPool;
@@ -18,9 +23,12 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+import net.minecraft.world.level.storage.loot.predicates.AnyOfCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.predicates.MatchTool;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
+import net.minecraftforge.common.Tags;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -157,6 +165,28 @@ public class ModLootTableProvider {
                     block -> createSlabItemTable(ModBlocks.RESIN_BRICK_SLAB.get()));
             this.dropSelf(ModBlocks.RESIN_BRICK_WALL.get());
             this.dropSelf(ModBlocks.CHISELED_RESIN_BRICKS.get());
+
+            // Spring to Life
+            this.add(ModBlocks.BUSH.get(), block ->
+                    LootTable.lootTable()
+                            .withPool(LootPool.lootPool()
+                                    .setRolls(ConstantValue.exactly(1))
+                                    .when(AnyOfCondition.anyOf(
+                                            MatchTool.toolMatches(
+                                                    ItemPredicate.Builder.item()
+                                                            .of(Tags.Items.SHEARS)
+                                            ),
+                                            MatchTool.toolMatches(
+                                                    ItemPredicate.Builder.item()
+                                                            .hasEnchantment(new EnchantmentPredicate(
+                                                                    Enchantments.SILK_TOUCH,
+                                                                    MinMaxBounds.Ints.atLeast(1)
+                                                            ))
+                                            )
+                                    ))
+                                    .add(LootItem.lootTableItem(ModBlocks.BUSH.get()))
+                            )
+            );
 
             // The Copper Age
             this.dropSelf(ModBlocks.COPPER_BARS.get());

@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-14T16:05:43.7933519	Tags for minecraft:block mod id backported
+// 1.20.1	2026-02-14T17:50:15.2682103	Tags for minecraft:block mod id backported
 3e5ecb31784f337360af16782c45509a4de295bb data/backported/tags/blocks/pale_oak_logs.json
 e912dc975f7a3d2c9be554354fe2f17dc674c6bc data/backported/tags/blocks/wooden_shelves.json
 7bb52181ddee3d557863e9b64c1fe473ae7212d1 data/minecraft/tags/blocks/ceiling_hanging_signs.json
@@ -8,6 +8,8 @@ e912dc975f7a3d2c9be554354fe2f17dc674c6bc data/backported/tags/blocks/wooden_shel
 1ef3d1773ff2dc5fa8c7734467c42b7b73e7b700 data/minecraft/tags/blocks/mineable/pickaxe.json
 7c1e574051ec2b6b5931c19547e29815be101fbd data/minecraft/tags/blocks/needs_stone_tool.json
 de99f2626bfa0e9843451dc86a4abd08d4b66d3a data/minecraft/tags/blocks/planks.json
+9168d5db152958843a36f271d809c4c7d1d0c500 data/minecraft/tags/blocks/replaceable.json
+02c0351a02fd342caaf836c84e2c3b026542e396 data/minecraft/tags/blocks/replaceable_by_trees.json
 c2993c806146df24f70fb8ec52fee21d80f18fb0 data/minecraft/tags/blocks/slabs.json
 894539bf98fdab2aad68d383e2c00147eff13681 data/minecraft/tags/blocks/stairs.json
 7407f7f6983e30d6e509fd8e76857bcd5fd15279 data/minecraft/tags/blocks/standing_signs.json

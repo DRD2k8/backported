@@ -1,4 +1,5 @@
-// 1.20.1	2026-02-14T16:05:43.7963528	Block States: backported
+// 1.20.1	2026-02-14T18:11:18.8386597	Block States: backported
+5391b07044d7f597a428d175b00ad5c99ec47c46 assets/backported/blockstates/bush.json
 93758eebc865c7ce11ab7ec125c48cfd64bae363 assets/backported/blockstates/chiseled_copper.json
 c324e83ac1dea833024674a963a7c7f2a4da3bee assets/backported/blockstates/chiseled_resin_bricks.json
 2241e38a20a1c18204ee67ddff880811303d0f7d assets/backported/blockstates/chiseled_tuff.json
@@ -51,6 +52,7 @@ fb9e5daf861f1d62ddc0abd592ebda49b886e8d3 assets/backported/blockstates/waxed_oxi
 58aedb440420c7a54d35868ba8338647ae19c1e1 assets/backported/blockstates/waxed_weathered_copper_grate.json
 80368facf3f0cf9d92f51a0333c1a579ff0e7cde assets/backported/blockstates/weathered_chiseled_copper.json
 58aedb440420c7a54d35868ba8338647ae19c1e1 assets/backported/blockstates/weathered_copper_grate.json
+0efe9772b32fee20376694ba61413f5906ee01df assets/backported/models/block/bush.json
 1f90bd38df1c3f6271e6304e4d41e21debdbcdac assets/backported/models/block/chiseled_copper.json
 cc48c694a370c35c2775e0b6606ccbc808d374ed assets/backported/models/block/chiseled_resin_bricks.json
 222ad3038ef92eef7f3dce5f64b17d4f828e96d7 assets/backported/models/block/chiseled_tuff.json
@@ -135,6 +137,7 @@ e40a77e4fd1d701399fa7527fff79cb0bb7948e7 assets/backported/models/block/tuff_wal
 473e34e18f20fb943cb44d1b69673057b997af6c assets/backported/models/block/tuff_wall_side_tall.json
 72f4e66c5214fe5362dcccd23249bf799c3738c8 assets/backported/models/block/weathered_chiseled_copper.json
 574a95a94c859c55b314cf47a53886fd68639736 assets/backported/models/block/weathered_copper_grate.json
+ef2d32ebf7da8d74306160b6e828504660439da0 assets/backported/models/item/bush.json
 4a6f36f7aff11db029aa257278b9a2f5fc99cbd5 assets/backported/models/item/chiseled_copper.json
 674d44c01e3ec581694fb035a7334bdb99e81ba9 assets/backported/models/item/chiseled_resin_bricks.json
 86b457c66b9f3e63a4b34e37de80d2d2cec8858e assets/backported/models/item/chiseled_tuff.json

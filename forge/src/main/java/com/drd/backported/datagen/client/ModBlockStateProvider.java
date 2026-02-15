@@ -77,11 +77,41 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(((SlabBlock) ModBlocks.RESIN_BRICK_SLAB.get()), blockTexture(ModBlocks.RESIN_BRICKS.get()), blockTexture(ModBlocks.RESIN_BRICKS.get()));
         wallBlock(((WallBlock) ModBlocks.RESIN_BRICK_WALL.get()), blockTexture(ModBlocks.RESIN_BRICKS.get()));
         blockWithItem(ModBlocks.CHISELED_RESIN_BRICKS);
+
+        // Spring to Life
+        plantBlockWithTint(ModBlocks.BUSH);
     }
 
     private void saplingBlock(RegistrySupplier<Block> block) {
         simpleBlock(block.get(),
                 models().cross(BuiltInRegistries.BLOCK.getKey(block.get()).getPath(), blockTexture(block.get())).renderType("cutout"));
+    }
+
+    private void plantBlock(RegistrySupplier<Block> block) {
+        simpleBlock(block.get(),
+                models().cross(blockTexture(block.get()).getPath(), blockTexture(block.get()))
+                        .renderType("cutout"));
+
+        itemModels().withExistingParent(
+                block.getId().getPath(),
+                "item/generated"
+        ).texture("layer0", Backported.MOD_ID + ":block/" + block.getId().getPath());
+    }
+
+    private void plantBlockWithTint(RegistrySupplier<Block> block) {
+        simpleBlock(block.get(),
+                models().singleTexture(
+                        block.getId().getPath(),
+                        ResourceLocation.withDefaultNamespace("block/tinted_cross"),
+                        "cross",
+                        blockTexture(block.get())
+                ).renderType("cutout")
+        );
+
+        itemModels().withExistingParent(
+                block.getId().getPath(),
+                "item/generated"
+        ).texture("layer0", Backported.MOD_ID + ":block/" + block.getId().getPath());
     }
 
     public void hangingSignBlock(Block signBlock, Block wallSignBlock, ResourceLocation texture) {

@@ -143,6 +143,9 @@ public class CreativeTabPlacements {
         entries.addAfter(Items.CHERRY_LOG,
                 ModBlocks.PALE_OAK_LOG.get()
         );
+        entries.addAfter(Items.FERN,
+                ModBlocks.BUSH.get()
+        );
         entries.addAfter(Items.HONEY_BLOCK,
                 ModBlocks.RESIN_BLOCK.get()
         );

@@ -11,6 +11,7 @@ import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.fabric.packets.PacketHandler;
 import com.drd.backported.fabric.packets.PlayerStabPacket;
 import com.drd.backported.init.ModBlockEntities;
+import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModEntities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
@@ -19,11 +20,13 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
+import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.GrassColor;
 
 public class BackportedFabricClient implements ClientModInitializer {
     @Override
@@ -43,6 +46,12 @@ public class BackportedFabricClient implements ClientModInitializer {
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.WIND_CHARGE, WindChargeModel::createBodyLayer);
 
         // Spring to Life
+        ColorProviderRegistry.BLOCK.register(
+                (state, level, pos, tint) -> level != null && pos != null
+                        ? BiomeColors.getAverageGrassColor(level, pos)
+                        : GrassColor.getDefaultColor(),
+                ModBlocks.BUSH.get()
+        );
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ALLAY_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.AXOLOTL_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.BAT_SPAWN_EGG);
@@ -120,6 +129,7 @@ public class BackportedFabricClient implements ClientModInitializer {
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_VILLAGER_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIFIED_PIGLIN_SPAWN_EGG);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColor.getDefaultColor(), ModBlocks.BUSH.get());
 
         // The Copper Age
         BlockEntityRenderers.register(ModBlockEntities.SHELF.get(), ShelfRenderer::new);

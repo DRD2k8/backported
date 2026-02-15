@@ -165,6 +165,10 @@ public class ModBlocks {
     public static final RegistrySupplier<Block> RESIN_BRICK_WALL = registerWall("resin_brick", RESIN_BRICKS);
     public static final RegistrySupplier<Block> CHISELED_RESIN_BRICKS = registerBlock("chiseled_resin_bricks", () -> new Block(BlockBehaviour.Properties.copy(RESIN_BRICKS.get())));
 
+    // Spring to Life
+    public static final RegistrySupplier<Block> BUSH = registerBlock("bush",
+            () -> new SpringToLifeBushBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).replaceable().noCollission().instabreak().sound(SoundType.GRASS).ignitedByLava().pushReaction(PushReaction.DESTROY)));
+
     // The Copper Age
     public static final RegistrySupplier<Block> COPPER_BARS = registerBlock("copper_bars",
             () -> new WeatheringCopperBarsBlock(WeatheringCopper.WeatherState.UNAFFECTED, BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK).strength(5f, 6f).noOcclusion()));
@@ -323,6 +327,10 @@ public class ModBlocks {
 
     private static RegistrySupplier<Block> registerModdedShelf(String wood, RegistrySupplier<Block> planks) {
         return registerBlock(wood + "_shelf", () -> new ShelfBlock(BlockBehaviour.Properties.of().mapColor(planks.get().defaultMapColor()).instrument(NoteBlockInstrument.BASS).sound(SoundType.CHISELED_BOOKSHELF).strength(2f, 3f).ignitedByLava()));
+    }
+
+    private static RegistrySupplier<Block> registerPottedBlock(RegistrySupplier<Block> block) {
+        return BLOCKS.register("potted_" + block.getId(), () -> new FlowerPotBlock(block.get(), BlockBehaviour.Properties.of().instabreak().noOcclusion().pushReaction(PushReaction.DESTROY)));
     }
 
     private static Boolean never(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos, EntityType<?> entityType) {

@@ -253,5 +253,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_CHAIN.get())
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_CHAIN.get())
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_CHAIN.get());
+
+        this.tag(BlockTags.REPLACEABLE)
+                .add(ModBlocks.BUSH.get())
+                .add(ModBlocks.RESIN_CLUMP.get());
+
+        this.tag(BlockTags.REPLACEABLE_BY_TREES)
+                .add(ModBlocks.BUSH.get());
     }
 }

@@ -11,15 +11,18 @@ import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.forge.packets.PacketHandler;
 import com.drd.backported.forge.packets.PlayerStabPacket;
 import com.drd.backported.init.ModBlockEntities;
+import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModEntities;
 import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
+import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.GrassColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
@@ -57,6 +60,15 @@ public class BackportedForgeClient {
         event.registerBlockEntityRenderer(ModBlockEntities.SIGN.get(), SignRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.HANGING_SIGN.get(), HangingSignRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.SHELF.get(), ShelfRenderer::new);
+    }
+
+    @SubscribeEvent public static void registerBlockColors(RegisterColorHandlersEvent.Block event) {
+        event.register(
+                (state, level, pos, tint) -> level != null && pos != null
+                        ? BiomeColors.getAverageGrassColor(level, pos)
+                        : GrassColor.getDefaultColor(),
+                ModBlocks.BUSH.get()
+        );
     }
 
     @SubscribeEvent
@@ -138,5 +150,6 @@ public class BackportedForgeClient {
         event.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_SPAWN_EGG);
         event.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_VILLAGER_SPAWN_EGG);
         event.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIFIED_PIGLIN_SPAWN_EGG);
+        event.register((stack, tintIndex) -> GrassColor.getDefaultColor(), ModBlocks.BUSH.get());
     }
 }

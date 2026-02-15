@@ -1,7 +1,8 @@
-// 1.20.1	2026-02-14T16:05:43.794352	Loot Tables
+// 1.20.1	2026-02-14T17:50:15.2707106	Loot Tables
 a046707e581aa30cd311dc24943a56d964a043ea data/backported/loot_tables/blocks/acacia_shelf.json
 7a0b0855f225529800a33cd7f486ae355f9bbe8a data/backported/loot_tables/blocks/bamboo_shelf.json
 5a289eeb6ef398b2f086c574a44c2164c0679b7d data/backported/loot_tables/blocks/birch_shelf.json
+607800ad88d0274dfaeca001854b37e4119d2624 data/backported/loot_tables/blocks/bush.json
 b24ce92ee376b3ec6ae266749110162e3f95fc1e data/backported/loot_tables/blocks/cherry_shelf.json
 57e28023e6cf09a7fd450942f7d4f3a0c3a78707 data/backported/loot_tables/blocks/chiseled_copper.json
 3e210f86a265f3c5e8f825ae3708976e59e3362c data/backported/loot_tables/blocks/chiseled_resin_bricks.json
