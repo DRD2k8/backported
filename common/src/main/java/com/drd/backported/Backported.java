@@ -20,6 +20,7 @@ public final class Backported {
         ModItems.register();
         ModPaintings.register();
         ModParticles.register();
+        ModSherds.register();
 
         LifecycleEvent.SETUP.register(() -> {
             ModFuels.registerFuels();

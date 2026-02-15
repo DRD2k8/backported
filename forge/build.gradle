@@ -65,6 +65,7 @@ dependencies {
     // Required dependencies
     runtimeOnly("io.github.llamalad7:mixinextras-forge:0.3.2")
     modImplementation "maven.modrinth:trimmed:1.20.1-${trimmed_version}+forge"
+    modImplementation "maven.modrinth:sherdsapi:${sherdsapi_version}+Forge"
     
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')

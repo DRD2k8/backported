@@ -32,7 +32,8 @@
     "java": ">=17",
     "architectury": ">=9.2.14",
     "fabric-api": "*",
-    "trimmed": ">=2.1.0"
+    "trimmed": ">=2.1.0",
+    "sherdsapi": ">=4.0.4"
   },
   "suggests": {
     "another-mod": "*"

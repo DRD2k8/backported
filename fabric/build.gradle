@@ -44,6 +44,7 @@ dependencies {
 
     // Required dependencies
     modImplementation "maven.modrinth:trimmed:1.20.1-${trimmed_version}+fabric"
+    modImplementation "maven.modrinth:sherdsapi:${sherdsapi_version}+Fabric"
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive = false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')

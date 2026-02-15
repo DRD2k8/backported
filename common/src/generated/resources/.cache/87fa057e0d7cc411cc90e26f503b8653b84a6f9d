@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-15T10:02:09.0260992	Tags for minecraft:item mod id backported
+// 1.20.1	2026-02-15T12:35:19.7625182	Tags for minecraft:item mod id backported
 27f69a4699ecc88f74e39cf190d9ea40b58d17e3 data/backported/tags/items/bolt_armor_trim_smithing_template_ingredients.json
 d39f50119614b15b2429cf4bc50a4b7225a8a98c data/backported/tags/items/metal_nuggets.json
 3e5ecb31784f337360af16782c45509a4de295bb data/backported/tags/items/pale_oak_logs.json
@@ -13,6 +13,7 @@ e75ff357b32a28367c7aa47cfa8dc738f1c393f0 data/forge/tags/items/nuggets/copper.js
 d4691cd07dbc5f5dd1f71bd8265a8c8ff1a78172 data/minecraft/tags/items/axes.json
 495f6bdfc5fcda37161f3b2a128fabf68aed93f7 data/minecraft/tags/items/boats.json
 9fa64e43084fe1383d2399926d8a37861ac4a13d data/minecraft/tags/items/chest_boats.json
+f67e75e36831d409085e23abf1a88b5e3a6a6000 data/minecraft/tags/items/decorated_pot_sherds.json
 1b84aa79c4955a362c276d1e035e40f0ad14fffe data/minecraft/tags/items/doors.json
 53b0cf35e687efa9198e6f67856cad6998b42dc1 data/minecraft/tags/items/fence_gates.json
 7bb52181ddee3d557863e9b64c1fe473ae7212d1 data/minecraft/tags/items/hanging_signs.json

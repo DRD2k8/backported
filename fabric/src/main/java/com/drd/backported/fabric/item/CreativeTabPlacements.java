@@ -255,6 +255,15 @@ public class CreativeTabPlacements {
                 ModItems.FLOW_BANNER_PATTERN.get(),
                 ModItems.GUSTER_BANNER_PATTERN.get()
         );
+        entries.addAfter(Items.EXPLORER_POTTERY_SHERD,
+                ModItems.FLOW_POTTERY_SHERD.get()
+        );
+        entries.addAfter(Items.FRIEND_POTTERY_SHERD,
+                ModItems.GUSTER_POTTERY_SHERD.get()
+        );
+        entries.addAfter(Items.PRIZE_POTTERY_SHERD,
+                ModItems.SCRAPE_POTTERY_SHERD.get()
+        );
         entries.addAfter(Items.SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE,
                 ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE.get(),
                 ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE.get()

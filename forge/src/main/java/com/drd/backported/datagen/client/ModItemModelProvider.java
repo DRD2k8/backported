@@ -25,6 +25,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE);
         simpleItem(ModItems.FLOW_BANNER_PATTERN);
         simpleItem(ModItems.GUSTER_BANNER_PATTERN);
+        simpleItem(ModItems.FLOW_POTTERY_SHERD);
+        simpleItem(ModItems.GUSTER_POTTERY_SHERD);
+        simpleItem(ModItems.SCRAPE_POTTERY_SHERD);
         simpleItem(ModItems.BREEZE_ROD);
         waxedItems("chiseled_copper");
         waxedItems("copper_grate");

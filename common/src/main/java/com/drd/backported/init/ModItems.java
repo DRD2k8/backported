@@ -20,6 +20,9 @@ public class ModItems {
     public static final RegistrySupplier<Item> FLOW_ARMOR_TRIM_SMITHING_TEMPLATE = trimPattern("flow");
     public static final RegistrySupplier<Item> FLOW_BANNER_PATTERN = bannerPattern("flow", ModTags.BannerPatterns.FLOW_BANNER_PATTERN);
     public static final RegistrySupplier<Item> GUSTER_BANNER_PATTERN = bannerPattern("guster", ModTags.BannerPatterns.GUSTER_BANNER_PATTERN);
+    public static final RegistrySupplier<Item> FLOW_POTTERY_SHERD = potterySherd("flow");
+    public static final RegistrySupplier<Item> GUSTER_POTTERY_SHERD = potterySherd("guster");
+    public static final RegistrySupplier<Item> SCRAPE_POTTERY_SHERD = potterySherd("scrape");
     public static final RegistrySupplier<Item> BREEZE_ROD = basicItem("breeze_rod");
     public static final RegistrySupplier<Item> MACE = ITEMS.register("mace", () -> new MaceItem(new Item.Properties().rarity(Rarity.EPIC).durability(500)));
     public static final RegistrySupplier<Item> MUSIC_DISC_CREATOR = musicDisc("creator", ModSounds.MUSIC_DISC_CREATOR, Rarity.RARE, 3520, 12);
@@ -84,6 +87,10 @@ public class ModItems {
 
     private static RegistrySupplier<Item> bannerPattern(String name, TagKey<BannerPattern> pattern) {
         return ITEMS.register(name + "_banner_pattern", () -> new BannerPatternItem(pattern, new Item.Properties().stacksTo(1)));
+    }
+
+    private static RegistrySupplier<Item> potterySherd(String name) {
+        return ITEMS.register(name + "_pottery_sherd", () -> new Item(new Item.Properties()));
     }
 
     private static RegistrySupplier<Item> sword(String material, Tier tier, int attackDamage, float attackSpeed) {

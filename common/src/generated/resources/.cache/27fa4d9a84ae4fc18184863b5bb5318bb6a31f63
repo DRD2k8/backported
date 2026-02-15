@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-14T21:32:40.1176901	Item Models: backported
+// 1.20.1	2026-02-15T12:01:52.6149451	Item Models: backported
 d20447524d5e00933f7b1dadf57b63a77ab3b8da assets/backported/models/item/bolt_armor_trim_smithing_template.json
 1d48a4b48536a59a160f3c5daa4760fd6c2b856d assets/backported/models/item/bordure_indented_banner_pattern.json
 b06ec9fddebeb6ab9df2421c03efbcc7f555d615 assets/backported/models/item/breeze_rod.json
@@ -23,7 +23,9 @@ ce8ea4bace8993b5359bc41e65aa2baec993fa1f assets/backported/models/item/field_mas
 123aa371d30929cfe76c72dccdaa17d68360b57d assets/backported/models/item/firefly_bush.json
 678ec7fd5933d72a072b53699420b153bdd80b7d assets/backported/models/item/flow_armor_trim_smithing_template.json
 dd700d664c57d723d8763caf251868ea7edd9593 assets/backported/models/item/flow_banner_pattern.json
+cc5c1e31d7b273db5d4051f23c56e8f4c0bfc874 assets/backported/models/item/flow_pottery_sherd.json
 4542ba101157128c18e8855109b215d993eee10c assets/backported/models/item/guster_banner_pattern.json
+a4247df72a96ed492617b4f36ab98d400813d1ec assets/backported/models/item/guster_pottery_sherd.json
 9298683f731d4b06294cf30aeb766ef6b912adb5 assets/backported/models/item/music_disc_creator.json
 095452792ed4465d6e3bbdee3d2ef4ddc79066d9 assets/backported/models/item/music_disc_creator_music_box.json
 97fe9d608a28d68f9fc4cdfc77922a0f4bcbed4c assets/backported/models/item/music_disc_lava_chicken.json
@@ -51,6 +53,7 @@ f8cacde9170f499ffff485e32aa2669e81ea7f28 assets/backported/models/item/polished_
 750698e0cc7754382df24c5a8b8254bf64278111 assets/backported/models/item/resin_brick_stairs.json
 a6ff438ef0bb2927cfea678dc8ac0d6c93d0d3ab assets/backported/models/item/resin_brick_wall.json
 0ab2fdf755ceb13caa701a7304a088938fbf118e assets/backported/models/item/resin_clump.json
+3bb318a8d572f82e38eb9b9ca189d8b608076783 assets/backported/models/item/scrape_pottery_sherd.json
 770c14895d48a8a5f06719cfa188bc0fde08cffd assets/backported/models/item/tuff_brick_wall.json
 bd26eef867eab96333c2be73c023cf6a91b30252 assets/backported/models/item/tuff_wall.json
 cfceabadb924fbcf16de335c9b391617db472f05 assets/backported/models/item/waxed_chiseled_copper.json

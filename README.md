@@ -28,7 +28,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Trial Explorer Map
 - [ ] Trial Keys
 - [X] Flow and Guster Banner Patterns
-- [ ] Flow, Guster, and Scrape Pottery Sherds
+- [X] Flow, Guster, and Scrape Pottery Sherds
 - [X] Bolt and Flow Armor Trims
 - [X] Precipice, Creator, and Creator (Music Box) Music Discs
 - [X] 20 new paintings
@@ -129,4 +129,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Golden dandelion
 - [X] Craftable name tag
 
-### Total completed: 39/103
+### Total completed: 40/103

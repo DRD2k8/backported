@@ -187,6 +187,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE.get())
                 .add(ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE.get());
 
+        this.tag(ItemTags.DECORATED_POT_SHERDS)
+                .add(ModItems.FLOW_POTTERY_SHERD.get())
+                .add(ModItems.GUSTER_POTTERY_SHERD.get())
+                .add(ModItems.SCRAPE_POTTERY_SHERD.get());
+
         this.tag(ItemTags.PIGLIN_LOVED)
                 .add(ModItems.GOLDEN_SPEAR.get());
 
