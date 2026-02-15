@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-14T12:40:12.7120684	Item Models: backported
+// 1.20.1	2026-02-14T16:17:19.7089237	Item Models: backported
 d20447524d5e00933f7b1dadf57b63a77ab3b8da assets/backported/models/item/bolt_armor_trim_smithing_template.json
 b06ec9fddebeb6ab9df2421c03efbcc7f555d615 assets/backported/models/item/breeze_rod.json
 932e4b8b041ca8643ba3731d66569cb4a8f5a91c assets/backported/models/item/copper_axe.json
@@ -41,6 +41,11 @@ dfb4e421d8c364ed2a8e7ec34e899e090df88ca3 assets/backported/models/item/pale_oak_
 f82d4e1be88f62346fbf185ee4cba02b825e8cc0 assets/backported/models/item/pale_oak_stairs.json
 22a1d6e1115f1348da2353518b094bfc963ff307 assets/backported/models/item/pale_oak_trapdoor.json
 f8cacde9170f499ffff485e32aa2669e81ea7f28 assets/backported/models/item/polished_tuff_wall.json
+84559a207ead7061d09d8dfff2f61085140ac678 assets/backported/models/item/resin_brick.json
+47b89242a7147bfe901a08064ce4794e5be98e5c assets/backported/models/item/resin_brick_slab.json
+750698e0cc7754382df24c5a8b8254bf64278111 assets/backported/models/item/resin_brick_stairs.json
+a6ff438ef0bb2927cfea678dc8ac0d6c93d0d3ab assets/backported/models/item/resin_brick_wall.json
+0ab2fdf755ceb13caa701a7304a088938fbf118e assets/backported/models/item/resin_clump.json
 770c14895d48a8a5f06719cfa188bc0fde08cffd assets/backported/models/item/tuff_brick_wall.json
 bd26eef867eab96333c2be73c023cf6a91b30252 assets/backported/models/item/tuff_wall.json
 cfceabadb924fbcf16de335c9b391617db472f05 assets/backported/models/item/waxed_chiseled_copper.json
