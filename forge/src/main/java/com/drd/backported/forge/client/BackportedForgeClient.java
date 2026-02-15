@@ -8,6 +8,7 @@ import com.drd.backported.client.renderer.CustomBoatRenderer;
 import com.drd.backported.client.renderer.ShelfRenderer;
 import com.drd.backported.client.renderer.WindChargeRenderer;
 import com.drd.backported.entity.CustomBoat;
+import com.drd.backported.forge.client.emissive.EmissiveModelWrapper;
 import com.drd.backported.forge.packets.PacketHandler;
 import com.drd.backported.forge.packets.PlayerStabPacket;
 import com.drd.backported.init.ModBlockEntities;
@@ -20,15 +21,20 @@ import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.client.resources.model.BakedModel;
+import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.GrassColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
+import net.minecraftforge.client.event.ModelEvent;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+
+import java.util.Map;
 
 @Mod.EventBusSubscriber(modid = Backported.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class BackportedForgeClient {
@@ -152,4 +158,40 @@ public class BackportedForgeClient {
         event.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIFIED_PIGLIN_SPAWN_EGG);
         event.register((stack, tintIndex) -> GrassColor.getDefaultColor(), ModBlocks.BUSH.get());
     }
+
+    @SubscribeEvent
+    public static void onModelBake(ModelEvent.ModifyBakingResult event) {
+        Map<ResourceLocation, BakedModel> modelRegistry = event.getModels();
+
+        for (String blockName : EMISSIVE_BLOCKS) {
+            ModelResourceLocation blockModelLocation = new ModelResourceLocation(ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, blockName), "");
+
+            BakedModel baseModel = modelRegistry.get(blockModelLocation);
+            if (baseModel == null) continue;
+
+            ResourceLocation emissiveModelLocation = ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "block/" + blockName + EMISSIVE_SUFFIX);
+
+            BakedModel emissiveModel = modelRegistry.get(emissiveModelLocation);
+            if (emissiveModel == null) continue;
+
+            BakedModel wrappedModel = new EmissiveModelWrapper(baseModel, emissiveModel);
+            modelRegistry.put(blockModelLocation, wrappedModel);
+        }
+    }
+
+    @SubscribeEvent
+    public static void onRegisterAdditionalModels(ModelEvent.RegisterAdditional event) {
+        for (String blockName : EMISSIVE_BLOCKS) {
+            ResourceLocation emissiveModelLocation = ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "block/" + blockName + EMISSIVE_SUFFIX);
+            event.register(emissiveModelLocation);
+        }
+    }
+
+    private static final String[] EMISSIVE_BLOCKS = {
+            // "open_eyeblossom",
+            // "potted_open_eyeblossom",
+            "firefly_bush"
+    };
+
+    private static final String EMISSIVE_SUFFIX = "_emissive";
 }

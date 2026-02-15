@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-14T17:50:15.2707106	Loot Tables
+// 1.20.1	2026-02-14T21:32:40.1126894	Loot Tables
 a046707e581aa30cd311dc24943a56d964a043ea data/backported/loot_tables/blocks/acacia_shelf.json
 7a0b0855f225529800a33cd7f486ae355f9bbe8a data/backported/loot_tables/blocks/bamboo_shelf.json
 5a289eeb6ef398b2f086c574a44c2164c0679b7d data/backported/loot_tables/blocks/birch_shelf.json
@@ -23,6 +23,7 @@ cb93c4771922217a6117cca42f83c7c23cd80ab0 data/backported/loot_tables/blocks/expo
 014fbf653fc7e7e430c0830f8162a0788cadd26d data/backported/loot_tables/blocks/exposed_copper_door.json
 9e181b9bf7b8cd8b49a301a19f43702652799e5a data/backported/loot_tables/blocks/exposed_copper_grate.json
 a82e0545aef2fe24f132016ff16cba897445fad4 data/backported/loot_tables/blocks/exposed_copper_trapdoor.json
+fd0f01fddc6f7778b6939de11dc3503f0e9fdb42 data/backported/loot_tables/blocks/firefly_bush.json
 5fb450653c073f7606c32ae307d3b04a190539ff data/backported/loot_tables/blocks/heavy_core.json
 4eb1a295b9b0f727d520a4af075714e2ca0c6b77 data/backported/loot_tables/blocks/jungle_shelf.json
 e96cabf49a7d130d7c3d78f2c77fb9e0f95024a3 data/backported/loot_tables/blocks/mangrove_shelf.json

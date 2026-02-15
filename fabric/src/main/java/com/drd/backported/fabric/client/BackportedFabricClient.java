@@ -68,6 +68,7 @@ public class BackportedFabricClient implements ClientModInitializer {
 
         // Spring to Life
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BUSH.get(), RenderType.cutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FIREFLY_BUSH.get(), RenderType.cutout());
         ColorProviderRegistry.BLOCK.register(
                 (state, level, pos, tint) -> level != null && pos != null
                         ? BiomeColors.getAverageGrassColor(level, pos)

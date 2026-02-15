@@ -64,6 +64,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.RESIN_BRICK_SLAB);
         wallItem(ModBlocks.RESIN_BRICK_WALL, ModBlocks.RESIN_BRICKS);
 
+        // Spring to Life
+        simpleBlockItem(ModBlocks.FIREFLY_BUSH);
+
         // Chase the Skies
         musicDiscItem(ModItems.MUSIC_DISC_LAVA_CHICKEN);
         musicDiscItem(ModItems.MUSIC_DISC_TEARS);

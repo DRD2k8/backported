@@ -146,6 +146,9 @@ public class CreativeTabPlacements {
         entries.addAfter(Items.FERN,
                 ModBlocks.BUSH.get()
         );
+        entries.addAfter(Items.SPORE_BLOSSOM,
+                ModBlocks.FIREFLY_BUSH.get()
+        );
         entries.addAfter(Items.HONEY_BLOCK,
                 ModBlocks.RESIN_BLOCK.get()
         );

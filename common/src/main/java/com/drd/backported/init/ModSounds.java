@@ -63,6 +63,9 @@ public class ModSounds {
     public static final RegistrySupplier<SoundEvent> RESIN_BRICKS_PLACE = registerSoundEvents("block.resin_bricks.place");
     public static final RegistrySupplier<SoundEvent> RESIN_BRICKS_HIT = registerSoundEvents("block.resin_bricks.hit");
 
+    // Spring to Life
+    public static final RegistrySupplier<SoundEvent> FIREFLY_BUSH_IDLE = registerSoundEvents("block.firefly_bush.idle");
+
     // Chase the Skies
     public static final RegistrySupplier<SoundEvent> MUSIC_DISC_LAVA_CHICKEN = registerMusicDisc("lava_chicken");
     public static final RegistrySupplier<SoundEvent> MUSIC_DISC_TEARS = registerMusicDisc("tears");

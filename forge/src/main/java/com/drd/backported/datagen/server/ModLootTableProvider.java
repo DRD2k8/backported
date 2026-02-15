@@ -187,6 +187,26 @@ public class ModLootTableProvider {
                                     .add(LootItem.lootTableItem(ModBlocks.BUSH.get()))
                             )
             );
+            this.add(ModBlocks.FIREFLY_BUSH.get(), block ->
+                    LootTable.lootTable()
+                            .withPool(LootPool.lootPool()
+                                    .setRolls(ConstantValue.exactly(1))
+                                    .when(AnyOfCondition.anyOf(
+                                            MatchTool.toolMatches(
+                                                    ItemPredicate.Builder.item()
+                                                            .of(Tags.Items.SHEARS)
+                                            ),
+                                            MatchTool.toolMatches(
+                                                    ItemPredicate.Builder.item()
+                                                            .hasEnchantment(new EnchantmentPredicate(
+                                                                    Enchantments.SILK_TOUCH,
+                                                                    MinMaxBounds.Ints.atLeast(1)
+                                                            ))
+                                            )
+                                    ))
+                                    .add(LootItem.lootTableItem(ModBlocks.FIREFLY_BUSH.get()))
+                            )
+            );
 
             // The Copper Age
             this.dropSelf(ModBlocks.COPPER_BARS.get());

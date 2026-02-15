@@ -168,6 +168,8 @@ public class ModBlocks {
     // Spring to Life
     public static final RegistrySupplier<Block> BUSH = registerBlock("bush",
             () -> new SpringToLifeBushBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).replaceable().noCollission().instabreak().sound(SoundType.GRASS).ignitedByLava().pushReaction(PushReaction.DESTROY)));
+    public static final RegistrySupplier<Block> FIREFLY_BUSH = registerBlock("firefly_bush",
+            () -> new FireflyBushBlock(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).ignitedByLava().lightLevel(state -> 2).noCollission().instabreak().sound(SoundType.SWEET_BERRY_BUSH).pushReaction(PushReaction.DESTROY)));
 
     // The Copper Age
     public static final RegistrySupplier<Block> COPPER_BARS = registerBlock("copper_bars",

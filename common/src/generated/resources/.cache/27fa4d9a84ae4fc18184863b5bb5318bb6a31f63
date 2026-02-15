@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-14T20:32:24.0498863	Item Models: backported
+// 1.20.1	2026-02-14T21:32:40.1176901	Item Models: backported
 d20447524d5e00933f7b1dadf57b63a77ab3b8da assets/backported/models/item/bolt_armor_trim_smithing_template.json
 1d48a4b48536a59a160f3c5daa4760fd6c2b856d assets/backported/models/item/bordure_indented_banner_pattern.json
 b06ec9fddebeb6ab9df2421c03efbcc7f555d615 assets/backported/models/item/breeze_rod.json
@@ -20,6 +20,7 @@ dcdb4601c4a3143c4dc7f251993ff361158528cd assets/backported/models/item/copper_sh
 be5ef2645d37bc7ef1861b366b2de6bae178ae7f assets/backported/models/item/exposed_copper_chain.json
 0233371042b75ed783f5468ebbf62647eee20c73 assets/backported/models/item/exposed_copper_door.json
 ce8ea4bace8993b5359bc41e65aa2baec993fa1f assets/backported/models/item/field_masoned_banner_pattern.json
+123aa371d30929cfe76c72dccdaa17d68360b57d assets/backported/models/item/firefly_bush.json
 678ec7fd5933d72a072b53699420b153bdd80b7d assets/backported/models/item/flow_armor_trim_smithing_template.json
 dd700d664c57d723d8763caf251868ea7edd9593 assets/backported/models/item/flow_banner_pattern.json
 4542ba101157128c18e8855109b215d993eee10c assets/backported/models/item/guster_banner_pattern.json
