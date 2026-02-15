@@ -15,9 +15,12 @@ import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModEntities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
+import net.fabricmc.fabric.api.client.model.loading.v1.ModelModifier;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
@@ -26,14 +29,59 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
 import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
+import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.GrassColor;
 
 public class BackportedFabricClient implements ClientModInitializer {
+    private static final String[] EMISSIVE_BLOCKS = {
+            // "open_eyeblossom",
+            // "potted_open_eyeblossom",
+            "firefly_bush"
+    };
+
+    private static final String EMISSIVE_SUFFIX = "_emissive";
+
     @Override
     public void onInitializeClient() {
         BackportedClient.init();
+
+        boolean shouldWarn = FabricLoader.getInstance().isModLoaded("sodium") && !FabricLoader.getInstance().isModLoaded("indium");
+        if (shouldWarn) {
+            Backported.LOGGER.warn("Sodium is present without Indium. Emissive textures may not render correctly. Please install Indium for the best experience.");
+        }
+
+        ModelLoadingPlugin.register(pluginContext -> {
+            pluginContext.addModels(getEmissiveModelLocations());
+
+            pluginContext.modifyModelAfterBake().register(ModelModifier.WRAP_PHASE, (model, context) -> {
+                ResourceLocation id = context.id();
+
+                if (id == null) return model;
+
+                String path = id.getPath();
+                String namespace = id.getNamespace();
+
+                if (!namespace.equals(Backported.MOD_ID) || !path.startsWith("block/")) {
+                    return model;
+                }
+
+                for (String blockName : EMISSIVE_BLOCKS) {
+                    if (path.equals("block/" + blockName)) {
+                        ResourceLocation emissiveModelId = new ResourceLocation(Backported.MOD_ID, "block/" + blockName + EMISSIVE_SUFFIX);
+                        BakedModel emissiveModel = context.baker().bake(emissiveModelId, context.settings());
+
+                        if (emissiveModel != null) {
+                            return new EmissiveModelWrapper(model, emissiveModel);
+                        }
+                    }
+                }
+
+                return model;
+            });
+        });
+
         BlockEntityRenderers.register(ModBlockEntities.SIGN.get(), SignRenderer::new);
         BlockEntityRenderers.register(ModBlockEntities.HANGING_SIGN.get(), HangingSignRenderer::new);
         EntityRendererRegistry.register(ModEntities.BOAT.get(), context -> new CustomBoatRenderer<>(context, false));
@@ -178,5 +226,14 @@ public class BackportedFabricClient implements ClientModInitializer {
             PacketHandler.send(new PlayerStabPacket(i));
             return true;
         };
+    }
+
+    private static ResourceLocation[] getEmissiveModelLocations() {
+        ResourceLocation[] locations = new ResourceLocation[EMISSIVE_BLOCKS.length];
+        for (int i = 0; i < EMISSIVE_BLOCKS.length; i++) {
+            locations[i] = new ResourceLocation(Backported.MOD_ID, "block/" + EMISSIVE_BLOCKS[i] + EMISSIVE_SUFFIX);
+        }
+
+        return locations;
     }
 }

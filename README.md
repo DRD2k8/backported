@@ -54,7 +54,7 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Wither roses wither bees when fed
 
 ## Spring To Life (1.21.5)
-- [ ] Bushes and Firefly Bushes
+- [X] Bushes and Firefly Bushes
 - [ ] Cactus Flower
 - [ ] Leaf Litter
 - [ ] Wildflower
@@ -129,4 +129,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Golden dandelion
 - [X] Craftable name tag
 
-### Total completed: 38/103
+### Total completed: 39/103

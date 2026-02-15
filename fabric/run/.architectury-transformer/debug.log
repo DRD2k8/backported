@@ -114,15 +114,15 @@
 [Architectury Transformer DEBUG]  - D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-resource-loader-v0\0.11.12+fb82e9d777\fabric-resource-loader-v0-0.11.12+fb82e9d777.jar
 [Architectury Transformer DEBUG]  - D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-sound-api-v1\1.0.14+1802ada577\fabric-sound-api-v1-1.0.14+1802ada577.jar
 [Architectury Transformer DEBUG]  - D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1\4.3.2+1802ada577\fabric-transitive-access-wideners-v1-4.3.2+1802ada577.jar
-[Architectury Transformer] Read classpath in 1.656 s
+[Architectury Transformer] Read classpath in 1.200 s
 [Architectury Transformer DEBUG] Closed File Systems for D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to C:\Users\dandi\AppData\Local\Temp\9854320320161191476.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@75390459
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@7756c3cd
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@2313052e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@2bd2b28e
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@16746061
-[Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to C:\Users\dandi\AppData\Local\Temp\9854320320161191476.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to C:\Users\dandi\AppData\Local\Temp\17033812430969624833.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@5b07730f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@1fdfafd2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@a4b2d8f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@dcfda20
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@6d304f9d
+[Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to C:\Users\dandi\AppData\Local\Temp\17033812430969624833.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/Backported with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/IHangingSign with maxs=true frames=true
@@ -145,6 +145,7 @@
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomHangingSignBlockEntity with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomSignBlockEntity with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/ShelfBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/FireflyBushBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/HeavyCoreBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/ResinClumpBlock$NoOpSpreadConfig with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/ResinClumpBlock with maxs=true frames=true
@@ -163,6 +164,8 @@
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperTrapdoorBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/BackportedClient$holdUpAnimation with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/BackportedClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/emissive/EmissiveModelWrapper with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/emissive/EmissiveQuad with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/init/ModModelLayers with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/model/WindChargeModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/CustomBoatRenderer with maxs=true frames=true
@@ -179,12 +182,14 @@
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/PigVariant with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/WolfVariant with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/WindCharge with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBannerPatterns with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlockEntities with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlocks with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEnchantments with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEntities with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModPaintings with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModParticles with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModSounds with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/CustomBoatItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/MaceItem with maxs=true frames=true
@@ -212,11 +217,14 @@
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WolfMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WolfRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WoodTypeInvoker with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/particle/base/ModSimpleParticleType with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/platform/CommonPlatformUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/LevelUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModBlockSetTypes with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModFuels with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModSoundTypes with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModStrippables with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$BannerPatterns with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Biomes with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Blocks with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Items with maxs=true frames=true
@@ -228,293 +236,313 @@
 [Architectury Transformer DEBUG] Checking whether /architectury.common.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /backported.mixins.json is a mixin config.
 [Architectury Transformer] Mixin Config [backported.mixins.json] contains 'refmap', please remove it so it works in development environment!
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\dandi\AppData\Local\Temp\9854320320161191476.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\dandi\AppData\Local\Temp\17033812430969624833.jar
 [Architectury Transformer] Listening at D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\dandi\AppData\Local\Temp\9854320320161191476.jar] contains packages: com.drd.backported.block.base, com.drd.backported.client, com.drd.backported.enchantment, com.drd.backported.item.spear, com.drd.backported.mixin, com.drd.backported.util, com.drd.backported.entity.variant, com.drd.backported.client.init, com.drd.backported.item, com.drd.backported, com.drd.backported.client.renderer, com.drd.backported.block, com.drd.backported.init, com.drd.backported.block.entity, com.drd.backported.worldgen, com.drd.backported.client.model, com.drd.backported.platform, com.drd.backported.entity.handler, com.drd.backported.entity
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\dandi\AppData\Local\Temp\17033812430969624833.jar] contains packages: com.drd.backported.block.base, com.drd.backported.client, com.drd.backported.enchantment, com.drd.backported.item.spear, com.drd.backported.mixin, com.drd.backported.util, com.drd.backported.entity.variant, com.drd.backported.client.init, com.drd.backported.item, com.drd.backported, com.drd.backported.particle.base, com.drd.backported.client.renderer, com.drd.backported.client.emissive, com.drd.backported.block, com.drd.backported.init, com.drd.backported.block.entity, com.drd.backported.worldgen, com.drd.backported.client.model, com.drd.backported.platform, com.drd.backported.entity.handler, com.drd.backported.entity
 [Architectury Transformer DEBUG] Closed File Systems for D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\fabric\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Classpath entry [D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/spear/MovementFixer.class to com/drd/backported/item/spear/MovementFixer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/MovementFixer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/spear/MovementFixer in 1.059 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/spear/MovementFixer in 1.034 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/spear/SpearUser.class to com/drd/backported/item/spear/SpearUser.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/SpearUser with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/spear/SpearUser in 305.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/spear/SpearUser in 470.1 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/mixin/WoodTypeInvoker.class to com/drd/backported/mixin/WoodTypeInvoker.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WoodTypeInvoker with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/mixin/WoodTypeInvoker in 537.1 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/mixin/WoodTypeInvoker in 610.3 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/Backported.class to com/drd/backported/Backported.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/Backported with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/Backported in 732.0 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/Backported in 573.1 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModSounds.class to com/drd/backported/init/ModSounds.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModSounds with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModSounds in 1.387 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModSounds in 2.025 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModBannerPatterns.class to com/drd/backported/init/ModBannerPatterns.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBannerPatterns with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBannerPatterns in 342.4 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModBlocks.class to com/drd/backported/init/ModBlocks.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBlocks in 5.814 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBlocks in 5.989 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWeatheringCopperFullBlock.class to com/drd/backported/block/CustomWeatheringCopperFullBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWeatheringCopperFullBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWeatheringCopperFullBlock in 402.5 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWeatheringCopperFullBlock in 296.5 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/WeatheringCopper.class to com/drd/backported/block/base/WeatheringCopper.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/WeatheringCopper with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WeatheringCopper in 1.234 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/ShelfBlock.class to com/drd/backported/block/ShelfBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/ShelfBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ShelfBlock in 2.228 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/SelectableSlotContainer.class to com/drd/backported/block/base/SelectableSlotContainer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/SelectableSlotContainer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/SelectableSlotContainer in 458.8 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/SideChainPartBlock.class to com/drd/backported/block/base/SideChainPartBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/SideChainPartBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/SideChainPartBlock in 715.3 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWallSignBlock.class to com/drd/backported/block/CustomWallSignBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallSignBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWallSignBlock in 197.8 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomStandingSignBlock.class to com/drd/backported/block/CustomStandingSignBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomStandingSignBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomStandingSignBlock in 198.3 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWallHangingSignBlock.class to com/drd/backported/block/CustomWallHangingSignBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallHangingSignBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWallHangingSignBlock in 252.0 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/IHangingSign.class to com/drd/backported/block/base/IHangingSign.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/IHangingSign with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/IHangingSign in 129.4 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperBarsBlock.class to com/drd/backported/block/WeatheringCopperBarsBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperBarsBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperBarsBlock in 251.0 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperChainBlock.class to com/drd/backported/block/WeatheringCopperChainBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperChainBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperChainBlock in 222.1 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/SpringToLifeBushBlock.class to com/drd/backported/block/SpringToLifeBushBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/SpringToLifeBushBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SpringToLifeBushBlock in 307.9 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/SpreadableBonemealableBlock.class to com/drd/backported/block/SpreadableBonemealableBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/SpreadableBonemealableBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SpreadableBonemealableBlock in 296.7 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/ResinClumpBlock.class to com/drd/backported/block/ResinClumpBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/ResinClumpBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ResinClumpBlock in 413.8 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CopperBulbBlock.class to com/drd/backported/block/CopperBulbBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/CopperBulbBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CopperBulbBlock in 517.9 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/HeavyCoreBlock.class to com/drd/backported/block/HeavyCoreBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/HeavyCoreBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/HeavyCoreBlock in 405.4 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WaterloggedTransparentBlock.class to com/drd/backported/block/WaterloggedTransparentBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/WaterloggedTransparentBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WaterloggedTransparentBlock in 142.7 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperTrapdoorBlock.class to com/drd/backported/block/WeatheringCopperTrapdoorBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperTrapdoorBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperTrapdoorBlock in 212.5 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperBulbBlock.class to com/drd/backported/block/WeatheringCopperBulbBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperBulbBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperBulbBlock in 347.7 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperDoorBlock.class to com/drd/backported/block/WeatheringCopperDoorBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperDoorBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperDoorBlock in 224.3 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WeatheringCopper in 1.292 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperGrateBlock.class to com/drd/backported/block/WeatheringCopperGrateBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperGrateBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperGrateBlock in 205.0 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperGrateBlock in 205.7 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WaterloggedTransparentBlock.class to com/drd/backported/block/WaterloggedTransparentBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/WaterloggedTransparentBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WaterloggedTransparentBlock in 146.9 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperDoorBlock.class to com/drd/backported/block/WeatheringCopperDoorBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperDoorBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperDoorBlock in 215.3 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperBulbBlock.class to com/drd/backported/block/WeatheringCopperBulbBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperBulbBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperBulbBlock in 197.3 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CopperBulbBlock.class to com/drd/backported/block/CopperBulbBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CopperBulbBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CopperBulbBlock in 1.069 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperTrapdoorBlock.class to com/drd/backported/block/WeatheringCopperTrapdoorBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperTrapdoorBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperTrapdoorBlock in 346.5 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/ShelfBlock.class to com/drd/backported/block/ShelfBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/ShelfBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ShelfBlock in 1.545 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/SelectableSlotContainer.class to com/drd/backported/block/base/SelectableSlotContainer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/SelectableSlotContainer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/SelectableSlotContainer in 389.0 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/SideChainPartBlock.class to com/drd/backported/block/base/SideChainPartBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/SideChainPartBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/SideChainPartBlock in 1.202 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomCeilingHangingSignBlock.class to com/drd/backported/block/CustomCeilingHangingSignBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomCeilingHangingSignBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomCeilingHangingSignBlock in 250.9 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomCeilingHangingSignBlock in 201.5 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/IHangingSign.class to com/drd/backported/block/base/IHangingSign.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/IHangingSign with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/IHangingSign in 126.4 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWallHangingSignBlock.class to com/drd/backported/block/CustomWallHangingSignBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallHangingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWallHangingSignBlock in 241.2 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWallSignBlock.class to com/drd/backported/block/CustomWallSignBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWallSignBlock in 153.6 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomStandingSignBlock.class to com/drd/backported/block/CustomStandingSignBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomStandingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomStandingSignBlock in 143.9 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperBarsBlock.class to com/drd/backported/block/WeatheringCopperBarsBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperBarsBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperBarsBlock in 197.4 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/FireflyBushBlock.class to com/drd/backported/block/FireflyBushBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/FireflyBushBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/FireflyBushBlock in 423.3 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/SpreadableBonemealableBlock.class to com/drd/backported/block/SpreadableBonemealableBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/SpreadableBonemealableBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SpreadableBonemealableBlock in 244.5 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/ResinClumpBlock.class to com/drd/backported/block/ResinClumpBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/ResinClumpBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ResinClumpBlock in 300.4 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperChainBlock.class to com/drd/backported/block/WeatheringCopperChainBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperChainBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperChainBlock in 193.4 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/SpringToLifeBushBlock.class to com/drd/backported/block/SpringToLifeBushBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/SpringToLifeBushBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SpringToLifeBushBlock in 263.4 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/HeavyCoreBlock.class to com/drd/backported/block/HeavyCoreBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/HeavyCoreBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/HeavyCoreBlock in 363.8 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModItems.class to com/drd/backported/init/ModItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModItems in 1.843 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModItems in 1.830 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/WindChargeItem.class to com/drd/backported/item/WindChargeItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/WindChargeItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/WindChargeItem in 326.0 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/WindChargeItem in 579.3 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/MaceItem.class to com/drd/backported/item/MaceItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/MaceItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/MaceItem in 686.5 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/item/TrimmedSmithingTemplateItem.class to com/drd/backported/item/TrimmedSmithingTemplateItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/item/TrimmedSmithingTemplateItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/TrimmedSmithingTemplateItem in 445.5 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/item/SpearItem.class to com/drd/backported/item/SpearItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/item/SpearItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/SpearItem in 2.187 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/MaceItem in 609.7 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/CustomBoatItem.class to com/drd/backported/item/CustomBoatItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/CustomBoatItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/CustomBoatItem in 1.135 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/CustomBoatItem in 509.2 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/item/TrimmedSmithingTemplateItem.class to com/drd/backported/item/TrimmedSmithingTemplateItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/TrimmedSmithingTemplateItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/TrimmedSmithingTemplateItem in 370.6 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/item/SpearItem.class to com/drd/backported/item/SpearItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/SpearItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/SpearItem in 1.891 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModTags$BannerPatterns.class to com/drd/backported/util/ModTags$BannerPatterns.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$BannerPatterns with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$BannerPatterns in 175.6 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/ModToolTiers.class to com/drd/backported/item/ModToolTiers.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/ModToolTiers with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/ModToolTiers in 618.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/ModToolTiers in 231.9 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/ModArmorMaterials.class to com/drd/backported/item/ModArmorMaterials.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/ModArmorMaterials with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/ModArmorMaterials in 723.7 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/ModArmorMaterials in 433.5 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModWoodTypes.class to com/drd/backported/util/ModWoodTypes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModWoodTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModWoodTypes in 253.6 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModWoodTypes in 290.0 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/WeatheringCopper$WeatherState.class to com/drd/backported/block/base/WeatheringCopper$WeatherState.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/WeatheringCopper$WeatherState with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WeatheringCopper$WeatherState in 302.1 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WeatheringCopper$WeatherState in 232.6 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModSoundTypes.class to com/drd/backported/util/ModSoundTypes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModSoundTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModSoundTypes in 425.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModSoundTypes in 280.2 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModBlockSetTypes.class to com/drd/backported/util/ModBlockSetTypes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModBlockSetTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModBlockSetTypes in 202.7 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModBlockSetTypes in 180.0 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/entity/CustomSignBlockEntity.class to com/drd/backported/block/entity/CustomSignBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomSignBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/CustomSignBlockEntity in 332.7 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/CustomSignBlockEntity in 341.3 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/entity/CustomHangingSignBlockEntity.class to com/drd/backported/block/entity/CustomHangingSignBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomHangingSignBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/CustomHangingSignBlockEntity in 211.7 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/CustomHangingSignBlockEntity in 655.9 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/entity/ShelfBlockEntity.class to com/drd/backported/block/entity/ShelfBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/ShelfBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/ShelfBlockEntity in 759.7 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/ShelfBlockEntity in 712.5 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/ListBackedContainer.class to com/drd/backported/block/base/ListBackedContainer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/ListBackedContainer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/ListBackedContainer in 504.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/ListBackedContainer in 378.9 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/SideChainPart.class to com/drd/backported/block/SideChainPart.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/SideChainPart with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SideChainPart in 1.237 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SideChainPart in 360.2 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/ShelfBlock$1.class to com/drd/backported/block/ShelfBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/ShelfBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ShelfBlock$1 in 375.6 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ShelfBlock$1 in 321.9 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModBlockEntities.class to com/drd/backported/init/ModBlockEntities.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlockEntities with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBlockEntities in 527.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBlockEntities in 498.4 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModEnchantments.class to com/drd/backported/init/ModEnchantments.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEnchantments with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModEnchantments in 223.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModEnchantments in 281.0 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/enchantment/LungeEnchantment.class to com/drd/backported/enchantment/LungeEnchantment.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/enchantment/LungeEnchantment with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/enchantment/LungeEnchantment in 193.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/enchantment/LungeEnchantment in 203.4 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModEntities.class to com/drd/backported/init/ModEntities.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEntities with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModEntities in 275.2 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModEntities in 297.2 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/CustomBoat.class to com/drd/backported/entity/CustomBoat.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomBoat in 409.2 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomBoat in 399.2 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/platform/CommonPlatformUtils.class to com/drd/backported/platform/CommonPlatformUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/platform/CommonPlatformUtils with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/platform/CommonPlatformUtils in 239.9 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/platform/CommonPlatformUtils in 230.3 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/CustomChestBoat.class to com/drd/backported/entity/CustomChestBoat.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomChestBoat with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomChestBoat in 985.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomChestBoat in 1.367 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/WindCharge.class to com/drd/backported/entity/WindCharge.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/WindCharge with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/WindCharge in 322.6 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/WindCharge in 308.3 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/CustomBoat$Type.class to com/drd/backported/entity/CustomBoat$Type.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat$Type with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomBoat$Type in 509.5 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomBoat$Type in 482.6 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModPaintings.class to com/drd/backported/init/ModPaintings.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModPaintings with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModPaintings in 826.7 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModPaintings in 409.3 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModParticles.class to com/drd/backported/init/ModParticles.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModParticles with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModParticles in 264.3 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/particle/base/ModSimpleParticleType.class to com/drd/backported/particle/base/ModSimpleParticleType.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/particle/base/ModSimpleParticleType with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/particle/base/ModSimpleParticleType in 180.4 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/worldgen/ModPlacedFeatures.class to com/drd/backported/worldgen/ModPlacedFeatures.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/worldgen/ModPlacedFeatures with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/worldgen/ModPlacedFeatures in 248.4 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/worldgen/ModPlacedFeatures in 145.6 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModStrippables.class to com/drd/backported/util/ModStrippables.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModStrippables with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModStrippables in 284.9 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/CustomBoatRenderer.class to com/drd/backported/client/renderer/CustomBoatRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/CustomBoatRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/CustomBoatRenderer in 965.9 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/BackportedClient.class to com/drd/backported/client/BackportedClient.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/client/BackportedClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/BackportedClient in 304.5 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/WindChargeRenderer.class to com/drd/backported/client/renderer/WindChargeRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/WindChargeRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/WindChargeRenderer in 522.6 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/init/ModModelLayers.class to com/drd/backported/client/init/ModModelLayers.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/client/init/ModModelLayers with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/init/ModModelLayers in 158.6 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/model/WindChargeModel.class to com/drd/backported/client/model/WindChargeModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/client/model/WindChargeModel with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/model/WindChargeModel in 1.296 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/ShelfRenderer.class to com/drd/backported/client/renderer/ShelfRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/ShelfRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/ShelfRenderer in 1.170 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModStrippables in 511.8 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModFuels.class to com/drd/backported/util/ModFuels.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModFuels with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModFuels in 192.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModFuels in 285.3 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/CustomBoatRenderer.class to com/drd/backported/client/renderer/CustomBoatRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/CustomBoatRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/CustomBoatRenderer in 1.154 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/BackportedClient.class to com/drd/backported/client/BackportedClient.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/BackportedClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/BackportedClient in 265.1 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/WindChargeRenderer.class to com/drd/backported/client/renderer/WindChargeRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/WindChargeRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/WindChargeRenderer in 317.6 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/init/ModModelLayers.class to com/drd/backported/client/init/ModModelLayers.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/init/ModModelLayers with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/init/ModModelLayers in 298.2 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/model/WindChargeModel.class to com/drd/backported/client/model/WindChargeModel.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/model/WindChargeModel with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/model/WindChargeModel in 597.7 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/ShelfRenderer.class to com/drd/backported/client/renderer/ShelfRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/ShelfRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/ShelfRenderer in 571.9 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/mixin/ItemInHandRendererInvoker.class to com/drd/backported/mixin/ItemInHandRendererInvoker.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemInHandRendererInvoker with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/mixin/ItemInHandRendererInvoker in 407.4 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/mixin/ItemInHandRendererInvoker in 408.9 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModTags$Biomes.class to com/drd/backported/util/ModTags$Biomes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Biomes with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$Biomes in 704.7 μs
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/variant/WolfVariant.class to com/drd/backported/entity/variant/WolfVariant.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/WolfVariant with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/variant/WolfVariant in 1.318 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$Biomes in 511.8 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModTags$Items.class to com/drd/backported/util/ModTags$Items.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Items with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$Items in 392.8 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$Items in 661.1 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/handler/GhastDropHandler.class to com/drd/backported/entity/handler/GhastDropHandler.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/handler/GhastDropHandler with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/handler/GhastDropHandler in 378.1 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/handler/GhastDropHandler in 414.2 μs
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/handler/ChickenJockeyDropHandler.class to com/drd/backported/entity/handler/ChickenJockeyDropHandler.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/handler/ChickenJockeyDropHandler with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/handler/ChickenJockeyDropHandler in 207.0 μs
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/handler/ChickenJockeyDropHandler in 214.6 μs
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/util/LevelUtils.class to com/drd/backported/util/LevelUtils.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/LevelUtils with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/LevelUtils in 360.2 μs

@@ -77,6 +77,10 @@
   "item.backported.bolt_armor_trim_smithing_template": "Smithing Template",
   "item.backported.breeze_rod": "Breeze Rod",
   "item.backported.flow_armor_trim_smithing_template": "Smithing Template",
+  "item.backported.flow_banner_pattern": "Banner Pattern",
+  "item.backported.flow_banner_pattern.desc": "Flow",
+  "item.backported.guster_banner_pattern": "Banner Pattern",
+  "item.backported.guster_banner_pattern.desc": "Guster",
   "item.backported.mace": "Mace",
   "item.backported.music_disc_creator": "Music Disc",
   "item.backported.music_disc_creator.desc": "Lena Raine - Creator",
@@ -134,6 +138,11 @@
   "trim_pattern.backported.bolt": "Bolt Armor Trim",
   "trim_pattern.backported.flow": "Flow Armor Trim",
 
+  "item.backported.field_masoned_banner_pattern": "Banner Pattern",
+  "item.backported.field_masoned_banner_pattern.desc": "Field Masoned",
+  "item.backported.bordure_indented_banner_pattern": "Banner Pattern",
+  "item.backported.bordure_indented_banner_pattern.desc": "Bordure Indented",
+
   "block.backported.pale_oak_log": "Pale Oak Log",
   "block.backported.pale_oak_wood": "Pale Oak Wood",
   "block.backported.stripped_pale_oak_log": "Stripped Pale Oak Log",
@@ -166,6 +175,8 @@
   "trim_material.backported.resin": "Resin Material",
 
   "block.backported.bush": "Bush",
+  "block.backported.firefly_bush": "Firefly Bush",
+  "subtitles.backported.block.firefly_bush.idle": "Fireflies buzz",
 
   "item.backported.music_disc_lava_chicken": "Music Disc",
   "item.backported.music_disc_lava_chicken.desc": "Hyper Potions - Lava Chicken",

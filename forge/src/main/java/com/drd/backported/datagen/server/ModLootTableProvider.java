@@ -1,8 +1,8 @@
 package com.drd.backported.datagen.server;
 
-import com.drd.backported.block.ResinClumpBlock;
 import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModItems;
+import com.drd.backported.util.ModTags;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.advancements.critereon.EnchantmentPredicate;
 import net.minecraft.advancements.critereon.ItemPredicate;
@@ -13,7 +13,6 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.flag.FeatureFlags;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.MultifaceBlock;
@@ -28,7 +27,6 @@ import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePrope
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.MatchTool;
 import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
-import net.minecraftforge.common.Tags;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -174,7 +172,7 @@ public class ModLootTableProvider {
                                     .when(AnyOfCondition.anyOf(
                                             MatchTool.toolMatches(
                                                     ItemPredicate.Builder.item()
-                                                            .of(Tags.Items.SHEARS)
+                                                            .of(ModTags.Items.SHEARS)
                                             ),
                                             MatchTool.toolMatches(
                                                     ItemPredicate.Builder.item()
@@ -194,7 +192,7 @@ public class ModLootTableProvider {
                                     .when(AnyOfCondition.anyOf(
                                             MatchTool.toolMatches(
                                                     ItemPredicate.Builder.item()
-                                                            .of(Tags.Items.SHEARS)
+                                                            .of(ModTags.Items.SHEARS)
                                             ),
                                             MatchTool.toolMatches(
                                                     ItemPredicate.Builder.item()

@@ -7,7 +7,6 @@ import com.drd.backported.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
@@ -194,5 +193,9 @@ public class ModItemTagProvider extends ItemTagsProvider {
         this.tag(ModTags.Items.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE_INGREDIENTS)
                 .add(Items.COPPER_BLOCK)
                 .add(Items.WAXED_COPPER_BLOCK);
+
+        this.tag(ModTags.Items.SHEARS)
+                .addOptionalTag(Tags.Items.SHEARS)
+                .addOptionalTag(ModTags.Items.FABRIC_SHEARS);
     }
 }

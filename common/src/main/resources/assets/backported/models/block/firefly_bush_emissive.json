@@ -1,6 +1,5 @@
 {
   "parent": "backported:block/cross_emissive",
-  "render_type": "minecraft:cutout",
   "textures": {
     "cross_emissive": "backported:block/firefly_bush_emissive"
   }

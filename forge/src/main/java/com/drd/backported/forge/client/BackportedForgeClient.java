@@ -18,6 +18,8 @@ import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.renderer.BiomeColors;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
@@ -41,6 +43,7 @@ public class BackportedForgeClient {
     @SubscribeEvent
     public static void onClientSetup(FMLClientSetupEvent event) {
         event.enqueueWork(BackportedClient::init);
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.FIREFLY_BUSH.get(), RenderType.cutout());
         EntityRenderers.register(ModEntities.BOAT.get(), context -> new CustomBoatRenderer<>(context, false));
         EntityRenderers.register(ModEntities.CHEST_BOAT.get(), context -> new CustomBoatRenderer<>(context, true));
         EntityRenderers.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
