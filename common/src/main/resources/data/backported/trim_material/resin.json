@@ -1,0 +1,9 @@
+{
+  "asset_name": "backported-resin",
+  "description": {
+    "color": "#fc7812",
+    "translate": "trim_material.backported.resin"
+  },
+  "ingredient": "backported:resin_brick",
+  "item_model_index": -1.0
+}

@@ -31,6 +31,7 @@ public class ModItems {
             () -> new CustomBoatItem(false, CustomBoat.Type.PALE_OAK, new Item.Properties()));
     public static final RegistrySupplier<Item> PALE_OAK_CHEST_BOAT = ITEMS.register("pale_oak_chest_boat",
             () -> new CustomBoatItem(true, CustomBoat.Type.PALE_OAK, new Item.Properties()));
+    public static final RegistrySupplier<Item> RESIN_BRICK = basicItem("resin_brick");
 
     // Chase the Skies
     public static final RegistrySupplier<Item> MUSIC_DISC_TEARS = musicDisc("tears", ModSounds.MUSIC_DISC_TEARS, Rarity.UNCOMMON, 3500, 10);

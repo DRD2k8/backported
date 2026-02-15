@@ -174,6 +174,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         hangingSign(ModBlocks.STRIPPED_PALE_OAK_LOG.get(), ModItems.PALE_OAK_HANGING_SIGN.get(), consumer);
         boat(ModBlocks.PALE_OAK_PLANKS.get(), ModItems.PALE_OAK_BOAT.get(), consumer);
         chestBoat(ModItems.PALE_OAK_BOAT.get(), ModItems.PALE_OAK_CHEST_BOAT.get(), consumer);
+        packing3x3(ModBlocks.RESIN_CLUMP.get(), ModBlocks.RESIN_BLOCK.get(), consumer);
+        resourceUnpack(ModBlocks.RESIN_BLOCK.get(), ModBlocks.RESIN_CLUMP.get(), consumer);
+        smeltingResultFromBase(consumer, ModItems.RESIN_BRICK.get(), ModBlocks.RESIN_CLUMP.get());
+        packing2x2(ModItems.RESIN_BRICK.get(), ModBlocks.RESIN_BRICKS.get(), consumer);
+        stairs(ModBlocks.RESIN_BRICKS.get(), ModBlocks.RESIN_BRICK_STAIRS.get(), consumer);
+        slab(ModBlocks.RESIN_BRICKS.get(), ModBlocks.RESIN_BRICK_SLAB.get(), consumer);
+        wall(ModBlocks.RESIN_BRICKS.get(), ModBlocks.RESIN_BRICK_WALL.get(), consumer);
+        chiseledBlock(ModBlocks.RESIN_BRICK_SLAB.get(), ModBlocks.CHISELED_RESIN_BRICKS.get(), consumer);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RESIN_BRICK_STAIRS.get(), ModBlocks.RESIN_BRICKS.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RESIN_BRICK_SLAB.get(), ModBlocks.RESIN_BRICKS.get(), 2);
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RESIN_BRICK_WALL.get(), ModBlocks.RESIN_BRICKS.get());
+        stonecutterResultFromBase(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHISELED_RESIN_BRICKS.get(), ModBlocks.RESIN_BRICKS.get());
 
         // Chase the Skies
         ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, Items.LEAD, 2)
@@ -273,6 +285,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(consumer);
     }
 
+    protected static void packing2x2(ItemLike unpackedItem, ItemLike packedItem, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, packedItem)
+                .pattern("##")
+                .pattern("##")
+                .define('#', unpackedItem)
+                .unlockedBy(getHasName(unpackedItem), has(unpackedItem))
+                .save(consumer);
+    }
+
     protected static void packing3x3(ItemLike unpackedItem, ItemLike packedItem, String group, Consumer<FinishedRecipe> consumer) {
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, packedItem)
                 .pattern("###")
@@ -280,6 +301,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("###")
                 .define('#', unpackedItem)
                 .group(group)
+                .unlockedBy(getHasName(unpackedItem), has(unpackedItem))
+                .save(consumer);
+    }
+
+    protected static void packing3x3(ItemLike unpackedItem, ItemLike packedItem, Consumer<FinishedRecipe> consumer) {
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, packedItem)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', unpackedItem)
                 .unlockedBy(getHasName(unpackedItem), has(unpackedItem))
                 .save(consumer);
     }

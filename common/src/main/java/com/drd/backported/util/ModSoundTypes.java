@@ -4,6 +4,7 @@ import com.drd.backported.init.ModSounds;
 import net.minecraft.world.level.block.SoundType;
 
 public class ModSoundTypes {
+    // Tricky Trials
     public static SoundType COPPER_BULB = new SoundType(
             1f,
             1f,
@@ -48,6 +49,26 @@ public class ModSoundTypes {
             ModSounds.TUFF_BRICKS_PLACE.get(),
             ModSounds.TUFF_BRICKS_HIT.get(),
             ModSounds.TUFF_BRICKS_FALL.get()
+    );
+
+    // The Garden Awakens
+    public static SoundType RESIN = new SoundType(
+            1f,
+            1f,
+            ModSounds.RESIN_BREAK.get(),
+            ModSounds.RESIN_STEP.get(),
+            ModSounds.RESIN_PLACE.get(),
+            ModSounds.RESIN_HIT.get(),
+            ModSounds.RESIN_FALL.get()
+    );
+    public static SoundType RESIN_BRICKS = new SoundType(
+            1f,
+            1f,
+            ModSounds.RESIN_BRICKS_BREAK.get(),
+            ModSounds.RESIN_BRICKS_STEP.get(),
+            ModSounds.RESIN_BRICKS_PLACE.get(),
+            ModSounds.RESIN_BRICKS_HIT.get(),
+            ModSounds.RESIN_BRICKS_FALL.get()
     );
 
     public static void init() {

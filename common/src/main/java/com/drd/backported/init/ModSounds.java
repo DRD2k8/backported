@@ -51,6 +51,18 @@ public class ModSounds {
     public static final RegistrySupplier<SoundEvent> MUSIC_DISC_CREATOR_MUSIC_BOX = registerMusicDisc("creator_music_box");
     public static final RegistrySupplier<SoundEvent> MUSIC_DISC_PRECIPICE = registerMusicDisc("precipice");
 
+    // The Garden Awakens
+    public static final RegistrySupplier<SoundEvent> RESIN_BREAK = registerSoundEvents("block.resin.break");
+    public static final RegistrySupplier<SoundEvent> RESIN_STEP = registerSoundEvents("block.resin.step");
+    public static final RegistrySupplier<SoundEvent> RESIN_FALL = registerSoundEvents("block.resin.fall");
+    public static final RegistrySupplier<SoundEvent> RESIN_PLACE = registerSoundEvents("block.resin.place");
+    public static final RegistrySupplier<SoundEvent> RESIN_HIT = registerSoundEvents("block.resin.hit");
+    public static final RegistrySupplier<SoundEvent> RESIN_BRICKS_BREAK = registerSoundEvents("block.resin_bricks.break");
+    public static final RegistrySupplier<SoundEvent> RESIN_BRICKS_STEP = registerSoundEvents("block.resin_bricks.step");
+    public static final RegistrySupplier<SoundEvent> RESIN_BRICKS_FALL = registerSoundEvents("block.resin_bricks.fall");
+    public static final RegistrySupplier<SoundEvent> RESIN_BRICKS_PLACE = registerSoundEvents("block.resin_bricks.place");
+    public static final RegistrySupplier<SoundEvent> RESIN_BRICKS_HIT = registerSoundEvents("block.resin_bricks.hit");
+
     // Chase the Skies
     public static final RegistrySupplier<SoundEvent> MUSIC_DISC_LAVA_CHICKEN = registerMusicDisc("lava_chicken");
     public static final RegistrySupplier<SoundEvent> MUSIC_DISC_TEARS = registerMusicDisc("tears");

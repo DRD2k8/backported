@@ -1,14 +1,26 @@
 package com.drd.backported.datagen.server;
 
+import com.drd.backported.block.ResinClumpBlock;
 import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModItems;
 import dev.architectury.registry.registries.RegistrySupplier;
+import net.minecraft.advancements.critereon.StatePropertiesPredicate;
+import net.minecraft.core.Direction;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.MultifaceBlock;
+import net.minecraft.world.level.storage.loot.LootPool;
+import net.minecraft.world.level.storage.loot.LootTable;
+import net.minecraft.world.level.storage.loot.entries.LootItem;
+import net.minecraft.world.level.storage.loot.functions.ApplyExplosionDecay;
+import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
+import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
+import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +36,13 @@ public class ModLootTableProvider {
     public static class Blocks extends BlockLootSubProvider {
         protected Blocks() {
             super(Set.of(), FeatureFlags.REGISTRY.allFlags());
+        }
+
+        LootItemCondition.Builder face(Direction dir) {
+            return LootItemBlockStatePropertyCondition
+                    .hasBlockStateProperties(ModBlocks.RESIN_CLUMP.get())
+                    .setProperties(StatePropertiesPredicate.Builder.properties()
+                            .hasProperty(((MultifaceBlock) ModBlocks.RESIN_CLUMP.get()).getFaceProperty(dir), true));
         }
 
         @Override
@@ -115,6 +134,29 @@ public class ModLootTableProvider {
                     block -> createSingleItemTable(ModItems.PALE_OAK_SIGN.get()));
             this.add(ModBlocks.PALE_OAK_HANGING_SIGN.get(),
                     block -> createSingleItemTable(ModItems.PALE_OAK_HANGING_SIGN.get()));
+            this.add(ModBlocks.RESIN_CLUMP.get(), block -> {
+                return LootTable.lootTable()
+                        .withPool(LootPool.lootPool()
+                                .setRolls(ConstantValue.exactly(1))
+                                .add(LootItem.lootTableItem(ModBlocks.RESIN_CLUMP.get())
+                                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1)).when(face(Direction.DOWN)))
+                                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1)).when(face(Direction.UP)))
+                                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1)).when(face(Direction.NORTH)))
+                                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1)).when(face(Direction.SOUTH)))
+                                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1)).when(face(Direction.WEST)))
+                                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(1)).when(face(Direction.EAST)))
+                                        .apply(SetItemCountFunction.setCount(ConstantValue.exactly(-1))) // subtract 1
+                                        .apply(ApplyExplosionDecay.explosionDecay())
+                                )
+                        );
+            });
+            this.dropSelf(ModBlocks.RESIN_BLOCK.get());
+            this.dropSelf(ModBlocks.RESIN_BRICKS.get());
+            this.dropSelf(ModBlocks.RESIN_BRICK_STAIRS.get());
+            this.add(ModBlocks.RESIN_BRICK_SLAB.get(),
+                    block -> createSlabItemTable(ModBlocks.RESIN_BRICK_SLAB.get()));
+            this.dropSelf(ModBlocks.RESIN_BRICK_WALL.get());
+            this.dropSelf(ModBlocks.CHISELED_RESIN_BRICKS.get());
 
             // The Copper Age
             this.dropSelf(ModBlocks.COPPER_BARS.get());

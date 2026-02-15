@@ -70,6 +70,13 @@ public class CreativeTabPlacements {
                     ModBlocks.TUFF_STAIRS.get(),
                     Items.TUFF
             );
+            entries.addAfter(Items.MUD_BRICK_WALL,
+                    ModBlocks.CHISELED_RESIN_BRICKS.get(),
+                    ModBlocks.RESIN_BRICK_WALL.get(),
+                    ModBlocks.RESIN_BRICK_SLAB.get(),
+                    ModBlocks.RESIN_BRICK_STAIRS.get(),
+                    ModBlocks.RESIN_BRICKS.get()
+            );
             entries.addAfter(Items.COPPER_BLOCK,
                     ModBlocks.COPPER_GRATE.get(),
                     ModBlocks.CHISELED_COPPER.get()
@@ -164,6 +171,9 @@ public class CreativeTabPlacements {
             entries.addAfter(Items.CHERRY_LOG,
                     ModBlocks.PALE_OAK_LOG.get()
             );
+            entries.addAfter(Items.HONEY_BLOCK,
+                    ModBlocks.RESIN_BLOCK.get()
+            );
         }
 
         if (tab == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
@@ -257,9 +267,15 @@ public class CreativeTabPlacements {
             entries.addBefore(Items.IRON_NUGGET,
                     ModItems.COPPER_NUGGET.get()
             );
+            entries.addAfter(Items.HONEYCOMB,
+                    ModBlocks.RESIN_CLUMP.get()
+            );
             entries.addAfter(Items.BLAZE_ROD,
                     ModBlocks.HEAVY_CORE.get(),
                     ModItems.BREEZE_ROD.get()
+            );
+            entries.addAfter(Items.NETHER_BRICK,
+                    ModItems.RESIN_BRICK.get()
             );
             entries.addAfter(Items.SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE,
                     ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE.get(),

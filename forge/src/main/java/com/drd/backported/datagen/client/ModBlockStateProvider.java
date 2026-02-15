@@ -71,6 +71,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         buttonBlock(((ButtonBlock) ModBlocks.PALE_OAK_BUTTON.get()), blockTexture(ModBlocks.PALE_OAK_PLANKS.get()));
         signBlock(((CustomStandingSignBlock) ModBlocks.PALE_OAK_SIGN.get()), ((CustomWallSignBlock) ModBlocks.PALE_OAK_WALL_SIGN.get()), blockTexture(ModBlocks.PALE_OAK_PLANKS.get()));
         hangingSignBlock(ModBlocks.PALE_OAK_HANGING_SIGN.get(), ModBlocks.PALE_OAK_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.STRIPPED_PALE_OAK_LOG.get()));
+        blockWithItem(ModBlocks.RESIN_BLOCK);
+        blockWithItem(ModBlocks.RESIN_BRICKS);
+        stairsBlock(((StairBlock) ModBlocks.RESIN_BRICK_STAIRS.get()), blockTexture(ModBlocks.RESIN_BRICKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.RESIN_BRICK_SLAB.get()), blockTexture(ModBlocks.RESIN_BRICKS.get()), blockTexture(ModBlocks.RESIN_BRICKS.get()));
+        wallBlock(((WallBlock) ModBlocks.RESIN_BRICK_WALL.get()), blockTexture(ModBlocks.RESIN_BRICKS.get()));
+        blockWithItem(ModBlocks.CHISELED_RESIN_BRICKS);
     }
 
     private void saplingBlock(RegistrySupplier<Block> block) {

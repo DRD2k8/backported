@@ -475,6 +475,84 @@
     ]
   },
 
+  "block.resin.break": {
+    "sounds": [
+      "backported:block/resin/resin_break1",
+      "backported:block/resin/resin_break2",
+      "backported:block/resin/resin_break3",
+      "backported:block/resin/resin_break4",
+      "backported:block/resin/resin_break5"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.resin.fall": {
+    "sounds": [
+      "backported:block/resin/resin_fall"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.resin.place": {
+    "sounds": [
+      "backported:block/resin/resin_place1",
+      "backported:block/resin/resin_place2",
+      "backported:block/resin/resin_place3",
+      "backported:block/resin/resin_place4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.resin.step": {
+    "sounds": [
+      "backported:block/resin/resin_step1",
+      "backported:block/resin/resin_step2",
+      "backported:block/resin/resin_step3",
+      "backported:block/resin/resin_step4",
+      "backported:block/resin/resin_step5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.resin_bricks.break": {
+    "sounds": [
+      "backported:block/resin_bricks/resin_brick_break"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.resin_bricks.fall": {
+    "sounds": [
+      "backported:block/resin_bricks/resin_brick_fall"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.resin_bricks.hit": {
+    "sounds": [
+      "backported:block/resin_bricks/resin_brick_hit1",
+      "backported:block/resin_bricks/resin_brick_hit2",
+      "backported:block/resin_bricks/resin_brick_hit3",
+      "backported:block/resin_bricks/resin_brick_hit4",
+      "backported:block/resin_bricks/resin_brick_hit5"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.resin_bricks.place": {
+    "sounds": [
+      "backported:block/resin_bricks/resin_brick_place1",
+      "backported:block/resin_bricks/resin_brick_place2",
+      "backported:block/resin_bricks/resin_brick_place3",
+      "backported:block/resin_bricks/resin_brick_place4",
+      "backported:block/resin_bricks/resin_brick_place5"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.resin_bricks.step": {
+    "sounds": [
+      "backported:block/resin_bricks/resin_brick_step1",
+      "backported:block/resin_bricks/resin_brick_step2",
+      "backported:block/resin_bricks/resin_brick_step3",
+      "backported:block/resin_bricks/resin_brick_step4",
+      "backported:block/resin_bricks/resin_brick_step5"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+
   "music_disc.tears": {
     "sounds": [
       {

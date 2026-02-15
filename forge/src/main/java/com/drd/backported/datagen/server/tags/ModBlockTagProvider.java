@@ -84,17 +84,20 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         this.tag(BlockTags.STAIRS)
                 .add(ModBlocks.TUFF_STAIRS.get())
                 .add(ModBlocks.POLISHED_TUFF_STAIRS.get())
-                .add(ModBlocks.TUFF_BRICK_STAIRS.get());
+                .add(ModBlocks.TUFF_BRICK_STAIRS.get())
+                .add(ModBlocks.RESIN_BRICK_STAIRS.get());
 
         this.tag(BlockTags.SLABS)
                 .add(ModBlocks.TUFF_SLAB.get())
                 .add(ModBlocks.POLISHED_TUFF_SLAB.get())
-                .add(ModBlocks.TUFF_BRICK_SLAB.get());
+                .add(ModBlocks.TUFF_BRICK_SLAB.get())
+                .add(ModBlocks.RESIN_BRICK_SLAB.get());
 
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.TUFF_WALL.get())
                 .add(ModBlocks.POLISHED_TUFF_WALL.get())
-                .add(ModBlocks.TUFF_BRICK_WALL.get());
+                .add(ModBlocks.TUFF_BRICK_WALL.get())
+                .add(ModBlocks.RESIN_BRICK_WALL.get());
 
         this.tag(BlockTags.DOORS)
                 .add(ModBlocks.COPPER_DOOR.get())
@@ -229,6 +232,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.WAXED_EXPOSED_COPPER_BULB.get())
                 .add(ModBlocks.WAXED_WEATHERED_COPPER_BULB.get())
                 .add(ModBlocks.WAXED_OXIDIZED_COPPER_BULB.get())
+                .add(ModBlocks.RESIN_BRICKS.get())
+                .add(ModBlocks.RESIN_BRICK_STAIRS.get())
+                .add(ModBlocks.RESIN_BRICK_SLAB.get())
+                .add(ModBlocks.RESIN_BRICK_WALL.get())
+                .add(ModBlocks.CHISELED_RESIN_BRICKS.get())
                 .add(ModBlocks.COPPER_BARS.get())
                 .add(ModBlocks.EXPOSED_COPPER_BARS.get())
                 .add(ModBlocks.WEATHERED_COPPER_BARS.get())

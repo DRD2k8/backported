@@ -2,6 +2,7 @@
   "values": [
     "backported:tuff_slab",
     "backported:polished_tuff_slab",
-    "backported:tuff_brick_slab"
+    "backported:tuff_brick_slab",
+    "backported:resin_brick_slab"
   ]
 }

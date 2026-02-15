@@ -89,17 +89,20 @@ public class ModItemTagProvider extends ItemTagsProvider {
         this.tag(ItemTags.STAIRS)
                 .add(ModBlocks.TUFF_STAIRS.get().asItem())
                 .add(ModBlocks.POLISHED_TUFF_STAIRS.get().asItem())
-                .add(ModBlocks.TUFF_BRICK_STAIRS.get().asItem());
+                .add(ModBlocks.TUFF_BRICK_STAIRS.get().asItem())
+                .add(ModBlocks.RESIN_BRICK_STAIRS.get().asItem());
 
         this.tag(ItemTags.SLABS)
                 .add(ModBlocks.TUFF_SLAB.get().asItem())
                 .add(ModBlocks.POLISHED_TUFF_SLAB.get().asItem())
-                .add(ModBlocks.TUFF_BRICK_SLAB.get().asItem());
+                .add(ModBlocks.TUFF_BRICK_SLAB.get().asItem())
+                .add(ModBlocks.RESIN_BRICK_SLAB.get().asItem());
 
         this.tag(ItemTags.WALLS)
                 .add(ModBlocks.TUFF_WALL.get().asItem())
                 .add(ModBlocks.POLISHED_TUFF_WALL.get().asItem())
-                .add(ModBlocks.TUFF_BRICK_WALL.get().asItem());
+                .add(ModBlocks.TUFF_BRICK_WALL.get().asItem())
+                .add(ModBlocks.RESIN_BRICK_WALL.get().asItem());
 
         this.tag(ItemTags.DOORS)
                 .add(ModBlocks.COPPER_DOOR.get().asItem())
@@ -177,6 +180,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.COPPER_CHESTPLATE.get())
                 .add(ModItems.COPPER_LEGGINGS.get())
                 .add(ModItems.COPPER_BOOTS.get());
+
+        this.tag(ItemTags.TRIM_MATERIALS)
+                .add(ModItems.RESIN_BRICK.get());
+
+        this.tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE.get())
+                .add(ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE.get());
 
         this.tag(ItemTags.PIGLIN_LOVED)
                 .add(ModItems.GOLDEN_SPEAR.get());

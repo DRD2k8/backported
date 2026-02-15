@@ -154,6 +154,16 @@ public class ModBlocks {
     public static final RegistrySupplier<Block> PALE_OAK_WALL_SIGN = registerWallSign("pale_oak", PALE_OAK_PLANKS, ModWoodTypes.PALE_OAK, PALE_OAK_SIGN);
     public static final RegistrySupplier<Block> PALE_OAK_HANGING_SIGN = registerCeilingHangingSign("pale_oak", PALE_OAK_PLANKS, ModWoodTypes.PALE_OAK);
     public static final RegistrySupplier<Block> PALE_OAK_WALL_HANGING_SIGN = registerWallHangingSign("pale_oak", PALE_OAK_PLANKS, ModWoodTypes.PALE_OAK, PALE_OAK_HANGING_SIGN);
+    public static final RegistrySupplier<Block> RESIN_CLUMP = registerBlock("resin_clump",
+            () -> new ResinClumpBlock(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_ORANGE).replaceable().noCollission().sound(ModSoundTypes.RESIN).ignitedByLava().pushReaction(PushReaction.DESTROY)));
+    public static final RegistrySupplier<Block> RESIN_BLOCK = registerBlock("resin_block",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_ORANGE).instrument(NoteBlockInstrument.BASEDRUM).sound(ModSoundTypes.RESIN)));
+    public static final RegistrySupplier<Block> RESIN_BRICKS = registerBlock("resin_bricks",
+            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_ORANGE).instrument(NoteBlockInstrument.BASEDRUM).requiresCorrectToolForDrops().sound(ModSoundTypes.RESIN_BRICKS).strength(1.5f, 6f)));
+    public static final RegistrySupplier<Block> RESIN_BRICK_STAIRS = registerStairs("resin_brick", RESIN_BRICKS);
+    public static final RegistrySupplier<Block> RESIN_BRICK_SLAB = registerSlab("resin_brick", RESIN_BRICKS);
+    public static final RegistrySupplier<Block> RESIN_BRICK_WALL = registerWall("resin_brick", RESIN_BRICKS);
+    public static final RegistrySupplier<Block> CHISELED_RESIN_BRICKS = registerBlock("chiseled_resin_bricks", () -> new Block(BlockBehaviour.Properties.copy(RESIN_BRICKS.get())));
 
     // The Copper Age
     public static final RegistrySupplier<Block> COPPER_BARS = registerBlock("copper_bars",

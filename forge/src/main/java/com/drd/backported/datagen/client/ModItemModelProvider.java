@@ -52,6 +52,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PALE_OAK_HANGING_SIGN);
         simpleItem(ModItems.PALE_OAK_BOAT);
         simpleItem(ModItems.PALE_OAK_CHEST_BOAT);
+        simpleBlockItem(ModBlocks.RESIN_CLUMP);
+        simpleItem(ModItems.RESIN_BRICK);
+        evenSimplerBlockItem(ModBlocks.RESIN_BRICK_STAIRS);
+        evenSimplerBlockItem(ModBlocks.RESIN_BRICK_SLAB);
+        wallItem(ModBlocks.RESIN_BRICK_WALL, ModBlocks.RESIN_BRICKS);
 
         // Chase the Skies
         musicDiscItem(ModItems.MUSIC_DISC_LAVA_CHICKEN);
