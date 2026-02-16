@@ -3,6 +3,7 @@ package com.drd.backported.forge.client;
 import com.drd.backported.Backported;
 import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
+import com.drd.backported.client.listener.DryFoliageColorReloadListener;
 import com.drd.backported.client.model.WindChargeModel;
 import com.drd.backported.client.renderer.CustomBoatRenderer;
 import com.drd.backported.client.renderer.ShelfRenderer;
@@ -14,6 +15,7 @@ import com.drd.backported.forge.packets.PlayerStabPacket;
 import com.drd.backported.init.ModBlockEntities;
 import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModEntities;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
@@ -32,6 +34,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.client.event.ModelEvent;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.event.AddReloadListenerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -53,6 +56,11 @@ public class BackportedForgeClient {
                 return true;
             };
         }
+    }
+
+    @SubscribeEvent
+    public static void onAddReloadListeners(AddReloadListenerEvent event) {
+        event.addListener(new DryFoliageColorReloadListener());
     }
 
     @SubscribeEvent

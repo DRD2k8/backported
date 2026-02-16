@@ -3,6 +3,7 @@ package com.drd.backported.fabric.client;
 import com.drd.backported.Backported;
 import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
+import com.drd.backported.client.listener.DryFoliageColorReloadListener;
 import com.drd.backported.client.model.WindChargeModel;
 import com.drd.backported.client.renderer.CustomBoatRenderer;
 import com.drd.backported.client.renderer.ShelfRenderer;
@@ -20,6 +21,8 @@ import net.fabricmc.fabric.api.client.model.loading.v1.ModelModifier;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.fabricmc.fabric.api.resource.IdentifiableResourceReloadListener;
+import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
@@ -31,6 +34,7 @@ import net.minecraft.client.renderer.blockentity.HangingSignRenderer;
 import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.PackType;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.GrassColor;
 
@@ -46,6 +50,9 @@ public class BackportedFabricClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BackportedClient.init();
+
+        ResourceManagerHelper.get(PackType.CLIENT_RESOURCES)
+                .registerReloadListener((IdentifiableResourceReloadListener) new DryFoliageColorReloadListener());
 
         boolean shouldWarn = FabricLoader.getInstance().isModLoaded("sodium") && !FabricLoader.getInstance().isModLoaded("indium");
         if (shouldWarn) {

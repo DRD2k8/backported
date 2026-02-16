@@ -1,6 +1,7 @@
 package com.drd.backported;
 
 import com.drd.backported.init.*;
+import com.drd.backported.util.ModCompostables;
 import com.drd.backported.util.ModFuels;
 import com.mojang.logging.LogUtils;
 import dev.architectury.event.events.common.LifecycleEvent;
@@ -24,6 +25,7 @@ public final class Backported {
 
         LifecycleEvent.SETUP.register(() -> {
             ModFuels.registerFuels();
+            ModCompostables.registerCompostables();
         });
     }
 }
