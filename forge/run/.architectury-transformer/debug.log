@@ -106,26 +106,25 @@
 [Architectury Transformer DEBUG]  - D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge\dev\architectury\architectury-forge\9.2.14\architectury-forge-9.2.14.jar
 [Architectury Transformer DEBUG]  - D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge\maven\modrinth\trimmed\1.20.1-2.1.4+forge\trimmed-1.20.1-2.1.4+forge.jar
 [Architectury Transformer DEBUG]  - D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\.gradle\loom-cache\remapped_mods\loom_mappings_1_20_1_layered_hash_40359_v2_forge_1_20_1_47_4_10_forge\maven\modrinth\sherdsapi\4.0.4+Forge\sherdsapi-4.0.4+Forge.jar
-[Architectury Transformer] Read classpath in 1.594 s
+[Architectury Transformer] Read classpath in 1.498 s
 [Architectury Transformer DEBUG] Closed File Systems for D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 8 transformer(s) from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to C:\Users\dandi\AppData\Local\Temp\12297871681907455938.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@2a1edad4
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@6256ac4f
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@44c79f32
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@7fcbe147
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@235f4c10
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@743cb8e0
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@c7a975a
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@2c1b9e4b
-[Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to C:\Users\dandi\AppData\Local\Temp\12297871681907455938.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 8 transformer(s) from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to C:\Users\dandi\AppData\Local\Temp\6489186052104046578.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@7fcbe147
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@235f4c10
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@743cb8e0
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@c7a975a
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeAnnotations@2c1b9e4b
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment@757d6814
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeForgeMod@649725e3
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.FixForgeMixin@3c0fae6c
+[Architectury Transformer DEBUG] Transforming from D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar to C:\Users\dandi\AppData\Local\Temp\6489186052104046578.jar with 8 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/Backported with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/FireflyBushBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomCeilingHangingSignBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomStandingSignBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/ShelfBlock$1 with maxs=true frames=true
@@ -138,13 +137,14 @@
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/SpringToLifeBushBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/ShelfBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/CopperBulbBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/FireflyBushBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallSignBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperBulbBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperGrateBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/SideChainPart with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWeatheringCopperFullBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/HeavyCoreBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/SideChainPart with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperBarsBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperBulbBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallHangingSignBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperChainBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperTrapdoorBlock with maxs=true frames=true
@@ -175,16 +175,16 @@
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/model/WindChargeModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/model/vanilla/ModBatModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/WindChargeRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/ShelfRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/CustomBoatRenderer with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/ShelfRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/color/ModBiomeColors with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/color/DryFoliageColor with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/color/ModBiomeColors$ClimateSettings with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/vanilla/ModBatRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/enchantment/LungeEnchantment with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat$Type with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/WindCharge with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat$Type with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomChestBoat with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/handler/ChickenJockeyDropHandler with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/handler/GhastDropHandler with maxs=true frames=true
@@ -199,37 +199,38 @@
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBannerPatterns with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModSherds with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEnchantments with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlocks with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/init/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlockEntities with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModPaintings with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/CustomBoatItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/ModArmorMaterials with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/WindChargeItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/TrimmedSmithingTemplateItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/item/CustomBoatItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/MaceItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/SpearItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/ModToolTiers with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/MovementFixer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/SpearUser with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/LivingEntityMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/BatMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemInHandLayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WoodTypeInvoker with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemInHandRendererInvoker with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ServerPlayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemStackMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemRendererMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/HeldItemRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/DamageEnchantmentMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WolfMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WolfRendererMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/DecoratedPotRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/HumanoidModelMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/LivingEntityMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/DecoratedPotBlockMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/LocalPlayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/EnchantmentMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/HeldItemRendererMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/EntityMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/MinecraftMixin with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemInHandLayerMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemPropertiesMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemMixin with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/DecoratedPotBlockEntityMixin with maxs=true frames=true
@@ -247,8 +248,8 @@
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Biomes with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModFuels with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModStrippables with maxs=true frames=true
-[Architectury Transformer DEBUG] Writing com/drd/backported/util/LevelUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModCompostables with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/LevelUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/worldgen/ModPlacedFeatures with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/drd/backported/worldgen/biome/ModBiomeSpecialEffects with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /backported-common-common-refmap.json is a mixin config.
@@ -261,15 +262,15 @@
 [Architectury Transformer DEBUG] Found mixin config(s): backported.mixins.json
 [Architectury Transformer DEBUG] Appended Launch Argument: [--mixin.config, backported.mixins.json]
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\dandi\AppData\Local\Temp\12297871681907455938.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\dandi\AppData\Local\Temp\6489186052104046578.jar
 [Architectury Transformer] Listening at D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\dandi\AppData\Local\Temp\12297871681907455938.jar] contains packages: com.drd.backported.client, com.drd.backported.worldgen.biome, com.drd.backported.client.animation.vanilla, com.drd.backported.item.spear, com.drd.backported.mixin, com.drd.backported.util, com.drd.backported.entity.variant, com.drd.backported.item, com.drd.backported.particle.base, com.drd.backported.client.renderer, com.drd.backported.block, com.drd.backported.init, com.drd.backported.block.entity, com.drd.backported.client.model, com.drd.backported.entity.handler, com.drd.backported.block.base, com.drd.backported.enchantment, com.drd.backported.client.listener, com.drd.backported.entity.other, com.drd.backported.client.init, com.drd.backported, com.drd.backported.client.emissive, com.drd.backported.client.model.vanilla, com.drd.backported.worldgen, com.drd.backported.client.renderer.color, com.drd.backported.client.renderer.vanilla, com.drd.backported.platform, com.drd.backported.entity
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\dandi\AppData\Local\Temp\6489186052104046578.jar] contains packages: com.drd.backported.client, com.drd.backported.worldgen.biome, com.drd.backported.client.animation.vanilla, com.drd.backported.item.spear, com.drd.backported.mixin, com.drd.backported.util, com.drd.backported.entity.variant, com.drd.backported.item, com.drd.backported.particle.base, com.drd.backported.client.renderer, com.drd.backported.block, com.drd.backported.init, com.drd.backported.block.entity, com.drd.backported.client.model, com.drd.backported.entity.handler, com.drd.backported.block.base, com.drd.backported.enchantment, com.drd.backported.client.listener, com.drd.backported.entity.other, com.drd.backported.client.init, com.drd.backported, com.drd.backported.client.emissive, com.drd.backported.client.model.vanilla, com.drd.backported.worldgen, com.drd.backported.client.renderer.color, com.drd.backported.client.renderer.vanilla, com.drd.backported.platform, com.drd.backported.entity
 [Architectury Transformer DEBUG] Closed File Systems for D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\devlibs\backported-common-1.0.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\forge\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Classpath entry [D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/spear/MovementFixer.class to com/drd/backported/item/spear/MovementFixer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping with Dirty Mappings...
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
@@ -277,814 +278,854 @@
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/MovementFixer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/spear/MovementFixer in 62.81 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/spear/MovementFixer in 62.05 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/spear/SpearUser.class to com/drd/backported/item/spear/SpearUser.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/spear/SpearUser with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/spear/SpearUser in 16.50 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/spear/SpearUser in 12.42 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/mixin/WoodTypeInvoker.class to com/drd/backported/mixin/WoodTypeInvoker.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/WoodTypeInvoker with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/mixin/WoodTypeInvoker in 15.64 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/mixin/WoodTypeInvoker in 10.88 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/DecoratedPot.class to com/drd/backported/block/base/DecoratedPot.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/DecoratedPot with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/DecoratedPot in 11.65 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/DecoratedPot in 10.16 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/RandomizableContainer.class to com/drd/backported/block/base/RandomizableContainer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/RandomizableContainer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/RandomizableContainer in 8.470 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/RandomizableContainer in 6.136 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/other/BatAnimationAccess.class to com/drd/backported/entity/other/BatAnimationAccess.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/other/BatAnimationAccess with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/other/BatAnimationAccess in 12.93 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/other/BatAnimationAccess in 13.33 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/Backported.class to com/drd/backported/Backported.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/Backported with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/Backported in 16.08 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/Backported in 16.28 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModSounds.class to com/drd/backported/init/ModSounds.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModSounds with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModSounds in 15.19 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModSounds in 12.41 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModBannerPatterns.class to com/drd/backported/init/ModBannerPatterns.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBannerPatterns with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBannerPatterns in 16.00 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBannerPatterns in 10.68 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModBlocks.class to com/drd/backported/init/ModBlocks.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlocks with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBlocks in 43.61 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWeatheringCopperFullBlock.class to com/drd/backported/block/CustomWeatheringCopperFullBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWeatheringCopperFullBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWeatheringCopperFullBlock in 15.88 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/WeatheringCopper.class to com/drd/backported/block/base/WeatheringCopper.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/WeatheringCopper with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WeatheringCopper in 21.24 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBlocks in 19.26 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WaterloggedTransparentBlock.class to com/drd/backported/block/WaterloggedTransparentBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WaterloggedTransparentBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WaterloggedTransparentBlock in 57.34 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WaterloggedTransparentBlock in 9.243 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperGrateBlock.class to com/drd/backported/block/WeatheringCopperGrateBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperGrateBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperGrateBlock in 12.90 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/HeavyCoreBlock.class to com/drd/backported/block/HeavyCoreBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperGrateBlock in 9.679 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/WeatheringCopper.class to com/drd/backported/block/base/WeatheringCopper.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/HeavyCoreBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/WeatheringCopper with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/HeavyCoreBlock in 11.26 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CopperBulbBlock.class to com/drd/backported/block/CopperBulbBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WeatheringCopper in 7.609 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWeatheringCopperFullBlock.class to com/drd/backported/block/CustomWeatheringCopperFullBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/CopperBulbBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWeatheringCopperFullBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CopperBulbBlock in 4.976 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWeatheringCopperFullBlock in 4.877 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperTrapdoorBlock.class to com/drd/backported/block/WeatheringCopperTrapdoorBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperTrapdoorBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperTrapdoorBlock in 4.458 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperTrapdoorBlock in 5.066 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/HeavyCoreBlock.class to com/drd/backported/block/HeavyCoreBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/HeavyCoreBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/HeavyCoreBlock in 3.790 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CopperBulbBlock.class to com/drd/backported/block/CopperBulbBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CopperBulbBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CopperBulbBlock in 9.668 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperDoorBlock.class to com/drd/backported/block/WeatheringCopperDoorBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperDoorBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperDoorBlock in 4.842 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomStandingSignBlock.class to com/drd/backported/block/CustomStandingSignBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomStandingSignBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomStandingSignBlock in 30.24 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperDoorBlock in 10.83 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/ShelfBlock.class to com/drd/backported/block/ShelfBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/ShelfBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ShelfBlock in 20.96 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ShelfBlock in 11.09 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/SelectableSlotContainer.class to com/drd/backported/block/base/SelectableSlotContainer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/SelectableSlotContainer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/SelectableSlotContainer in 15.51 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/SelectableSlotContainer in 9.226 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/SideChainPartBlock.class to com/drd/backported/block/base/SideChainPartBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/SideChainPartBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/SideChainPartBlock in 7.224 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWallHangingSignBlock.class to com/drd/backported/block/CustomWallHangingSignBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallHangingSignBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWallHangingSignBlock in 7.759 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/IHangingSign.class to com/drd/backported/block/base/IHangingSign.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/IHangingSign with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/IHangingSign in 4.038 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWallSignBlock.class to com/drd/backported/block/CustomWallSignBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallSignBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWallSignBlock in 3.695 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/SideChainPartBlock in 7.753 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomCeilingHangingSignBlock.class to com/drd/backported/block/CustomCeilingHangingSignBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomCeilingHangingSignBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomCeilingHangingSignBlock in 5.637 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/FireflyBushBlock.class to com/drd/backported/block/FireflyBushBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomCeilingHangingSignBlock in 4.046 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/IHangingSign.class to com/drd/backported/block/base/IHangingSign.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/FireflyBushBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/base/IHangingSign with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/FireflyBushBlock in 4.171 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/SpreadableBonemealableBlock.class to com/drd/backported/block/SpreadableBonemealableBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/SpreadableBonemealableBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SpreadableBonemealableBlock in 4.161 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperChainBlock.class to com/drd/backported/block/WeatheringCopperChainBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperChainBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperChainBlock in 3.776 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/IHangingSign in 5.156 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperBarsBlock.class to com/drd/backported/block/WeatheringCopperBarsBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperBarsBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperBarsBlock in 3.746 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperBarsBlock in 3.784 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWallSignBlock.class to com/drd/backported/block/CustomWallSignBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWallSignBlock in 3.671 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomWallHangingSignBlock.class to com/drd/backported/block/CustomWallHangingSignBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomWallHangingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomWallHangingSignBlock in 3.650 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/CustomStandingSignBlock.class to com/drd/backported/block/CustomStandingSignBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/CustomStandingSignBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/CustomStandingSignBlock in 3.038 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/FireflyBushBlock.class to com/drd/backported/block/FireflyBushBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/FireflyBushBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/FireflyBushBlock in 3.969 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/SpreadableBonemealableBlock.class to com/drd/backported/block/SpreadableBonemealableBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/SpreadableBonemealableBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SpreadableBonemealableBlock in 3.478 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/SpringToLifeBushBlock.class to com/drd/backported/block/SpringToLifeBushBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/SpringToLifeBushBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SpringToLifeBushBlock in 3.548 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SpringToLifeBushBlock in 3.591 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperBulbBlock.class to com/drd/backported/block/WeatheringCopperBulbBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperBulbBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperBulbBlock in 3.941 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperBulbBlock in 3.223 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/ResinClumpBlock.class to com/drd/backported/block/ResinClumpBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/ResinClumpBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ResinClumpBlock in 5.318 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ResinClumpBlock in 3.729 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/block/WeatheringCopperChainBlock.class to com/drd/backported/block/WeatheringCopperChainBlock.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/block/WeatheringCopperChainBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/WeatheringCopperChainBlock in 4.491 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModItems.class to com/drd/backported/init/ModItems.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModItems with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModItems in 6.651 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModItems in 7.468 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/WindChargeItem.class to com/drd/backported/item/WindChargeItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/WindChargeItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/WindChargeItem in 3.984 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/WindChargeItem in 4.049 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/MaceItem.class to com/drd/backported/item/MaceItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/MaceItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/MaceItem in 4.484 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/item/CustomBoatItem.class to com/drd/backported/item/CustomBoatItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/item/CustomBoatItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/CustomBoatItem in 4.252 ms
-[Architectury Transformer DEBUG] Transforming from com/drd/backported/item/SpearItem.class to com/drd/backported/item/SpearItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
-[Architectury Transformer DEBUG] Remapping Classes:
-[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
-[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/drd/backported/item/SpearItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/SpearItem in 6.931 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/MaceItem in 4.156 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/TrimmedSmithingTemplateItem.class to com/drd/backported/item/TrimmedSmithingTemplateItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/TrimmedSmithingTemplateItem with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/TrimmedSmithingTemplateItem in 8.688 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/TrimmedSmithingTemplateItem in 5.158 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/item/CustomBoatItem.class to com/drd/backported/item/CustomBoatItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/CustomBoatItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/CustomBoatItem in 53.10 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/item/SpearItem.class to com/drd/backported/item/SpearItem.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/item/SpearItem with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/SpearItem in 12.05 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModTags$BannerPatterns.class to com/drd/backported/util/ModTags$BannerPatterns.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$BannerPatterns with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$BannerPatterns in 6.404 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$BannerPatterns in 5.194 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/ModToolTiers.class to com/drd/backported/item/ModToolTiers.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/ModToolTiers with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/ModToolTiers in 4.525 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/ModToolTiers in 4.944 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/item/ModArmorMaterials.class to com/drd/backported/item/ModArmorMaterials.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/item/ModArmorMaterials with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/item/ModArmorMaterials in 8.695 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/item/ModArmorMaterials in 5.304 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModWoodTypes.class to com/drd/backported/util/ModWoodTypes.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModWoodTypes with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModWoodTypes in 8.110 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModWoodTypes in 6.662 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModBlockEntities.class to com/drd/backported/init/ModBlockEntities.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModBlockEntities with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBlockEntities in 7.153 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModBlockEntities in 3.861 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModEnchantments.class to com/drd/backported/init/ModEnchantments.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEnchantments with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModEnchantments in 5.043 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModEnchantments in 3.193 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/enchantment/LungeEnchantment.class to com/drd/backported/enchantment/LungeEnchantment.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/enchantment/LungeEnchantment with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/enchantment/LungeEnchantment in 3.420 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/enchantment/LungeEnchantment in 3.369 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModEntities.class to com/drd/backported/init/ModEntities.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModEntities with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModEntities in 3.849 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModEntities in 4.811 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/CustomBoat.class to com/drd/backported/entity/CustomBoat.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomBoat in 4.094 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomBoat in 3.445 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/platform/CommonPlatformUtils.class to com/drd/backported/platform/CommonPlatformUtils.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/platform/CommonPlatformUtils with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/platform/CommonPlatformUtils in 5.009 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/platform/CommonPlatformUtils in 3.786 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/CustomChestBoat.class to com/drd/backported/entity/CustomChestBoat.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomChestBoat with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomChestBoat in 7.012 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomChestBoat in 4.677 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModPaintings.class to com/drd/backported/init/ModPaintings.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModPaintings with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModPaintings in 4.106 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModPaintings in 3.387 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModParticles.class to com/drd/backported/init/ModParticles.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModParticles with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModParticles in 3.965 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModParticles in 3.494 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/particle/base/ModSimpleParticleType.class to com/drd/backported/particle/base/ModSimpleParticleType.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/particle/base/ModSimpleParticleType with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/particle/base/ModSimpleParticleType in 3.639 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/particle/base/ModSimpleParticleType in 3.163 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/init/ModSherds.class to com/drd/backported/init/ModSherds.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/init/ModSherds with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModSherds in 3.656 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/init/ModSherds in 3.900 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/CustomBoatRenderer.class to com/drd/backported/client/renderer/CustomBoatRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/CustomBoatRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/CustomBoatRenderer in 9.931 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/CustomBoatRenderer in 5.973 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/WeatheringCopper$WeatherState.class to com/drd/backported/block/base/WeatheringCopper$WeatherState.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/WeatheringCopper$WeatherState with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WeatheringCopper$WeatherState in 6.952 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WeatheringCopper$WeatherState in 5.791 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModSoundTypes.class to com/drd/backported/util/ModSoundTypes.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModSoundTypes with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModSoundTypes in 3.701 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModSoundTypes in 4.846 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModBlockSetTypes.class to com/drd/backported/util/ModBlockSetTypes.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModBlockSetTypes with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModBlockSetTypes in 5.218 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModBlockSetTypes in 3.343 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/entity/CustomSignBlockEntity.class to com/drd/backported/block/entity/CustomSignBlockEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomSignBlockEntity with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/CustomSignBlockEntity in 7.960 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/CustomSignBlockEntity in 7.749 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/entity/CustomHangingSignBlockEntity.class to com/drd/backported/block/entity/CustomHangingSignBlockEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/CustomHangingSignBlockEntity with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/CustomHangingSignBlockEntity in 3.272 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/CustomHangingSignBlockEntity in 4.908 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/entity/ShelfBlockEntity.class to com/drd/backported/block/entity/ShelfBlockEntity.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/entity/ShelfBlockEntity with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/ShelfBlockEntity in 5.453 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/entity/ShelfBlockEntity in 8.388 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/ListBackedContainer.class to com/drd/backported/block/base/ListBackedContainer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/ListBackedContainer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/ListBackedContainer in 3.742 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/ListBackedContainer in 4.257 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/SideChainPart.class to com/drd/backported/block/SideChainPart.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/SideChainPart with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SideChainPart in 4.172 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/SideChainPart in 3.760 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/ShelfBlock$1.class to com/drd/backported/block/ShelfBlock$1.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/ShelfBlock$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ShelfBlock$1 in 4.896 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/ShelfBlock$1 in 3.565 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/WindCharge.class to com/drd/backported/entity/WindCharge.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/WindCharge with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/WindCharge in 5.772 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/WindCharge in 7.402 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/CustomBoat$Type.class to com/drd/backported/entity/CustomBoat$Type.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/entity/CustomBoat$Type with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomBoat$Type in 4.551 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/CustomBoat$Type in 4.143 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/mixin/ItemInHandRendererInvoker.class to com/drd/backported/mixin/ItemInHandRendererInvoker.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/mixin/ItemInHandRendererInvoker with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/mixin/ItemInHandRendererInvoker in 6.133 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/mixin/ItemInHandRendererInvoker in 7.494 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/listener/DryFoliageColorReloadListener.class to com/drd/backported/client/listener/DryFoliageColorReloadListener.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/listener/DryFoliageColorReloadListener with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/listener/DryFoliageColorReloadListener in 13.75 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/listener/DryFoliageColorReloadListener in 6.697 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/init/ModModelLayers.class to com/drd/backported/client/init/ModModelLayers.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/init/ModModelLayers with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/init/ModModelLayers in 6.350 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/init/ModModelLayers in 4.327 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/model/vanilla/ModBatModel.class to com/drd/backported/client/model/vanilla/ModBatModel.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/model/vanilla/ModBatModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/model/vanilla/ModBatModel in 4.644 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/model/vanilla/ModBatModel in 3.886 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/model/WindChargeModel.class to com/drd/backported/client/model/WindChargeModel.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/model/WindChargeModel with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/model/WindChargeModel in 3.839 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/model/WindChargeModel in 3.341 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/ShelfRenderer.class to com/drd/backported/client/renderer/ShelfRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/ShelfRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/ShelfRenderer in 8.142 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/ShelfRenderer in 10.73 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModFuels.class to com/drd/backported/util/ModFuels.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModFuels with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModFuels in 34.30 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModFuels in 14.09 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModCompostables.class to com/drd/backported/util/ModCompostables.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModCompostables with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModCompostables in 6.914 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModCompostables in 7.616 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModStrippables.class to com/drd/backported/util/ModStrippables.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModStrippables with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModStrippables in 4.537 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModStrippables in 10.81 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/BackportedClient.class to com/drd/backported/client/BackportedClient.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/BackportedClient with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/BackportedClient in 7.474 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/BackportedClient in 8.117 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/vanilla/ModBatRenderer.class to com/drd/backported/client/renderer/vanilla/ModBatRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/vanilla/ModBatRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/vanilla/ModBatRenderer in 9.323 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/vanilla/ModBatRenderer in 7.996 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/WindChargeRenderer.class to com/drd/backported/client/renderer/WindChargeRenderer.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/WindChargeRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/WindChargeRenderer in 5.872 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/WindChargeRenderer in 6.908 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/renderer/color/DryFoliageColor.class to com/drd/backported/client/renderer/color/DryFoliageColor.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/renderer/color/DryFoliageColor with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/color/DryFoliageColor in 8.119 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/renderer/color/DryFoliageColor in 10.95 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModTags$Items.class to com/drd/backported/util/ModTags$Items.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Items with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$Items in 10.74 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$Items in 8.122 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/client/emissive/EmissiveQuad.class to com/drd/backported/client/emissive/EmissiveQuad.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/client/emissive/EmissiveQuad with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/client/emissive/EmissiveQuad in 16.05 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/client/emissive/EmissiveQuad in 7.798 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/variant/WolfVariant.class to com/drd/backported/entity/variant/WolfVariant.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/variant/WolfVariant with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/variant/WolfVariant in 5.114 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/util/ModTags$Biomes.class to com/drd/backported/util/ModTags$Biomes.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/util/ModTags$Biomes with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/util/ModTags$Biomes in 3.242 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/handler/GhastDropHandler.class to com/drd/backported/entity/handler/GhastDropHandler.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/handler/GhastDropHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/handler/GhastDropHandler in 5.899 ms
+[Architectury Transformer DEBUG] Transforming from com/drd/backported/entity/handler/ChickenJockeyDropHandler.class to com/drd/backported/entity/handler/ChickenJockeyDropHandler.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
+[Architectury Transformer DEBUG] Remapping Classes:
+[Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
+[Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/drd/backported/entity/handler/ChickenJockeyDropHandler with maxs=true frames=true
+[Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
+[Architectury Transformer DEBUG] Transformed com/drd/backported/entity/handler/ChickenJockeyDropHandler in 6.249 ms
 [Architectury Transformer DEBUG] Transforming from com/drd/backported/block/base/WobbleStyle.class to com/drd/backported/block/base/WobbleStyle.class with 8 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Remapping with 1 mapping provider(s):
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x00000124810cdba0@361c294e
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformForgeEnvironment$$Lambda$148/0x000002c9b50cd760@314b8f2d
 [Architectury Transformer DEBUG] Remapping Classes:
 [Architectury Transformer DEBUG] net/fabricmc/api/EnvType -> net/minecraftforge/api/distmarker/Dist
 [Architectury Transformer DEBUG] net/fabricmc/api/Environment -> net/minecraftforge/api/distmarker/OnlyIn
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/drd/backported/block/base/WobbleStyle with maxs=true frames=true
 [Architectury Transformer DEBUG] Remapping refmap from intermediary to srg: backported-forge-forge-refmap.json
-[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WobbleStyle in 20.85 ms
+[Architectury Transformer DEBUG] Transformed com/drd/backported/block/base/WobbleStyle in 7.546 ms

@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Decorated pot stacks to 64">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/base/DecoratedPot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/base/RandomizableContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/block/base/WobbleStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/DecoratedPotBlockEntityMixin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/DecoratedPotBlockMixin.java" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Decorated pot functionality">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/DecoratedPotRendererMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.6.1+1c78457f77/fabric-entity-events-v1-1.6.1+1c78457f77.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.6.1+1c78457f77/fabric-entity-events-v1-1.6.1+1c78457f77.jar" afterDir="false" />
@@ -21,16 +17,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.23+1802ada577/fabric-lifecycle-events-v1-2.2.23+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.23+1802ada577/fabric-lifecycle-events-v1-2.2.23+1802ada577.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1/1.0.4+1802ada577/fabric-model-loading-api-v1-1.0.4+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1/1.0.4+1802ada577/fabric-model-loading-api-v1-1.0.4+1802ada577.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-particles-v1/1.1.3+1802ada577/fabric-particles-v1-1.1.3+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-particles-v1/1.1.3+1802ada577/fabric-particles-v1-1.1.3+1802ada577.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModParticles.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModParticles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModSoundTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/util/ModSoundTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/backported.mixins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/assets/backported/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forge/build/resources/main/backported.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/forge/build/resources/main/backported.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +74,8 @@
       <list>
         <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -515,12 +501,19 @@
       <option name="project" value="LOCAL" />
       <updated>1771357864465</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Decorated pot functionality">
+      <option name="closed" value="true" />
+      <created>1771364492259</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1771364492259</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ghast drops Tears Music Disc" />
     <MESSAGE value="Chicken Jockey drops Lava Chicken music disc" />
     <MESSAGE value="Adding the horse armor" />
     <MESSAGE value="Adding the horse armor loot modifiers" />
@@ -545,6 +538,7 @@
     <MESSAGE value="Bat model (Part 2)" />
     <MESSAGE value="Starting decorated pot changes" />
     <MESSAGE value="Decorated pot stacks to 64" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorated pot stacks to 64" />
+    <MESSAGE value="Decorated pot functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorated pot functionality" />
   </component>
 </project>

@@ -7,7 +7,7 @@ This is a mod that backports everything into the most popular modding versions.
 If all of these are complete, I will publish the first version of the mod.
 
 ## Bats and Pots (1.20.3 & 1.20.4)
-- [ ] Decorated Pot Changes
+- [X] Decorated Pot Changes
 - [X] New Bat Models
 
 ## Armored Paws (1.20.5 & 1.20.6)
@@ -129,4 +129,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Golden dandelion
 - [X] Craftable name tag
 
-### Total completed: 41/103
+### Total completed: 42/103
