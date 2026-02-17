@@ -10,6 +10,16 @@ import net.minecraft.sounds.SoundEvent;
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Backported.MOD_ID, Registries.SOUND_EVENT);
 
+    // Bats and Pots
+    public static final RegistrySupplier<SoundEvent> DECORATED_POT_BREAK = registerSoundEvents("block.decorated_pot.break");
+    public static final RegistrySupplier<SoundEvent> DECORATED_POT_STEP = registerSoundEvents("block.decorated_pot.step");
+    public static final RegistrySupplier<SoundEvent> DECORATED_POT_FALL = registerSoundEvents("block.decorated_pot.fall");
+    public static final RegistrySupplier<SoundEvent> DECORATED_POT_PLACE = registerSoundEvents("block.decorated_pot.place");
+    public static final RegistrySupplier<SoundEvent> DECORATED_POT_HIT = registerSoundEvents("block.decorated_pot.hit");
+    public static final RegistrySupplier<SoundEvent> DECORATED_POT_INSERT = registerSoundEvents("block.decorated_pot.insert");
+    public static final RegistrySupplier<SoundEvent> DECORATED_POT_INSERT_FAIL = registerSoundEvents("block.decorated_pot.insert_fail");
+    public static final RegistrySupplier<SoundEvent> DECORATED_POT_SHATTER = registerSoundEvents("block.decorated_pot.shatter");
+
     // Tricky Trials
     public static final RegistrySupplier<SoundEvent> COPPER_BULB_BREAK = registerSoundEvents("block.copper_bulb.break");
     public static final RegistrySupplier<SoundEvent> COPPER_BULB_STEP = registerSoundEvents("block.copper_bulb.step");

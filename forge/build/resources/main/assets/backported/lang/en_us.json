@@ -1,4 +1,8 @@
 {
+  "subtitles.backported.block.decorated_pot.insert": "Decorated Pot fills",
+  "subtitles.backported.block.decorated_pot.insert_fail": "Decorated Pot wobbles",
+  "subtitles.backported.block.decorated_pot.shatter": "Decorated Pot shatters",
+
   "advancements.backported.adventure.overoverkill.description": "Deal 50 hearts of damage in a single hit using the Mace",
   "advancements.backported.adventure.overoverkill.title": "Over-Overkill",
   "block.backported.chiseled_copper": "Chiseled Copper",

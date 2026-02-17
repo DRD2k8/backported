@@ -4,6 +4,17 @@ import com.drd.backported.init.ModSounds;
 import net.minecraft.world.level.block.SoundType;
 
 public class ModSoundTypes {
+    // Bats and Pots
+    public static SoundType DECORATED_POT = new SoundType(
+            1f,
+            1f,
+            ModSounds.DECORATED_POT_BREAK.get(),
+            ModSounds.DECORATED_POT_STEP.get(),
+            ModSounds.DECORATED_POT_PLACE.get(),
+            ModSounds.DECORATED_POT_HIT.get(),
+            ModSounds.DECORATED_POT_FALL.get()
+    );
+
     // Tricky Trials
     public static SoundType COPPER_BULB = new SoundType(
             1f,

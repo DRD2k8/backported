@@ -18,6 +18,8 @@
   "mixins": [
     "BatMixin",
     "DamageEnchantmentMixin",
+    "DecoratedPotBlockEntityMixin",
+    "DecoratedPotBlockMixin",
     "EnchantmentMixin",
     "EntityMixin",
     "ItemMixin",
