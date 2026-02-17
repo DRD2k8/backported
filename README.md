@@ -8,7 +8,7 @@ If all of these are complete, I will publish the first version of the mod.
 
 ## Bats and Pots (1.20.3 & 1.20.4)
 - [ ] Decorated Pot Changes
-- [ ] New Bat Models
+- [X] New Bat Models
 
 ## Armored Paws (1.20.5 & 1.20.6)
 - [ ] Wolf Armor
@@ -129,4 +129,4 @@ If all of these are complete, I will publish the first version of the mod.
 - [ ] Golden dandelion
 - [X] Craftable name tag
 
-### Total completed: 40/103
+### Total completed: 41/103

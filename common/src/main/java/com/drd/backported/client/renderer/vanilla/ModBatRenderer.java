@@ -23,7 +23,7 @@ public class ModBatRenderer extends MobRenderer<Bat, ModBatModel> {
 
     @Override
     protected void scale(Bat bat, PoseStack poseStack, float f) {
-        poseStack.scale(0.35F, 0.35F, 0.35F);
+        poseStack.scale(1.1875F, 1.1875F, 1.1875F);
     }
 
     @Override
