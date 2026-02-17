@@ -20,6 +20,8 @@
     "DamageEnchantmentMixin",
     "EnchantmentMixin",
     "EntityMixin",
+    "ItemMixin",
+    "ItemStackMixin",
     "LivingEntityMixin",
     "MobMixin",
     "ServerPlayerMixin",
