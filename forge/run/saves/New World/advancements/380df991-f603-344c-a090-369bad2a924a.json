@@ -1,39 +1,15 @@
 {
-  "minecraft:adventure/craft_decorated_pot_using_only_sherds": {
-    "criteria": {
-      "pot_crafted_using_only_sherds": "2026-02-15 12:39:51 -0800"
-    },
-    "done": true
-  },
-  "minecraft:adventure/salvage_sherd": {
-    "criteria": {
-      "has_sherd": "2026-02-15 12:36:53 -0800"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2026-02-15 12:36:33 -0800"
+      "unlock_right_away": "2026-02-16 19:58:27 -0800"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2026-02-15 12:36:34 -0800"
+      "minecraft:forest": "2026-02-16 19:58:28 -0800"
     },
     "done": false
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2026-02-15 12:39:48 -0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
-    "criteria": {
-      "has_brick": "2026-02-15 12:36:53 -0800"
-    },
-    "done": true
   },
   "DataVersion": 3465
 }

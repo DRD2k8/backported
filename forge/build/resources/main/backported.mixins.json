@@ -16,6 +16,7 @@
     "WolfRendererMixin"
   ],
   "mixins": [
+    "BatMixin",
     "DamageEnchantmentMixin",
     "EnchantmentMixin",
     "EntityMixin",

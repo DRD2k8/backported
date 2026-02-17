@@ -5,9 +5,11 @@ import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.listener.DryFoliageColorReloadListener;
 import com.drd.backported.client.model.WindChargeModel;
+import com.drd.backported.client.model.vanilla.ModBatModel;
 import com.drd.backported.client.renderer.CustomBoatRenderer;
 import com.drd.backported.client.renderer.ShelfRenderer;
 import com.drd.backported.client.renderer.WindChargeRenderer;
+import com.drd.backported.client.renderer.vanilla.ModBatRenderer;
 import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.fabric.packets.PacketHandler;
 import com.drd.backported.fabric.packets.PlayerStabPacket;
@@ -35,6 +37,7 @@ import net.minecraft.client.renderer.blockentity.SignRenderer;
 import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.GrassColor;
 
@@ -97,6 +100,10 @@ public class BackportedFabricClient implements ClientModInitializer {
             EntityModelLayerRegistry.registerModelLayer(new ModelLayerLocation(new ResourceLocation(Backported.MOD_ID, type.getModelLocation()), "main"), BoatModel::createBodyModel);
             EntityModelLayerRegistry.registerModelLayer(new ModelLayerLocation(new ResourceLocation(Backported.MOD_ID, type.getChestModelLocation()), "main"), ChestBoatModel::createBodyModel);
         }
+
+        // Bats and Pots
+        EntityRendererRegistry.register(EntityType.BAT, ModBatRenderer::new);
+        EntityModelLayerRegistry.registerModelLayer(ModModelLayers.BAT, ModBatModel::createBodyLayer);
 
         // Tricky Trials
         EntityRendererRegistry.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);

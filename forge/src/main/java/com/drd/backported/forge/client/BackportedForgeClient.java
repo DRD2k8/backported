@@ -5,9 +5,11 @@ import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.listener.DryFoliageColorReloadListener;
 import com.drd.backported.client.model.WindChargeModel;
+import com.drd.backported.client.model.vanilla.ModBatModel;
 import com.drd.backported.client.renderer.CustomBoatRenderer;
 import com.drd.backported.client.renderer.ShelfRenderer;
 import com.drd.backported.client.renderer.WindChargeRenderer;
+import com.drd.backported.client.renderer.vanilla.ModBatRenderer;
 import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.forge.client.emissive.EmissiveModelWrapper;
 import com.drd.backported.forge.packets.PacketHandler;
@@ -27,6 +29,7 @@ import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.GrassColor;
 import net.minecraftforge.api.distmarker.Dist;
@@ -48,6 +51,7 @@ public class BackportedForgeClient {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.FIREFLY_BUSH.get(), RenderType.cutout());
         EntityRenderers.register(ModEntities.BOAT.get(), context -> new CustomBoatRenderer<>(context, false));
         EntityRenderers.register(ModEntities.CHEST_BOAT.get(), context -> new CustomBoatRenderer<>(context, true));
+        EntityRenderers.register(EntityType.BAT, ModBatRenderer::new);
         EntityRenderers.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
         if (BackportedClient.syncSpears == null) {
             BackportedClient.syncSpears = (i) -> {
@@ -68,6 +72,11 @@ public class BackportedForgeClient {
             event.registerLayerDefinition(new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, type.getModelLocation()), "main"), BoatModel::createBodyModel);
             event.registerLayerDefinition(new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, type.getChestModelLocation()), "main"), ChestBoatModel::createBodyModel);
         }
+
+        // Bats and Pots
+        event.registerLayerDefinition(ModModelLayers.BAT, ModBatModel::createBodyLayer);
+
+        // Tricky Trials
         event.registerLayerDefinition(ModModelLayers.WIND_CHARGE, WindChargeModel::createBodyLayer);
     }
 
