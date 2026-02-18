@@ -22,6 +22,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
+        // Armored Paws
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.WOLF_ARMOR.get())
+                .pattern("X  ")
+                .pattern("XXX")
+                .pattern("X X")
+                .define('X', ModItems.ARMADILLO_SCUTE.get())
+                .unlockedBy(getHasName(ModItems.ARMADILLO_SCUTE.get()), has(ModItems.ARMADILLO_SCUTE.get()))
+                .save(consumer);
+
         // Tricky Trials
         trimDuplication(Items.DIAMOND, ModTags.Items.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE_INGREDIENTS, ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE.get(), consumer);
         trimDuplication(Items.DIAMOND, ModItems.BREEZE_ROD.get(), ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE.get(), consumer);

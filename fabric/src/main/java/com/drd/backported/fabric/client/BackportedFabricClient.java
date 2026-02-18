@@ -5,18 +5,18 @@ import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.listener.DryFoliageColorReloadListener;
 import com.drd.backported.client.model.WindChargeModel;
+import com.drd.backported.client.model.armor.WolfArmorModel;
 import com.drd.backported.client.model.vanilla.ModBatModel;
 import com.drd.backported.client.renderer.CustomBoatRenderer;
 import com.drd.backported.client.renderer.ShelfRenderer;
 import com.drd.backported.client.renderer.WindChargeRenderer;
 import com.drd.backported.client.renderer.vanilla.ModBatRenderer;
+import com.drd.backported.client.renderer.vanilla.ModWolfRenderer;
 import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.fabric.packets.PacketHandler;
 import com.drd.backported.fabric.packets.PlayerStabPacket;
-import com.drd.backported.init.ModBlockEntities;
-import com.drd.backported.init.ModBlocks;
-import com.drd.backported.init.ModEntities;
-import com.drd.backported.init.ModParticles;
+import com.drd.backported.init.*;
+import com.drd.backported.item.WolfArmorItem;
 import com.drd.backported.particle.DustPlumeParticle;
 import com.drd.backported.particle.FireflyParticle;
 import net.fabricmc.api.ClientModInitializer;
@@ -33,6 +33,8 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
+import net.minecraft.client.model.geom.builders.CubeDeformation;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
@@ -109,6 +111,11 @@ public class BackportedFabricClient implements ClientModInitializer {
         EntityRendererRegistry.register(EntityType.BAT, ModBatRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.BAT, ModBatModel::createBodyLayer);
         ParticleFactoryRegistry.getInstance().register(ModParticles.DUST_PLUME.get(), DustPlumeParticle.Provider::new);
+
+        // Armored Paws
+        EntityRendererRegistry.register(EntityType.WOLF, ModWolfRenderer::new);
+        EntityModelLayerRegistry.registerModelLayer(ModModelLayers.WOLF_ARMOR, () -> LayerDefinition.create(WolfArmorModel.createMeshDefinition(new CubeDeformation(0.2F)), 64, 32));
+        ColorProviderRegistry.ITEM.register((stack, i) -> i != 1 ? -1 : WolfArmorItem.getColorOrDefault(stack, 0), ModItems.WOLF_ARMOR.get());
 
         // Tricky Trials
         EntityRendererRegistry.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);

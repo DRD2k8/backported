@@ -1,4 +1,5 @@
-// 1.20.1	2026-02-15T12:01:52.6149451	Item Models: backported
+// 1.20.1	2026-02-18T11:55:27.4278165	Item Models: backported
+532302367a7198d5ddcc91b6d1232292ca21275f assets/backported/models/item/armadillo_scute.json
 d20447524d5e00933f7b1dadf57b63a77ab3b8da assets/backported/models/item/bolt_armor_trim_smithing_template.json
 1d48a4b48536a59a160f3c5daa4760fd6c2b856d assets/backported/models/item/bordure_indented_banner_pattern.json
 b06ec9fddebeb6ab9df2421c03efbcc7f555d615 assets/backported/models/item/breeze_rod.json
@@ -80,3 +81,4 @@ c4d44a82b07092dcbafd02b6a635aab3e873ab61 assets/backported/models/item/weathered
 bcb593885070bd33301f1b77d5adec01a3e7f1d7 assets/backported/models/item/weathered_copper_chain.json
 609372daf7bfb508e453aeba17d31c9c040ce8b7 assets/backported/models/item/weathered_copper_door.json
 c4581fd2a54a59fc82662c964b88b9cc2092e417 assets/backported/models/item/wind_charge.json
+728678bedfafb1543973c6e273a9cd7a6751ba7f assets/backported/models/item/wolf_armor.json

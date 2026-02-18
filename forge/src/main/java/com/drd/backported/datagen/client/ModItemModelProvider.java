@@ -20,6 +20,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        // Armored Paws
+        simpleItem(ModItems.ARMADILLO_SCUTE);
+        simpleItemWithOverlay(ModItems.WOLF_ARMOR);
+
         // Tricky Trials
         simpleItem(ModItems.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE);
         simpleItem(ModItems.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE);
@@ -166,5 +170,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.withExistingParent("waxed_exposed_" + unwaxedItem, ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "item/exposed_" + unwaxedItem));
         this.withExistingParent("waxed_weathered_" + unwaxedItem, ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "item/weathered_" + unwaxedItem));
         return this.withExistingParent("waxed_oxidized_" + unwaxedItem, ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID, "item/oxidized_" + unwaxedItem));
+    }
+
+    private ItemModelBuilder simpleItemWithOverlay(RegistrySupplier<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.withDefaultNamespace("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath())).texture("layer1",
+                ResourceLocation.fromNamespaceAndPath(Backported.MOD_ID,"item/" + item.getId().getPath() + "_overlay"));
     }
 }

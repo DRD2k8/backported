@@ -228,7 +228,8 @@ public class CreativeTabPlacements {
                 ModItems.COPPER_HORSE_ARMOR.get()
         );
         entries.addAfter(Items.DIAMOND_HORSE_ARMOR,
-                ModItems.NETHERITE_HORSE_ARMOR.get()
+                ModItems.NETHERITE_HORSE_ARMOR.get(),
+                ModItems.WOLF_ARMOR.get()
         );
         entries.addAfter(Items.EGG,
                 ModItems.WIND_CHARGE.get());
@@ -242,6 +243,8 @@ public class CreativeTabPlacements {
                 ModItems.COPPER_NUGGET.get());
         entries.addAfter(Items.HONEYCOMB,
                 ModBlocks.RESIN_CLUMP.get());
+        entries.addAfter(Items.SCUTE,
+                ModItems.ARMADILLO_SCUTE.get());
         entries.addAfter(Items.BLAZE_ROD,
                 ModItems.BREEZE_ROD.get(),
                 ModBlocks.HEAVY_CORE.get());

@@ -15,6 +15,10 @@ import net.minecraft.world.level.block.entity.BannerPattern;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Backported.MOD_ID, Registries.ITEM);
 
+    // Armored Paws
+    public static final RegistrySupplier<Item> ARMADILLO_SCUTE = basicItem("armadillo_scute");
+    public static final RegistrySupplier<Item> WOLF_ARMOR = ITEMS.register("wolf_armor", () -> new WolfArmorItem(new Item.Properties().durability(64)));
+
     // Tricky Trials
     public static final RegistrySupplier<Item> BOLT_ARMOR_TRIM_SMITHING_TEMPLATE = trimPattern("bolt");
     public static final RegistrySupplier<Item> FLOW_ARMOR_TRIM_SMITHING_TEMPLATE = trimPattern("flow");

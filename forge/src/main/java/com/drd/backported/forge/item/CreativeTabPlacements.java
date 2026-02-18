@@ -262,6 +262,7 @@ public class CreativeTabPlacements {
                     ModItems.COPPER_HORSE_ARMOR.get()
             );
             entries.addAfter(Items.DIAMOND_HORSE_ARMOR,
+                    ModItems.WOLF_ARMOR.get(),
                     ModItems.NETHERITE_HORSE_ARMOR.get()
             );
             entries.addAfter(Items.EGG,
@@ -275,6 +276,9 @@ public class CreativeTabPlacements {
             );
             entries.addAfter(Items.HONEYCOMB,
                     ModBlocks.RESIN_CLUMP.get()
+            );
+            entries.addAfter(Items.SCUTE,
+                    ModItems.ARMADILLO_SCUTE.get()
             );
             entries.addAfter(Items.BLAZE_ROD,
                     ModBlocks.HEAVY_CORE.get(),

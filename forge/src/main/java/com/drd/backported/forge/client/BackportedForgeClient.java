@@ -5,24 +5,26 @@ import com.drd.backported.client.BackportedClient;
 import com.drd.backported.client.init.ModModelLayers;
 import com.drd.backported.client.listener.DryFoliageColorReloadListener;
 import com.drd.backported.client.model.WindChargeModel;
+import com.drd.backported.client.model.armor.WolfArmorModel;
 import com.drd.backported.client.model.vanilla.ModBatModel;
 import com.drd.backported.client.renderer.CustomBoatRenderer;
 import com.drd.backported.client.renderer.ShelfRenderer;
 import com.drd.backported.client.renderer.WindChargeRenderer;
 import com.drd.backported.client.renderer.vanilla.ModBatRenderer;
+import com.drd.backported.client.renderer.vanilla.ModWolfRenderer;
 import com.drd.backported.entity.CustomBoat;
 import com.drd.backported.forge.client.emissive.EmissiveModelWrapper;
 import com.drd.backported.forge.packets.PacketHandler;
 import com.drd.backported.forge.packets.PlayerStabPacket;
-import com.drd.backported.init.ModBlockEntities;
-import com.drd.backported.init.ModBlocks;
-import com.drd.backported.init.ModEntities;
-import com.drd.backported.init.ModParticles;
+import com.drd.backported.init.*;
+import com.drd.backported.item.WolfArmorItem;
 import com.drd.backported.particle.DustPlumeParticle;
 import com.drd.backported.particle.FireflyParticle;
 import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
+import net.minecraft.client.model.geom.builders.CubeDeformation;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
@@ -52,6 +54,7 @@ public class BackportedForgeClient {
         EntityRenderers.register(ModEntities.BOAT.get(), context -> new CustomBoatRenderer<>(context, false));
         EntityRenderers.register(ModEntities.CHEST_BOAT.get(), context -> new CustomBoatRenderer<>(context, true));
         EntityRenderers.register(EntityType.BAT, ModBatRenderer::new);
+        EntityRenderers.register(EntityType.WOLF, ModWolfRenderer::new);
         EntityRenderers.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
         if (BackportedClient.syncSpears == null) {
             BackportedClient.syncSpears = (i) -> {
@@ -76,6 +79,9 @@ public class BackportedForgeClient {
         // Bats and Pots
         event.registerLayerDefinition(ModModelLayers.BAT, ModBatModel::createBodyLayer);
 
+        // Armored Paws
+        event.registerLayerDefinition(ModModelLayers.WOLF_ARMOR, () -> LayerDefinition.create(WolfArmorModel.createMeshDefinition(new CubeDeformation(0.2F)), 64, 32));
+
         // Tricky Trials
         event.registerLayerDefinition(ModModelLayers.WIND_CHARGE, WindChargeModel::createBodyLayer);
     }
@@ -98,6 +104,7 @@ public class BackportedForgeClient {
 
     @SubscribeEvent
     public static void registerItemColors(RegisterColorHandlersEvent.Item event) {
+        event.register((stack, i) -> i != 1 ? -1 : WolfArmorItem.getColorOrDefault(stack, 0), ModItems.WOLF_ARMOR.get());
         event.register((stack, layer) -> 0xFFFFFF, Items.ALLAY_SPAWN_EGG);
         event.register((stack, layer) -> 0xFFFFFF, Items.AXOLOTL_SPAWN_EGG);
         event.register((stack, layer) -> 0xFFFFFF, Items.BAT_SPAWN_EGG);
