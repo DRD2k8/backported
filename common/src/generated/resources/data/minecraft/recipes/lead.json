@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "~": {
-      "item": "minecraft:string"
+      "tag": "backported:string"
     }
   },
   "pattern": [

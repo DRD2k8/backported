@@ -154,8 +154,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("-")
                 .pattern("#")
                 .define('#', Items.LEATHER)
-                .define('-', Items.STRING)
-                .unlockedBy(getHasName(Items.STRING), has(Items.STRING))
+                .define('-', ModTags.Items.STRING)
+                .unlockedBy(getHasName(Items.STRING), has(ModTags.Items.STRING))
                 .save(consumer);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.FIELD_MASONED_BANNER_PATTERN.get())
                 .requires(Items.PAPER)
@@ -202,8 +202,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("~~ ")
                 .pattern("~~ ")
                 .pattern("  ~")
-                .define('~', Items.STRING)
-                .unlockedBy("has_string", has(Items.STRING))
+                .define('~', ModTags.Items.STRING)
+                .unlockedBy("has_string", has(ModTags.Items.STRING))
                 .save(consumer);
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, Items.SADDLE)
                 .pattern(" X ")

@@ -39,6 +39,8 @@ public class ModTags {
         public static final TagKey<Item> FABRIC_NUGGETS = tagFabric("nuggets");
         public static final TagKey<Item> FABRIC_WOODEN_RODS = tagFabric("wooden_rods");
         public static final TagKey<Item> STICKS = tag("sticks");
+        public static final TagKey<Item> FABRIC_STRING = tagFabric("string");
+        public static final TagKey<Item> STRING = tag("string");
         public static final TagKey<Item> WOODEN_SHELVES = tag("wooden_shelves");
         public static final TagKey<Item> SPEARS = tag("spears");
         public static final TagKey<Item> BOLT_ARMOR_TRIM_SMITHING_TEMPLATE_INGREDIENTS = tag("bolt_armor_trim_smithing_template_ingredients");

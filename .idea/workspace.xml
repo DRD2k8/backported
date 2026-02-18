@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Registering particles before the wolf armor (Wolf armor is stressful)">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/WolfArmorItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/break_wolf.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/crack_wolf1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/crack_wolf2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/crack_wolf3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/crack_wolf4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/damage_wolf1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/damage_wolf2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/damage_wolf3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/damage_wolf4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/repair_wolf1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/repair_wolf2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/repair_wolf3.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/repair_wolf4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/unequip_wolf1.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds/item/armor/unequip_wolf2.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_armor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_armor_crackiness_high.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_armor_crackiness_low.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_armor_crackiness_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/entity/wolf/wolf_armor_overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/armadillo_scute.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/wolf_armor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/wolf_armor_overlay.png" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Preparing the wolf armor assets">
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-events-lifecycle-v0/0.2.64+df3654b377/fabric-events-lifecycle-v0-0.2.64+df3654b377.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-events-lifecycle-v0/0.2.64+df3654b377/fabric-events-lifecycle-v0-0.2.64+df3654b377.pom" afterDir="false" />
@@ -37,10 +13,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.23+1802ada577/fabric-lifecycle-events-v1-2.2.23+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.23+1802ada577/fabric-lifecycle-events-v1-2.2.23+1802ada577.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1/1.0.4+1802ada577/fabric-model-loading-api-v1-1.0.4+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1/1.0.4+1802ada577/fabric-model-loading-api-v1-1.0.4+1802ada577.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/init/ModSounds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/sounds.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -550,12 +522,19 @@
       <option name="project" value="LOCAL" />
       <updated>1771384667923</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Preparing the wolf armor assets">
+      <option name="closed" value="true" />
+      <created>1771388897622</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1771388897622</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adding the horse armor loot modifiers" />
     <MESSAGE value="Adding more recipes" />
     <MESSAGE value="Some more changes" />
     <MESSAGE value="Adding the OST" />
@@ -580,6 +559,7 @@
     <MESSAGE value="Decorated pot functionality" />
     <MESSAGE value="First drop completed" />
     <MESSAGE value="Registering particles before the wolf armor (Wolf armor is stressful)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Registering particles before the wolf armor (Wolf armor is stressful)" />
+    <MESSAGE value="Preparing the wolf armor assets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing the wolf armor assets" />
   </component>
 </project>

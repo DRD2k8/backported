@@ -165,6 +165,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .addOptionalTag(Tags.Items.RODS_WOODEN)
                 .addOptionalTag(ModTags.Items.FABRIC_WOODEN_RODS);
 
+        this.tag(ModTags.Items.STRING)
+                .addOptionalTag(Tags.Items.STRING)
+                .addOptionalTag(ModTags.Items.FABRIC_STRING);
+
         this.tag(ModTags.Items.SPEARS)
                 .add(ModItems.DIAMOND_SPEAR.get())
                 .add(ModItems.STONE_SPEAR.get())

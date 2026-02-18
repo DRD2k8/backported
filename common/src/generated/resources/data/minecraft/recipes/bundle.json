@@ -6,7 +6,7 @@
       "item": "minecraft:leather"
     },
     "-": {
-      "item": "minecraft:string"
+      "tag": "backported:string"
     }
   },
   "pattern": [
