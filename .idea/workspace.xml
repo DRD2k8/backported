@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="Decorated pot functionality">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/mixin/DecoratedPotRendererMixin.java" afterDir="false" />
+    <list default="true" id="8174f57d-50e0-46d5-86d9-9590167df731" name="Changes" comment="First drop completed">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/drd/backported/item/WolfArmorItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/assets/backported/textures/item/armadillo_scute.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-client-tags-api-v1/1.1.3+1802ada577/fabric-client-tags-api-v1-1.1.3+1802ada577.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.6.1+1c78457f77/fabric-entity-events-v1-1.6.1+1c78457f77.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-entity-events-v1/1.6.1+1c78457f77/fabric-entity-events-v1-1.6.1+1c78457f77.jar" afterDir="false" />
@@ -17,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.23+1802ada577/fabric-lifecycle-events-v1-2.2.23+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.2.23+1802ada577/fabric-lifecycle-events-v1-2.2.23+1802ada577.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1/1.0.4+1802ada577/fabric-model-loading-api-v1-1.0.4+1802ada577.pom" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-model-loading-api-v1/1.0.4+1802ada577/fabric-model-loading-api-v1-1.0.4+1802ada577.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-particles-v1/1.1.3+1802ada577/fabric-particles-v1-1.1.3+1802ada577.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/loom-cache/remapped_mods/loom_mappings_1_20_1_layered_hash_40359_v2/net/fabricmc/fabric-api/fabric-particles-v1/1.1.3+1802ada577/fabric-particles-v1-1.1.3+1802ada577.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,24 +112,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Minecraft Client (:fabric).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Minecraft Client (:forge).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Minecraft Data (:forge).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build forge-1.20.1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.forge-1.20.1 [createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.forge-1.20.1:forge [build].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;external.system.has.shared.sources&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;2001&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/minecraft_mod_repository_branches/testing2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Minecraft Client (:fabric).executor": "Run",
+    "Application.Minecraft Client (:forge).executor": "Run",
+    "Application.Minecraft Data (:forge).executor": "Run",
+    "Gradle.Build forge-1.20.1.executor": "Run",
+    "Gradle.forge-1.20.1 [createMcpToSrg].executor": "Run",
+    "Gradle.forge-1.20.1:forge [build].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "external.system.has.shared.sources": "true",
+    "git-widget-placeholder": "2001",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/minecraft_mod_repository_branches/testing3",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\minecraft_mod_repository_branches\backported_real_version\forge-1.20.1\common\src\main\resources\data\backported\sherdsapi\sherd" />
@@ -509,12 +511,19 @@
       <option name="project" value="LOCAL" />
       <updated>1771364492259</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="First drop completed">
+      <option name="closed" value="true" />
+      <created>1771365161548</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1771365161548</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Chicken Jockey drops Lava Chicken music disc" />
     <MESSAGE value="Adding the horse armor" />
     <MESSAGE value="Adding the horse armor loot modifiers" />
     <MESSAGE value="Adding more recipes" />
@@ -539,6 +548,7 @@
     <MESSAGE value="Starting decorated pot changes" />
     <MESSAGE value="Decorated pot stacks to 64" />
     <MESSAGE value="Decorated pot functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorated pot functionality" />
+    <MESSAGE value="First drop completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="First drop completed" />
   </component>
 </project>

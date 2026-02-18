@@ -16,10 +16,14 @@ import com.drd.backported.fabric.packets.PlayerStabPacket;
 import com.drd.backported.init.ModBlockEntities;
 import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModEntities;
+import com.drd.backported.init.ModParticles;
+import com.drd.backported.particle.DustPlumeParticle;
+import com.drd.backported.particle.FireflyParticle;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
 import net.fabricmc.fabric.api.client.model.loading.v1.ModelModifier;
+import net.fabricmc.fabric.api.client.particle.v1.ParticleFactoryRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
@@ -104,6 +108,7 @@ public class BackportedFabricClient implements ClientModInitializer {
         // Bats and Pots
         EntityRendererRegistry.register(EntityType.BAT, ModBatRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.BAT, ModBatModel::createBodyLayer);
+        ParticleFactoryRegistry.getInstance().register(ModParticles.DUST_PLUME.get(), DustPlumeParticle.Provider::new);
 
         // Tricky Trials
         EntityRendererRegistry.register(ModEntities.WIND_CHARGE.get(), WindChargeRenderer::new);
@@ -215,6 +220,7 @@ public class BackportedFabricClient implements ClientModInitializer {
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_VILLAGER_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIFIED_PIGLIN_SPAWN_EGG);
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColor.getDefaultColor(), ModBlocks.BUSH.get());
+        ParticleFactoryRegistry.getInstance().register(ModParticles.FIREFLY.get(), FireflyParticle.Provider::new);
 
         // The Copper Age
         BlockEntityRenderers.register(ModBlockEntities.SHELF.get(), ShelfRenderer::new);

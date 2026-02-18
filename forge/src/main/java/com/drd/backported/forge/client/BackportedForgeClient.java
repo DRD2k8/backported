@@ -17,6 +17,9 @@ import com.drd.backported.forge.packets.PlayerStabPacket;
 import com.drd.backported.init.ModBlockEntities;
 import com.drd.backported.init.ModBlocks;
 import com.drd.backported.init.ModEntities;
+import com.drd.backported.init.ModParticles;
+import com.drd.backported.particle.DustPlumeParticle;
+import com.drd.backported.particle.FireflyParticle;
 import net.minecraft.client.model.BoatModel;
 import net.minecraft.client.model.ChestBoatModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
@@ -33,10 +36,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.GrassColor;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.client.event.ModelEvent;
-import net.minecraftforge.client.event.RegisterClientReloadListenersEvent;
-import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.client.event.*;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -176,6 +176,15 @@ public class BackportedForgeClient {
         event.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIE_VILLAGER_SPAWN_EGG);
         event.register((stack, layer) -> 0xFFFFFF, Items.ZOMBIFIED_PIGLIN_SPAWN_EGG);
         event.register((stack, tintIndex) -> GrassColor.getDefaultColor(), ModBlocks.BUSH.get());
+    }
+
+    @SubscribeEvent
+    public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
+        // Bats and Pots
+        event.registerSpriteSet(ModParticles.DUST_PLUME.get(), DustPlumeParticle.Provider::new);
+
+        // Spring to Life
+        event.registerSpriteSet(ModParticles.FIREFLY.get(), FireflyParticle.Provider::new);
     }
 
     @SubscribeEvent
