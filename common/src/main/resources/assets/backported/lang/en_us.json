@@ -3,6 +3,15 @@
   "subtitles.backported.block.decorated_pot.insert_fail": "Decorated Pot wobbles",
   "subtitles.backported.block.decorated_pot.shatter": "Decorated Pot shatters",
 
+  "item.backported.armadillo_scute": "Armadillo Scute",
+  "item.backported.wolf_armor": "Wolf Armor",
+  "subtitles.backported.item.armor.equip_wolf": "Wolf Armor is fastened",
+  "subtitles.backported.item.armor.unequip_wolf": "Wolf Armor snips away",
+  "subtitles.backported.item.wolf_armor.break": "Wolf Armor breaks",
+  "subtitles.backported.item.wolf_armor.crack": "Wolf Armor cracks",
+  "subtitles.backported.item.wolf_armor.damage": "Wolf Armor takes damage",
+  "subtitles.backported.item.wolf_armor.repair": "Wolf Armor is repaired",
+
   "advancements.backported.adventure.overoverkill.description": "Deal 50 hearts of damage in a single hit using the Mace",
   "advancements.backported.adventure.overoverkill.title": "Over-Overkill",
   "block.backported.chiseled_copper": "Chiseled Copper",

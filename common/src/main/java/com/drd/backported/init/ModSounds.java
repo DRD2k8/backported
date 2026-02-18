@@ -20,6 +20,14 @@ public class ModSounds {
     public static final RegistrySupplier<SoundEvent> DECORATED_POT_INSERT_FAIL = registerSoundEvents("block.decorated_pot.insert_fail");
     public static final RegistrySupplier<SoundEvent> DECORATED_POT_SHATTER = registerSoundEvents("block.decorated_pot.shatter");
 
+    // Armored Paws
+    public static final RegistrySupplier<SoundEvent> ARMOR_EQUIP_WOLF = registerSoundEvents("item.armor.equip_wolf");
+    public static final RegistrySupplier<SoundEvent> ARMOR_UNEQUIP_WOLF = registerSoundEvents("item.armor.unequip_wolf");
+    public static final RegistrySupplier<SoundEvent> WOLF_ARMOR_BREAK = registerSoundEvents("item.wolf_armor.break");
+    public static final RegistrySupplier<SoundEvent> WOLF_ARMOR_CRACK = registerSoundEvents("item.wolf_armor.crack");
+    public static final RegistrySupplier<SoundEvent> WOLF_ARMOR_DAMAGE = registerSoundEvents("item.wolf_armor.damage");
+    public static final RegistrySupplier<SoundEvent> WOLF_ARMOR_REPAIR = registerSoundEvents("item.wolf_armor.repair");
+
     // Tricky Trials
     public static final RegistrySupplier<SoundEvent> COPPER_BULB_BREAK = registerSoundEvents("block.copper_bulb.break");
     public static final RegistrySupplier<SoundEvent> COPPER_BULB_STEP = registerSoundEvents("block.copper_bulb.step");
